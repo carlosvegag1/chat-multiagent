@@ -2,7 +2,6 @@
 
 <p align="center">
 <a href="https://github.com/TU_USUARIO/chat-multiagent">
-<img src="https://i.imgur.com/Z1RzPjP.png" width="80%">
 </a>
 </p>
 
@@ -31,3 +30,10 @@ Puedes comprobarlo ejecutando:
 python --version
 node --version
 npm --version
+
+🧱 1. Clonar el proyecto
+
+Abre una terminal (PowerShell, Terminal o similar) y ejecuta:
+
+git clone https://github.com/TU_USUARIO/chat-multiagent.git
+cd chat-multiagent
