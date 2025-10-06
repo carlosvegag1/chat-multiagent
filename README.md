@@ -30,6 +30,7 @@ Puedes comprobarlo ejecutando:
 python --version
 node --version
 npm --version
+```
 
 🧱 1. Clonar el proyecto
 
