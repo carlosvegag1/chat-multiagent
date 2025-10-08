@@ -1,4 +1,4 @@
-<!-- README HTML version for GitHub rendering -->
+<!-- README HTML version — Guía 100% para principiantes -->
 <h1>💬 Chat Multiagente — Demo Local</h1>
 
 <p align="center">
@@ -8,90 +8,117 @@
 </p>
 
 <blockquote>
-  <strong>⚙️ Demo funcional de un chatbot multiagente</strong> con persistencia de conversaciones, soporte de voz y arquitectura <strong>FastAPI + Next.js (React)</strong>.
+  <strong>⚙️ Demo funcional de un chatbot multiagente</strong> que combina un <strong>backend con FastAPI</strong> y un <strong>frontend con Next.js (React)</strong>. Permite chatear con agentes inteligentes, guardar las conversaciones y usar voz.
 </blockquote>
 
 <hr />
 
 <h2>💡 Objetivo</h2>
-<p>Permitir que <strong>cualquier persona, incluso sin experiencia técnica</strong>, pueda ejecutar el proyecto en su propio equipo paso a paso.</p>
+<p>Esta guía está pensada para que <strong>cualquier persona, incluso sin experiencia técnica</strong>, pueda ejecutar el proyecto paso a paso en su propio ordenador. No necesitas saber programar.</p>
 
 <hr />
 
-<h2>🚀 Requisitos previos</h2>
-<p>Antes de comenzar, asegúrate de tener instalado:</p>
-<ul>
-  <li>🐍 <strong>Python 3.10 o superior</strong></li>
-  <li>🧩 <strong>Node.js 18+</strong> y <strong>npm</strong></li>
-  <li>🔧 <strong>Git</strong></li>
-</ul>
-<p>Comprueba las versiones ejecutando:</p>
+<h2>🚀 Antes de empezar</h2>
+<p>Solo necesitarás instalar tres herramientas. Te explico exactamente cómo hacerlo:</p>
+
+<ol>
+  <li>🐍 <strong>Python 3.10 o superior</strong> → <a href="https://www.python.org/downloads/" target="_blank">Descargar aquí</a>. Durante la instalación, asegúrate de marcar la casilla <strong>“Add Python to PATH”</strong>.</li>
+  <li>🧩 <strong>Node.js 18 o superior</strong> (incluye npm) → <a href="https://nodejs.org/en/download" target="_blank">Descargar aquí</a>.</li>
+  <li>🔧 <strong>Git</strong> → <a href="https://git-scm.com/downloads" target="_blank">Descargar aquí</a>.</li>
+</ol>
+
+<p>Una vez instalados, abre tu terminal y comprueba que todo funciona:</p>
 <pre><code>python --version
 node --version
 npm --version
+git --version
 </code></pre>
+
+<p>Si ves los números de versión (por ejemplo, <code>Python 3.12.1</code>), todo está listo ✅.</p>
 
 <hr />
 
-<h2>🧱 1. Clonar el proyecto</h2>
-<p>Abre una terminal (PowerShell, Terminal o similar) y ejecuta:</p>
+<h2>🧱 Paso 1. Clonar el proyecto</h2>
+<p>Recomendamos usar <strong>Visual Studio Code (VS Code)</strong> porque es gratuito y sencillo.</p>
+
+<ol>
+  <li>Abre <strong>Visual Studio Code</strong>.</li>
+  <li>Presiona <strong>Ctrl + `</strong> (acento grave, la tecla justo debajo de Esc) para abrir la terminal integrada.</li>
+  <li>En esa terminal, ejecuta los siguientes comandos uno por uno:</li>
+</ol>
+
 <pre><code>git clone https://github.com/carlosvegag1/chat-multiagent.git
 cd chat-multiagent
 </code></pre>
 
+<p>Esto descargará el proyecto y entrará en la carpeta correcta.</p>
+
 <hr />
 
-<h2>⚙️ 2. Configurar y ejecutar el Backend</h2>
-<p>📁 Ir al backend:</p>
-<pre><code>cd backend
-</code></pre>
+<h2>⚙️ Paso 2. Configurar y ejecutar el Backend</h2>
 
-<p>🐍 Crear y activar el entorno virtual:</p>
+<h3>1️⃣ Entra en la carpeta del backend:</h3>
+<pre><code>cd backend</code></pre>
+
+<h3>2️⃣ Crea el entorno virtual (es un espacio aislado para instalar dependencias):</h3>
+<p>Ejecuta lo siguiente dependiendo de tu sistema operativo:</p>
+
+<ul>
+  <li><strong>Windows (VS Code o PowerShell):</strong></li>
+</ul>
 <pre><code>python -m venv .venv
-.\.venv\Scripts\activate     # En Windows
-# o
-source .venv/bin/activate     # En Mac / Linux
-</code></pre>
+.\.venv\Scripts\activate</code></pre>
 
-<p>📦 Instalar dependencias:</p>
-<pre><code>pip install -r requirements.txt
-</code></pre>
+<ul>
+  <li><strong>Mac / Linux:</strong></li>
+</ul>
+<pre><code>python3 -m venv .venv
+source .venv/bin/activate</code></pre>
 
-<p>🔑 Crear archivo <code>.env</code> dentro de <code>/backend</code>:</p>
-<pre><code>OPENAI_API_KEY=tu_clave_de_openai_aqui
-</code></pre>
-<p>Si no tienes una clave, crea una en 👉 <a href="https://platform.openai.com" target="_blank" rel="noreferrer">OpenAI API Keys</a>.</p>
+<p>Cuando el entorno esté activo, verás algo así al principio de la línea: <code>(.venv)</code>.</p>
 
-<p>▶️ Ejecutar el backend:</p>
-<pre><code>uvicorn main:app --reload --port 8000
-</code></pre>
-<p>📍 El backend quedará disponible en:<br><strong>http://127.0.0.1:8000</strong></p>
+<h3>3️⃣ Instala las dependencias del backend:</h3>
+<pre><code>pip install -r requirements.txt</code></pre>
+
+<h3>4️⃣ Crea el archivo <code>.env</code>:</h3>
+<p>Dentro de la carpeta <code>backend</code>, crea un nuevo archivo llamado <code>.env</code> y pega este contenido:</p>
+<pre><code>OPENAI_API_KEY=tu_clave_de_openai_aqui</code></pre>
+<p>Si no tienes una clave, créala gratis en 👉 <a href="https://platform.openai.com" target="_blank">OpenAI API Keys</a>.</p>
+
+<h3>5️⃣ Ejecuta el backend:</h3>
+<pre><code>uvicorn main:app --reload --port 8000</code></pre>
+
+<p>Deja esta ventana abierta. El backend quedará funcionando en:</p>
+<p><strong>➡️ http://127.0.0.1:8000</strong></p>
 
 <hr />
 
-<h2>💻 3. Configurar y ejecutar el Frontend</h2>
-<p>Abre otra terminal (deja el backend corriendo) y navega al frontend:</p>
-<pre><code>cd ../frontend
-</code></pre>
+<h2>💻 Paso 3. Configurar y ejecutar el Frontend</h2>
 
-<p>📦 Instalar dependencias:</p>
-<pre><code>npm install
-</code></pre>
+<h3>1️⃣ Abre una nueva terminal en Visual Studio Code:</h3>
+<p>Haz clic en el símbolo <strong>+</strong> en la parte superior de la terminal o usa <strong>Ctrl + Shift + `</strong>.</p>
 
-<p>⚙️ Crear archivo <code>.env.local</code> dentro de <code>/frontend</code>:</p>
-<pre><code>NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
-</code></pre>
+<h3>2️⃣ Entra en la carpeta del frontend:</h3>
+<pre><code>cd ../frontend</code></pre>
 
-<p>▶️ Ejecutar el frontend:</p>
-<pre><code>npm run dev
-</code></pre>
-<p>🌐 Luego abre tu navegador en:<br><strong>http://localhost:3000</strong></p>
+<h3>3️⃣ Instala las dependencias:</h3>
+<pre><code>npm install</code></pre>
+
+<h3>4️⃣ Crea el archivo <code>.env.local</code>:</h3>
+<p>Dentro de la carpeta <code>frontend</code>, crea un archivo llamado <code>.env.local</code> con este contenido:</p>
+<pre><code>NEXT_PUBLIC_API_URL=http://127.0.0.1:8000</code></pre>
+
+<h3>5️⃣ Ejecuta el frontend:</h3>
+<pre><code>npm run dev</code></pre>
+
+<p>Luego abre tu navegador y entra en:</p>
+<p><strong>➡️ http://localhost:3000</strong></p>
 
 <hr />
 
 <h2>🎤 Funcionalidades principales</h2>
 <ul>
-  <li>✅ Chat persistente por usuario</li>
+  <li>✅ Chat persistente por usuario (guarda tus conversaciones)</li>
   <li>✅ Creación y selección de conversaciones</li>
   <li>✅ Envío de mensajes de texto y voz</li>
   <li>✅ Respuestas automáticas simuladas por IA</li>
@@ -121,8 +148,8 @@ source .venv/bin/activate     # En Mac / Linux
 <table style="border-collapse:collapse; width:100%;">
   <thead>
     <tr>
-      <th style="border:1px solid #ddd; padding:8px; text-align:left;">Acción</th>
-      <th style="border:1px solid #ddd; padding:8px; text-align:left;">Comando</th>
+      <th style="border:1px solid #ddd; padding:8px;">Acción</th>
+      <th style="border:1px solid #ddd; padding:8px;">Comando</th>
     </tr>
   </thead>
   <tbody>
@@ -151,10 +178,10 @@ source .venv/bin/activate     # En Mac / Linux
 <ul>
   <li>🗂️ Las conversaciones se guardan automáticamente en <code>/backend/data/convos/</code>.</li>
   <li>🧹 Puedes limpiar el historial borrando esa carpeta.</li>
-  <li>🔐 La clave de OpenAI se usa para <strong>transcribir audios (Whisper)</strong> y <strong>generar respuestas</strong>.</li>
-  <li>💻 El proyecto se ejecuta <strong>de forma local</strong> y no envía tus datos a servidores externos (salvo el uso explícito de la API de OpenAI para transcripción).</li>
+  <li>🔐 La clave de OpenAI se usa solo para <strong>transcribir audios (Whisper)</strong> y <strong>simular respuestas</strong>.</li>
+  <li>💻 El proyecto se ejecuta <strong>totalmente de forma local</strong> (solo se conecta con OpenAI si activas la transcripción de voz).</li>
 </ul>
 
 <hr />
 
-<p>🤝 <strong>Autor:</strong> <a href="https://github.com/carlosvegag1">Carlos Vega González</a></p>
+<p><strong>Autor:</strong> <a href="https://github.com/carlosvegag1">Carlos Vega González</a></p>
