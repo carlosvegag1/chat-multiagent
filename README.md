@@ -23,7 +23,7 @@
 
 <ol>
   <li>🐍 <strong>Python 3.10 o superior</strong> → <a href="https://www.python.org/downloads/" target="_blank">Descargar aquí</a>. Durante la instalación, asegúrate de marcar la casilla <strong>“Add Python to PATH”</strong>.</li>
-  <li>🧩 <strong>Node.js 18 o superior</strong> (incluye npm) → <a href="https://nodejs.org/en/download" target="_blank">Descargar aquí</a>.</li>
+  <li>🧩 <strong>Node.js 18 o superior</strong> (incluye npm) → <a href="https://nodejs.org/en/download" target="_blank">Descargar aquí</a> <strong>NO DESCARGAR USANDO DOCKER, DESCARGAR INSTALADOR MSI</strong>.</li> 
   <li>🔧 <strong>Git</strong> → <a href="https://git-scm.com/downloads" target="_blank">Descargar aquí</a>.</li>
 </ol>
 
@@ -43,7 +43,7 @@ git --version
 
 <ol>
   <li>Abre <strong>Visual Studio Code</strong>.</li>
-  <li>Presiona <strong>Ctrl + `</strong> (acento grave, la tecla justo debajo de Esc) para abrir la terminal integrada.</li>
+  <li>Presiona <strong>Ctrl + Shift/Mayús + Ñ</strong> para abrir la terminal integrada.</li>
   <li>En esa terminal, ejecuta los siguientes comandos uno por uno:</li>
 </ol>
 
@@ -81,9 +81,10 @@ source .venv/bin/activate</code></pre>
 <pre><code>pip install -r requirements.txt</code></pre>
 
 <h3>4️⃣ Crea el archivo <code>.env</code>:</h3>
-<p>Dentro de la carpeta <code>backend</code>, crea un nuevo archivo llamado <code>.env</code> y pega este contenido:</p>
+<p>Dentro de la carpeta <code>backend</code>, crea un nuevo archivo<code>.env</code> y pega este contenido:</p>
 <pre><code>OPENAI_API_KEY=tu_clave_de_openai_aqui</code></pre>
 <p>Si no tienes una clave, créala gratis en 👉 <a href="https://platform.openai.com" target="_blank">OpenAI API Keys</a>.</p>
+<p>Este archivo puedes crearlo como archivo .txt sin nombre y simplemente cambiarle la extensión</p>
 
 <h3>5️⃣ Ejecuta el backend:</h3>
 <pre><code>uvicorn main:app --reload --port 8000</code></pre>
@@ -95,8 +96,8 @@ source .venv/bin/activate</code></pre>
 
 <h2>💻 Paso 3. Configurar y ejecutar el Frontend</h2>
 
-<h3>1️⃣ Abre una nueva terminal en Visual Studio Code:</h3>
-<p>Haz clic en el símbolo <strong>+</strong> en la parte superior de la terminal o usa <strong>Ctrl + Shift + `</strong>.</p>
+<h3>1️⃣ Abre una nueva terminal en Visual Studio Code (SIN CERRAR LA ANTERIOR):</h3>
+<p>Haz clic en el símbolo <strong>+</strong> en la parte superior de la terminal o usa <strong>Ctrl + Shift/Mayús + Ñ</strong>.</p>
 
 <h3>2️⃣ Entra en la carpeta del frontend:</h3>
 <pre><code>cd ../frontend</code></pre>
