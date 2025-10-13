@@ -1,90 +1,140 @@
-💬 Chat Multiagente — Demo Local
-GitHub
+<h1>💬 Chat Multiagente — Demo Local</h1>
 
-⚙️ Demo funcional de un chatbot multiagente que combina un backend con FastAPI y un frontend con Next.js (React). Permite chatear con agentes inteligentes, guardar las conversaciones y usar voz.
-💡 Objetivo
-Esta guía está pensada para que cualquier persona, incluso sin experiencia técnica, pueda ejecutar el proyecto paso a paso en su propio ordenador. No necesitas saber programar.
+<p>
+  <a href="https://github.com/carlosvegag1/chat-multiagent" target="_blank"><strong>🌐 GitHub</strong></a>
+</p>
 
-🚀 Antes de empezar
-Solo necesitarás instalar tres herramientas. Te explico exactamente cómo hacerlo:
+<p>⚙️ Demo funcional de un chatbot multiagente que combina un <strong>backend con FastAPI</strong> y un <strong>frontend con Next.js (React)</strong>.  
+Permite chatear con agentes inteligentes, guardar las conversaciones y usar voz.</p>
 
-🐍 Python 3.10 o superior → Descargar aquí. Durante la instalación, asegúrate de marcar la casilla “Add Python to PATH”.
-🧩 Node.js 18 o superior (incluye npm) → Descargar aquí NO DESCARGAR USANDO DOCKER, DESCARGAR INSTALADOR MSI.
-🔧 Git → Descargar aquí.
-Una vez instalados, abre tu terminal y comprueba que todo funciona:
+<h2>💡 Objetivo</h2>
+<p>Esta guía está pensada para que cualquier persona, incluso sin experiencia técnica, pueda ejecutar el proyecto paso a paso en su propio ordenador.  
+<strong>No necesitas saber programar.</strong></p>
 
-python --version
+<hr>
+
+<h2>🚀 Antes de empezar</h2>
+<p>Solo necesitarás instalar tres herramientas. Te explico exactamente cómo hacerlo:</p>
+
+<ul>
+  <li>🐍 <strong>Python 3.10 o superior</strong> → <a href="https://www.python.org/downloads/" target="_blank">Descargar aquí</a>.  
+  Durante la instalación, asegúrate de marcar la casilla <em>“Add Python to PATH”</em>.</li>
+  <li>🧩 <strong>Node.js 18 o superior</strong> (incluye npm) → 
+  <a href="https://nodejs.org/en/download/" target="_blank">Descargar aquí</a> <strong>(NO DESCARGAR USANDO DOCKER, DESCARGAR INSTALADOR MSI)</strong>.</li>
+  <li>🔧 <strong>Git</strong> → <a href="https://git-scm.com/downloads" target="_blank">Descargar aquí</a>.</li>
+</ul>
+
+<p>Una vez instalados, abre tu terminal y comprueba que todo funciona:</p>
+
+<pre><code>python --version
 node --version
 npm --version
 git --version
-Si ves los números de versión (por ejemplo, Python 3.12.1), todo está listo ✅.
+</code></pre>
 
-🧱 Paso 1. Clonar el proyecto
-Recomendamos usar Visual Studio Code (VS Code) porque es gratuito y sencillo.
+<p>Si ves los números de versión (por ejemplo, <code>Python 3.12.1</code>), todo está listo ✅.</p>
 
-Abre Visual Studio Code.
-Presiona Ctrl + Shift/Mayús + Ñ para abrir la terminal integrada.
-En esa terminal, ejecuta los siguientes comandos uno por uno:
-git clone https://github.com/carlosvegag1/chat-multiagent.git
+<hr>
+
+<h2>🧱 Paso 1. Clonar el proyecto</h2>
+<p>Recomendamos usar <strong>Visual Studio Code (VS Code)</strong> porque es gratuito y sencillo.</p>
+
+<ol>
+  <li>Abre Visual Studio Code.</li>
+  <li>Presiona <kbd>Ctrl + Shift + Ñ</kbd> para abrir la terminal integrada.</li>
+  <li>En esa terminal, ejecuta los siguientes comandos uno por uno:</li>
+</ol>
+
+<pre><code>git clone https://github.com/carlosvegag1/chat-multiagent.git
 cd chat-multiagent
-Esto descargará el proyecto y entrará en la carpeta correcta.
+</code></pre>
 
-⚙️ Paso 2. Configurar y ejecutar el Backend
-1️⃣ Entra en la carpeta del backend:
-cd backend
-2️⃣ Crea el entorno virtual (es un espacio aislado para instalar dependencias):
-Ejecuta lo siguiente dependiendo de tu sistema operativo:
+<p>Esto descargará el proyecto y entrará en la carpeta correcta.</p>
 
-Windows (VS Code o PowerShell):
-python -m venv .venv
+<hr>
+
+<h2>⚙️ Paso 2. Configurar y ejecutar el Backend</h2>
+
+<ol>
+  <li><strong>Entra en la carpeta del backend:</strong><br>
+  <pre><code>cd backend</code></pre></li>
+
+  <li><strong>Crea el entorno virtual:</strong><br>
+  <p>Ejecuta lo siguiente dependiendo de tu sistema operativo:</p>
+
+  <p><strong>Windows (VS Code o PowerShell):</strong></p>
+  <pre><code>python -m venv .venv
 .\.venv\Scripts\activate
-Mac / Linux:
-python3 -m venv .venv
+</code></pre>
+
+  <p><strong>Mac / Linux:</strong></p>
+  <pre><code>python3 -m venv .venv
 source .venv/bin/activate
-Cuando el entorno esté activo, verás algo así al principio de la línea: (.venv).
+</code></pre>
 
-3️⃣ Instala las dependencias del backend:
-pip install -r requirements.txt
-4️⃣ Crea el archivo .env:
-Dentro de la carpeta backend, crea un nuevo archivo.env y pega este contenido:
+  <p>Cuando el entorno esté activo, verás algo así al principio de la línea: <code>(.venv)</code>.</p>
+  </li>
 
-OPENAI_API_KEY=tu_clave_de_openai_aqui
-Si no tienes una clave, créala gratis en 👉 OpenAI API Keys.
+  <li><strong>Instala las dependencias del backend:</strong><br>
+  <pre><code>pip install -r requirements.txt</code></pre></li>
 
-Este archivo puedes crearlo como archivo .txt sin nombre y simplemente cambiarle la extensión
+  <li><strong>Crea el archivo <code>.env</code>:</strong><br>
+  Dentro de la carpeta <code>backend</code>, crea un nuevo archivo llamado <code>.env</code> y pega este contenido:</li>
 
-5️⃣ Ejecuta el backend:
-uvicorn main:app --reload --port 8000
-Deja esta ventana abierta. El backend quedará funcionando en:
+  <pre><code>OPENAI_API_KEY=tu_clave_de_openai_aqui</code></pre>
 
-➡️ http://127.0.0.1:8000
+  <p>Si no tienes una clave, créala gratis en 👉 
+  <a href="https://platform.openai.com/account/api-keys" target="_blank">OpenAI API Keys</a>.</p>
 
-💻 Paso 3. Configurar y ejecutar el Frontend
-1️⃣ Abre una nueva terminal en Visual Studio Code (SIN CERRAR LA ANTERIOR):
-Haz clic en el símbolo + en la parte superior de la terminal o usa Ctrl + Shift/Mayús + Ñ.
+  <p><em>Consejo:</em> puedes crear un archivo .txt y luego cambiarle la extensión a <code>.env</code>.</p>
 
-2️⃣ Entra en la carpeta del frontend:
-cd ../frontend
-3️⃣ Instala las dependencias:
-npm install
-4️⃣ Crea el archivo .env.local:
-Dentro de la carpeta frontend, crea un archivo llamado .env.local con este contenido:
+  <li><strong>Ejecuta el backend:</strong><br>
+  <pre><code>uvicorn main:app --reload --port 8000</code></pre>
+  <p>Deja esta ventana abierta. El backend quedará funcionando en:<br>
+  ➡️ <a href="http://127.0.0.1:8000" target="_blank">http://127.0.0.1:8000</a></p></li>
+</ol>
 
-NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
-5️⃣ Ejecuta el frontend:
-npm run dev
-Luego abre tu navegador y entra en:
+<hr>
 
-➡️ http://localhost:3000
+<h2>💻 Paso 3. Configurar y ejecutar el Frontend</h2>
 
-🎤 Funcionalidades principales
-✅ Chat persistente por usuario (guarda tus conversaciones)
-✅ Creación y selección de conversaciones
-✅ Envío de mensajes de texto y voz
-✅ Respuestas automáticas simuladas por IA
-✅ Interfaz visual moderna con scroll inteligente y animaciones suaves
-🧩 Estructura del proyecto
-chat-multiagent/
+<ol>
+  <li><strong>Abre una nueva terminal en Visual Studio Code</strong> (sin cerrar la anterior).  
+  Haz clic en el símbolo <code>+</code> o usa <kbd>Ctrl + Shift + Ñ</kbd>.</li>
+
+  <li><strong>Entra en la carpeta del frontend:</strong><br>
+  <pre><code>cd ../frontend</code></pre></li>
+
+  <li><strong>Instala las dependencias:</strong><br>
+  <pre><code>npm install</code></pre></li>
+
+  <li><strong>Crea el archivo <code>.env.local</code>:</strong><br>
+  Dentro de la carpeta frontend, crea un archivo llamado <code>.env.local</code> con este contenido:</li>
+
+  <pre><code>NEXT_PUBLIC_API_URL=http://127.0.0.1:8000</code></pre>
+
+  <li><strong>Ejecuta el frontend:</strong><br>
+  <pre><code>npm run dev</code></pre>
+  <p>Luego abre tu navegador y entra en:<br>
+  ➡️ <a href="http://localhost:3000" target="_blank">http://localhost:3000</a></p></li>
+</ol>
+
+<hr>
+
+<h2>🎤 Funcionalidades principales</h2>
+<ul>
+  <li>✅ Chat persistente por usuario (guarda tus conversaciones)</li>
+  <li>✅ Creación y selección de conversaciones</li>
+  <li>✅ Envío de mensajes de texto y voz</li>
+  <li>✅ Respuestas automáticas simuladas por IA</li>
+  <li>✅ Interfaz visual moderna con scroll inteligente y animaciones suaves</li>
+</ul>
+
+<hr>
+
+<h2>🧩 Estructura del proyecto</h2>
+
+<pre><code>chat-multiagent/
 │
 ├── backend/        → API con FastAPI
 │   ├── main.py
@@ -96,15 +146,47 @@ chat-multiagent/
     ├── components/Chat.tsx
     ├── src/app/page.tsx
     └── .env.local
-🛠️ Comandos útiles
-Acción	Comando
-Iniciar backend	uvicorn main:app --reload --port 8000
-Instalar dependencias backend	pip install -r requirements.txt
-Iniciar frontend	npm run dev
-Instalar dependencias frontend	npm install
-🧠 Notas finales
-🗂️ Las conversaciones se guardan automáticamente en /backend/data/convos/.
-🧹 Puedes limpiar el historial borrando esa carpeta.
-🔐 La clave de OpenAI se usa solo para transcribir audios (Whisper) y simular respuestas.
-💻 El proyecto se ejecuta totalmente de forma local (solo se conecta con OpenAI si activas la transcripción de voz).
-Autor: Carlos Vega González
+</code></pre>
+
+<hr>
+
+<h2>🛠️ Comandos útiles</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Acción</th>
+      <th>Comando</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Iniciar backend</td>
+      <td><code>uvicorn main:app --reload --port 8000</code></td>
+    </tr>
+    <tr>
+      <td>Instalar dependencias backend</td>
+      <td><code>pip install -r requirements.txt</code></td>
+    </tr>
+    <tr>
+      <td>Iniciar frontend</td>
+      <td><code>npm run dev</code></td>
+    </tr>
+    <tr>
+      <td>Instalar dependencias frontend</td>
+      <td><code>npm install</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🧠 Notas finales</h2>
+<ul>
+  <li>🗂️ Las conversaciones se guardan automáticamente en <code>/backend/data/convos/</code>.</li>
+  <li>🧹 Puedes limpiar el historial borrando esa carpeta.</li>
+  <li>🔐 La clave de OpenAI se usa solo para transcribir audios (Whisper) y simular respuestas.</li>
+  <li>💻 El proyecto se ejecuta totalmente de forma local (solo se conecta con OpenAI si activas la transcripción de voz).</li>
+</ul>
+
+<p><strong>Autor:</strong> Carlos Vega González</p>
