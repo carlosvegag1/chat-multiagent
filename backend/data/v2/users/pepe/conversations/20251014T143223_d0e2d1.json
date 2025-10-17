@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251014T143223_d0e2d1",
+  "history": [
+    {
+      "role": "user",
+      "message": "http://localhost:3000/",
+      "timestamp": "2025-10-14T14:32:28Z"
+    },
+    {
+      "role": "bot",
+      "message": "🌤️ Clima actual en Lisboa: 24.8°C, viento 7.6 km/h.",
+      "timestamp": "2025-10-14T14:32:28Z"
+    }
+  ],
+  "created_at": "2025-10-14T14:32:28Z",
+  "updated_at": "2025-10-14T14:32:28Z"
+}

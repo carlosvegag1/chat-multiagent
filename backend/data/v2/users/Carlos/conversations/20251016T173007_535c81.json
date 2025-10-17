@@ -1,0 +1,27 @@
+{
+  "conversation_id": "20251016T173007_535c81",
+  "history": [
+    {
+      "role": "user",
+      "message": "Quiero planear un viaje a Paris para 3 dias",
+      "timestamp": "2025-10-16T17:30:29Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos a París:\n- UX 1027 (55.52 EUR)\n- UX 1029 (55.52 EUR)\n- VY 5145 (90.52 EUR)\n\n🏨 Hoteles disponibles en París:\n- DIAMOND HOTEL (None⭐) - None EUR\n- RENAISSANCE PARIS VENDOME (None⭐) - None EUR\n- HN TEST PROPERTY1 FOR E2E TESTING (None⭐) - None EUR\n\n🧭 Resumen: París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h sugerido:\n Día 1: Torre Eiffel; Arco del Triunfo; Notre-Dame\n Día 2: Notre-Dame; Montmartre; Torre Eiffel\n Día 3: Museo del Louvre; Montmartre; Notre-Dame\n\n💰 **Presupuesto estimado: 385.52 EUR**",
+      "timestamp": "2025-10-16T17:30:30Z"
+    },
+    {
+      "role": "user",
+      "message": "mueve el viaje a paris 2 dias despues",
+      "timestamp": "2025-10-16T17:31:20Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Fechas del viaje a París desplazadas 2 día(s).",
+      "timestamp": "2025-10-16T17:31:20Z"
+    }
+  ],
+  "created_at": "2025-10-16T17:30:29Z",
+  "updated_at": "2025-10-16T17:31:20Z"
+}

@@ -1,0 +1,90 @@
+{
+  "user_id": "Pepito",
+  "created_at": "2025-10-15T17:45:24.677676",
+  "trips": [
+    {
+      "trip_id": "20251120_lisboa",
+      "created_at": "2025-10-15T19:16:22.977425Z",
+      "title": "Lisboa (2025-11-20 → 2025-11-20)",
+      "city": "Lisboa",
+      "iata": "LIS",
+      "segments": [
+        {
+          "type": "flight",
+          "origin": "MAD",
+          "destination": "Lisboa",
+          "date": "2025-11-20",
+          "count": 5
+        },
+        {
+          "type": "hotel",
+          "city": "Lisboa",
+          "checkin": "2025-11-20",
+          "checkout": "2025-11-20",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [
+        "flight.search_flights",
+        "flight.search_flights"
+      ],
+      "start_date": "2025-11-20",
+      "end_date": "2025-11-20",
+      "budget": 240.6,
+      "budget_updated_at": "2025-10-15T19:16:23.058497Z",
+      "destination_summary": "Lisbon is the capital and most populous municipality of Portugal, with an estimated population of 575,739, as of 2024, within its administrative limits and 3,028,000 within the metropolis, as of 2025. Lisbon is mainland Europe's westernmost capital city, and the only one along the Atlantic coast, the others being on islands. The city lies in the western portion of the Iberian Peninsula, on the northern shore of the River Tagus. The western portion of its metro area, the Portuguese Riviera, hosts the westernmost point of Continental Europe, culminating at Cabo da Roca.",
+      "destination_pois": [
+        {
+          "name": "Lisboa Games Week",
+          "description": "Lisboa Games Week, or simply LGW, is a trade fair for video games held annually at the FIL Exhibition Centre in Lisbon, Portugal. It is organised by FIL"
+        },
+        {
+          "name": "Lisbon Oceanarium",
+          "description": "The Lisbon Oceanarium (Portuguese: Oceanário de Lisboa, pronounced [ɔsi.ɐˈnaɾi.u ðɨ liʒˈβoɐ]) is an oceanarium in Lisbon, Portugal. It is located in the"
+        },
+        {
+          "name": "Lisbon Zoo",
+          "description": "(Jardim Zoologico de Lisboa) is a zoological garden in Lisbon, Portugal. It was founded in 1884. The zoo was originally located in the park of São Sebastião"
+        },
+        {
+          "name": "Praça do Império",
+          "description": "Império (Empire Square) is a city square and park situated adjacent to principal monuments and tourist attractions in the civil parish of Belém, municipality"
+        },
+        {
+          "name": "Casino Estoril",
+          "description": "de Notícias (in Portuguese) Gibbs, Erik (2022-10-28). \"Portugal's Casino Lisboa and Casino Estoril to Remain in the Ho Family\". Casino.org. Retrieved 2025-02-28"
+        },
+        {
+          "name": "Santa Justa Lift",
+          "description": "Carmo (Carmo Square). Since its construction the lift has become a tourist attraction for Lisbon as, among the urban lifts in the city, Santa Justa is the"
+        }
+      ],
+      "destination_plan_72h": [
+        {
+          "day": 1,
+          "activities": [
+            "Visita Praça do Império",
+            "Visita Casino Estoril"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Visita Lisbon Zoo",
+            "Visita Lisbon Oceanarium"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Visita Lisboa Games Week",
+            "Visita Praça do Império"
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-15T19:16:23.085713Z"
+    }
+  ]
+}

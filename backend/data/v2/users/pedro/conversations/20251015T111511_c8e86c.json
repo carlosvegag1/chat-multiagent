@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251015T111511_c8e86c",
+  "history": [
+    {
+      "role": "user",
+      "message": "listame todos mis viajes actuales",
+      "timestamp": "2025-10-15T11:15:20Z"
+    },
+    {
+      "role": "bot",
+      "message": "• París → del ? al ? (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T11:15:20Z"
+    }
+  ],
+  "created_at": "2025-10-15T11:15:20Z",
+  "updated_at": "2025-10-15T11:15:20Z"
+}

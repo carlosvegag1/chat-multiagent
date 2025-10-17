@@ -1,0 +1,37 @@
+{
+  "convo_id": "20251015T160510_636131",
+  "user": "carlos",
+  "created_at": "2025-10-15T16:05:10.744380",
+  "messages": [
+    {
+      "ts": 1760544313.4300513,
+      "role": "user",
+      "text": "¿Que viajes tengo planeados?"
+    },
+    {
+      "ts": 1760544319.4713728,
+      "role": "bot",
+      "text": "• Lisboa → del 20/11/2025 al 25/11/2025 (3 segmentos, creado el 15/10/2025)\n• Madrid → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)\n• Oporto → del 22/11/2025 al 22/11/2025 (2 segmentos, creado el 15/10/2025)"
+    },
+    {
+      "ts": 1760544320.479172,
+      "role": "user",
+      "text": "Desplaza el viaje a lisboa 3 dias"
+    },
+    {
+      "ts": 1760544324.2613683,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Lisboa desplazadas 3 día(s)."
+    },
+    {
+      "ts": 1760544334.0765636,
+      "role": "user",
+      "text": "Entonces que viajes tengo en el futuro?"
+    },
+    {
+      "ts": 1760544335.8959436,
+      "role": "bot",
+      "text": "• Lisboa → del 20/11/2025 al 25/11/2025 (3 segmentos, creado el 15/10/2025)\n• Madrid → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)\n• Oporto → del 22/11/2025 al 22/11/2025 (2 segmentos, creado el 15/10/2025)"
+    }
+  ]
+}

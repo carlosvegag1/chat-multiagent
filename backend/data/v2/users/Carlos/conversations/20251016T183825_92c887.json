@@ -1,0 +1,37 @@
+{
+  "conversation_id": "20251016T183825_92c887",
+  "history": [
+    {
+      "role": "user",
+      "message": "Tengo algun viaje?",
+      "timestamp": "2025-10-16T18:38:37Z"
+    },
+    {
+      "role": "bot",
+      "message": "No tienes viajes registrados todavía.",
+      "timestamp": "2025-10-16T18:38:37Z"
+    },
+    {
+      "role": "user",
+      "message": "Pues Quiero explorar la Provenza durante 4 días",
+      "timestamp": "2025-10-16T18:38:48Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No encontré un viaje a Aix-en-Provence para eliminar.",
+      "timestamp": "2025-10-16T18:38:48Z"
+    },
+    {
+      "role": "user",
+      "message": "Hola! Quiero explorar la Provenza durante 4 días",
+      "timestamp": "2025-10-16T18:38:58Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No encontré un viaje a Aix-en-Provence para eliminar.",
+      "timestamp": "2025-10-16T18:38:58Z"
+    }
+  ],
+  "created_at": "2025-10-16T18:38:37Z",
+  "updated_at": "2025-10-16T18:38:58Z"
+}

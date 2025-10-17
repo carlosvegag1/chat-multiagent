@@ -1,0 +1,37 @@
+{
+  "convo_id": "20251015T192250_bdfe99",
+  "user": "carlos",
+  "created_at": "2025-10-15T19:22:50.039846",
+  "messages": [
+    {
+      "ts": 1760556171.3867867,
+      "role": "user",
+      "text": "¿Qué viajes tengo ahora?"
+    },
+    {
+      "ts": 1760556172.879702,
+      "role": "bot",
+      "text": "• Lisboa → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]"
+    },
+    {
+      "ts": 1760556179.0361571,
+      "role": "user",
+      "text": "Mueve mi viaje a Lisboa tres días después"
+    },
+    {
+      "ts": 1760556179.1621916,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Lisboa desplazadas 1 día(s)."
+    },
+    {
+      "ts": 1760556184.3998766,
+      "role": "user",
+      "text": "Amplía mi estancia en París dos días más"
+    },
+    {
+      "ts": 1760556184.5584269,
+      "role": "bot",
+      "text": "⚠️ No encontré un viaje a París."
+    }
+  ]
+}

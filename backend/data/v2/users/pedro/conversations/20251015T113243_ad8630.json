@@ -1,0 +1,77 @@
+{
+  "conversation_id": "20251015T113243_ad8630",
+  "history": [
+    {
+      "role": "user",
+      "message": "Hola, quiero planificar un nuevo viaje desde Madrid a Lisboa el 20 de noviembre.",
+      "timestamp": "2025-10-15T11:33:03Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos desde MAD a Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (50.52 EUR)\n- UX1155 14:55–15:15 (50.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n- TP1015 14:55–15:20 (61.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA PRAIA — None⭐ — None EUR\n- HOTEL DO LAGO — None⭐ — None EUR\n- HOTEL DA LOLO — None⭐ — None EUR\n- CASA DO FORAL — None⭐ — None EUR\n- RESIDENCIAL PARADOURO — None⭐ — None EUR\n\n💰 Presupuesto estimado total: N/A EUR",
+      "timestamp": "2025-10-15T11:33:03Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más.",
+      "timestamp": "2025-10-15T11:33:11Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en Lisboa extendida 2 día(s).",
+      "timestamp": "2025-10-15T11:33:11Z"
+    },
+    {
+      "role": "user",
+      "message": "Busca vuelos y hoteles en París del 10 al 14 de diciembre y crea un planning.",
+      "timestamp": "2025-10-15T11:33:29Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos desde MAD a París:\n- IB591 21:40–23:50 (82.52 EUR)\n- AF1001 10:00–12:10 (102.02 EUR)\n- AF1301 12:25–14:35 (102.02 EUR)\n- AF1601 16:20–18:30 (102.02 EUR)\n- AF1101 20:10–22:20 (102.02 EUR)\n\n🏨 He encontrado 5 hoteles en París:\n- HOTEL PRINCE ALBERT LOUVRE — None⭐ — None EUR\n- RENAISSANCE PARIS VENDOME — None⭐ — None EUR\n- BW PREMIER FAUBOURG 88 — None⭐ — None EUR\n- DIAMOND HOTEL — None⭐ — None EUR\n- HN TEST PROPERTY1 FOR E2E TESTING — None⭐ — None EUR\n\n💰 Presupuesto estimado total: N/A EUR",
+      "timestamp": "2025-10-15T11:33:29Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en París dos días más.",
+      "timestamp": "2025-10-15T11:33:36Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en París extendida 2 día(s).",
+      "timestamp": "2025-10-15T11:33:36Z"
+    },
+    {
+      "role": "user",
+      "message": "Muéstrame todos mis viajes planeados.",
+      "timestamp": "2025-10-15T11:33:46Z"
+    },
+    {
+      "role": "bot",
+      "message": "• París → del ? al ? (2 segmentos, creado el 15/10/2025)\n• Lisboa → del 20/11/2025 al 20/11/2025 (2 segmentos, creado el 15/10/2025)\n• París → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T11:33:46Z"
+    },
+    {
+      "role": "user",
+      "message": "Limpia mis viajes antiguos.",
+      "timestamp": "2025-10-15T11:33:57Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗑️ Viaje a París eliminado correctamente.",
+      "timestamp": "2025-10-15T11:33:57Z"
+    },
+    {
+      "role": "user",
+      "message": "Recuérdame mi resumen de viajes recientes.",
+      "timestamp": "2025-10-15T11:34:03Z"
+    },
+    {
+      "role": "bot",
+      "message": "• París → del ? al ? (2 segmentos, creado el 15/10/2025)\n• Lisboa → del 20/11/2025 al 20/11/2025 (2 segmentos, creado el 15/10/2025)\n• París → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T11:34:03Z"
+    }
+  ],
+  "created_at": "2025-10-15T11:33:03Z",
+  "updated_at": "2025-10-15T11:34:03Z"
+}

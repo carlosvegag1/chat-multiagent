@@ -1,0 +1,334 @@
+{
+  "user_id": "carlos",
+  "created_at": "2025-10-15T16:45:58.577598",
+  "trips": [
+    {
+      "trip_id": "20251017_florencia",
+      "created_at": "2025-10-17T11:48:07.896718Z",
+      "title": "Florencia (2025-10-17 → 2025-10-24)",
+      "city": "Florencia",
+      "iata": "FLR",
+      "segments": [
+        {
+          "type": "flight",
+          "count": 4
+        },
+        {
+          "type": "hotel",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-24",
+      "budget": 884.52,
+      "budget_updated_at": "2025-10-17T12:50:33.924797Z",
+      "destination_summary": "No se pudo obtener la información del destino 'Florencia'. Razón: ",
+      "destination_pois": [],
+      "destination_plan_72h": [],
+      "destination_updated_at": "2025-10-17T12:50:33.954676Z"
+    },
+    {
+      "trip_id": "20251017_sel",
+      "created_at": "2025-10-17T11:48:26.910841Z",
+      "title": "Seúl (2025-10-17 → 2025-10-20)",
+      "city": "Seúl",
+      "iata": "ICN",
+      "segments": [
+        {
+          "type": "flight",
+          "count": 2
+        },
+        {
+          "type": "hotel",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-20",
+      "budget": 1224.87,
+      "budget_updated_at": "2025-10-17T11:48:26.953736Z"
+    },
+    {
+      "trip_id": "20251017_osaka",
+      "created_at": "2025-10-17T11:48:37.304839Z",
+      "title": "Osaka (2025-10-17 → 2025-10-20)",
+      "city": "Osaka",
+      "iata": "KIX",
+      "segments": [
+        {
+          "type": "flight",
+          "count": 0
+        },
+        {
+          "type": "hotel",
+          "count": 3
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-20",
+      "budget": 1100.0,
+      "budget_updated_at": "2025-10-17T13:06:43.926416Z",
+      "destination_summary": "No se pudo obtener la información del destino 'Osaka'.",
+      "destination_pois": [],
+      "destination_plan_72h": [],
+      "destination_updated_at": "2025-10-17T13:06:43.975181Z",
+      "destination_plan_sugerido": []
+    },
+    {
+      "trip_id": "20251017_reikiavik",
+      "created_at": "2025-10-17T11:48:55.058577Z",
+      "title": "Reikiavik (2025-10-17 → 2025-10-20)",
+      "city": "Reikiavik",
+      "iata": "KEF",
+      "segments": [
+        {
+          "type": "flight",
+          "count": 1
+        },
+        {
+          "type": "hotel",
+          "count": 4
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-20",
+      "budget": 573.54,
+      "budget_updated_at": "2025-10-17T11:48:55.110168Z",
+      "destination_summary": "Reikiavik, la capital de Islandia, es una ciudad vibrante conocida por su cultura rica, arquitectura única y hermosos paisajes naturales. Desde sus coloridas casas hasta las impresionantes vistas del océano, esta ciudad ofrece una experiencia inolvidable para los viajeros.",
+      "destination_pois": [
+        {
+          "name": "Hallgrímskirkja",
+          "description": "Una icónica iglesia luterana que se eleva sobre la ciudad, famosa por su arquitectura moderna y su impresionante vista desde la torre."
+        },
+        {
+          "name": "Harpa Concert Hall",
+          "description": "Un impresionante centro cultural y de conciertos, conocido por su arquitectura contemporánea y su vibrante programación de eventos."
+        },
+        {
+          "name": "Sun Voyager",
+          "description": "Una escultura emblemática que representa un barco vikingo, situada junto al mar y ofreciendo vistas espectaculares."
+        },
+        {
+          "name": "Museo Nacional de Islandia",
+          "description": "Un museo que ofrece una visión profunda de la historia y la cultura islandesa, desde la era vikinga hasta la actualidad."
+        },
+        {
+          "name": "Perlan",
+          "description": "Un centro de ciencia y naturaleza con una cúpula de vidrio, que ofrece exposiciones interactivas y una vista panorámica de Reikiavik."
+        }
+      ],
+      "destination_plan_72h": [],
+      "destination_updated_at": "2025-10-17T11:48:55.128314Z"
+    },
+    {
+      "trip_id": "20251017_friburgo",
+      "created_at": "2025-10-17T11:49:05.286371Z",
+      "title": "Friburgo (2025-10-17 → 2025-10-22)",
+      "city": "Friburgo",
+      "iata": null,
+      "segments": [
+        {
+          "type": "flight",
+          "count": 0
+        },
+        {
+          "type": "hotel",
+          "count": 0
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-22",
+      "budget": 550.0,
+      "budget_updated_at": "2025-10-17T11:49:05.325822Z",
+      "destination_summary": "Friburgo, la puerta de la Selva Negra, es una encantadora ciudad alemana conocida por su arquitectura medieval y su vibrante vida cultural. Con su casco antiguo pintoresco y hermosos paisajes naturales, es un destino perfecto para explorar a pie y disfrutar de la naturaleza.",
+      "destination_pois": [
+        {
+          "name": "Catedral de Friburgo",
+          "description": "Una impresionante catedral gótica con una torre que ofrece vistas panorámicas de la ciudad."
+        },
+        {
+          "name": "Museo de Historia Natural",
+          "description": "Un fascinante museo que exhibe la biodiversidad y la geología de la región."
+        },
+        {
+          "name": "Bächle",
+          "description": "Pequeños canales de agua que recorren las calles del casco antiguo, una característica única de Friburgo."
+        },
+        {
+          "name": "Schwarzwald",
+          "description": "La famosa Selva Negra, ideal para caminatas y actividades al aire libre."
+        },
+        {
+          "name": "Plaza del Mercado",
+          "description": "Un animado lugar donde se celebran mercados y eventos locales, rodeado de edificios históricos."
+        }
+      ],
+      "destination_plan_72h": [],
+      "destination_updated_at": "2025-10-17T11:49:05.340112Z"
+    },
+    {
+      "trip_id": "20251017_santa-cruz-de-tenerife",
+      "created_at": "2025-10-17T12:33:26.905301Z",
+      "title": "Santa Cruz De Tenerife (2025-10-17 → 2025-10-20)",
+      "city": "Santa Cruz De Tenerife",
+      "iata": "TFS",
+      "segments": [
+        {
+          "type": "flight",
+          "count": 1
+        },
+        {
+          "type": "hotel",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-20",
+      "budget": 884.52,
+      "budget_updated_at": "2025-10-17T12:33:26.944136Z",
+      "destination_summary": "No se pudo obtener la información del destino 'Santa Cruz De Tenerife'. Razón: ",
+      "destination_pois": [],
+      "destination_plan_72h": [],
+      "destination_updated_at": "2025-10-17T12:33:26.954873Z"
+    },
+    {
+      "trip_id": "20251017_edimburgo",
+      "created_at": "2025-10-17T12:50:08.907396Z",
+      "title": "Edimburgo (2025-10-17 → 2025-10-21)",
+      "city": "Edimburgo",
+      "iata": "EDI",
+      "segments": [
+        {
+          "type": "flight",
+          "count": 0
+        },
+        {
+          "type": "hotel",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-21",
+      "budget": 440.0,
+      "budget_updated_at": "2025-10-17T12:50:08.973588Z",
+      "destination_summary": "No se pudo obtener la información del destino 'Edimburgo'. Razón: ",
+      "destination_pois": [],
+      "destination_plan_72h": [],
+      "destination_updated_at": "2025-10-17T12:50:09.012252Z"
+    },
+    {
+      "trip_id": "20251017_roma",
+      "created_at": "2025-10-17T13:06:58.193763Z",
+      "title": "Roma (2025-10-17 → 2025-10-20)",
+      "city": "Roma",
+      "iata": "ROM",
+      "segments": [
+        {
+          "type": "flight",
+          "count": 0
+        },
+        {
+          "type": "hotel",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-20",
+      "budget": 330.0,
+      "budget_updated_at": "2025-10-17T13:06:58.269470Z",
+      "destination_summary": "Roma, la Ciudad Eterna, es un destino lleno de historia, arte y cultura. Desde el majestuoso Coliseo hasta la impresionante Capilla Sixtina, cada rincón cuenta una historia fascinante.",
+      "destination_pois": [
+        {
+          "name": "Coliseo",
+          "description": "Un antiguo anfiteatro romano que es símbolo de la grandeza de la arquitectura romana."
+        },
+        {
+          "name": "Vaticano",
+          "description": "El centro espiritual del catolicismo, hogar de la Basílica de San Pedro y la Capilla Sixtina."
+        },
+        {
+          "name": "Fontana di Trevi",
+          "description": "Famosa por su impresionante diseño barroco y la tradición de lanzar monedas para asegurar el regreso a Roma."
+        },
+        {
+          "name": "Panteón",
+          "description": "Un antiguo templo romano, conocido por su impresionante cúpula y su magnífica arquitectura."
+        },
+        {
+          "name": "Plaza Navona",
+          "description": "Una de las plazas más bellas de Roma, famosa por sus fuentes y ambiente vibrante."
+        }
+      ],
+      "destination_plan_sugerido": [
+        {
+          "day": 1,
+          "activities": [
+            "Visita al Coliseo y el Foro Romano",
+            "Paseo por el Palatino y almuerzo en un restaurante local"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Exploración de la Ciudad del Vaticano, incluyendo la Basílica de San Pedro",
+            "Visita a la Capilla Sixtina y recorrido por los Museos Vaticanos"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Visita a la Fontana di Trevi y lanzamiento de monedas",
+            "Recorrido por la Plaza Navona y el Panteón, seguido de cena en un restaurante típico"
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-17T13:06:58.294106Z"
+    },
+    {
+      "trip_id": "20251017_destino",
+      "created_at": "2025-10-17T13:07:01.292167Z",
+      "title": "Destino",
+      "city": "Destino",
+      "iata": null,
+      "segments": [
+        {
+          "type": "flight",
+          "count": 0
+        },
+        {
+          "type": "hotel",
+          "count": 0
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": null,
+      "end_date": null
+    }
+  ]
+}

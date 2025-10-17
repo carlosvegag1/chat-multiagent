@@ -1,0 +1,27 @@
+{
+  "convo_id": "20251017T123254_ae0852",
+  "user": "carlos",
+  "created_at": "2025-10-17T12:32:54.777680",
+  "messages": [
+    {
+      "ts": 1760704382.0777087,
+      "role": "user",
+      "text": "¿Qué viajes tengo planeados?"
+    },
+    {
+      "ts": 1760704382.8384886,
+      "role": "bot",
+      "text": "{'summary': 'Aquí tienes un resumen de tus viajes:\\n- **Florencia**: del 17/10/2025 al 24/10/2025 con un presupuesto de ~885€.\\n- **Seúl**: del 17/10/2025 al 20/10/2025 con un presupuesto de ~1225€.\\n- **Osaka**: del 17/10/2025 al 20/10/2025 con un presupuesto de ~330€.\\n- **Reikiavik**: del 17/10/2025 al 20/10/2025 con un presupuesto de ~574€.\\n- **Friburgo**: del 17/10/2025 al 22/10/2025 con un presupuesto de ~550€.'}"
+    },
+    {
+      "ts": 1760704393.7363338,
+      "role": "user",
+      "text": "Planeame un viaje a Tenerife de 3 dias"
+    },
+    {
+      "ts": 1760704406.971423,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Santa Cruz De Tenerife**."
+    }
+  ]
+}

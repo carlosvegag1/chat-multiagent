@@ -1,0 +1,36 @@
+{
+  "df44c28f750eff4ac6ebaa210e5f83c1be42262bdc5d8e5fe0f5734bc65622cb": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Lisboa",
+      "days": 4
+    }
+  },
+  "35debdde7ae9654a6a9992b5859dcdcb149c39ae47eca3f9d819cf862ba3e80b": {
+    "intent": "EXTEND_TRIP",
+    "entities": {
+      "city": "Lisboa",
+      "days": 1
+    }
+  },
+  "0a64a23da9bc0c7f5b76242d33d6682d44f4851160509becc02ec6610e907e3c": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Oporto"
+    }
+  },
+  "dcad9dffd440e4d59a67c2b3828eba7324096a908b61be97ad93f33142e27962": {
+    "intent": "SHIFT_TRIP",
+    "entities": {
+      "city": "Oporto",
+      "days_shift": 7
+    }
+  },
+  "f0d18545d95b22d2b2daf2a84953b05ac154161379703a30d893f6309e556128": {
+    "intent": "SHIFT_TRIP",
+    "entities": {
+      "city": "Oporto",
+      "days_shift": 1
+    }
+  }
+}

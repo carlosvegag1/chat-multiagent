@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251015T093308_f933c8",
+  "user": "carlos",
+  "created_at": "2025-10-15T09:33:08.985300",
+  "messages": [
+    {
+      "ts": 1760520798.2251356,
+      "role": "user",
+      "text": "Quiero organizar un viaje desde Madrid a Lisboa para el 20 de noviembre de 2025. Primero, busca los vuelos más baratos para ese día. Luego, dime qué hoteles están disponibles en Lisboa cerca del centro. Por último, calcula el coste total estimado si reservo el vuelo más barato y el hotel de precio medio durante 3 noches."
+    },
+    {
+      "ts": 1760520803.7078633,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos desde MAD a LIS:\n- UX1159 → 06:30–06:50 (27.52 EUR)\n- UX1153 → 10:25–10:45 (50.52 EUR)\n- UX1155 → 14:55–15:15 (50.52 EUR)\n- UX1157 → 18:55–19:15 (50.52 EUR)\n- TP1015 → 14:55–15:20 (61.52 EUR)"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "conversation_id": "20251015T123017_9f4489",
+  "history": [
+    {
+      "role": "user",
+      "message": "que viajes tengo planeados?",
+      "timestamp": "2025-10-15T12:30:25Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 20/11/2025 al 20/11/2025 (6 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T12:30:25Z"
+    },
+    {
+      "role": "user",
+      "message": "elimina mis viajes planeados",
+      "timestamp": "2025-10-15T12:30:36Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗑️ Viaje a Lisboa eliminado correctamente.",
+      "timestamp": "2025-10-15T12:30:36Z"
+    },
+    {
+      "role": "user",
+      "message": "que viajes tengo planeados?",
+      "timestamp": "2025-10-15T12:30:41Z"
+    },
+    {
+      "role": "bot",
+      "message": "No tienes viajes registrados todavía.",
+      "timestamp": "2025-10-15T12:30:41Z"
+    }
+  ],
+  "created_at": "2025-10-15T12:30:25Z",
+  "updated_at": "2025-10-15T12:30:41Z"
+}

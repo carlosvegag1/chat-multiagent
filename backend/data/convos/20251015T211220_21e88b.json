@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251015T211220_21e88b",
+  "user": "pedro luis",
+  "created_at": "2025-10-15T21:12:20.006830",
+  "messages": [
+    {
+      "ts": 1760562757.7845545,
+      "role": "user",
+      "text": "Planifica mi próximo viaje a Lisboa para tres días"
+    },
+    {
+      "ts": 1760562762.9893644,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA PRAIA\n- HOTEL DO LAGO\n- HOTEL DA LOLO\n- OLISSIPPO MARQUES DE SA\n- PESTANA PALACE HOTEL\n\n📍 Lugares recomendados en Lisboa:\n• Torre de Belém — Lugar emblemático de Lisboa\n• Monasterio de los Jerónimos — Lugar emblemático de Lisboa\n• Barrio Alto — Lugar emblemático de Lisboa\n• Praça do Comércio — Lugar emblemático de Lisboa\n• Castelo de São Jorge — Lugar emblemático de Lisboa\n\n🧭 Resumen: Lisboa es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Monasterio de los Jerónimos; Torre de Belém; Miradouro da Senhora do Monte\n Día 2: Castelo de São Jorge; Torre de Belém; Barrio Alto\n Día 3: Torre de Belém; Miradouro da Senhora do Monte; Praça do Comércio"
+    }
+  ]
+}

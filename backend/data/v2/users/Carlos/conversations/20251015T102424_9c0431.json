@@ -1,0 +1,37 @@
+{
+  "conversation_id": "20251015T102424_9c0431",
+  "history": [
+    {
+      "role": "user",
+      "message": "Busca vuelos desde Madrid a Lisboa del 20 al 23 de noviembre y hoteles para esas fechas",
+      "timestamp": "2025-10-15T10:25:06Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ No encontré vuelos desde MAD a LIS.",
+      "timestamp": "2025-10-15T10:25:06Z"
+    },
+    {
+      "role": "user",
+      "message": "Busca vuelos desde Madrid a Lisboa del 20 al 23 de noviembre de 2025 y hoteles para esas fechas",
+      "timestamp": "2025-10-15T10:26:39Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos desde MAD a LIS:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (50.52 EUR)\n- UX1155 14:55–15:15 (50.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n- TP1015 14:55–15:20 (61.52 EUR)",
+      "timestamp": "2025-10-15T10:26:39Z"
+    },
+    {
+      "role": "user",
+      "message": "Y HOTELES?",
+      "timestamp": "2025-10-15T10:26:51Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 3 vuelos desde MAD a LIS:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (50.52 EUR)\n- UX1155 14:55–15:15 (50.52 EUR)\n⚠️ Conflicto con ‘Lisboa (2025-11-20 → 2025-11-20)’",
+      "timestamp": "2025-10-15T10:26:51Z"
+    }
+  ],
+  "created_at": "2025-10-15T10:25:06Z",
+  "updated_at": "2025-10-15T10:26:51Z"
+}

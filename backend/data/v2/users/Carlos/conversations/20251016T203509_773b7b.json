@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251016T203509_773b7b",
+  "history": [
+    {
+      "role": "user",
+      "message": "planifica un viaje",
+      "timestamp": "2025-10-16T20:35:13Z"
+    },
+    {
+      "role": "bot",
+      "message": "No he entendido bien tu petición. Puedo planificar, listar, mover o borrar viajes.",
+      "timestamp": "2025-10-16T20:35:13Z"
+    }
+  ],
+  "created_at": "2025-10-16T20:35:13Z",
+  "updated_at": "2025-10-16T20:35:13Z"
+}

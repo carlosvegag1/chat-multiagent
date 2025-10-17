@@ -1,0 +1,67 @@
+{
+  "convo_id": "20251017T092820_c7beeb",
+  "user": "Carlos",
+  "created_at": "2025-10-17T09:28:30.737285",
+  "messages": [
+    {
+      "ts": 1760693310.737285,
+      "role": "user",
+      "text": "\u00bfTengo alg\u00fan viaje planeado?"
+    },
+    {
+      "ts": 1760693310.737285,
+      "role": "bot",
+      "text": "\u2022 **Buenos Aires** \u2192 del 17/10/2025 al 19/10/2025 [~1401.09 EUR]\n\u2022 **Roma** \u2192 del 17/10/2025 al 20/10/2025 [~296.52 EUR]\n\u2022 **Londres** \u2192 del 17/10/2025 al 22/10/2025 [~589.52 EUR]\n\u2022 **Marrakech** \u2192 del 17/10/2025 al 22/10/2025 [~663.09 EUR]\n\u2022 **Dubrovnik** \u2192 del 17/10/2025 al 20/10/2025 [~330.00 EUR]\n\u2022 **Cusco** \u2192 del 17/10/2025 al 20/10/2025 [~330.00 EUR]\n\u2022 **Oporto** \u2192 del 17/10/2025 al 19/10/2025 [~273.52 EUR]\n\u2022 **Bangkok** \u2192 del 17/10/2025 al 24/10/2025 [~770.00 EUR]"
+    },
+    {
+      "ts": 1760693319.139868,
+      "role": "user",
+      "text": "Al final no puedo ir a ninguno"
+    },
+    {
+      "ts": 1760693319.185151,
+      "role": "bot",
+      "text": "\ud83e\uddf9 Todos los viajes han sido eliminados."
+    },
+    {
+      "ts": 1760693337.692741,
+      "role": "user",
+      "text": "Planifica un viaje de 2 d\u00edas a Oporto"
+    },
+    {
+      "ts": 1760693337.720848,
+      "role": "bot",
+      "text": "Aqu\u00ed tienes tu plan para Oporto."
+    },
+    {
+      "ts": 1760693353.359515,
+      "role": "user",
+      "text": "Quiero ir 7 d\u00edas a Bangkok"
+    },
+    {
+      "ts": 1760693353.394528,
+      "role": "bot",
+      "text": "Aqu\u00ed tienes tu plan para Bangkok."
+    },
+    {
+      "ts": 1760693361.741507,
+      "role": "user",
+      "text": "Un fin de semana en Roma"
+    },
+    {
+      "ts": 1760693361.766095,
+      "role": "bot",
+      "text": "Aqu\u00ed tienes tu plan para Roma."
+    },
+    {
+      "ts": 1760693373.829409,
+      "role": "user",
+      "text": "Que viajes tengo planeados?"
+    },
+    {
+      "ts": 1760693373.856807,
+      "role": "bot",
+      "text": "\u2022 **Oporto** \u2192 del 17/10/2025 al 19/10/2025 [~273.52 EUR]\n\u2022 **Bangkok** \u2192 del 17/10/2025 al 24/10/2025 [~770.00 EUR]\n\u2022 **Roma** \u2192 del 17/10/2025 al 19/10/2025 [~296.52 EUR]"
+    }
+  ]
+}

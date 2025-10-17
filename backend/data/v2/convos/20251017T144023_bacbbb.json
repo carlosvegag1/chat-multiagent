@@ -1,0 +1,315 @@
+{
+  "convo_id": "20251017T144023_bacbbb",
+  "user": "carlos",
+  "created_at": "2025-10-17T14:40:23.217455",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Prepara una escapada a Liubliana",
+      "structured_data": null,
+      "ts": 1760712028.4393547
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Liubliana**.",
+      "structured_data": {
+        "city": "Liubliana",
+        "flights": [
+          {
+            "airline": "AIR SERBIA",
+            "flight_number": "JU 573",
+            "origin": "MAD",
+            "destination": "BEG",
+            "departure_time": "2025-10-17T17:50:00",
+            "arrival_time": "2025-10-17T20:55:00",
+            "duration": "15h 5m",
+            "stops": 1,
+            "price": 153.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "AIR SERBIA",
+            "flight_number": "JU 573",
+            "origin": "MAD",
+            "destination": "BEG",
+            "departure_time": "2025-10-17T17:50:00",
+            "arrival_time": "2025-10-17T20:55:00",
+            "duration": "20h 35m",
+            "stops": 1,
+            "price": 153.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1508",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T20:25:00",
+            "arrival_time": "2025-10-17T23:00:00",
+            "duration": "15h 40m",
+            "stops": 1,
+            "price": 259.26,
+            "currency": "EUR"
+          },
+          {
+            "airline": "AIR SERBIA",
+            "flight_number": "JU 573",
+            "origin": "MAD",
+            "destination": "BEG",
+            "departure_time": "2025-10-17T17:50:00",
+            "arrival_time": "2025-10-17T20:55:00",
+            "duration": "26h 30m",
+            "stops": 2,
+            "price": 313.5,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TURKISH AIRLINES",
+            "flight_number": "TK 1860",
+            "origin": "MAD",
+            "destination": "IST",
+            "departure_time": "2025-10-17T18:20:00",
+            "arrival_time": "2025-10-17T23:35:00",
+            "duration": "14h 10m",
+            "stops": 1,
+            "price": 342.09,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "EMONEC HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "WOLFOVA 12, LJUBLJANA, 1000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "GRAND HOTEL UNION BUSINESS",
+            "hotelId": null,
+            "rating": null,
+            "address": "MIKLOSICEVA 3, LJUBLJANA, 1000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "VANDER URBANI RESORT",
+            "hotelId": null,
+            "rating": null,
+            "address": "KROJASKA ULICA 6 TO 8, LUJUBLJANA, 1000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "BEST WESTERN PREMIER HTL SLON",
+            "hotelId": null,
+            "rating": null,
+            "address": "SLOVENSKA 34, LJUBLJANA, 1000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "CUBO HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "SLOVENSKA CESTA 15, LJUBLJANA - SI",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Castillo de Liubliana",
+            "description": "Una fortaleza histórica que ofrece vistas panorámicas de la ciudad y un fascinante recorrido por su historia."
+          },
+          {
+            "name": "Puente Triple",
+            "description": "Un icónico puente que conecta las dos orillas del río Ljubljanica, famoso por su arquitectura única."
+          },
+          {
+            "name": "Plaza Prešeren",
+            "description": "El corazón de la ciudad, rodeada de cafés y tiendas, ideal para disfrutar del ambiente local."
+          },
+          {
+            "name": "Parque Tivoli",
+            "description": "El parque más grande de Liubliana, perfecto para un paseo relajante entre naturaleza y arte."
+          }
+        ],
+        "summary": "Liubliana, la encantadora capital de Eslovenia, combina un vibrante ambiente urbano con un rico patrimonio cultural. Sus pintorescas calles, hermosos puentes y espacios verdes la convierten en un destino ideal para explorar en un corto período de tiempo.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Visitar el Castillo de Liubliana y disfrutar de las vistas desde la cima.",
+              "Pasear por la Plaza Prešeren y explorar las tiendas y cafés cercanos."
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Recorrer el Puente Triple y fotografiar su arquitectura.",
+              "Disfrutar de un paseo por el Parque Tivoli y visitar la Galería de Arte Moderna."
+            ]
+          }
+        ],
+        "budget": {
+          "total": 373.52,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760712036.9254477
+    },
+    {
+      "role": "user",
+      "text": "Ok, ahora organiza otro viaje a Cracovia de una semana",
+      "structured_data": null,
+      "ts": 1760712041.3881302
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Cracovia**.\n\n**Nota:** No se pudo obtener la información del destino 'Cracovia'. Razón: La solicitud al servidor de destinos tardó más de 10 segundos (Timeout).",
+      "structured_data": {
+        "city": "Cracovia",
+        "flights": [
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1506",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T17:10:00",
+            "arrival_time": "2025-10-17T19:45:00",
+            "duration": "5h 15m",
+            "stops": 1,
+            "price": 242.26,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1508",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T20:25:00",
+            "arrival_time": "2025-10-17T23:00:00",
+            "duration": "14h 45m",
+            "stops": 1,
+            "price": 242.26,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1508",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T20:25:00",
+            "arrival_time": "2025-10-17T23:00:00",
+            "duration": "17h ",
+            "stops": 1,
+            "price": 242.26,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1506",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T17:10:00",
+            "arrival_time": "2025-10-17T19:45:00",
+            "duration": "18h ",
+            "stops": 1,
+            "price": 295.26,
+            "currency": "EUR"
+          },
+          {
+            "airline": "SWISS INTERNATIONAL AIR LINES",
+            "flight_number": "LX 2033",
+            "origin": "MAD",
+            "destination": "ZRH",
+            "departure_time": "2025-10-17T19:35:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "13h 5m",
+            "stops": 1,
+            "price": 366.24,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "IBIS KRAKOW CENTRUM",
+            "hotelId": null,
+            "rating": null,
+            "address": "UL. SYROKOMLI 2, KRAKOW, 30102",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL KOSSAK",
+            "hotelId": null,
+            "rating": null,
+            "address": "KOSSAK SQUARE 1, KRAKOW, 31006",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "METROPOLIS DESIGN HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "WYGODA 8, KRAKOW, 31106",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "SHERATON KRAKOW HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "335 POWELL STREET, SAN FRANCISCO, 94102",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LA GIOIA APARTMENTS",
+            "hotelId": null,
+            "rating": null,
+            "address": "ZWIERZYNIECKA 24, KRAKOW, 31305",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [],
+        "summary": "No se pudo obtener la información del destino 'Cracovia'.",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 1012.26,
+          "currency": "EUR"
+        },
+        "error": "No se pudo obtener la información del destino 'Cracovia'. Razón: La solicitud al servidor de destinos tardó más de 10 segundos (Timeout)."
+      },
+      "ts": 1760712053.9759433
+    },
+    {
+      "role": "user",
+      "text": "Perfecto. Ahora alarga el primer viaje que te pedí 3 días más",
+      "structured_data": null,
+      "ts": 1760712056.5288336
+    },
+    {
+      "role": "bot",
+      "text": "✅ Viaje a **Cracovia** extendido. Ahora dura **10 días**, del 17/10/2025 al 27/10/2025.",
+      "structured_data": null,
+      "ts": 1760712057.5003822
+    },
+    {
+      "role": "user",
+      "text": "¿Cómo quedan mis viajes ahora?",
+      "structured_data": null,
+      "ts": 1760712063.5513077
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes un resumen de tus viajes:\n- **Nantes**: del 17/10/2025 al 25/10/2025 con un presupuesto de ~796€.\n- **Liubliana**: del 17/10/2025 al 19/10/2025 con un presupuesto de ~374€.\n- **Cracovia**: del 17/10/2025 al 27/10/2025 con un presupuesto de ~1012€.",
+      "structured_data": null,
+      "ts": 1760712064.4608867
+    }
+  ]
+}

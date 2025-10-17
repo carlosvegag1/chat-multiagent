@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251014T222751_6f3899",
+  "history": [
+    {
+      "role": "user",
+      "message": "Busca vuelos de Madrid a Nueva York para el 10 de diciembre de 2025",
+      "timestamp": "2025-10-14T22:27:58Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ No encontré vuelos desde MAD a NYC.",
+      "timestamp": "2025-10-14T22:27:58Z"
+    }
+  ],
+  "created_at": "2025-10-14T22:27:58Z",
+  "updated_at": "2025-10-14T22:27:58Z"
+}

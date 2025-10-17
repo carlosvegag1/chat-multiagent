@@ -1,0 +1,27 @@
+{
+  "conversation_id": "20251015T211322_962403",
+  "history": [
+    {
+      "role": "user",
+      "message": "Planifica un viaje a París del 18 al 21 de noviembre",
+      "timestamp": "2025-10-15T21:13:42Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n🏨 He encontrado 5 hoteles en París:\n- MERCURE PARIS LAFAYETTE\n- DIAMOND HOTEL\n- RENAISSANCE PARIS VENDOME\n- IBIS PARIS TOUR MONTPARNASSE\n- HN TEST PROPERTY1 FOR E2E TESTING\n\n📍 Lugares recomendados en París:\n• Torre Eiffel — Lugar emblemático de París\n• Museo del Louvre — Lugar emblemático de París\n• Notre-Dame — Lugar emblemático de París\n• Arco del Triunfo — Lugar emblemático de París\n• Montmartre — Lugar emblemático de París\n\n🧭 Resumen: París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Museo del Louvre; Torre Eiffel; Notre-Dame\n Día 2: Torre Eiffel; Notre-Dame; Palacio de Versalles\n Día 3: Museo del Louvre; Arco del Triunfo; Palacio de Versalles",
+      "timestamp": "2025-10-15T21:13:42Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo ahora?",
+      "timestamp": "2025-10-15T21:13:51Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]\n• París → del ? al ? (1 segmentos, creado el 15/10/2025) [~0.0 EUR]",
+      "timestamp": "2025-10-15T21:13:51Z"
+    }
+  ],
+  "created_at": "2025-10-15T21:13:42Z",
+  "updated_at": "2025-10-15T21:13:51Z"
+}

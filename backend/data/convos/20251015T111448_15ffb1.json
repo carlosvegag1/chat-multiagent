@@ -1,0 +1,47 @@
+{
+  "convo_id": "20251015T111448_15ffb1",
+  "user": "pedro",
+  "created_at": "2025-10-15T11:14:48.881679",
+  "messages": [
+    {
+      "ts": 1760526891.3343308,
+      "role": "user",
+      "text": "Busca vuelos y hoteles en París del 10 al 14 de diciembre y crea un planning"
+    },
+    {
+      "ts": 1760526899.5217226,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos desde MAD a CDG:\n- IB591 21:40–23:50 (82.52 EUR)\n- AF1001 10:00–12:10 (102.02 EUR)\n- AF1301 12:25–14:35 (102.02 EUR)\n- AF1601 16:20–18:30 (102.02 EUR)\n- AF1101 20:10–22:20 (102.02 EUR)\n\n🏨 He encontrado 5 hoteles en CDG:\n- HOTEL ONLY SUITES PARIS CDG — None⭐ — None EUR\n- GRAND HOTEL TURIN — None⭐ — None EUR\n- CAMPANILE LE BLANC MESNIL — None⭐ — None EUR\n- SHERATON PARIS CDG AIRPORT HTL — None⭐ — None EUR\n- GOLDEN TULIP PARIS CDG AIRPORT VILLEPINT — None⭐ — None EUR\n\n💰 Presupuesto estimado total: N/A EUR"
+    },
+    {
+      "ts": 1760526908.0893166,
+      "role": "user",
+      "text": "Amplia mi estancia en paris dos dias mas"
+    },
+    {
+      "ts": 1760526909.929294,
+      "role": "bot",
+      "text": "🏨 Estancia en París extendida 2 día(s)."
+    },
+    {
+      "ts": 1760526936.7054741,
+      "role": "user",
+      "text": "Guarda esto como mis viajes"
+    },
+    {
+      "ts": 1760526939.458346,
+      "role": "bot",
+      "text": "• París → del ? al ? (2 segmentos, creado el 15/10/2025)"
+    },
+    {
+      "ts": 1760526958.8218956,
+      "role": "user",
+      "text": "Guardalo con las fechas del 10 al 14 de diciembre "
+    },
+    {
+      "ts": 1760526963.3301687,
+      "role": "bot",
+      "text": "🗑️ Viaje a París eliminado correctamente."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251015T123814_839363",
+  "user": "carlos",
+  "created_at": "2025-10-15T12:38:14.447118",
+  "messages": [
+    {
+      "ts": 1760531904.7557929,
+      "role": "user",
+      "text": "Quiero un vuelo de Madrid a Lisboa el 20 de noviembre y hotel 1 noche."
+    },
+    {
+      "ts": 1760531920.393801,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos desde MAD a Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (50.52 EUR)\n- UX1155 14:55–15:15 (50.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n- TP1015 14:55–15:20 (61.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DO LAGO — None⭐ — None EUR\n- HOTEL DA LOLO — None⭐ — None EUR\n- HOTEL DA PRAIA — None⭐ — None EUR\n- HOLIDAY INN LISBON-CONTINENTAL — None⭐ — None EUR\n- INSPIRA SANTA MARTA HOTEL — None⭐ — None EUR\n\n💰 Presupuesto estimado total: N/A EUR"
+    }
+  ]
+}

@@ -1,296 +1,417 @@
+// frontend/components/Chat.tsx
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, FC } from "react";
+import ReactMarkdown from "react-markdown";
 
-type Message = { role: "user" | "bot"; text: string; timestamp?: string };
-type Convo = { convo_id: string; created_at: string; title?: string };
+// --- Tipos de Datos Enriquecidos y Finales ---
+type FlightInfo = {
+    airline?: string;
+    flight_number?: string;
+    origin?: string;
+    destination?: string;
+    departure_time?: string;
+    arrival_time?: string;
+    duration?: string;
+    stops?: number;
+    price?: number;
+    currency?: string;
+};
+type HotelInfo = { name?: string; hotelId?: string; rating?: number; address?: string };
+type POIInfo = { name?: string; description?: string };
+type DailyPlan = { day: number; activities: string[] };
+type BudgetInfo = { total?: number; currency?: string };
 
-export default function ChatV2() {
-  const [userName, setUserName] = useState<string | null>(null);
-  const [messages, setMessages] = useState<Message[]>([]);
-  const [text, setText] = useState("");
-  const [convoId, setConvoId] = useState<string | null>(null);
-  const [availableConvos, setAvailableConvos] = useState<Convo[]>([]);
-  const [recording, setRecording] = useState(false);
-  const [transcribing, setTranscribing] = useState(false);
-  const [botTyping, setBotTyping] = useState(false);
+type StructuredData = {
+    city?: string;
+    flights?: FlightInfo[];
+    hotels?: HotelInfo[];
+    pois?: POIInfo[];
+    summary?: string;
+    plan_sugerido?: DailyPlan[];
+    budget?: BudgetInfo;
+    error?: string;
+};
 
-  const mediaRecorderRef = useRef<MediaRecorder | null>(null);
-  const chunksRef = useRef<Blob[]>([]);
-  const messagesEndRef = useRef<HTMLDivElement | null>(null);
-  const chatContainerRef = useRef<HTMLDivElement | null>(null);
+type Message = { role: "user" | "bot"; text: string; structured_data?: StructuredData; ts: number };
+type ConvoSummary = { convo_id: string; created_at: string };
 
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
+// --- Componentes de UI (Base y Enriquecidos) ---
 
-  // 🔹 Al cargar: pedir nombre de usuario
-  useEffect(() => {
-    const saved = localStorage.getItem("chatUserName");
-    if (saved) setUserName(saved);
-    else {
-      const name = prompt("¡Bienvenido! ¿Cómo te llamas?");
-      if (name) {
-        localStorage.setItem("chatUserName", name);
-        setUserName(name);
-      }
-    }
-  }, []);
+function SectionCard({ title, children }: { title: string; children: React.ReactNode }) {
+    return (
+        <div className="bg-white border border-slate-200 rounded-2xl p-4 shadow-sm animate-fade-in">
+            <div className="text-slate-700 font-semibold mb-2">{title}</div>
+            <div className="text-sm text-slate-700">{children}</div>
+        </div>
+    );
+}
 
-  // 🔹 Cargar conversaciones previas
-  useEffect(() => {
-    if (!userName) return;
-    fetch(`${API_URL}/convos?user=${encodeURIComponent(userName)}`)
-      .then((r) => r.json())
-      .then(async (data) => {
-        if (data.length === 0) {
-          const res = await fetch(`${API_URL}/new_convo`, {
-            method: "POST",
-            body: new URLSearchParams({ user: userName }),
-          });
-          const newConvo = await res.json();
-          setConvoId(newConvo.convo_id);
-          setAvailableConvos([newConvo]);
+const MarkdownRenderer: FC<{ content: string }> = ({ content }) => (
+    <ReactMarkdown
+        components={{
+            p: ({ node, ...props }) => <p className="text-sm font-medium" {...props} />,
+            strong: ({ node, ...props }) => <strong className="font-bold" {...props} />,
+            ul: ({ node, ...props }) => <ul className="list-disc list-inside space-y-1" {...props} />,
+            li: ({ node, ...props }) => <li className="pl-2" {...props} />,
+        }}
+    >
+        {content}
+    </ReactMarkdown>
+);
+
+function FlightCard({ flight }: { flight: FlightInfo }) {
+    const formatTime = (isoString?: string) => isoString ? new Date(isoString).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '?';
+
+    return (
+        <div className="border border-slate-200 bg-slate-50/80 rounded-xl p-3 flex items-center justify-between gap-4">
+            <div className="flex flex-col">
+                <span className="font-bold text-slate-800">{flight.airline || 'Aerolínea'}</span>
+                <span className="text-xs text-slate-500">{flight.flight_number}</span>
+            </div>
+            <div className="text-center">
+                <span className="font-mono text-lg font-semibold text-slate-900">{flight.origin} → {flight.destination}</span>
+                <div className="text-sm text-slate-600">{formatTime(flight.departure_time)} - {formatTime(flight.arrival_time)}</div>
+            </div>
+            <div className="text-right">
+                <span className="text-lg font-bold text-indigo-600">{flight.price?.toFixed(2) || '?'} {flight.currency}</span>
+                <div className="text-xs text-slate-500">{flight.duration}</div>
+            </div>
+        </div>
+    );
+}
+
+function HotelCard({ hotel }: { hotel: HotelInfo }) {
+    return (
+        <div className="border border-slate-200 bg-slate-50/80 rounded-xl p-3">
+            <div className="flex justify-between items-start">
+                <span className="font-bold text-slate-800">{hotel.name}</span>
+                {hotel.rating && <span className="text-sm font-semibold bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full">{hotel.rating} ⭐</span>}
+            </div>
+            {hotel.address && <p className="text-xs text-slate-500 mt-1">{hotel.address}</p>}
+        </div>
+    );
+}
+
+function FlightsList({ city, flights }: { city?: string; flights?: FlightInfo[] }) {
+    if (!flights?.length) return null;
+    return (
+        <SectionCard title={`✈️ Vuelos a ${city || "tu destino"}`}>
+            <div className="flex flex-col gap-2">{flights.map((f, i) => <FlightCard key={i} flight={f} />)}</div>
+        </SectionCard>
+    );
+}
+
+function HotelsList({ city, hotels }: { city?: string; hotels?: HotelInfo[] }) {
+    if (!hotels?.length) return null;
+    return (
+        <SectionCard title={`🏨 Hoteles en ${city || "tu destino"}`}>
+            <div className="flex flex-col gap-2">{hotels.map((h, i) => <HotelCard key={i} hotel={h} />)}</div>
+        </SectionCard>
+    );
+}
+
+function PoisList({ pois }: { pois?: POIInfo[] }) {
+    if (!pois?.length) return null;
+    return (
+        <SectionCard title="📍 Lugares recomendados">
+            <ul className="list-disc list-inside space-y-1">
+                {pois.map((p, i) => (
+                    <li key={i}>
+                        <span className="font-medium">{p.name}</span>
+                        {p.description ? <span className="text-slate-500"> — {p.description}</span> : null}
+                    </li>
+                ))}
+            </ul>
+        </SectionCard>
+    );
+}
+
+function SummaryBox({ summary }: { summary?: string }) {
+    if (!summary) return null;
+    return (
+        <SectionCard title="🧭 Resumen del destino">
+            <p className="leading-relaxed">{summary}</p>
+        </SectionCard>
+    );
+}
+
+function PlanCard({ plan }: { plan?: DailyPlan[] }) {
+    if (!plan?.length) return null;
+    return (
+        <SectionCard title="🗓️ Plan de viaje sugerido">
+            <div className="flex flex-col gap-3">
+                {plan.map((d) => (
+                    <div key={d.day} className="rounded-xl border border-slate-200 p-3 bg-slate-50/80">
+                        <div className="font-semibold mb-1 text-slate-800">Día {d.day}</div>
+                        <ul className="list-disc list-inside space-y-1 text-slate-600">
+                            {d.activities.map((a, i) => <li key={i}>{a}</li>)}
+                        </ul>
+                    </div>
+                ))}
+            </div>
+        </SectionCard>
+    );
+}
+
+function BudgetBadge({ budget }: { budget?: BudgetInfo }) {
+    if (!budget?.total) return null;
+    return (
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-sm font-semibold">
+            💰 Presupuesto estimado: {budget.total.toFixed(2)} {budget.currency || "EUR"}
+        </div>
+    );
+}
+
+function ErrorCard({ error }: { error?: string }) {
+    if (!error) return null;
+    return (
+        <div className="bg-red-50 border border-red-200 rounded-2xl p-4 shadow-sm text-red-700">
+            <div className="font-semibold mb-1">⚠️ Ocurrió un error</div>
+            <p>{error}</p>
+        </div>
+    );
+}
+
+// ---------------- COMPONENTE PRINCIPAL ----------------
+
+export default function Chat() {
+    const [userName, setUserName] = useState<string | null>(null);
+    const [messages, setMessages] = useState<Message[]>([]);
+    const [text, setText] = useState("");
+    const [convoId, setConvoId] = useState<string | null>(null);
+    const [availableConvos, setAvailableConvos] = useState<ConvoSummary[]>([]);
+    const [botTyping, setBotTyping] = useState(false);
+    const [recording, setRecording] = useState(false);
+    const mediaRecorderRef = useRef<MediaRecorder | null>(null);
+    const chunksRef = useRef<Blob[]>([]);
+    const messagesEndRef = useRef<HTMLDivElement | null>(null);
+    const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
+
+    useEffect(() => {
+        const saved = localStorage.getItem("chatUserName");
+        if (saved) {
+            setUserName(saved);
         } else {
-          setAvailableConvos(data);
-          setConvoId(data[0].convo_id);
+            const name = prompt("¡Bienvenido! ¿Cómo te llamas?");
+            if (name) {
+                localStorage.setItem("chatUserName", name);
+                setUserName(name);
+            }
         }
-      })
-      .catch(() => console.warn("No se pudieron cargar las conversaciones."));
-  }, [userName]);
+    }, []);
 
-  // 🔹 Cargar mensajes de la conversación activa
-  useEffect(() => {
-    if (!convoId) return;
-    fetch(`${API_URL}/convo/${convoId}`)
-      .then((r) => r.json())
-      .then((data) => {
-        if (data && data.messages) {
-          const mapped = data.messages.map((m: any) => ({
-            role: m.role === "bot" ? "bot" : "user",
-            text: m.text,
-            timestamp: new Date(m.ts * 1000).toLocaleTimeString([], {
-              hour: "2-digit",
-              minute: "2-digit",
-            }),
-          }));
-          setMessages(mapped);
-        } else setMessages([]);
-      });
-  }, [convoId]);
-
-  // 🔹 Scroll automático
-  useEffect(() => {
-    if (!messagesEndRef.current || !chatContainerRef.current) return;
-    const container = chatContainerRef.current;
-    const nearBottom =
-      container.scrollHeight - container.scrollTop - container.clientHeight < 100;
-    if (nearBottom || messages.length > 5) {
-      messagesEndRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [messages]);
-
-  // 🔹 Enviar texto
-  const sendText = async () => {
-    if (!text || !convoId || !userName) return;
-    const timestamp = new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-    setMessages((p) => [...p, { role: "user", text, timestamp }]);
-    setText("");
-    setBotTyping(true);
-
-    try {
-      const form = new FormData();
-      form.append("message", text);
-      form.append("convo_id", convoId);
-      form.append("user", userName);
-
-      const res = await fetch(`${API_URL}/chat/`, { method: "POST", body: form });
-      const data = await res.json();
-
-      setMessages((p) => [
-        ...p,
-        {
-          role: "bot",
-          text: data.reply || "[Sin respuesta del bot]",
-          timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
-        },
-      ]);
-    } catch {
-      setMessages((p) => [...p, { role: "bot", text: "[Error de conexión con el servidor]" }]);
-    }
-    setBotTyping(false);
-  };
-
-  // 🔹 Audio
-  const startRecording = async () => {
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      const mr = new MediaRecorder(stream);
-      mediaRecorderRef.current = mr;
-      chunksRef.current = [];
-      mr.ondataavailable = (e) => chunksRef.current.push(e.data);
-      mr.onstop = async () => {
-        if (!userName || !convoId) return;
-        const blob = new Blob(chunksRef.current, { type: "audio/webm" });
-        setMessages((p) => [...p, { role: "user", text: "(voz — enviando...)" }]);
-        setTranscribing(true);
-        const fd = new FormData();
-        fd.append("file", blob, "rec.webm");
-        fd.append("convo_id", convoId);
-        fd.append("user", userName);
-        setBotTyping(true);
+    const fetchConvos = async (user: string) => {
         try {
-          const res = await fetch(`${API_URL}/chat/audio`, { method: "POST", body: fd });
-          const data = await res.json();
-          setMessages((p) => [
-            ...p.filter((m) => m.text !== "(voz — enviando...)"),
-            { role: "user", text: data.transcription },
-            { role: "bot", text: data.reply },
-          ]);
-        } catch {
-          setMessages((p) => [
-            ...p.filter((m) => m.text !== "(voz — enviando...)"),
-            { role: "bot", text: "[Error enviando audio]" },
-          ]);
+            const res = await fetch(`${API_URL}/convos?user=${encodeURIComponent(user)}`);
+            const data: ConvoSummary[] = await res.json();
+            if (data && data.length > 0) {
+                setAvailableConvos(data);
+                if (!convoId) {
+                    setConvoId(data[0].convo_id);
+                }
+            } else {
+                await createNewConvo(true);
+            }
+        } catch (error) {
+            console.error("Error al cargar conversaciones:", error);
         }
-        setTranscribing(false);
-        setRecording(false);
-        setBotTyping(false);
-      };
-      mr.start();
-      setRecording(true);
-    } catch {
-      alert("No se pudo acceder al micrófono.");
-    }
-  };
-  const stopRecording = () => mediaRecorderRef.current?.stop();
+    };
+    
+    useEffect(() => {
+        if (userName) {
+            fetchConvos(userName);
+        }
+    }, [userName]);
 
-  // 🔹 Crear nueva conversación
-  const createNewConvo = async () => {
-    if (!userName) return;
-    const res = await fetch(`${API_URL}/new_convo`, {
-      method: "POST",
-      body: new URLSearchParams({ user: userName }),
-    });
-    const newConvo = await res.json();
-    setAvailableConvos((p) => [newConvo, ...p]);
-    setConvoId(newConvo.convo_id);
-    setMessages([]);
-  };
+    useEffect(() => {
+        if (!convoId) return;
+        fetch(`${API_URL}/convo/${convoId}`)
+            .then((r) => r.json())
+            .then((data) => {
+                setMessages(data.messages || []);
+            })
+            .catch(err => {
+                console.error("Error al cargar la conversación:", err);
+                setMessages([]);
+            });
+    }, [convoId, API_URL]);
 
-  // -------------------------------------------------------------------
+    useEffect(() => {
+        messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    }, [messages]);
 
-  return (
-    <div className="flex flex-col w-[1000px] h-screen bg-gradient-to-b from-slate-50 to-slate-100 shadow-lg mx-auto overflow-hidden">
-      {/* HEADER */}
-      <header className="fixed top-0 left-1/2 -translate-x-1/2 flex items-center justify-between w-[1000px] h-[88px] p-6 bg-white border-b border-slate-200 z-20">
-        <h1 className="text-2xl font-bold text-slate-800">
-          Bienvenido{userName ? `, ${userName}` : ""} 👋
-        </h1>
-        <div className="flex gap-2 items-center">
-          <select
-            value={convoId ?? ""}
-            onChange={(e) => setConvoId(e.target.value)}
-            className="border rounded-lg p-2"
-          >
-            {availableConvos.map((c) => (
-              <option key={c.convo_id} value={c.convo_id}>
-                {c.title
-                  ? c.title
-                  : new Date(c.created_at).toLocaleString([], {
-                      dateStyle: "short",
-                      timeStyle: "short",
-                    })}
-              </option>
-            ))}
-          </select>
-          <button
-            onClick={createNewConvo}
-            className="px-3 py-2 bg-indigo-600 text-white rounded-full text-sm font-bold hover:bg-indigo-700 transition"
-          >
-            Nueva
-          </button>
-        </div>
-      </header>
+    const sendText = async () => {
+        if (!text.trim() || !convoId || !userName) return;
 
-      {/* MAIN CHAT */}
-      <main
-        ref={chatContainerRef}
-        className="flex flex-col flex-1 w-full px-12 py-6 gap-3 overflow-y-auto mt-[88px] mb-[120px]"
-        style={{ height: "calc(100vh - 208px)" }}
-      >
-        {messages.map((m, i) => (
-          <div
-            key={i}
-            className={`flex ${m.role === "user" ? "justify-end" : "justify-start"} animate-fade-in`}
-          >
-            <div className="flex items-start gap-2">
-              {m.role === "bot" && (
-                <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-200 to-indigo-400 flex items-center justify-center text-indigo-900 font-bold">
-                  B
+        const currentText = text;
+        const userMessage: Message = { role: "user", text: currentText, ts: Date.now() / 1000 };
+        setMessages((prev) => [...prev, userMessage]);
+        setText("");
+        setBotTyping(true);
+
+        try {
+            const form = new FormData();
+            form.append("message", currentText);
+            form.append("convo_id", convoId);
+            form.append("user", userName);
+
+            const res = await fetch(`${API_URL}/chat/`, { method: "POST", body: form });
+            if (!res.ok) throw new Error(`Error en la API: ${res.statusText}`);
+            
+            const data = await res.json();
+            
+            const botMessage: Message = {
+                role: "bot",
+                text: data.reply_text,
+                structured_data: data.structured_data,
+                ts: Date.now() / 1000,
+            };
+            setMessages((prev) => [...prev, botMessage]);
+        } catch (error) {
+            console.error("Error al enviar mensaje:", error);
+            const errorMessage: Message = {
+                role: "bot",
+                text: "Lo siento, hubo un error de conexión con el servidor.",
+                ts: Date.now() / 1000,
+            };
+            setMessages((prev) => [...prev, errorMessage]);
+        } finally {
+            setBotTyping(false);
+        }
+    };
+
+    const createNewConvo = async (isInitial: boolean = false) => {
+        if (!userName) return;
+        // ✅ AJUSTE FINAL: Limpia los mensajes de la UI inmediatamente para dar feedback visual.
+        setMessages([]); 
+        try {
+            const form = new FormData();
+            form.append("user", userName);
+            const res = await fetch(`${API_URL}/new_convo`, { method: "POST", body: form });
+            if (!res.ok) throw new Error("Fallo al crear la conversación en el servidor.");
+            const newConvoData = await res.json();
+            
+            const newConvoSummary: ConvoSummary = {
+                convo_id: newConvoData.convo_id,
+                created_at: newConvoData.created_at,
+            };
+
+            setAvailableConvos(prev => [newConvoSummary, ...prev.filter(c => c.convo_id !== newConvoSummary.convo_id)]);
+            setConvoId(newConvoSummary.convo_id);
+        } catch (error) {
+            console.error("Error al crear nueva conversación:", error);
+        }
+    };
+
+    const startRecording = () => {};
+    const stopRecording = () => {};
+
+    return (
+        <div className="flex flex-col w-[1000px] h-screen bg-gradient-to-b from-slate-50 to-slate-100 shadow-lg mx-auto overflow-hidden">
+            <header className="fixed top-0 left-1/2 -translate-x-1/2 flex items-center justify-between w-[1000px] h-[88px] p-6 bg-white border-b border-slate-200 z-20">
+                <h1 className="text-2xl font-bold text-slate-800">
+                    Bienvenido{userName ? `, ${userName}` : ""} 👋
+                </h1>
+                <div className="flex gap-2 items-center">
+                    <select
+                        value={convoId ?? ""}
+                        onChange={(e) => setConvoId(e.target.value)}
+                        className="border rounded-lg p-2"
+                        disabled={!convoId}
+                    >
+                        {availableConvos.map((c) => (
+                            <option key={c.convo_id} value={c.convo_id}>
+                                {new Date(c.created_at).toLocaleString([], { dateStyle: "short", timeStyle: "short" })}
+                            </option>
+                        ))}
+                    </select>
+                    <button onClick={() => createNewConvo()} className="px-3 py-2 bg-indigo-600 text-white rounded-full text-sm font-bold hover:bg-indigo-700 transition">
+                        Nueva
+                    </button>
                 </div>
-              )}
-              <div
-                className={`p-3 rounded-2xl max-w-[400px] break-words shadow-md ${
-                  m.role === "user"
-                    ? "bg-gradient-to-r from-indigo-600 to-indigo-400 text-white self-end"
-                    : "bg-white border border-slate-200 text-slate-800"
-                }`}
-              >
-                <p className="text-sm font-medium">{m.text}</p>
-                {m.timestamp && (
-                  <div
-                    className={`text-xs mt-1 text-right ${
-                      m.role === "user" ? "text-white/80" : "text-slate-500"
-                    }`}
-                  >
-                    {m.timestamp}
-                  </div>
+            </header>
+
+            <main className="flex flex-col flex-1 w-full px-12 py-6 gap-3 overflow-y-auto mt-[88px] mb-[120px]" style={{ height: "calc(100vh - 208px)" }}>
+                {messages.map((m, i) => {
+                    const isBot = m.role === "bot";
+                    const hasData = isBot && m.structured_data && (
+                        m.structured_data.flights?.length ||
+                        m.structured_data.hotels?.length ||
+                        m.structured_data.pois?.length ||
+                        m.structured_data.summary ||
+                        m.structured_data.plan_sugerido?.length ||
+                        m.structured_data.budget ||
+                        m.structured_data.error
+                    );
+                    const timestamp = m.ts ? new Date(m.ts * 1000).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '';
+                    
+                    return (
+                        <div key={i} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"} animate-fade-in`}>
+                            <div className="flex items-start gap-2 w-full max-w-[750px]">
+                                {isBot && <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-200 to-indigo-400 flex-shrink-0 flex items-center justify-center text-indigo-900 font-bold">B</div>}
+                                <div className="w-full">
+                                    {hasData ? (
+                                        <div className="flex flex-col gap-3">
+                                            <div className="bg-white border border-slate-200 rounded-2xl p-3 shadow-sm">
+                                                <MarkdownRenderer content={m.text} />
+                                            </div>
+                                            <FlightsList city={m.structured_data!.city} flights={m.structured_data!.flights} />
+                                            <HotelsList city={m.structured_data!.city} hotels={m.structured_data!.hotels} />
+                                            <PoisList pois={m.structured_data!.pois} />
+                                            <SummaryBox summary={m.structured_data!.summary} />
+                                            <PlanCard plan={m.structured_data!.plan_sugerido} />
+                                            <BudgetBadge budget={m.structured_data!.budget} />
+                                            <ErrorCard error={m.structured_data!.error} />
+                                        </div>
+                                    ) : (
+                                        <div className={`p-3 rounded-2xl break-words shadow-md ${m.role === "user" ? "bg-gradient-to-r from-indigo-600 to-indigo-400 text-white ml-auto" : "bg-white border border-slate-200"}`} style={{ maxWidth: "calc(100% - 48px)" }}>
+                                            <MarkdownRenderer content={m.text} />
+                                        </div>
+                                    )}
+                                    {timestamp && <div className={`text-xs mt-1 ${m.role === "user" ? "text-right text-slate-400" : "text-left text-slate-500"}`}>{timestamp}</div>}
+                                </div>
+                                {m.role === "user" && <div className="w-10 h-10 rounded-full bg-slate-300 flex-shrink-0" />}
+                            </div>
+                        </div>
+                    );
+                })}
+
+                {botTyping && (
+                    <div className="flex justify-start animate-pulse gap-2 mt-1">
+                        <div className="w-10 h-10 rounded-full bg-indigo-200 flex items-center justify-center text-indigo-900 font-bold">B</div>
+                        <div className="p-3 rounded-2xl bg-white text-slate-700 shadow-sm">Bot está escribiendo...</div>
+                    </div>
                 )}
-              </div>
-              {m.role === "user" && <div className="w-10 h-10 rounded-full bg-gray-300"></div>}
-            </div>
-          </div>
-        ))}
+                <div ref={messagesEndRef} />
+            </main>
 
-        {botTyping && (
-          <div className="flex justify-start animate-pulse gap-2 mt-1">
-            <div className="w-10 h-10 rounded-full bg-indigo-200 flex items-center justify-center text-indigo-900 font-bold">
-              B
-            </div>
-            <div className="p-3 rounded-2xl bg-white text-slate-700 shadow-sm">
-              <span>Bot está escribiendo...</span>
-            </div>
-          </div>
-        )}
-        <div ref={messagesEndRef} />
-      </main>
-
-      {/* FOOTER */}
-      <footer className="fixed bottom-0 left-1/2 -translate-x-1/2 w-[1000px] p-6 bg-white border-t border-slate-200 z-20">
-        <div className="flex gap-2">
-          <input
-            className="flex-1 p-3 border rounded-2xl"
-            placeholder="Envía un mensaje..."
-            value={text}
-            onChange={(e) => setText(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && sendText()}
-          />
-          <button
-            onClick={sendText}
-            className="px-4 py-2.5 bg-indigo-600 rounded-full text-white font-bold hover:bg-indigo-700 transition"
-          >
-            Enviar
-          </button>
-          <button
-            onClick={recording ? stopRecording : startRecording}
-            className={`w-10 h-10 rounded-full text-white transition ${
-              recording ? "bg-red-500 hover:bg-red-600" : "bg-blue-500 hover:bg-blue-600"
-            }`}
-          >
-            {recording ? "⏹" : "🎙️"}
-          </button>
+            <footer className="fixed bottom-0 left-1/2 -translate-x-1/2 w-[1000px] p-6 bg-white border-t border-slate-200 z-20">
+                <div className="flex gap-2">
+                    <input
+                        className="flex-1 p-3 border rounded-2xl"
+                        placeholder="Envía un mensaje..."
+                        value={text}
+                        onChange={(e) => setText(e.target.value)}
+                        onKeyDown={(e) => e.key === "Enter" && sendText()}
+                    />
+                    <button
+                        onClick={sendText}
+                        className="px-4 py-2.5 bg-indigo-600 rounded-full text-white font-bold hover:bg-indigo-700 transition"
+                    >
+                        Enviar
+                    </button>
+                    <button
+                        onClick={recording ? stopRecording : startRecording}
+                        className={`w-12 h-12 flex items-center justify-center rounded-full text-white text-2xl transition ${
+                            recording ? "bg-red-500 hover:bg-red-600" : "bg-blue-500 hover:bg-blue-600"
+                        }`}
+                        title={recording ? "Detener grabación" : "Grabar mensaje de voz"}
+                    >
+                        {recording ? "■" : "●"}
+                    </button>
+                </div>
+            </footer>
         </div>
-        {transcribing && <div className="text-gray-600 italic mt-2">Transcribiendo audio...</div>}
-      </footer>
-    </div>
-  );
+    );
 }

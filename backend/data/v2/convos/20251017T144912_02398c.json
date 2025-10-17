@@ -1,0 +1,31 @@
+{
+  "convo_id": "20251017T144912_02398c",
+  "user": "carlos",
+  "created_at": "2025-10-17T14:49:12.507528",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Busca vuelos a Gran Canaria para 4 personas",
+      "structured_data": null,
+      "ts": 1760712555.39609
+    },
+    {
+      "role": "bot",
+      "text": "No he entendido bien tu petición. Puedo planificar, listar, mover o borrar viajes.",
+      "structured_data": null,
+      "ts": 1760712556.4208562
+    },
+    {
+      "role": "user",
+      "text": "Busca hoteles en Gran Canaria para 4 personas",
+      "structured_data": null,
+      "ts": 1760712578.6664412
+    },
+    {
+      "role": "bot",
+      "text": "No he entendido bien tu petición. Puedo planificar, listar, mover o borrar viajes.",
+      "structured_data": null,
+      "ts": 1760712579.501146
+    }
+  ]
+}

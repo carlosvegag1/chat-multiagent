@@ -1,0 +1,27 @@
+{
+  "conversation_id": "20251015T211422_fa0977",
+  "history": [
+    {
+      "role": "user",
+      "message": "Elimina mi viaje a París",
+      "timestamp": "2025-10-15T21:14:28Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗑️ Viaje a París eliminado correctamente.",
+      "timestamp": "2025-10-15T21:14:28Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo ahora?",
+      "timestamp": "2025-10-15T21:14:34Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 17/10/2025 al 22/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]",
+      "timestamp": "2025-10-15T21:14:34Z"
+    }
+  ],
+  "created_at": "2025-10-15T21:14:28Z",
+  "updated_at": "2025-10-15T21:14:34Z"
+}

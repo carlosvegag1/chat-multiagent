@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251014T222908_d88124",
+  "user": "carlos",
+  "created_at": "2025-10-14T22:29:08.064562",
+  "messages": [
+    {
+      "ts": 1760480949.7756524,
+      "role": "user",
+      "text": "Muéstrame hoteles en Tokio del 12 al 16 de abril para 2 personas"
+    },
+    {
+      "ts": 1760480953.9279327,
+      "role": "bot",
+      "text": "🏨 No encontré hoteles disponibles en Tokyo."
+    }
+  ]
+}

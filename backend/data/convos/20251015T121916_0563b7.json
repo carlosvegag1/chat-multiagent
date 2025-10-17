@@ -1,0 +1,37 @@
+{
+  "convo_id": "20251015T121916_0563b7",
+  "user": "carlos",
+  "created_at": "2025-10-15T12:19:16.488181",
+  "messages": [
+    {
+      "ts": 1760530761.18393,
+      "role": "user",
+      "text": "Muéstrame todos mis viajes planeados."
+    },
+    {
+      "ts": 1760530762.8678918,
+      "role": "bot",
+      "text": "• Lis (2025-11-20 → 2025-11-20) → del 20/11/2025 al 20/11/2025 (6 segmentos, creado el 15/10/2025)\n• Lisboa → del ? al ? (4 segmentos, creado el 15/10/2025)\n• París → del ? al ? (2 segmentos, creado el 15/10/2025)"
+    },
+    {
+      "ts": 1760530766.8017082,
+      "role": "user",
+      "text": "Limpia mis viajes antiguos."
+    },
+    {
+      "ts": 1760530768.2015722,
+      "role": "bot",
+      "text": "🧹 Limpieza ejecutada correctamente para Carlos."
+    },
+    {
+      "ts": 1760530771.4997723,
+      "role": "user",
+      "text": "Muéstrame todos mis viajes planeados."
+    },
+    {
+      "ts": 1760530772.69172,
+      "role": "bot",
+      "text": "• Lis (2025-11-20 → 2025-11-20) → del 20/11/2025 al 20/11/2025 (6 segmentos, creado el 15/10/2025)\n• Lisboa → del ? al ? (4 segmentos, creado el 15/10/2025)\n• París → del ? al ? (2 segmentos, creado el 15/10/2025)"
+    }
+  ]
+}

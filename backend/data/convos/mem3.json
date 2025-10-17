@@ -1,0 +1,77 @@
+{
+  "convo_id": "mem3",
+  "user": "Carlos",
+  "created_at": "2025-10-15T10:42:32.700187",
+  "messages": [
+    {
+      "ts": 1760524952.700188,
+      "role": "user",
+      "text": "Amplía mi estancia en Lisboa dos días más"
+    },
+    {
+      "ts": 1760524954.3592274,
+      "role": "bot",
+      "text": "⚠️ No pude obtener la información: Tool desconocida: memory.extend_stay"
+    },
+    {
+      "ts": 1760525164.7974906,
+      "role": "user",
+      "text": "Amplía mi estancia en Lisboa dos días más"
+    },
+    {
+      "ts": 1760525166.563987,
+      "role": "bot",
+      "text": "⚠️ No se pudo extender la estancia en Lisboa."
+    },
+    {
+      "ts": 1760525267.1817658,
+      "role": "user",
+      "text": "Amplía mi estancia en Lisboa dos días más"
+    },
+    {
+      "ts": 1760525269.3492038,
+      "role": "bot",
+      "text": "⚠️ No se pudo extender la estancia en Lisboa."
+    },
+    {
+      "ts": 1760525315.7165616,
+      "role": "user",
+      "text": "Amplía mi estancia en Lisboa dos días más"
+    },
+    {
+      "ts": 1760525318.165028,
+      "role": "bot",
+      "text": "⚠️ No se pudo extender la estancia en Lisboa."
+    },
+    {
+      "ts": 1760525433.1272635,
+      "role": "user",
+      "text": "Amplía mi estancia en Lisboa dos días más"
+    },
+    {
+      "ts": 1760525435.415293,
+      "role": "bot",
+      "text": "⚠️ No se pudo extender la estancia en Lisboa."
+    },
+    {
+      "ts": 1760525459.9818828,
+      "role": "user",
+      "text": "Amplía mi estancia en Lisboa dos días más"
+    },
+    {
+      "ts": 1760525461.7801442,
+      "role": "bot",
+      "text": "⚠️ No se pudo extender la estancia en Lisboa."
+    },
+    {
+      "ts": 1760525592.4153984,
+      "role": "user",
+      "text": "Amplía mi estancia en Lisboa dos días más"
+    },
+    {
+      "ts": 1760525594.3411674,
+      "role": "bot",
+      "text": "🏨 Estancia en Lisboa extendida 2 día(s)."
+    }
+  ]
+}

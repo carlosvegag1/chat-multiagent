@@ -1,0 +1,57 @@
+{
+  "conversation_id": "20251014T140344_421880",
+  "history": [
+    {
+      "role": "user",
+      "message": "¿Qué clima hace hoy en madrid?",
+      "timestamp": "2025-10-14T14:03:53Z"
+    },
+    {
+      "role": "bot",
+      "message": "¡Hola! Parece que hay un problema con la obtención del clima en algunas ubicaciones. Sin embargo, puedo proporcionarte información del clima en Quế. Actualmente, el clima es de chubascos ligeros con una temperatura de 24.7 °C y viento de 2.0 km/h. Esta información proviene de Open-Meteo. ¿Hay algo más en lo que pueda ayudarte con respecto al clima? ¡Estoy aquí para ayudarte!",
+      "timestamp": "2025-10-14T14:03:53Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué clima hace hoy en Nueva York?",
+      "timestamp": "2025-10-14T14:04:10Z"
+    },
+    {
+      "role": "bot",
+      "message": "Lo siento, parece que hubo un error al intentar obtener el clima. Por favor, verifica que el nombre de la ciudad esté escrito correctamente y vuelve a intentarlo. Si necesitas más ayuda, no dudes en preguntar. ¡Estoy aquí para ayudarte!",
+      "timestamp": "2025-10-14T14:04:10Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué clima hace hoy en New York?",
+      "timestamp": "2025-10-14T14:04:35Z"
+    },
+    {
+      "role": "bot",
+      "message": "¡Hola! Parece que hubo un error al intentar obtener el clima para la ciudad de \"Qué New York\". Lamentablemente, no pudimos encontrar información para esa ubicación. ¿Hay algo más en lo que pueda ayudarte? ¡Estoy aquí para asistirte en lo que necesites!",
+      "timestamp": "2025-10-14T14:04:35Z"
+    },
+    {
+      "role": "user",
+      "message": "Clima en New York",
+      "timestamp": "2025-10-14T14:04:54Z"
+    },
+    {
+      "role": "bot",
+      "message": "¡Hola! Aquí tienes el clima actual en York:\n\n- Sumario: 🌦️ Lluvia ligera\n- Temperatura: 9.9 °C\n- Viento: 14.1 km/h\n\n¡Espero que esta información te sea útil! ¿Hay algo más en lo que pueda ayudarte?",
+      "timestamp": "2025-10-14T14:04:54Z"
+    },
+    {
+      "role": "user",
+      "message": "Buscame hoteles y clima en Roma",
+      "timestamp": "2025-10-14T14:05:18Z"
+    },
+    {
+      "role": "bot",
+      "message": "¡Hola! Parece que hubo un problema al intentar buscar hoteles y obtener el clima en Roma. Lamentablemente, no pudimos encontrar la información que solicitaste. Te recomendamos intentarlo de nuevo utilizando términos más específicos o separando las búsquedas de hoteles y clima en diferentes consultas. Si necesitas ayuda adicional, no dudes en preguntar. ¡Que tengas un excelente día!",
+      "timestamp": "2025-10-14T14:05:18Z"
+    }
+  ],
+  "created_at": "2025-10-14T14:03:53Z",
+  "updated_at": "2025-10-14T14:05:18Z"
+}

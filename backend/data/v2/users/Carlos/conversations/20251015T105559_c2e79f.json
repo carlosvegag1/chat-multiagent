@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251015T105559_c2e79f",
+  "history": [
+    {
+      "role": "user",
+      "message": "Busca vuelos y hoteles en París del 10 al 14 de diciembre y crea un planning básico",
+      "timestamp": "2025-10-15T10:56:05Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: flight.search_flights call failed: FlightAgent.query() got an unexpected keyword argument 'user_id'",
+      "timestamp": "2025-10-15T10:56:05Z"
+    }
+  ],
+  "created_at": "2025-10-15T10:56:05Z",
+  "updated_at": "2025-10-15T10:56:05Z"
+}

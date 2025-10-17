@@ -1,0 +1,47 @@
+{
+  "conversation_id": "20251015T211535_b659cd",
+  "history": [
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo ahora?",
+      "timestamp": "2025-10-15T21:15:44Z"
+    },
+    {
+      "role": "bot",
+      "message": "• París → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~398.6 EUR]",
+      "timestamp": "2025-10-15T21:15:44Z"
+    },
+    {
+      "role": "user",
+      "message": "Resume mi viaje a París",
+      "timestamp": "2025-10-15T21:15:54Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n🏨 He encontrado 5 hoteles en París:\n- MERCURE PARIS LAFAYETTE\n- RENAISSANCE PARIS VENDOME\n- MERCURE PARIS TOUR EIFFEL 4*\n- HOTEL PRINCE ALBERT LOUVRE\n- IBIS PARIS TOUR MONTPARNASSE\n\n📍 Lugares recomendados en París:\n• Torre Eiffel — Lugar emblemático de París\n• Museo del Louvre — Lugar emblemático de París\n• Notre-Dame — Lugar emblemático de París\n• Arco del Triunfo — Lugar emblemático de París\n• Montmartre — Lugar emblemático de París\n\n🧭 Resumen: París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Arco del Triunfo; Palacio de Versalles; Torre Eiffel\n Día 2: Museo del Louvre; Torre Eiffel; Notre-Dame\n Día 3: Museo del Louvre; Montmartre; Notre-Dame",
+      "timestamp": "2025-10-15T21:15:55Z"
+    },
+    {
+      "role": "user",
+      "message": "Ya no quiero ir a París",
+      "timestamp": "2025-10-15T21:16:03Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗑️ Viaje a París eliminado correctamente.",
+      "timestamp": "2025-10-15T21:16:03Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo proximamente?",
+      "timestamp": "2025-10-15T21:16:13Z"
+    },
+    {
+      "role": "bot",
+      "message": "No tienes viajes registrados todavía.",
+      "timestamp": "2025-10-15T21:16:13Z"
+    }
+  ],
+  "created_at": "2025-10-15T21:15:44Z",
+  "updated_at": "2025-10-15T21:16:13Z"
+}

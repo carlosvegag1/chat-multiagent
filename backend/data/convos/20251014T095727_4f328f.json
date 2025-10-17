@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251014T095727_4f328f",
+  "user": "carlos",
+  "created_at": "2025-10-14T09:57:27.528599",
+  "messages": [
+    {
+      "ts": 1760435853.7053769,
+      "role": "user",
+      "text": "necesito planear un viaje a roma"
+    },
+    {
+      "ts": 1760435857.454495,
+      "role": "bot",
+      "text": "¡Hola! Para tu viaje a Roma, te puedo ofrecer algunas opciones interesantes.\n\nPara tu vuelo, tienes dos opciones:\n1. Vuelo IB1234 con destino a Roma, saliendo el 10 de diciembre de 2025 y regresando el 15 de diciembre de 2025. El precio es de 120 unidades monetarias.\n2. Vuelo BA4321 con destino a Roma, saliendo el 10 de diciembre de 2025 y regresando el 15 de diciembre de 2025. El precio es de 135 unidades monetarias.\n\nEn cuanto al hospedaje, te recomendaría dos opciones:\n1. The Strand Palace, ubicado"
+    }
+  ]
+}

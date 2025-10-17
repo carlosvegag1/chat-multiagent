@@ -1,0 +1,344 @@
+{
+  "convo_id": "20251017T114720_6e40d6",
+  "user": "carlos",
+  "created_at": "2025-10-17T11:47:20.312502",
+  "messages": [
+    {
+      "ts": 1760701652.655131,
+      "role": "user",
+      "text": "¿Qué viajes tengo planeadoS?"
+    },
+    {
+      "ts": 1760701652.6823456,
+      "role": "bot",
+      "text": "Aquí tienes un resumen de tus viajes:\n- **Roma**: del 17/09/2025 al 19/09/2025 con un presupuesto de ~297€.\n- **Oporto**: del 17/10/2025 al 19/10/2025 con un presupuesto de ~274€.\n- **Bangkok**: del 17/10/2025 al 24/10/2025 con un presupuesto de ~770€.\n- **Las Palmas De Gran Canaria**: del 17/10/2025 al 23/10/2025 con un presupuesto de ~722€.\n- **Edimburgo**: del 17/10/2025 al 21/10/2025 con un presupuesto de ~440€.\n- **Florencia**: del 17/10/2025 al 24/10/2025 con un presupuesto de ~885€.\n- **Reikiavik**: del 17/10/2025 al 17/10/2025 con un presupuesto de ~574€.\n- **Friburgo**: del 17/10/2025 al 22/10/2025 con un presupuesto de ~550€.\n- **Osaka**: del 17/10/2025 al 20/10/2025 con un presupuesto de ~1100€.\n- **Seúl**: del 17/10/2025 al 20/10/2025 con un presupuesto de ~1225€."
+    },
+    {
+      "ts": 1760701670.1482887,
+      "role": "user",
+      "text": "Eliminalos todos"
+    },
+    {
+      "ts": 1760701671.1630335,
+      "role": "bot",
+      "text": "🧹 Todos tus viajes han sido eliminados."
+    },
+    {
+      "ts": 1760701675.3101547,
+      "role": "user",
+      "text": "Quiero ir a la Toscana una semana"
+    },
+    {
+      "ts": 1760701687.950999,
+      "role": "bot",
+      "text": "Aquí tienes la información de vuelos y hoteles para **Florencia**. No he podido obtener los detalles del destino, pero esto es lo que tengo por ahora.",
+      "structured_data": {
+        "city": "Florencia",
+        "flights": [
+          {
+            "airline": "VY",
+            "price": 114.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "IB",
+            "price": 131.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "IB",
+            "price": 131.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VY",
+            "price": 131.52,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "RAPALLO HOTEL",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL FEDORA",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL BONIFACIO",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL CIMABUE",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "PALAZZO RICASOLI",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [],
+        "summary": "No se pudo obtener la información del destino 'Florencia'. Razón: ",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 884.52,
+          "currency": "EUR"
+        }
+      }
+    },
+    {
+      "ts": 1760701695.1982036,
+      "role": "user",
+      "text": "Primero, prepara un viaje a Seúl. Después, otro a Sídney"
+    },
+    {
+      "ts": 1760701706.9687448,
+      "role": "bot",
+      "text": "Aquí tienes la información de vuelos y hoteles para **Seúl**. No he podido obtener los detalles del destino, pero esto es lo que tengo por ahora.",
+      "structured_data": {
+        "city": "Seúl",
+        "flights": [
+          {
+            "airline": "KE",
+            "price": 894.87,
+            "currency": "EUR"
+          },
+          {
+            "airline": "UX",
+            "price": 895.09,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "INCHEON AIRPORT OCEANSIDE HOTEL",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL PARKWOOD INCHEON AIRPORT",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "INCHEON PRINCE HOTEL",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "INCHEON AIRTEL",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "SEVILLA INCHEON AIRPORT HOTEL",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [],
+        "summary": "No se pudo obtener la información del destino 'Seúl'. Razón: ",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 1224.87,
+          "currency": "EUR"
+        }
+      }
+    },
+    {
+      "ts": 1760701709.0942774,
+      "role": "user",
+      "text": "Plan para 3 días en Kioto"
+    },
+    {
+      "ts": 1760701717.394621,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Osaka**.",
+      "structured_data": {
+        "city": "Osaka",
+        "flights": [],
+        "hotels": [
+          {
+            "name": "NIKKO KANSAI APO",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "BELLEVUE GARDEN",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "BW HOTEL KANSAI AIRPORT",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Castillo de Osaka",
+            "description": "Un histórico castillo que ofrece vistas panorámicas y un hermoso parque circundante."
+          },
+          {
+            "name": "Dotonbori",
+            "description": "Un famoso distrito de entretenimiento conocido por sus luces brillantes y variedad de restaurantes."
+          },
+          {
+            "name": "Templo Shitenno-ji",
+            "description": "Uno de los templos budistas más antiguos de Japón, con una arquitectura impresionante."
+          },
+          {
+            "name": "Universal Studios Japan",
+            "description": "Un parque temático que ofrece atracciones emocionantes y experiencias de películas."
+          },
+          {
+            "name": "Mercado Kuromon Ichiba",
+            "description": "Un mercado famoso por su variedad de alimentos frescos y delicias locales."
+          }
+        ],
+        "summary": "Osaka es una vibrante metrópoli japonesa conocida por su deliciosa gastronomía, rica historia y una cultura única. Desde sus impresionantes castillos hasta sus animados distritos comerciales, hay algo para todos en esta emocionante ciudad.",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 330.0,
+          "currency": "EUR"
+        }
+      }
+    },
+    {
+      "ts": 1760701727.0206797,
+      "role": "user",
+      "text": "Prepara una escapada a Reikiavik"
+    },
+    {
+      "ts": 1760701735.1584723,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Reikiavik**.",
+      "structured_data": {
+        "city": "Reikiavik",
+        "flights": [
+          {
+            "airline": "W1",
+            "price": 243.54,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "BED AND BREAKFAST KEFLAVIK AIRPORT",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL KEFLAVIK",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "ICELANDAIR HOTEL IN KEFLAVIK",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "BERG",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Hallgrímskirkja",
+            "description": "Una icónica iglesia luterana que se eleva sobre la ciudad, famosa por su arquitectura moderna y su impresionante vista desde la torre."
+          },
+          {
+            "name": "Harpa Concert Hall",
+            "description": "Un impresionante centro cultural y de conciertos, conocido por su arquitectura contemporánea y su vibrante programación de eventos."
+          },
+          {
+            "name": "Sun Voyager",
+            "description": "Una escultura emblemática que representa un barco vikingo, situada junto al mar y ofreciendo vistas espectaculares."
+          },
+          {
+            "name": "Museo Nacional de Islandia",
+            "description": "Un museo que ofrece una visión profunda de la historia y la cultura islandesa, desde la era vikinga hasta la actualidad."
+          },
+          {
+            "name": "Perlan",
+            "description": "Un centro de ciencia y naturaleza con una cúpula de vidrio, que ofrece exposiciones interactivas y una vista panorámica de Reikiavik."
+          }
+        ],
+        "summary": "Reikiavik, la capital de Islandia, es una ciudad vibrante conocida por su cultura rica, arquitectura única y hermosos paisajes naturales. Desde sus coloridas casas hasta las impresionantes vistas del océano, esta ciudad ofrece una experiencia inolvidable para los viajeros.",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 573.54,
+          "currency": "EUR"
+        }
+      }
+    },
+    {
+      "ts": 1760701736.8453655,
+      "role": "user",
+      "text": "Organiza un viaje por la Selva Negra en Alemania"
+    },
+    {
+      "ts": 1760701745.3437755,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Friburgo**.",
+      "structured_data": {
+        "city": "Friburgo",
+        "flights": [],
+        "hotels": [],
+        "pois": [
+          {
+            "name": "Catedral de Friburgo",
+            "description": "Una impresionante catedral gótica con una torre que ofrece vistas panorámicas de la ciudad."
+          },
+          {
+            "name": "Museo de Historia Natural",
+            "description": "Un fascinante museo que exhibe la biodiversidad y la geología de la región."
+          },
+          {
+            "name": "Bächle",
+            "description": "Pequeños canales de agua que recorren las calles del casco antiguo, una característica única de Friburgo."
+          },
+          {
+            "name": "Schwarzwald",
+            "description": "La famosa Selva Negra, ideal para caminatas y actividades al aire libre."
+          },
+          {
+            "name": "Plaza del Mercado",
+            "description": "Un animado lugar donde se celebran mercados y eventos locales, rodeado de edificios históricos."
+          }
+        ],
+        "summary": "Friburgo, la puerta de la Selva Negra, es una encantadora ciudad alemana conocida por su arquitectura medieval y su vibrante vida cultural. Con su casco antiguo pintoresco y hermosos paisajes naturales, es un destino perfecto para explorar a pie y disfrutar de la naturaleza.",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 550.0,
+          "currency": "EUR"
+        }
+      }
+    }
+  ]
+}

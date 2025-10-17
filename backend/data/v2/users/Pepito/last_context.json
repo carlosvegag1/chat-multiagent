@@ -1,0 +1,136 @@
+{
+  "agents": {
+    "flight.search_flights": {
+      "tool": "flight.search_flights",
+      "args": {
+        "city": "París",
+        "raw_message": "Planifica un viaje a París del 18 al 21 de noviembre"
+      },
+      "result": {
+        "city": "París",
+        "flights": [],
+        "hotels": [],
+        "pois": [
+          {
+            "name": "List of tourist attractions in Berlin",
+            "description": "and Potsdam. The decentralised development has resulted in a plethora of sights in Berlin – not just in the centre of the city, but also in the outlying"
+          },
+          {
+            "name": "List of tourist attractions in Paris",
+            "description": "Visitor attractions in Paris. Landmarks in Paris Historical quarters of Paris List of Domes in France List of museums in Paris List of tourist attractions worldwide"
+          },
+          {
+            "name": "List of sights and historic places in Budapest",
+            "description": "houses some of the city's finest museums. (The below sights are grouped by location.) Andrássy Avenue with its several sights including the Hungarian State"
+          },
+          {
+            "name": "Tourism in Paris",
+            "description": "Top sights include Notre Dame (12 million visitors in 2017), Disneyland Paris (11), Sacre Cœur (10), the Versailles Palace (7.7), the Louvre Museum (6"
+          },
+          {
+            "name": "Lists of tourist attractions",
+            "description": "Tourism in Egypt List of tourist attractions in Helsinki List of tourist attractions in Paris List of sights in Berlin List of sights of Potsdam List of castles"
+          },
+          {
+            "name": "France Miniature",
+            "description": "a miniature park tourist attraction in Élancourt, France featuring scale models of major French landmarks and monuments in an outdoor park. France Miniature"
+          }
+        ],
+        "summary": "Paris is the capital and largest city of France, with an estimated city population of 2,048,472 in an area of 105.4 km2 (40.7 sq mi), and a metropolitan population of 13,171,056 as of January 2025. Located on the river Seine in the centre of the Île-de-France region, it is the largest metropolitan area and fourth-most populous city in the European Union (EU). Nicknamed the City of Light, partly because of its role in the Age of Enlightenment, Paris has been one of the world's major centres of finance, diplomacy, commerce, culture, fashion, and gastronomy since the 17th century.",
+        "budget": 0.0,
+        "checkin": null,
+        "checkout": null,
+        "plan_72h": [
+          {
+            "day": 1,
+            "activities": [
+              "Visita Lists of tourist attractions",
+              "Visita List of tourist attractions in Paris"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Visita Lists of tourist attractions",
+              "Visita France Miniature"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Visita List of tourist attractions in Paris",
+              "Visita List of tourist attractions in Berlin"
+            ]
+          }
+        ]
+      },
+      "last_message": "Planifica un viaje a París del 18 al 21 de noviembre"
+    },
+    "memory.list_trips": {
+      "tool": "memory.list_trips",
+      "args": {
+        "raw_message": "¿Qué viajes tengo ahora?"
+      },
+      "result": {
+        "summary": "• Lisboa → del 20/11/2025 al 20/11/2025 (2 segmentos, creado el 15/10/2025) [~240.6 EUR]"
+      },
+      "last_message": "¿Qué viajes tengo ahora?"
+    },
+    "memory.extend_stay": {
+      "tool": "memory.extend_stay",
+      "args": {
+        "city": "Lisboa",
+        "extra_days": 2,
+        "raw_message": "Amplía mi estancia en Lisboa dos días más"
+      },
+      "result": {
+        "summary": "🏨 Estancia en Lisboa extendida 2 día(s)."
+      },
+      "last_message": "Amplía mi estancia en Lisboa dos días más"
+    },
+    "memory.shift_trip": {
+      "tool": "memory.shift_trip",
+      "args": {
+        "city": "Lisboa",
+        "days_shift": 1,
+        "raw_message": "Mueve mi viaje a Lisboa tres días después"
+      },
+      "result": {
+        "summary": "✅ Fechas del viaje a Lisboa desplazadas 1 día(s)."
+      },
+      "last_message": "Mueve mi viaje a Lisboa tres días después"
+    },
+    "memory.delete_trip": {
+      "tool": "memory.delete_trip",
+      "args": {
+        "city": "",
+        "raw_message": "Elimina todos mis viajes"
+      },
+      "result": {
+        "summary": "🗑️ Viaje a  eliminado correctamente."
+      },
+      "last_message": "Elimina todos mis viajes"
+    },
+    "memory.clean_travel_log": {
+      "tool": "memory.clean_travel_log",
+      "args": {
+        "raw_message": "Limpia todos mis viajes"
+      },
+      "result": {
+        "summary": "Limpieza ejecutada correctamente para Pepito.",
+        "details": {
+          "status": "ok",
+          "message": "Limpieza ejecutada correctamente para Pepito.",
+          "summary": {
+            "removed": 0,
+            "duplicates": 0,
+            "fixed": 1,
+            "total": 1
+          }
+        }
+      },
+      "last_message": "Limpia todos mis viajes"
+    }
+  },
+  "last_tool": "memory.list_trips"
+}

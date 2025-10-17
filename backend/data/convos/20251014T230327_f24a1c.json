@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251014T230327_f24a1c",
+  "user": "carlos",
+  "created_at": "2025-10-14T23:03:27.291558",
+  "messages": [
+    {
+      "ts": 1760483010.6229854,
+      "role": "user",
+      "text": "Busca vuelos de MAD a LIS el 20 de noviembre de 2025"
+    },
+    {
+      "ts": 1760483014.3613484,
+      "role": "bot",
+      "text": "⚠️ No pude obtener la información: Servidor MCP respondió con 404"
+    }
+  ]
+}

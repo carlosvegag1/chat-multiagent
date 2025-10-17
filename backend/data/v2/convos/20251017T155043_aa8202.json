@@ -1,0 +1,283 @@
+{
+  "convo_id": "20251017T155043_aa8202",
+  "user": "carlos",
+  "created_at": "2025-10-17T15:50:43.733157",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Busca vuelos a Gran Canaria para 4 personas",
+      "structured_data": null,
+      "ts": 1760716249.6598456
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes los vuelos que encontré para **Las Palmas De Gran Canaria**:",
+      "structured_data": {
+        "city": "Las Palmas De Gran Canaria",
+        "flights": [
+          {
+            "airline": "AIR EUROPA",
+            "flight_number": "UX 9172",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:55:00",
+            "duration": "2h 55m",
+            "stops": 0,
+            "price": 329.68,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6065",
+            "origin": "MAD",
+            "destination": "TFN",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "12h 30m",
+            "stops": 1,
+            "price": 520.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6065",
+            "origin": "MAD",
+            "destination": "TFN",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "13h ",
+            "stops": 1,
+            "price": 520.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6005",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "2h 50m",
+            "stops": 0,
+            "price": 574.08,
+            "currency": "EUR"
+          },
+          {
+            "airline": "AIR EUROPA",
+            "flight_number": "UX 9057",
+            "origin": "MAD",
+            "destination": "TFN",
+            "departure_time": "2025-10-17T19:05:00",
+            "arrival_time": "2025-10-17T21:00:00",
+            "duration": "14h 55m",
+            "stops": 1,
+            "price": 576.12,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [],
+        "pois": [],
+        "summary": null,
+        "plan_sugerido": null,
+        "budget": {
+          "total": 659.68,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760716255.7708876
+    },
+    {
+      "role": "user",
+      "text": "Y hoteles?",
+      "structured_data": null,
+      "ts": 1760716269.076438
+    },
+    {
+      "role": "bot",
+      "text": "Estos son los hoteles disponibles en **Las Palmas De Gran Canaria**:",
+      "structured_data": {
+        "city": "Las Palmas De Gran Canaria",
+        "flights": [],
+        "hotels": [
+          {
+            "name": "SANTA CATALINA (PHW)",
+            "hotelId": null,
+            "rating": null,
+            "address": "LEON Y CASTILLO 227, GRAN CANARIA, 35005",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "FATAGA HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "CALLE NESTOR DE LA TORRE, 21, LAS PALMAS, 35006",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LES GENS DE MER HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "20 AVENUE DU GENERAL GAULLE, LA ROCHELLE, 17000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LES GENS DE MER HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "14 BD LOUIS NAIL, LORIENT, 56100",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "AC BY MARRIOTT IBERIA LAS PALM",
+            "hotelId": null,
+            "rating": null,
+            "address": "ALCALDE J RAMERZ BETHENCOURT 8, LAS PALMAS DE GRAN CANARI, 35003",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [],
+        "summary": null,
+        "plan_sugerido": null,
+        "budget": {
+          "total": 330.0,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760716271.7161412
+    },
+    {
+      "role": "user",
+      "text": "Hazme un planning de una semana para visitarla",
+      "structured_data": null,
+      "ts": 1760716285.461839
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Las Palmas De Gran Canaria**.",
+      "structured_data": {
+        "city": "Las Palmas De Gran Canaria",
+        "flights": [
+          {
+            "airline": "AIR EUROPA",
+            "flight_number": "UX 9172",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:55:00",
+            "duration": "2h 55m",
+            "stops": 0,
+            "price": 82.42,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6065",
+            "origin": "MAD",
+            "destination": "TFN",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "12h 30m",
+            "stops": 1,
+            "price": 130.13,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6065",
+            "origin": "MAD",
+            "destination": "TFN",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "13h ",
+            "stops": 1,
+            "price": 130.13,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6005",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "2h 50m",
+            "stops": 0,
+            "price": 143.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "AIR EUROPA",
+            "flight_number": "UX 9057",
+            "origin": "MAD",
+            "destination": "TFN",
+            "departure_time": "2025-10-17T19:05:00",
+            "arrival_time": "2025-10-17T21:00:00",
+            "duration": "14h 55m",
+            "stops": 1,
+            "price": 144.03,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "SANTA CATALINA (PHW)",
+            "hotelId": null,
+            "rating": null,
+            "address": "LEON Y CASTILLO 227, GRAN CANARIA, 35005",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "FATAGA HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "CALLE NESTOR DE LA TORRE, 21, LAS PALMAS, 35006",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LES GENS DE MER HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "14 BD LOUIS NAIL, LORIENT, 56100",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LES GENS DE MER HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "20 AVENUE DU GENERAL GAULLE, LA ROCHELLE, 17000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "AC BY MARRIOTT IBERIA LAS PALM",
+            "hotelId": null,
+            "rating": null,
+            "address": "ALCALDE J RAMERZ BETHENCOURT 8, LAS PALMAS DE GRAN CANARI, 35003",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [],
+        "summary": "No se pudo obtener la información del destino 'Las Palmas De Gran Canaria'.",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 852.42,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760716296.978284
+    }
+  ]
+}

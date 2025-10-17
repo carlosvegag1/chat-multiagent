@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251014T193758_8ed789",
+  "user": "carlos",
+  "created_at": "2025-10-14T19:37:58.774560",
+  "messages": [
+    {
+      "ts": 1760470680.0951934,
+      "role": "user",
+      "text": "Muéstrame hoteles en Lisboa del 20 al 23 de noviembre"
+    },
+    {
+      "ts": 1760470682.9266665,
+      "role": "bot",
+      "text": "⚠️ No pude obtener la información: Servidor MCP respondió con 404"
+    }
+  ]
+}

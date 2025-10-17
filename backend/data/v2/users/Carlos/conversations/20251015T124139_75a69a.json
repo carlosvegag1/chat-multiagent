@@ -1,0 +1,57 @@
+{
+  "conversation_id": "20251015T124139_75a69a",
+  "history": [
+    {
+      "role": "user",
+      "message": "¿Que viajes tengo planeados?",
+      "timestamp": "2025-10-15T12:41:42Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 20/11/2025 al 20/11/2025 (2 segmentos, creado el 15/10/2025)\n• Madrid → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T12:41:42Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más.",
+      "timestamp": "2025-10-15T12:41:51Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en Lisboa extendida 2 día(s).",
+      "timestamp": "2025-10-15T12:41:51Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Que viajes tengo planeados?",
+      "timestamp": "2025-10-15T12:41:55Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 20/11/2025 al 22/11/2025 (2 segmentos, creado el 15/10/2025)\n• Madrid → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T12:41:55Z"
+    },
+    {
+      "role": "user",
+      "message": "Desplaza el viaje de Lisboa 3 días.",
+      "timestamp": "2025-10-15T12:42:14Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Fechas del viaje a Lisboa desplazadas 3 día(s).",
+      "timestamp": "2025-10-15T12:42:14Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Que viajes tengo planeados?",
+      "timestamp": "2025-10-15T12:42:21Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 20/11/2025 al 22/11/2025 (2 segmentos, creado el 15/10/2025)\n• Madrid → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T12:42:21Z"
+    }
+  ],
+  "created_at": "2025-10-15T12:41:42Z",
+  "updated_at": "2025-10-15T12:42:21Z"
+}

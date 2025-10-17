@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251015T174522_46a0ed",
+  "history": [
+    {
+      "role": "user",
+      "message": "Limpia todos mis viajes",
+      "timestamp": "2025-10-15T17:45:24Z"
+    },
+    {
+      "role": "bot",
+      "message": "🧹 Todos los viajes de Pepito han sido eliminados correctamente (modo total).",
+      "timestamp": "2025-10-15T17:45:24Z"
+    }
+  ],
+  "created_at": "2025-10-15T17:45:24Z",
+  "updated_at": "2025-10-15T17:45:24Z"
+}

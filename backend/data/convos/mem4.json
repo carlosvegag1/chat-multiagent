@@ -1,0 +1,27 @@
+{
+  "convo_id": "mem4",
+  "user": "Carlos",
+  "created_at": "2025-10-15T10:42:37.776978",
+  "messages": [
+    {
+      "ts": 1760524957.776979,
+      "role": "user",
+      "text": "Borra mi viaje a Lisboa"
+    },
+    {
+      "ts": 1760524959.2457435,
+      "role": "bot",
+      "text": "⚠️ No pude obtener la información: Tool desconocida: memory.delete_trip"
+    },
+    {
+      "ts": 1760525178.2526062,
+      "role": "user",
+      "text": "Borra mi viaje a Lisboa"
+    },
+    {
+      "ts": 1760525179.6572654,
+      "role": "bot",
+      "text": "🗑️ Viaje a Lisboa eliminado correctamente."
+    }
+  ]
+}

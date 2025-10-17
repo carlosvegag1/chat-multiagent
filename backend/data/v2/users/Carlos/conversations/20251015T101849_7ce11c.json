@@ -1,0 +1,37 @@
+{
+  "conversation_id": "20251015T101849_7ce11c",
+  "history": [
+    {
+      "role": "user",
+      "message": "Busca vuelos y hoteles en Lisboa del 20 al 23 de noviembre y dame un planning básico",
+      "timestamp": "2025-10-15T10:18:57Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ No encontré vuelos desde Lis a Lis.",
+      "timestamp": "2025-10-15T10:18:57Z"
+    },
+    {
+      "role": "user",
+      "message": "Busca vuelos desde Madrid a Lisboa y hoteles en Lisboa del 20 al 23 de noviembre y dame un planning básico",
+      "timestamp": "2025-10-15T10:19:34Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ No encontré vuelos desde Madrid a Lisboa.",
+      "timestamp": "2025-10-15T10:19:34Z"
+    },
+    {
+      "role": "user",
+      "message": "Busca vuelos desde Mad a Lis y hoteles en Lisdel 20 al 23 de noviembre y dame un planning básico",
+      "timestamp": "2025-10-15T10:20:09Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ No encontré vuelos desde Mad a Lis.",
+      "timestamp": "2025-10-15T10:20:09Z"
+    }
+  ],
+  "created_at": "2025-10-15T10:18:57Z",
+  "updated_at": "2025-10-15T10:20:09Z"
+}

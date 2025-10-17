@@ -1,0 +1,17 @@
+{
+  "conversation_id": "mem1",
+  "history": [
+    {
+      "role": "user",
+      "message": "Muéstrame mis viajes planeados",
+      "timestamp": "2025-10-15T10:42:13Z"
+    },
+    {
+      "role": "bot",
+      "message": "• 20251120_lis → del 20/11/2025 al 20/11/2025 (6 segmentos, creado el 15/10/2025)\n• 20251015_lis → del ? al ? (4 segmentos, creado el 15/10/2025)\n• 20251120_lisboa → del 20/11/2025 al 20/11/2025 (1 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T10:42:13Z"
+    }
+  ],
+  "created_at": "2025-10-15T10:42:13Z",
+  "updated_at": "2025-10-15T10:42:13Z"
+}

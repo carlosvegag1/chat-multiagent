@@ -1,0 +1,37 @@
+{
+  "conversation_id": "20251014T121848_7826c9",
+  "history": [
+    {
+      "role": "user",
+      "message": "¿Qué tiempo hace hoy en madrd?",
+      "timestamp": "2025-10-14T12:19:19Z"
+    },
+    {
+      "role": "bot",
+      "message": "(Error generando resumen: Connection error.)",
+      "timestamp": "2025-10-14T12:19:19Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué tiempo hace hoy en madrid?",
+      "timestamp": "2025-10-14T12:19:32Z"
+    },
+    {
+      "role": "bot",
+      "message": "(Error generando resumen: Connection error.)",
+      "timestamp": "2025-10-14T12:19:32Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué clima hace hoy en madrid?",
+      "timestamp": "2025-10-14T12:19:49Z"
+    },
+    {
+      "role": "bot",
+      "message": "(Error generando resumen: Connection error.)",
+      "timestamp": "2025-10-14T12:19:49Z"
+    }
+  ],
+  "created_at": "2025-10-14T12:19:19Z",
+  "updated_at": "2025-10-14T12:19:49Z"
+}

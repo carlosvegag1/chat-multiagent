@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251016T203238_bc1bad",
+  "history": [
+    {
+      "role": "user",
+      "message": "Hola! Quiero explorar Roma durante 4 días",
+      "timestamp": "2025-10-16T20:32:47Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ **Vuelos a Roma:**\n- Vuelo con UX por 49.52 EUR\n- Vuelo con UX por 76.52 EUR\n- Vuelo con UX por 106.52 EUR\n\n🏨 **Hoteles en Roma:**\n- ROULETTE ROME TERMINI 5* (None⭐)\n- HOTEL MASCAGNI (None⭐)\n- LE PETIT HOTEL (None⭐)\n\n🧭 **Sobre el destino:**\nRoma or ROMA may refer to:\n\n🗓️ **Plan de viaje sugerido:**\n**Día 1:** Visita Punto de interés 1 de Roma; Visita Punto de interés 2 de Roma; Visita Punto de interés 3 de Roma; Visita Punto de interés 4 de Roma\n**Día 2:** Visita Punto de interés 3 de Roma; Visita Punto de interés 4 de Roma; Visita Punto de interés 5 de Roma; Visita Punto de interés 6 de Roma\n**Día 3:** Visita Punto de interés 5 de Roma; Visita Punto de interés 6 de Roma\n**Día 4:** Visita Punto de interés 1 de Roma; Visita Punto de interés 2 de Roma; Visita Punto de interés 3 de Roma; Visita Punto de interés 4 de Roma\n\n💰 **Presupuesto total estimado: 489.52 EUR**",
+      "timestamp": "2025-10-16T20:32:47Z"
+    }
+  ],
+  "created_at": "2025-10-16T20:32:47Z",
+  "updated_at": "2025-10-16T20:32:47Z"
+}

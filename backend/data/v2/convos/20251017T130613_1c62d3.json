@@ -1,0 +1,212 @@
+{
+  "convo_id": "20251017T130613_1c62d3",
+  "user": "carlos",
+  "created_at": "2025-10-17T13:06:13.484197",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Plan para 3 días en Kioto",
+      "structured_data": null,
+      "ts": 1760706375.6879754
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Osaka**.\n\n**Nota:** No se pudo obtener la información del destino 'Osaka'. Razón: ",
+      "structured_data": {
+        "city": "Osaka",
+        "flights": [],
+        "hotels": [
+          {
+            "name": "NIKKO KANSAI APO",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "BELLEVUE GARDEN",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "BW HOTEL KANSAI AIRPORT",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [],
+        "summary": "No se pudo obtener la información del destino 'Osaka'.",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 330.0,
+          "currency": "EUR"
+        },
+        "error": "No se pudo obtener la información del destino 'Osaka'. Razón: "
+      },
+      "ts": 1760706388.9923449
+    },
+    {
+      "role": "user",
+      "text": "Ahora hazlo de nuevo pero para un viaje completo de 10 días a Kioto",
+      "structured_data": null,
+      "ts": 1760706391.8885732
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Osaka**.\n\n**Nota:** No se pudo obtener la información del destino 'Osaka'. Razón: ",
+      "structured_data": {
+        "city": "Osaka",
+        "flights": [],
+        "hotels": [
+          {
+            "name": "NIKKO KANSAI APO",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "BELLEVUE GARDEN",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "BW HOTEL KANSAI AIRPORT",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [],
+        "summary": "No se pudo obtener la información del destino 'Osaka'.",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 1100.0,
+          "currency": "EUR"
+        },
+        "error": "No se pudo obtener la información del destino 'Osaka'. Razón: "
+      },
+      "ts": 1760706403.9924967
+    },
+    {
+      "role": "user",
+      "text": "Plan para 3 días en Roma",
+      "structured_data": null,
+      "ts": 1760706408.499954
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Roma**.",
+      "structured_data": {
+        "city": "Roma",
+        "flights": [],
+        "hotels": [
+          {
+            "name": "ROULETTE ROME TERMINI 5*",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL MASCAGNI",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LE PETIT HOTEL",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "MAGNIFICO",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "EVEREST INN ROME",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Coliseo",
+            "description": "Un antiguo anfiteatro romano que es símbolo de la grandeza de la arquitectura romana."
+          },
+          {
+            "name": "Vaticano",
+            "description": "El centro espiritual del catolicismo, hogar de la Basílica de San Pedro y la Capilla Sixtina."
+          },
+          {
+            "name": "Fontana di Trevi",
+            "description": "Famosa por su impresionante diseño barroco y la tradición de lanzar monedas para asegurar el regreso a Roma."
+          },
+          {
+            "name": "Panteón",
+            "description": "Un antiguo templo romano, conocido por su impresionante cúpula y su magnífica arquitectura."
+          },
+          {
+            "name": "Plaza Navona",
+            "description": "Una de las plazas más bellas de Roma, famosa por sus fuentes y ambiente vibrante."
+          }
+        ],
+        "summary": "Roma, la Ciudad Eterna, es un destino lleno de historia, arte y cultura. Desde el majestuoso Coliseo hasta la impresionante Capilla Sixtina, cada rincón cuenta una historia fascinante.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Visita al Coliseo y el Foro Romano",
+              "Paseo por el Palatino y almuerzo en un restaurante local"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Exploración de la Ciudad del Vaticano, incluyendo la Basílica de San Pedro",
+              "Visita a la Capilla Sixtina y recorrido por los Museos Vaticanos"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Visita a la Fontana di Trevi y lanzamiento de monedas",
+              "Recorrido por la Plaza Navona y el Panteón, seguido de cena en un restaurante típico"
+            ]
+          }
+        ],
+        "budget": {
+          "total": 330.0,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760706418.3086998
+    },
+    {
+      "role": "user",
+      "text": "Ahora hazlo de nuevo pero para un viaje completo de 10 días",
+      "structured_data": null,
+      "ts": 1760706420.1959743
+    },
+    {
+      "role": "bot",
+      "text": "No se ha especificado un destino claro para planificar el viaje.",
+      "structured_data": {
+        "city": "Destino",
+        "flights": [],
+        "hotels": [],
+        "pois": [],
+        "summary": null,
+        "plan_sugerido": null,
+        "budget": null,
+        "error": "No se ha especificado un destino claro para planificar el viaje."
+      },
+      "ts": 1760706421.358474
+    }
+  ]
+}

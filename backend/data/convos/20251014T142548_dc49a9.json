@@ -1,0 +1,37 @@
+{
+  "convo_id": "20251014T142548_dc49a9",
+  "user": "carlos",
+  "created_at": "2025-10-14T14:25:48.911906",
+  "messages": [
+    {
+      "ts": 1760451953.189625,
+      "role": "user",
+      "text": "¿Qué tiempo hace ahora en Buenos Aires?"
+    },
+    {
+      "ts": 1760451955.8777914,
+      "role": "bot",
+      "text": "🌤️ Clima actual en Buenos Aires: 22.4°C, viento 11.0 km/h."
+    },
+    {
+      "ts": 1760451993.0994642,
+      "role": "user",
+      "text": "¿Qué hora será en Lima cuando en Madrid sean las 10pm?"
+    },
+    {
+      "ts": 1760451995.6612682,
+      "role": "bot",
+      "text": "⏰ En Lima, cuando en Madrid son 2023-10-01T22:00:00, la hora equivalente es Desconocida."
+    },
+    {
+      "ts": 1760452007.8109279,
+      "role": "user",
+      "text": "¿Qué hora será en Nueva York cuando en Madrid sean las 10am?"
+    },
+    {
+      "ts": 1760452010.0337408,
+      "role": "bot",
+      "text": "⏰ En Nueva York, cuando en Madrid son 2023-10-01T10:00:00, la hora equivalente es Desconocida."
+    }
+  ]
+}

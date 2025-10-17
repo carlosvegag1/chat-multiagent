@@ -1,0 +1,302 @@
+{
+  "convo_id": "20251017T132753_379b98",
+  "user": "carlos",
+  "created_at": "2025-10-17T13:27:53.540199",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Plan para 3 días en Roma",
+      "structured_data": null,
+      "ts": 1760707681.5489013
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Roma**.",
+      "structured_data": {
+        "city": "Roma",
+        "flights": [
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 3960",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T18:00:00",
+            "arrival_time": "2025-10-17T18:20:00",
+            "duration": "6h 10m",
+            "stops": 1,
+            "price": 105.82,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 1021",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T22:15:00",
+            "arrival_time": "2025-10-17T22:40:00",
+            "duration": "12h 5m",
+            "stops": 1,
+            "price": 105.82,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 1019",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T20:10:00",
+            "arrival_time": "2025-10-17T20:35:00",
+            "duration": "14h 10m",
+            "stops": 1,
+            "price": 105.82,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 1021",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T22:15:00",
+            "arrival_time": "2025-10-17T22:40:00",
+            "duration": "14h 30m",
+            "stops": 1,
+            "price": 105.82,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 1019",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T20:10:00",
+            "arrival_time": "2025-10-17T20:35:00",
+            "duration": "16h 35m",
+            "stops": 1,
+            "price": 105.82,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "ROULETTE ROME TERMINI 5*",
+            "hotelId": null,
+            "rating": null,
+            "address": "ROME, ITALY, ROME",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL MASCAGNI",
+            "hotelId": null,
+            "rating": null,
+            "address": "VIA V.E. ORLANDO, 90, ROME",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LE PETIT HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "VIA TORINO 122A, ROMA, 00184",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "MAGNIFICO",
+            "hotelId": null,
+            "rating": null,
+            "address": "VIA NAZIONALE 243, ROMA, 184",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "EVEREST INN ROME",
+            "hotelId": null,
+            "rating": null,
+            "address": "VIA NAZIONALE 243, ROM, 184",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Coliseo",
+            "description": "Un impresionante anfiteatro romano que es símbolo de la arquitectura antigua y la historia de gladiadores."
+          },
+          {
+            "name": "Vaticano",
+            "description": "El centro espiritual del catolicismo, famoso por la Basílica de San Pedro y los Museos Vaticanos que albergan obras maestras."
+          },
+          {
+            "name": "Fontana di Trevi",
+            "description": "Una magnífica fuente barroca donde los visitantes lanzan monedas para asegurar su regreso a Roma."
+          },
+          {
+            "name": "Panteón",
+            "description": "Un antiguo templo romano que destaca por su cúpula impresionante y su arquitectura bien conservada."
+          },
+          {
+            "name": "Plaza Navona",
+            "description": "Una de las plazas más bellas de Roma, famosa por sus fuentes y ambiente vibrante."
+          }
+        ],
+        "summary": "Roma, la Ciudad Eterna, es un destino lleno de historia, arte y cultura. Con sus impresionantes monumentos y deliciosa gastronomía, cada rincón cuenta una historia que te transportará al pasado.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Visita al Coliseo y Foro Romano",
+              "Paseo por el Palatino y almuerzo en una trattoria cercana"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Exploración del Vaticano y visita a la Basílica de San Pedro",
+              "Recorrido por los Museos Vaticanos y la Capilla Sixtina"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Visita a la Fontana di Trevi y lanzamiento de monedas",
+              "Paseo por la Plaza Navona y cena en un restaurante local"
+            ]
+          }
+        ],
+        "budget": {
+          "total": 435.82,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760707690.399451
+    },
+    {
+      "role": "user",
+      "text": "Ahora hazlo de nuevo pero para un viaje completo de 10 dias",
+      "structured_data": null,
+      "ts": 1760707697.8678858
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Roma**.\n\n**Nota:** No se pudo obtener la información del destino 'Roma'. Razón: La solicitud al servidor de destinos tardó más de 10 segundos (Timeout).",
+      "structured_data": {
+        "city": "Roma",
+        "flights": [
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 3960",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T18:00:00",
+            "arrival_time": "2025-10-17T18:20:00",
+            "duration": "6h 10m",
+            "stops": 1,
+            "price": 105.82,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 1021",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T22:15:00",
+            "arrival_time": "2025-10-17T22:40:00",
+            "duration": "12h 5m",
+            "stops": 1,
+            "price": 105.82,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 1019",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T20:10:00",
+            "arrival_time": "2025-10-17T20:35:00",
+            "duration": "14h 10m",
+            "stops": 1,
+            "price": 105.82,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 1021",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T22:15:00",
+            "arrival_time": "2025-10-17T22:40:00",
+            "duration": "14h 30m",
+            "stops": 1,
+            "price": 105.82,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 1019",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T20:10:00",
+            "arrival_time": "2025-10-17T20:35:00",
+            "duration": "16h 35m",
+            "stops": 1,
+            "price": 105.82,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "ROULETTE ROME TERMINI 5*",
+            "hotelId": null,
+            "rating": null,
+            "address": "ROME, ITALY, ROME",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL MASCAGNI",
+            "hotelId": null,
+            "rating": null,
+            "address": "VIA V.E. ORLANDO, 90, ROME",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LE PETIT HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "VIA TORINO 122A, ROMA, 00184",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "MAGNIFICO",
+            "hotelId": null,
+            "rating": null,
+            "address": "VIA NAZIONALE 243, ROMA, 184",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "EVEREST INN ROME",
+            "hotelId": null,
+            "rating": null,
+            "address": "VIA NAZIONALE 243, ROM, 184",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [],
+        "summary": "No se pudo obtener la información del destino 'Roma'.",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 1205.82,
+          "currency": "EUR"
+        },
+        "error": "No se pudo obtener la información del destino 'Roma'. Razón: La solicitud al servidor de destinos tardó más de 10 segundos (Timeout)."
+      },
+      "ts": 1760707708.9224708
+    }
+  ]
+}

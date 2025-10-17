@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251016T180219_de90b5",
+  "history": [
+    {
+      "role": "user",
+      "message": "el de Oporto, muévelo un día",
+      "timestamp": "2025-10-16T18:02:37Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Fechas del viaje a Oporto desplazadas 1 día(s).",
+      "timestamp": "2025-10-16T18:02:37Z"
+    }
+  ],
+  "created_at": "2025-10-16T18:02:37Z",
+  "updated_at": "2025-10-16T18:02:37Z"
+}

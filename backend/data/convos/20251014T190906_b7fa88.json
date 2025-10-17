@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251014T190906_b7fa88",
+  "user": "carlos",
+  "created_at": "2025-10-14T19:09:06.599486",
+  "messages": [
+    {
+      "ts": 1760468948.4074817,
+      "role": "user",
+      "text": "Muéstrame hoteles en Lisboa del 20 al 23 de noviembre para dos personas"
+    },
+    {
+      "ts": 1760468951.1453574,
+      "role": "bot",
+      "text": "⚠️ No pude obtener la información: Tool desconocida: "
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "convo_id": "20251017T094450_3c596c",
+  "user": "carlos",
+  "created_at": "2025-10-17T09:44:50.181267",
+  "messages": [
+    {
+      "ts": 1760694293.0559442,
+      "role": "user",
+      "text": "Prepara una escapada a Reikiavik"
+    },
+    {
+      "ts": 1760694304.8306541,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Reikiavik."
+    },
+    {
+      "ts": 1760694310.2523391,
+      "role": "user",
+      "text": "Organiza un viaje por la Selva Negra en Alemania"
+    },
+    {
+      "ts": 1760694320.1926186,
+      "role": "bot",
+      "text": "Lo siento, no he podido encontrar vuelos ni hoteles para Friburgo en esas fechas. ¿Quieres que intente con otro destino?"
+    },
+    {
+      "ts": 1760694346.3256574,
+      "role": "user",
+      "text": "Ok, volvamos a Reikiavik, pero solo 2 días"
+    },
+    {
+      "ts": 1760694347.2910318,
+      "role": "bot",
+      "text": "✅ Estancia en **Reikiavik** acortada 3 días."
+    },
+    {
+      "ts": 1760694365.2978287,
+      "role": "user",
+      "text": "Entonces, como queda mi viaje a Reikiavik?"
+    },
+    {
+      "ts": 1760694366.0612955,
+      "role": "bot",
+      "text": "• **Oporto** → del 17/10/2025 al 19/10/2025 [~273.52 EUR]\n• **Bangkok** → del 17/10/2025 al 24/10/2025 [~770.00 EUR]\n• **Roma** → del 17/10/2025 al 19/10/2025 [~296.52 EUR]\n• **Las Palmas De Gran Canaria** → del 17/10/2025 al 23/10/2025 [~722.42 EUR]\n• **Edimburgo** → del 17/10/2025 al 21/10/2025 [~440.00 EUR]\n• **Florencia** → del 17/10/2025 al 24/10/2025 [~884.52 EUR]\n• **Reikiavik** → del 17/10/2025 al 17/10/2025 [~573.54 EUR]\n• **Friburgo** → del 17/10/2025 al 22/10/2025 [~550.00 EUR]"
+    }
+  ]
+}

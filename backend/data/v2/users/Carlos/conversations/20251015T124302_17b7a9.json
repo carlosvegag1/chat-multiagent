@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251015T124302_17b7a9",
+  "history": [
+    {
+      "role": "user",
+      "message": "Dame lugares recomendados en Roma.",
+      "timestamp": "2025-10-15T12:43:09Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: Tool desconocida: destination.get_pois",
+      "timestamp": "2025-10-15T12:43:09Z"
+    }
+  ],
+  "created_at": "2025-10-15T12:43:09Z",
+  "updated_at": "2025-10-15T12:43:09Z"
+}

@@ -1,0 +1,87 @@
+{
+  "conversation_id": "20251016T180927_3f3222",
+  "history": [
+    {
+      "role": "user",
+      "message": "Hola! Organízame una escapada a la Toscana de 5 días para el mes que viene",
+      "timestamp": "2025-10-16T18:09:36Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n🏨 Hoteles en Toscana:\n- AMALIE HOTEL (None⭐)\n- CITY LIVING TROMSO (None⭐)\n- SMARTHOTEL TROMSO (None⭐)\n\n🧭 Resumen: Toscana es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan de viaje sugerido:\n Día 1: Torre de Belém; Monasterio de los Jerónimos; Castelo de São Jorge\n Día 2: Praça do Comércio; Miradouro da Senhora do Monte; Barrio Alto\n Día 3: Miradouro da Senhora do Monte; Monasterio de los Jerónimos; Praça do Comércio\n\n💰 **Presupuesto: 550.0 EUR**",
+      "timestamp": "2025-10-16T18:09:36Z"
+    },
+    {
+      "role": "user",
+      "message": "me parece muy largo, acórtalo a 3 días",
+      "timestamp": "2025-10-16T18:09:45Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en Toscana extendida 3 día(s).",
+      "timestamp": "2025-10-16T18:09:45Z"
+    },
+    {
+      "role": "user",
+      "message": "vale, ahora búscame un finde barato en berlín",
+      "timestamp": "2025-10-16T18:10:01Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Vuelos a Berlín:\n- DY (100.19 EUR)\n- VY (112.04 EUR)\n- VY (112.04 EUR)\n\n🏨 Hoteles en Berlín:\n- WYNDHAM GRAND BERLIN POTSDAMER PLATZ (None⭐)\n- BERGQUELLE GASTHOF (None⭐)\n- IBIS BUDGET BERLIN KUDAMM (None⭐)\n\n🧭 Resumen: Berlín es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan de viaje sugerido:\n Día 1: Castelo de São Jorge; Monasterio de los Jerónimos; Miradouro da Senhora do Monte\n Día 2: Torre de Belém; Barrio Alto; Praça do Comércio\n Día 3: Monasterio de los Jerónimos; Miradouro da Senhora do Monte; Barrio Alto\n\n💰 **Presupuesto: 320.19 EUR**",
+      "timestamp": "2025-10-16T18:10:01Z"
+    },
+    {
+      "role": "user",
+      "message": "adelanta el viaje una semana",
+      "timestamp": "2025-10-16T18:10:05Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Fechas del viaje a Berlín desplazadas 7 día(s).",
+      "timestamp": "2025-10-16T18:10:05Z"
+    },
+    {
+      "role": "user",
+      "message": "el de la toscana",
+      "timestamp": "2025-10-16T18:10:11Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Fechas del viaje a Toscana desplazadas 0 día(s).",
+      "timestamp": "2025-10-16T18:10:11Z"
+    },
+    {
+      "role": "user",
+      "message": "muéstrame qué tengo planeado\"",
+      "timestamp": "2025-10-16T18:10:18Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Toscana → del 17/10/2025 al 25/10/2025 (1 segmentos, creado el 16/10/2025) [~550.0 EUR]\n• Berlín → del 17/10/2025 al 26/10/2025 (2 segmentos, creado el 16/10/2025) [~320.19 EUR]",
+      "timestamp": "2025-10-16T18:10:18Z"
+    },
+    {
+      "role": "user",
+      "message": "cancela el viaje a alemania",
+      "timestamp": "2025-10-16T18:10:24Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No encontré un viaje a Alemania.",
+      "timestamp": "2025-10-16T18:10:24Z"
+    },
+    {
+      "role": "user",
+      "message": "perfecto, limpia todo",
+      "timestamp": "2025-10-16T18:10:32Z"
+    },
+    {
+      "role": "bot",
+      "message": "Limpieza ejecutada correctamente para Carlos.",
+      "timestamp": "2025-10-16T18:10:32Z"
+    }
+  ],
+  "created_at": "2025-10-16T18:09:36Z",
+  "updated_at": "2025-10-16T18:10:32Z"
+}

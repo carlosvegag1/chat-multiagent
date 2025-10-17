@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251015T124302_17b7a9",
+  "user": "carlos",
+  "created_at": "2025-10-15T12:43:02.798744",
+  "messages": [
+    {
+      "ts": 1760532188.3271708,
+      "role": "user",
+      "text": "Dame lugares recomendados en Roma."
+    },
+    {
+      "ts": 1760532189.8698757,
+      "role": "bot",
+      "text": "⚠️ No pude obtener la información: Tool desconocida: destination.get_pois"
+    }
+  ]
+}

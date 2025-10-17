@@ -1,0 +1,12 @@
+{
+  "convo_id": "20251016T192238_740bd0",
+  "user": "carlos",
+  "created_at": "2025-10-16T19:22:38.478648",
+  "messages": [
+    {
+      "ts": 1760642567.5639703,
+      "role": "user",
+      "text": "¿Tengo algu viaje planeado?"
+    }
+  ]
+}

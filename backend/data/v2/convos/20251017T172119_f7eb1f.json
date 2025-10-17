@@ -1,0 +1,31 @@
+{
+  "convo_id": "20251017T172119_f7eb1f",
+  "user": "carlos",
+  "created_at": "2025-10-17T17:21:19.083563",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Planéame 2 días en Mallorca",
+      "structured_data": null,
+      "ts": 1760721680.5420635
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Palma**.",
+      "structured_data": {
+        "city": "Palma",
+        "flights": [],
+        "hotels": [],
+        "pois": [],
+        "summary": "No se pudo obtener la información del destino 'Palma'.",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 220.0,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760721684.5739524
+    }
+  ]
+}

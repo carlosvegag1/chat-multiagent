@@ -1,0 +1,176 @@
+{
+  "convo_id": "20251017T132854_4a019f",
+  "user": "carlos",
+  "created_at": "2025-10-17T13:28:54.588716",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Quiero ir a París",
+      "structured_data": null,
+      "ts": 1760707737.2336898
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **París**.",
+      "structured_data": {
+        "city": "París",
+        "flights": [
+          {
+            "airline": "VUELING AIRLINES",
+            "flight_number": "VY 5145",
+            "origin": "MAD",
+            "destination": "ORY",
+            "departure_time": "2025-10-17T18:05:00",
+            "arrival_time": "2025-10-17T20:05:00",
+            "duration": "2h ",
+            "stops": 0,
+            "price": 90.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VUELING AIRLINES",
+            "flight_number": "VY 5130",
+            "origin": "MAD",
+            "destination": "ORY",
+            "departure_time": "2025-10-17T20:05:00",
+            "arrival_time": "2025-10-17T22:05:00",
+            "duration": "2h ",
+            "stops": 0,
+            "price": 101.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VUELING AIRLINES",
+            "flight_number": "VY 5140",
+            "origin": "MAD",
+            "destination": "ORY",
+            "departure_time": "2025-10-17T16:05:00",
+            "arrival_time": "2025-10-17T18:10:00",
+            "duration": "2h 5m",
+            "stops": 0,
+            "price": 101.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 3960",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T18:00:00",
+            "arrival_time": "2025-10-17T18:20:00",
+            "duration": "5h ",
+            "stops": 1,
+            "price": 112.82,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 3961",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T18:00:00",
+            "arrival_time": "2025-10-17T18:20:00",
+            "duration": "15h 10m",
+            "stops": 2,
+            "price": 120.07,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "HN TEST PROPERTY1 FOR E2E TESTING",
+            "hotelId": null,
+            "rating": null,
+            "address": "NICE, FRANCE, Paris, 28027",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "TEST PROPERTY FOR AZURE AND AWS MIGRATIO",
+            "hotelId": null,
+            "rating": null,
+            "address": "TEST LINE ONE  NOW ADDRESS, Bellary, 560083",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "TEST PROPERTY FOR API ACTIVATE/DE-ACTIVA",
+            "hotelId": null,
+            "rating": null,
+            "address": "ADDRESS LINE ONE, Paris, 560083",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL LES RIVES DE NOTRE DAME",
+            "hotelId": null,
+            "rating": null,
+            "address": "15 QUAI SAINT MICHEL, PARIS, 75005",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "PROP FOR DXM NRT",
+            "hotelId": null,
+            "rating": null,
+            "address": "22 RUE DE L'HIRONDELLE, PARIS",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Torre Eiffel",
+            "description": "Símbolo icónico de París, ofrece vistas impresionantes de la ciudad desde su cima."
+          },
+          {
+            "name": "Museo del Louvre",
+            "description": "Uno de los museos más grandes y famosos del mundo, hogar de obras maestras como la Mona Lisa."
+          },
+          {
+            "name": "Catedral de Notre-Dame",
+            "description": "Una obra maestra de la arquitectura gótica, famosa por sus vitrales y su historia."
+          },
+          {
+            "name": "Montmartre",
+            "description": "Barrio bohemio conocido por su ambiente artístico y la Basílica del Sagrado Corazón."
+          },
+          {
+            "name": "Champs-Élysées",
+            "description": "Una de las avenidas más famosas del mundo, ideal para pasear y hacer compras."
+          }
+        ],
+        "summary": "París, la ciudad del amor y la luz, ofrece una mezcla perfecta de historia, arte y gastronomía. Desde la majestuosa Torre Eiffel hasta los encantadores cafés en Montmartre, cada rincón de la ciudad cuenta una historia única.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Visitar la Torre Eiffel y subir a su mirador",
+              "Pasear por el Campo de Marte y disfrutar de un picnic."
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Explorar el Museo del Louvre y sus obras maestras",
+              "Caminar por el Jardín de las Tullerías y disfrutar de un café."
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Visitar la Catedral de Notre-Dame y explorar la Île de la Cité",
+              "Recorrer el barrio de Montmartre y visitar la Basílica del Sagrado Corazón."
+            ]
+          }
+        ],
+        "budget": {
+          "total": 420.52,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760707746.2515185
+    }
+  ]
+}

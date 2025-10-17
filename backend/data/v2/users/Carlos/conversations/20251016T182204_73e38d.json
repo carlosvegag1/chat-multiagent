@@ -1,0 +1,47 @@
+{
+  "conversation_id": "20251016T182204_73e38d",
+  "history": [
+    {
+      "role": "user",
+      "message": "Tengo algun viaje proximamente?",
+      "timestamp": "2025-10-16T18:22:09Z"
+    },
+    {
+      "role": "bot",
+      "message": "Aquí están tus viajes planeados:\n• **Toscana**: del 17/10/2025 al 25/10/2025 [~550.0 EUR]\n• **Berlín**: del 24/10/2025 al 26/10/2025 [~320.19 EUR]",
+      "timestamp": "2025-10-16T18:22:09Z"
+    },
+    {
+      "role": "user",
+      "message": "Al final no puedo ir a ninguno",
+      "timestamp": "2025-10-16T18:22:21Z"
+    },
+    {
+      "role": "bot",
+      "message": "🧹 Todos los viajes han sido eliminados correctamente.",
+      "timestamp": "2025-10-16T18:22:21Z"
+    },
+    {
+      "role": "user",
+      "message": "Entonces tengo algun viaje?",
+      "timestamp": "2025-10-16T18:22:35Z"
+    },
+    {
+      "role": "bot",
+      "message": "No tienes viajes registrados todavía.",
+      "timestamp": "2025-10-16T18:22:35Z"
+    },
+    {
+      "role": "user",
+      "message": "Hola! Quiero explorar la Provenza durante 4 días",
+      "timestamp": "2025-10-16T18:22:46Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ Error: plan_trip call failed: name '_next_friday_from_today' is not defined",
+      "timestamp": "2025-10-16T18:22:46Z"
+    }
+  ],
+  "created_at": "2025-10-16T18:22:09Z",
+  "updated_at": "2025-10-16T18:22:46Z"
+}

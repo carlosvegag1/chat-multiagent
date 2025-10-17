@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251014T223603_bc3d83",
+  "history": [
+    {
+      "role": "user",
+      "message": "“Busca vuelos de MAD a LIS para el 20 de noviembre de 2025",
+      "timestamp": "2025-10-14T22:36:08Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ No encontré vuelos desde MAD a LIS.",
+      "timestamp": "2025-10-14T22:36:08Z"
+    }
+  ],
+  "created_at": "2025-10-14T22:36:08Z",
+  "updated_at": "2025-10-14T22:36:08Z"
+}

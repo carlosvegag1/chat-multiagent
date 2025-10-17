@@ -1,0 +1,27 @@
+{
+  "convo_id": "20251015T123902_4d54ce",
+  "user": "carlos",
+  "created_at": "2025-10-15T12:39:02.545376",
+  "messages": [
+    {
+      "ts": 1760531951.790693,
+      "role": "user",
+      "text": "¿Qué viajes tengo planeados?"
+    },
+    {
+      "ts": 1760531953.8102813,
+      "role": "bot",
+      "text": "• Lisboa → del 20/11/2025 al 20/11/2025 (2 segmentos, creado el 15/10/2025)"
+    },
+    {
+      "ts": 1760531966.9185202,
+      "role": "user",
+      "text": "Buscame ahora hoteles en paris"
+    },
+    {
+      "ts": 1760531969.1845903,
+      "role": "bot",
+      "text": "⚠️ No pude obtener la información: Tool desconocida: hotel.search_hotels"
+    }
+  ]
+}

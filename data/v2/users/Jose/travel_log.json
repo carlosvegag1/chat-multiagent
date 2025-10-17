@@ -1,0 +1,68 @@
+{
+  "user_id": "Jose",
+  "created_at": "2025-10-17T17:49:51.391207",
+  "trips": [
+    {
+      "trip_id": "20251017_palma",
+      "created_at": "2025-10-17T17:49:51.392187Z",
+      "title": "Palma (2025-10-17 → 2025-10-20)",
+      "city": "Palma",
+      "iata": "PMI",
+      "segments": [],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-20",
+      "destination_summary": "Palma, la capital de Mallorca, es un destino vibrante que combina historia, cultura y playas impresionantes. Su casco antiguo, lleno de calles empedradas y arquitectura gótica, ofrece una experiencia única que no te puedes perder.",
+      "destination_pois": [
+        {
+          "name": "Catedral de Santa María de Palma",
+          "description": "Una majestuosa catedral gótica que se alza sobre el mar, famosa por su impresionante arquitectura y hermosas vidrieras."
+        },
+        {
+          "name": "Castillo de Bellver",
+          "description": "Un castillo circular del siglo XIV que ofrece vistas panorámicas de la ciudad y la bahía, rodeado de un hermoso bosque."
+        },
+        {
+          "name": "Paseo Marítimo",
+          "description": "Un encantador paseo junto al mar ideal para caminar, correr o disfrutar de una comida con vistas al puerto."
+        },
+        {
+          "name": "Mercado de Olivar",
+          "description": "Un vibrante mercado local donde puedes degustar productos frescos, tapas y especialidades de la región."
+        },
+        {
+          "name": "Playa de Palma",
+          "description": "Una extensa playa de arena dorada que es perfecta para relajarse y disfrutar del sol mediterráneo."
+        }
+      ],
+      "destination_plan_sugerido": [
+        {
+          "day": 1,
+          "activities": [
+            "Visitar la Catedral de Santa María de Palma",
+            "Explorar el casco antiguo y sus calles históricas"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Descubrir el Castillo de Bellver",
+            "Pasear por el Paseo Marítimo y disfrutar de una comida en un restaurante"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Visitar el Mercado de Olivar para probar tapas locales",
+            "Pasar la tarde en la Playa de Palma"
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-17T17:49:51.416635Z",
+      "budget": 444.52,
+      "budget_updated_at": "2025-10-17T17:49:51.450294Z"
+    }
+  ]
+}

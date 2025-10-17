@@ -1,0 +1,19 @@
+{
+  "convo_id": "20251017T150629_32ac98",
+  "user": "carlos",
+  "created_at": "2025-10-17T15:06:29.058085",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Busca vuelos a Gran Canaria para 4 personas",
+      "structured_data": null,
+      "ts": 1760713591.7905898
+    },
+    {
+      "role": "bot",
+      "text": "No he entendido bien tu petición. Puedo planificar viajes, buscar vuelos u hoteles, y darte información sobre destinos.",
+      "structured_data": null,
+      "ts": 1760713591.8029046
+    }
+  ]
+}

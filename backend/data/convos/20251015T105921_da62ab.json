@@ -1,0 +1,67 @@
+{
+  "convo_id": "20251015T105921_da62ab",
+  "user": "carlos",
+  "created_at": "2025-10-15T10:59:21.640704",
+  "messages": [
+    {
+      "ts": 1760525963.1440058,
+      "role": "user",
+      "text": "Busca vuelos y hoteles en París del 10 al 14 de diciembre y crea un planning básico"
+    },
+    {
+      "ts": 1760525977.9239275,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos desde LIS a CDG:\n- UX1156 16:05–18:20 (112.49 EUR)\n- UX1152 07:40–09:55 (112.49 EUR)\n- UX1150 11:35–13:50 (112.49 EUR)\n- UX1152 07:40–09:55 (112.49 EUR)\n- UX1156 16:05–18:20 (112.49 EUR)\n\n🏨 He encontrado 5 hoteles en CDG:\n- MOVENPICK HOTELS      — None⭐ — None EUR\n- PARK SUITES VILLAGE MONTEVRAIN — None⭐ — None EUR\n- HYATT REGENCY PARIS-CDG — None⭐ — None EUR\n- HOTEL DU LAC — None⭐ — None EUR\n- MERCURE PARIS ROISSY CDG 3* — None⭐ — None EUR\n\n💰 Presupuesto estimado total: N/A EUR"
+    },
+    {
+      "ts": 1760526043.2031345,
+      "role": "user",
+      "text": "Muéstrame todos mis viajes planeados"
+    },
+    {
+      "ts": 1760526045.7824068,
+      "role": "bot",
+      "text": "• 20251120_lis → del 20/11/2025 al 20/11/2025 (6 segmentos, creado el 15/10/2025)\n• 20251015_lis → del ? al ? (4 segmentos, creado el 15/10/2025)\n• 20251015_cdg → del ? al ? (2 segmentos, creado el 15/10/2025)"
+    },
+    {
+      "ts": 1760526054.5705507,
+      "role": "user",
+      "text": "Amplía mi estancia en París tres días más"
+    },
+    {
+      "ts": 1760526056.147253,
+      "role": "bot",
+      "text": "🏨 Estancia en CDG extendida 3 día(s)."
+    },
+    {
+      "ts": 1760526062.7383676,
+      "role": "user",
+      "text": "Cambia mi vuelo a Lisboa al domingo siguiente"
+    },
+    {
+      "ts": 1760526064.7215974,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Lisboa actualizadas (+1 días)."
+    },
+    {
+      "ts": 1760526071.0496774,
+      "role": "user",
+      "text": "Borra mi viaje a Lisboa"
+    },
+    {
+      "ts": 1760526072.6134996,
+      "role": "bot",
+      "text": "🗑️ Viaje a Lisboa eliminado correctamente."
+    },
+    {
+      "ts": 1760526076.0656242,
+      "role": "user",
+      "text": "Muéstrame mis viajes y amplía el de París dos días más"
+    },
+    {
+      "ts": 1760526078.7494311,
+      "role": "bot",
+      "text": "• 20251120_lis → del 20/11/2025 al 20/11/2025 (6 segmentos, creado el 15/10/2025)\n• 20251015_lis → del ? al ? (4 segmentos, creado el 15/10/2025)\n• 20251015_cdg → del ? al ? (2 segmentos, creado el 15/10/2025)"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "agents": {
+    "flight.search_flights": {
+      "tool": "flight.search_flights",
+      "args": {
+        "city": "París",
+        "checkin": "2025-10-17",
+        "checkout": "2025-10-20",
+        "date": "2025-10-17",
+        "raw_message": "Planifica un viaje a paris de 3 dias del 18 de octubre al 21"
+      },
+      "result": {
+        "city": "París",
+        "flights": [
+          {
+            "airline": "UX",
+            "flight_number": "1027",
+            "departure_time": "2025-10-17T08:00:00",
+            "arrival_time": "2025-10-17T09:55:00",
+            "duration": "PT1H55M",
+            "price": "55.52",
+            "currency": "EUR"
+          },
+          {
+            "airline": "UX",
+            "flight_number": "1029",
+            "departure_time": "2025-10-17T14:20:00",
+            "arrival_time": "2025-10-17T16:15:00",
+            "duration": "PT1H55M",
+            "price": "55.52",
+            "currency": "EUR"
+          },
+          {
+            "airline": "VY",
+            "flight_number": "5145",
+            "departure_time": "2025-10-17T18:05:00",
+            "arrival_time": "2025-10-17T20:05:00",
+            "duration": "PT2H",
+            "price": "90.52",
+            "currency": "EUR"
+          },
+          {
+            "airline": "VY",
+            "flight_number": "5184",
+            "departure_time": "2025-10-17T09:45:00",
+            "arrival_time": "2025-10-17T11:55:00",
+            "duration": "PT2H10M",
+            "price": "95.52",
+            "currency": "EUR"
+          },
+          {
+            "airline": "VY",
+            "flight_number": "5131",
+            "departure_time": "2025-10-17T07:20:00",
+            "arrival_time": "2025-10-17T09:20:00",
+            "duration": "PT2H",
+            "price": "101.52",
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "IBIS PARIS TOUR MONTPARNASSE",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "FR",
+              "postalCode": "75015",
+              "cityName": "PARIS",
+              "lines": [
+                "22 AVENUE DU MAINE"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/IBIS PARIS TOUR MONTPARNASSE"
+          },
+          {
+            "name": "HN TEST PROPERTY1 FOR E2E TESTING",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "FR",
+              "postalCode": "28027",
+              "cityName": "Paris",
+              "lines": [
+                "NICE, FRANCE"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/HN TEST PROPERTY1 FOR E2E TESTING"
+          },
+          {
+            "name": "DIAMOND HOTEL",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "FR",
+              "postalCode": "75008",
+              "cityName": "Paris",
+              "lines": [
+                "AVENUE DES CHAMPS ELYSEES"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/DIAMOND HOTEL"
+          },
+          {
+            "name": "RENAISSANCE PARIS VENDOME",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "FR",
+              "postalCode": "75001",
+              "cityName": "PARIS",
+              "lines": [
+                "4 RUE DE MONT THABOR"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/RENAISSANCE PARIS VENDOME"
+          },
+          {
+            "name": "HOTEL PRINCE ALBERT LOUVRE",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "FR",
+              "postalCode": "75001",
+              "cityName": "PARIS",
+              "lines": [
+                "5 RUE SAINTE HYACINTHE"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/HOTEL PRINCE ALBERT LOUVRE"
+          }
+        ],
+        "pois": [
+          {
+            "name": "List of tourist attractions in Berlin",
+            "description": "and Potsdam. The decentralised development has resulted in a plethora of sights in Berlin – not just in the centre of the city, but also in the outlying"
+          },
+          {
+            "name": "List of tourist attractions in Paris",
+            "description": "Visitor attractions in Paris. Landmarks in Paris Historical quarters of Paris List of Domes in France List of museums in Paris List of tourist attractions worldwide"
+          },
+          {
+            "name": "List of sights and historic places in Budapest",
+            "description": "houses some of the city's finest museums. (The below sights are grouped by location.) Andrássy Avenue with its several sights including the Hungarian State"
+          },
+          {
+            "name": "Tourism in Paris",
+            "description": "Top sights include Notre Dame (12 million visitors in 2017), Disneyland Paris (11), Sacre Cœur (10), the Versailles Palace (7.7), the Louvre Museum (6"
+          },
+          {
+            "name": "Lists of tourist attractions",
+            "description": "Tourism in Egypt List of tourist attractions in Helsinki List of tourist attractions in Paris List of sights in Berlin List of sights of Potsdam List of castles"
+          },
+          {
+            "name": "France Miniature",
+            "description": "a miniature park tourist attraction in Élancourt, France featuring scale models of major French landmarks and monuments in an outdoor park. France Miniature"
+          }
+        ],
+        "summary": "Paris is the capital and largest city of France, with an estimated city population of 2,048,472 in an area of 105.4 km2 (40.7 sq mi), and a metropolitan population of 13,171,056 as of January 2025. Located on the river Seine in the centre of the Île-de-France region, it is the largest metropolitan area and fourth-most populous city in the European Union (EU). Nicknamed the City of Light, partly because of its role in the Age of Enlightenment, Paris has been one of the world's major centres of finance, diplomacy, commerce, culture, fashion, and gastronomy since the 17th century.",
+        "budget": 398.6,
+        "checkin": "2025-10-17",
+        "checkout": "2025-10-20",
+        "plan_72h": [
+          {
+            "day": 1,
+            "activities": [
+              "Visita List of sights and historic places in Budapest",
+              "Visita List of tourist attractions in Paris"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Visita Lists of tourist attractions",
+              "Visita List of tourist attractions in Paris"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Visita List of tourist attractions in Paris",
+              "Visita France Miniature"
+            ]
+          }
+        ]
+      },
+      "last_message": "Planifica un viaje a paris de 3 dias del 18 de octubre al 21"
+    },
+    "memory.list_trips": {
+      "tool": "memory.list_trips",
+      "args": {
+        "raw_message": "¿Qué viajes tengo?"
+      },
+      "result": {
+        "summary": "• Lisboa → del 17/10/2025 al 22/10/2025 (2 segmentos, creado el 15/10/2025)"
+      },
+      "last_message": "¿Qué viajes tengo?"
+    },
+    "memory.extend_stay": {
+      "tool": "memory.extend_stay",
+      "args": {
+        "city": "Lisboa",
+        "extra_days": 2,
+        "raw_message": "Amplía mi estancia en Lisboa dos días más"
+      },
+      "result": {
+        "summary": "🏨 Estancia en Lisboa extendida 2 día(s)."
+      },
+      "last_message": "Amplía mi estancia en Lisboa dos días más"
+    }
+  },
+  "last_tool": "flight.search_flights"
+}

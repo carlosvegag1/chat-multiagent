@@ -1,0 +1,37 @@
+{
+  "convo_id": "20251016T173842_3454e0",
+  "user": "carlos",
+  "created_at": "2025-10-16T17:38:42.300722",
+  "messages": [
+    {
+      "ts": 1760636324.3254223,
+      "role": "user",
+      "text": "una escapada a berlín el finde"
+    },
+    {
+      "ts": 1760636331.263897,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos a Berlín:\n- VY 5334 (112.04 EUR)\n- VY 5331 (112.04 EUR)\n- TP 1015 (141.34 EUR)\n\n🏨 Hoteles disponibles en Berlín:\n- WYNDHAM GRAND BERLIN POTSDAMER PLATZ (None⭐) - None EUR\n- AMBASSADOR (None⭐) - None EUR\n- HOTEL 103 (None⭐) - None EUR\n\n🧭 Resumen: Berlín es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h sugerido:\n Día 1: Praça do Comércio; Miradouro da Senhora do Monte; Barrio Alto\n Día 2: Praça do Comércio; Torre de Belém; Miradouro da Senhora do Monte\n Día 3: Barrio Alto; Torre de Belém; Miradouro da Senhora do Monte\n\n💰 **Presupuesto estimado: 112.04 EUR**"
+    },
+    {
+      "ts": 1760636368.5441513,
+      "role": "user",
+      "text": "qué tal si lo movemos para la semana que viene"
+    },
+    {
+      "ts": 1760636379.5853593,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos a Lisboa:\n- UX 1159 (27.52 EUR)\n- UX 1153 (40.52 EUR)\n- UX 1155 (40.52 EUR)\n\n🏨 Hoteles disponibles en Lisboa:\n- HOTEL DO LAGO (None⭐) - None EUR\n- HOTEL DA PRAIA (None⭐) - None EUR\n- HOTEL DA LOLO (None⭐) - None EUR\n\n🧭 Resumen: Lisboa es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h sugerido:\n Día 1: Torre de Belém; Monasterio de los Jerónimos; Miradouro da Senhora do Monte\n Día 2: Castelo de São Jorge; Monasterio de los Jerónimos; Miradouro da Senhora do Monte\n Día 3: Castelo de São Jorge; Miradouro da Senhora do Monte; Barrio Alto\n\n💰 **Presupuesto estimado: 27.52 EUR**\n\n⚠️ Conflicto con ‘Berlín (2025-10-18 → 2025-10-18)’"
+    },
+    {
+      "ts": 1760636384.38523,
+      "role": "user",
+      "text": "cancela todos mis planes"
+    },
+    {
+      "ts": 1760636384.635456,
+      "role": "bot",
+      "text": "🧹 Todos los viajes han sido eliminados correctamente."
+    }
+  ]
+}

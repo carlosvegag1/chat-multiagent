@@ -1,0 +1,37 @@
+{
+  "conversation_id": "20251015T121554_6957af",
+  "history": [
+    {
+      "role": "user",
+      "message": "Muéstrame todos mis viajes planeados.",
+      "timestamp": "2025-10-15T12:16:05Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lis (2025-11-20 → 2025-11-20) → del 20/11/2025 al 20/11/2025 (6 segmentos, creado el 15/10/2025)\n• Lisboa → del ? al ? (4 segmentos, creado el 15/10/2025)\n• París → del ? al ? (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T12:16:05Z"
+    },
+    {
+      "role": "user",
+      "message": "Limpia mis viajes antiguos.",
+      "timestamp": "2025-10-15T12:16:14Z"
+    },
+    {
+      "role": "bot",
+      "message": "🧹 Limpieza ejecutada correctamente para Carlos.",
+      "timestamp": "2025-10-15T12:16:14Z"
+    },
+    {
+      "role": "user",
+      "message": "Muéstrame todos mis viajes planeados.",
+      "timestamp": "2025-10-15T12:16:19Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lis (2025-11-20 → 2025-11-20) → del 20/11/2025 al 20/11/2025 (6 segmentos, creado el 15/10/2025)\n• Lisboa → del ? al ? (4 segmentos, creado el 15/10/2025)\n• París → del ? al ? (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T12:16:19Z"
+    }
+  ],
+  "created_at": "2025-10-15T12:16:05Z",
+  "updated_at": "2025-10-15T12:16:19Z"
+}

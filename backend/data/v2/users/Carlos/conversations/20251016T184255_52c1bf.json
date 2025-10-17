@@ -1,0 +1,107 @@
+{
+  "conversation_id": "20251016T184255_52c1bf",
+  "history": [
+    {
+      "role": "user",
+      "message": "Hola! Quiero explorar la Provenza durante 4 días",
+      "timestamp": "2025-10-16T18:43:06Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 **Hoteles en Aix-En-Provence:**\n- HOTEL DA LOLO (None⭐)\n- HOTEL DA PRAIA (None⭐)\n- HOTEL DO LAGO (None⭐)\n\n🧭 **Resumen:**\nAix-En-Provence es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ **Plan de viaje sugerido:**\n**Día 1:** Monasterio de los Jerónimos; Castelo de São Jorge; Miradouro da Senhora do Monte\n**Día 2:** Monasterio de los Jerónimos; Torre de Belém; Castelo de São Jorge\n**Día 3:** Castelo de São Jorge; Praça do Comércio; Monasterio de los Jerónimos\n\n💰 **Presupuesto estimado: 440.0 EUR**",
+      "timestamp": "2025-10-16T18:43:06Z"
+    },
+    {
+      "role": "user",
+      "message": "me parece poco, amplíalo un día más",
+      "timestamp": "2025-10-16T18:43:11Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Estancia en Aix-En-Provence extendida 1 día(s).",
+      "timestamp": "2025-10-16T18:43:11Z"
+    },
+    {
+      "role": "user",
+      "message": "ahora organiza un viaje a argentina",
+      "timestamp": "2025-10-16T18:43:20Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 **Hoteles en Buenos Aires:**\n- HOTEL DA PRAIA (None⭐)\n- HOTEL DO LAGO (None⭐)\n- HOTEL DA LOLO (None⭐)\n\n🧭 **Resumen:**\nBuenos Aires es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ **Plan de viaje sugerido:**\n**Día 1:** Barrio Alto; Torre de Belém; Monasterio de los Jerónimos\n**Día 2:** Monasterio de los Jerónimos; Castelo de São Jorge; Torre de Belém\n**Día 3:** Torre de Belém; Praça do Comércio; Barrio Alto\n\n💰 **Presupuesto estimado: 330.0 EUR**",
+      "timestamp": "2025-10-16T18:43:20Z"
+    },
+    {
+      "role": "user",
+      "message": "acórtalo a 3 días",
+      "timestamp": "2025-10-16T18:43:24Z"
+    },
+    {
+      "role": "bot",
+      "message": "Veo varios viajes (‘Aix-En-Provence’, ‘Buenos Aires’). ¿A cuál te refieres?",
+      "timestamp": "2025-10-16T18:43:24Z"
+    },
+    {
+      "role": "user",
+      "message": "Al de Buenos Aires",
+      "timestamp": "2025-10-16T18:43:40Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗑️ Viaje a Buenos Aires eliminado correctamente.",
+      "timestamp": "2025-10-16T18:43:40Z"
+    },
+    {
+      "role": "user",
+      "message": "mueve el viaje dos semanas",
+      "timestamp": "2025-10-16T18:43:43Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Fechas del viaje a Aix-En-Provence desplazadas -14 día(s).",
+      "timestamp": "2025-10-16T18:43:43Z"
+    },
+    {
+      "role": "user",
+      "message": "el de francia",
+      "timestamp": "2025-10-16T18:43:50Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No encontré un viaje a París para eliminar.",
+      "timestamp": "2025-10-16T18:43:50Z"
+    },
+    {
+      "role": "user",
+      "message": "ok, muéstrame mis planes",
+      "timestamp": "2025-10-16T18:43:55Z"
+    },
+    {
+      "role": "bot",
+      "message": "Aquí están tus viajes planeados:\n• **Aix-En-Provence**: del 03/10/2025 al 08/10/2025 [~440.0 EUR]",
+      "timestamp": "2025-10-16T18:43:55Z"
+    },
+    {
+      "role": "user",
+      "message": "cancela el viaje a argentina",
+      "timestamp": "2025-10-16T18:44:00Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No encontré un viaje a Buenos Aires para eliminar.",
+      "timestamp": "2025-10-16T18:44:00Z"
+    },
+    {
+      "role": "user",
+      "message": "perfecto, borra todo",
+      "timestamp": "2025-10-16T18:44:04Z"
+    },
+    {
+      "role": "bot",
+      "message": "🧹 Todos los viajes han sido eliminados correctamente.",
+      "timestamp": "2025-10-16T18:44:04Z"
+    }
+  ],
+  "created_at": "2025-10-16T18:43:06Z",
+  "updated_at": "2025-10-16T18:44:04Z"
+}

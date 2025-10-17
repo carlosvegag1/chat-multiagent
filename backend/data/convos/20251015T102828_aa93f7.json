@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251015T102828_aa93f7",
+  "user": "carlos",
+  "created_at": "2025-10-15T10:28:28.019795",
+  "messages": [
+    {
+      "ts": 1760524110.2509394,
+      "role": "user",
+      "text": "Busca vuelos desde Madrid a Lisboa del 20 al 23 de noviembre y hoteles para esas fechas"
+    },
+    {
+      "ts": 1760524118.5135818,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos desde MAD a LIS:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (50.52 EUR)\n- UX1155 14:55–15:15 (50.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n- TP1015 14:55–15:20 (61.52 EUR)"
+    }
+  ]
+}

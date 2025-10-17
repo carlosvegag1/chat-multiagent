@@ -1,0 +1,27 @@
+{
+  "convo_id": "20251015T211400_70add7",
+  "user": "pedro luis",
+  "created_at": "2025-10-15T21:14:00.727546",
+  "messages": [
+    {
+      "ts": 1760562847.488829,
+      "role": "user",
+      "text": "Retrasa mi viaje a Lisboa 2 días"
+    },
+    {
+      "ts": 1760562847.6262808,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Lisboa desplazadas 2 día(s)."
+    },
+    {
+      "ts": 1760562855.2697968,
+      "role": "user",
+      "text": "Qué viajes tengo ahora"
+    },
+    {
+      "ts": 1760562855.455231,
+      "role": "bot",
+      "text": "• Lisboa → del 17/10/2025 al 22/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]\n• París → del ? al ? (1 segmentos, creado el 15/10/2025) [~0.0 EUR]"
+    }
+  ]
+}

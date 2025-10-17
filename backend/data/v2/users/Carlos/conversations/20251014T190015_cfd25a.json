@@ -1,0 +1,47 @@
+{
+  "conversation_id": "20251014T190015_cfd25a",
+  "history": [
+    {
+      "role": "user",
+      "message": "Busca vuelos de MAD a LIS para 2025-11-20",
+      "timestamp": "2025-10-14T19:00:28Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos desde MAD a LIS.",
+      "timestamp": "2025-10-14T19:00:28Z"
+    },
+    {
+      "role": "user",
+      "message": "lístame su info",
+      "timestamp": "2025-10-14T19:00:49Z"
+    },
+    {
+      "role": "bot",
+      "message": "📍 Información general del destino.",
+      "timestamp": "2025-10-14T19:00:49Z"
+    },
+    {
+      "role": "user",
+      "message": "Busca vuelos de MAD a LIS para 2025-11-20 y dame toda su información",
+      "timestamp": "2025-10-14T19:01:13Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos desde MAD a LIS.",
+      "timestamp": "2025-10-14T19:01:13Z"
+    },
+    {
+      "role": "user",
+      "message": "Muéstrame vuelos de MAD a LIS el 20 de noviembre de 2025",
+      "timestamp": "2025-10-14T19:03:08Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos desde MAD a LIS.",
+      "timestamp": "2025-10-14T19:03:08Z"
+    }
+  ],
+  "created_at": "2025-10-14T19:00:28Z",
+  "updated_at": "2025-10-14T19:03:08Z"
+}

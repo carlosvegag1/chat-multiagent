@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251014T223603_bc3d83",
+  "user": "carlos",
+  "created_at": "2025-10-14T22:36:03.375232",
+  "messages": [
+    {
+      "ts": 1760481365.275531,
+      "role": "user",
+      "text": "“Busca vuelos de MAD a LIS para el 20 de noviembre de 2025"
+    },
+    {
+      "ts": 1760481368.9992564,
+      "role": "bot",
+      "text": "✈️ No encontré vuelos desde MAD a LIS."
+    }
+  ]
+}

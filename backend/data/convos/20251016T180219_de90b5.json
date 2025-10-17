@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251016T180219_de90b5",
+  "user": "luis mariano",
+  "created_at": "2025-10-16T18:02:19.606772",
+  "messages": [
+    {
+      "ts": 1760637757.3795915,
+      "role": "user",
+      "text": "el de Oporto, muévelo un día"
+    },
+    {
+      "ts": 1760637757.4690728,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Oporto desplazadas 1 día(s)."
+    }
+  ]
+}

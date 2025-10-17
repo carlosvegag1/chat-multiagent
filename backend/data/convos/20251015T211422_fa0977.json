@@ -1,0 +1,27 @@
+{
+  "convo_id": "20251015T211422_fa0977",
+  "user": "pedro luis",
+  "created_at": "2025-10-15T21:14:22.482393",
+  "messages": [
+    {
+      "ts": 1760562867.9242716,
+      "role": "user",
+      "text": "Elimina mi viaje a París"
+    },
+    {
+      "ts": 1760562868.0560784,
+      "role": "bot",
+      "text": "🗑️ Viaje a París eliminado correctamente."
+    },
+    {
+      "ts": 1760562874.7771156,
+      "role": "user",
+      "text": "¿Qué viajes tengo ahora?"
+    },
+    {
+      "ts": 1760562874.9616413,
+      "role": "bot",
+      "text": "• Lisboa → del 17/10/2025 al 22/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]"
+    }
+  ]
+}

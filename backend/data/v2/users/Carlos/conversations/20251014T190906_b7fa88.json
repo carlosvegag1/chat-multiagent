@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251014T190906_b7fa88",
+  "history": [
+    {
+      "role": "user",
+      "message": "Muéstrame hoteles en Lisboa del 20 al 23 de noviembre para dos personas",
+      "timestamp": "2025-10-14T19:09:11Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: Tool desconocida: ",
+      "timestamp": "2025-10-14T19:09:11Z"
+    }
+  ],
+  "created_at": "2025-10-14T19:09:11Z",
+  "updated_at": "2025-10-14T19:09:11Z"
+}

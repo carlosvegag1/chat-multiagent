@@ -1,0 +1,27 @@
+{
+  "convo_id": "20251015T174449_5f9b3f",
+  "user": "pepito",
+  "created_at": "2025-10-15T17:44:49.178672",
+  "messages": [
+    {
+      "ts": 1760550293.6331356,
+      "role": "user",
+      "text": "Amplía mi estancia en Lisboa dos días más"
+    },
+    {
+      "ts": 1760550293.7369547,
+      "role": "bot",
+      "text": "🏨 Estancia en Lisboa extendida 2 día(s)."
+    },
+    {
+      "ts": 1760550297.1735046,
+      "role": "user",
+      "text": "Mis viajes"
+    },
+    {
+      "ts": 1760550297.302517,
+      "role": "bot",
+      "text": "• Lisboa → del 17/10/2025 al 22/10/2025 (2 segmentos, creado el 15/10/2025)"
+    }
+  ]
+}

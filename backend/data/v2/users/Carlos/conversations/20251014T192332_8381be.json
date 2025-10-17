@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251014T192332_8381be",
+  "history": [
+    {
+      "role": "user",
+      "message": "Muéstrame hoteles en Lisboa del 20 al 23 de noviembre",
+      "timestamp": "2025-10-14T19:23:41Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: Servidor MCP respondió con 404",
+      "timestamp": "2025-10-14T19:23:41Z"
+    }
+  ],
+  "created_at": "2025-10-14T19:23:41Z",
+  "updated_at": "2025-10-14T19:23:41Z"
+}

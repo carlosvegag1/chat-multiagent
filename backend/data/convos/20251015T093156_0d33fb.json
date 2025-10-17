@@ -1,0 +1,27 @@
+{
+  "convo_id": "20251015T093156_0d33fb",
+  "user": "carlos",
+  "created_at": "2025-10-15T09:31:56.783940",
+  "messages": [
+    {
+      "ts": 1760520727.6241324,
+      "role": "user",
+      "text": "Muéstrame los vuelos disponibles de Madrid a Lisboa el 20 de noviembre de 2025."
+    },
+    {
+      "ts": 1760520734.3212926,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos desde MAD a LIS:\n- UX1159 → 06:30–06:50 (27.52 EUR)\n- UX1153 → 10:25–10:45 (50.52 EUR)\n- UX1155 → 14:55–15:15 (50.52 EUR)\n- UX1157 → 18:55–19:15 (50.52 EUR)\n- TP1015 → 14:55–15:20 (61.52 EUR)"
+    },
+    {
+      "ts": 1760520741.285224,
+      "role": "user",
+      "text": "Quiero saber qué hoteles hay disponibles en Lisboa para esa fecha."
+    },
+    {
+      "ts": 1760520747.8306012,
+      "role": "bot",
+      "text": "🏨 He encontrado 5 hoteles en Lisbon:\n- HOTEL DO LAGO — None⭐ — None EUR\n- HOTEL DA PRAIA — None⭐ — None EUR\n- HOTEL DA LOLO — None⭐ — None EUR\n- INGLATERRA HOTEL — None⭐ — None EUR\n- ATLANTICO GOLF HOTEL — None⭐ — None EUR"
+    }
+  ]
+}

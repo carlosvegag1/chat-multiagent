@@ -1,0 +1,27 @@
+{
+  "conversation_id": "20251015T174513_d407ef",
+  "history": [
+    {
+      "role": "user",
+      "message": "Ya no quiero ir a Lisboa",
+      "timestamp": "2025-10-15T17:45:15Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗑️ Viaje a Lisboa eliminado correctamente.",
+      "timestamp": "2025-10-15T17:45:15Z"
+    },
+    {
+      "role": "user",
+      "message": "Mis viajes",
+      "timestamp": "2025-10-15T17:45:17Z"
+    },
+    {
+      "role": "bot",
+      "message": "No tienes viajes registrados todavía.",
+      "timestamp": "2025-10-15T17:45:17Z"
+    }
+  ],
+  "created_at": "2025-10-15T17:45:15Z",
+  "updated_at": "2025-10-15T17:45:17Z"
+}

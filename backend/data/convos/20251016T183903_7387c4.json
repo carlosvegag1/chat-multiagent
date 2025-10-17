@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251016T183903_7387c4",
+  "user": "carlos",
+  "created_at": "2025-10-16T18:39:03.199108",
+  "messages": [
+    {
+      "ts": 1760639945.06873,
+      "role": "user",
+      "text": "Hola! Quiero explorar la Provenza durante 4 días"
+    },
+    {
+      "ts": 1760639945.9136033,
+      "role": "bot",
+      "text": "⚠️ No encontré un viaje a Aix-en-Provence para eliminar."
+    }
+  ]
+}

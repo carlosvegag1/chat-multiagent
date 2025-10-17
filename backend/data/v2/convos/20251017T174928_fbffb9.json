@@ -1,0 +1,176 @@
+{
+  "convo_id": "20251017T174928_fbffb9",
+  "user": "jose",
+  "created_at": "2025-10-17T17:49:28.787965",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Quiero planear un viaje a mallorca con mi chica",
+      "structured_data": null,
+      "ts": 1760723378.1513815
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Palma**.",
+      "structured_data": {
+        "city": "Palma",
+        "flights": [
+          {
+            "airline": "AIR EUROPA",
+            "flight_number": "UX 6049",
+            "origin": "MAD",
+            "destination": "PMI",
+            "departure_time": "2025-10-17T21:45:00",
+            "arrival_time": "2025-10-17T23:05:00",
+            "duration": "1h 20m",
+            "stops": 0,
+            "price": 114.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "IBERIA",
+            "flight_number": "IB 1679",
+            "origin": "MAD",
+            "destination": "PMI",
+            "departure_time": "2025-10-17T21:20:00",
+            "arrival_time": "2025-10-17T22:40:00",
+            "duration": "1h 20m",
+            "stops": 0,
+            "price": 186.72,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VUELING AIRLINES",
+            "flight_number": "VY 5177",
+            "origin": "MAD",
+            "destination": "PMI",
+            "departure_time": "2025-10-17T21:20:00",
+            "arrival_time": "2025-10-17T22:40:00",
+            "duration": "1h 20m",
+            "stops": 0,
+            "price": 268.72,
+            "currency": "EUR"
+          },
+          {
+            "airline": "IBERIA",
+            "flight_number": "IB 1707",
+            "origin": "MAD",
+            "destination": "IBZ",
+            "departure_time": "2025-10-17T22:15:00",
+            "arrival_time": "2025-10-17T23:30:00",
+            "duration": "11h ",
+            "stops": 1,
+            "price": 412.08,
+            "currency": "EUR"
+          },
+          {
+            "airline": "IBERIA",
+            "flight_number": "IB 1707",
+            "origin": "MAD",
+            "destination": "IBZ",
+            "departure_time": "2025-10-17T22:15:00",
+            "arrival_time": "2025-10-17T23:30:00",
+            "duration": "9h 35m",
+            "stops": 1,
+            "price": 426.08,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "POSADA TERRA SANTA",
+            "hotelId": null,
+            "rating": null,
+            "address": "CARRER POSADA TERRA SANTA 5, PALMA MALLORCA, 07001",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "UR PALACIO AVENIDA",
+            "hotelId": null,
+            "rating": null,
+            "address": "AVDA ALEXANDER ROSELLO 42, PALMA DE MALLORCA, 07002",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "CAN CERA",
+            "hotelId": null,
+            "rating": null,
+            "address": "C- SAN FRANCISCO 8, PALMA DE MALLORCA, 7001",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL CORT",
+            "hotelId": null,
+            "rating": null,
+            "address": "PLACA DE CORT 11, PALMA DE MALLORCA, 07001",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "UR MISION DE SAN MIGUEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "CALLE CAN MACANET, PALMA DE MALLORCA, 07003",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Catedral de Santa María de Palma",
+            "description": "Una majestuosa catedral gótica que se alza sobre el mar, famosa por su impresionante arquitectura y hermosas vidrieras."
+          },
+          {
+            "name": "Castillo de Bellver",
+            "description": "Un castillo circular del siglo XIV que ofrece vistas panorámicas de la ciudad y la bahía, rodeado de un hermoso bosque."
+          },
+          {
+            "name": "Paseo Marítimo",
+            "description": "Un encantador paseo junto al mar ideal para caminar, correr o disfrutar de una comida con vistas al puerto."
+          },
+          {
+            "name": "Mercado de Olivar",
+            "description": "Un vibrante mercado local donde puedes degustar productos frescos, tapas y especialidades de la región."
+          },
+          {
+            "name": "Playa de Palma",
+            "description": "Una extensa playa de arena dorada que es perfecta para relajarse y disfrutar del sol mediterráneo."
+          }
+        ],
+        "summary": "Palma, la capital de Mallorca, es un destino vibrante que combina historia, cultura y playas impresionantes. Su casco antiguo, lleno de calles empedradas y arquitectura gótica, ofrece una experiencia única que no te puedes perder.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Visitar la Catedral de Santa María de Palma",
+              "Explorar el casco antiguo y sus calles históricas"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Descubrir el Castillo de Bellver",
+              "Pasear por el Paseo Marítimo y disfrutar de una comida en un restaurante"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Visitar el Mercado de Olivar para probar tapas locales",
+              "Pasar la tarde en la Playa de Palma"
+            ]
+          }
+        ],
+        "budget": {
+          "total": 444.52,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760723391.4531717
+    }
+  ]
+}

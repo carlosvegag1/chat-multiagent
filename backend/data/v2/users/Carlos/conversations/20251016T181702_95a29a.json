@@ -1,0 +1,27 @@
+{
+  "conversation_id": "20251016T181702_95a29a",
+  "history": [
+    {
+      "role": "user",
+      "message": "Tengo algun viaje proximamente?",
+      "timestamp": "2025-10-16T18:17:34Z"
+    },
+    {
+      "role": "bot",
+      "message": "No te he entendido.",
+      "timestamp": "2025-10-16T18:17:34Z"
+    },
+    {
+      "role": "user",
+      "message": "Que si tengo algun viaje planeado?",
+      "timestamp": "2025-10-16T18:17:51Z"
+    },
+    {
+      "role": "bot",
+      "message": "No te he entendido.",
+      "timestamp": "2025-10-16T18:17:51Z"
+    }
+  ],
+  "created_at": "2025-10-16T18:17:34Z",
+  "updated_at": "2025-10-16T18:17:51Z"
+}

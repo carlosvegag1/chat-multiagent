@@ -1,0 +1,37 @@
+{
+  "convo_id": "20251015T124022_735230",
+  "user": "carlos",
+  "created_at": "2025-10-15T12:40:22.654744",
+  "messages": [
+    {
+      "ts": 1760532031.143612,
+      "role": "user",
+      "text": "¿que viajes tengo planeados?"
+    },
+    {
+      "ts": 1760532032.6724977,
+      "role": "bot",
+      "text": "• Lisboa → del 20/11/2025 al 20/11/2025 (2 segmentos, creado el 15/10/2025)\n• Madrid → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)"
+    },
+    {
+      "ts": 1760532051.7566972,
+      "role": "user",
+      "text": "Limpia mis viajes planeados"
+    },
+    {
+      "ts": 1760532053.5154653,
+      "role": "bot",
+      "text": "Limpieza ejecutada correctamente para Carlos."
+    },
+    {
+      "ts": 1760532057.233235,
+      "role": "user",
+      "text": "¿que viajes tengo planeados?"
+    },
+    {
+      "ts": 1760532058.9543717,
+      "role": "bot",
+      "text": "• Lisboa → del 20/11/2025 al 20/11/2025 (2 segmentos, creado el 15/10/2025)\n• Madrid → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)"
+    }
+  ]
+}

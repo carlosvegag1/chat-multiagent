@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251017T094338_7f177f",
+  "user": "carlos",
+  "created_at": "2025-10-17T09:43:38.268358",
+  "messages": [
+    {
+      "ts": 1760694220.532371,
+      "role": "user",
+      "text": "Planifica un viaje de 4 días a Edimburgo"
+    },
+    {
+      "ts": 1760694226.4365926,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Edimburgo."
+    }
+  ]
+}

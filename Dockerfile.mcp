@@ -1,0 +1,6 @@
+﻿FROM python:3.12-slim
+WORKDIR /app
+COPY mcp_common_requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+COPY mcp_*_server /app/
+# Este Dockerfile generico lo usaremos con build context distinto

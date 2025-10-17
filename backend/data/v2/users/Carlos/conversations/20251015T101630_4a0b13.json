@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251015T101630_4a0b13",
+  "history": [
+    {
+      "role": "user",
+      "message": "Busca vuelos y hoteles en Lisboa del 20 al 23 de noviembre y dame un planning básico",
+      "timestamp": "2025-10-15T10:16:39Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: flight.search_flights call failed: FlightAgent.query() got an unexpected keyword argument 'return_date'",
+      "timestamp": "2025-10-15T10:16:39Z"
+    }
+  ],
+  "created_at": "2025-10-15T10:16:39Z",
+  "updated_at": "2025-10-15T10:16:39Z"
+}

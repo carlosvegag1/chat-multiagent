@@ -1,0 +1,183 @@
+{
+  "convo_id": "20251017T164328_73c52d",
+  "user": "carlos",
+  "created_at": "2025-10-17T16:43:28.343848",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Quiero planear un viaje a gran canaria durante 4 dias",
+      "structured_data": null,
+      "ts": 1760719419.2384753
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Las Palmas De Gran Canaria**.",
+      "structured_data": {
+        "city": "Las Palmas De Gran Canaria",
+        "flights": [
+          {
+            "airline": "AIR EUROPA",
+            "flight_number": "UX 9172",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:55:00",
+            "duration": "2h 55m",
+            "stops": 0,
+            "price": 82.42,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6065",
+            "origin": "MAD",
+            "destination": "TFN",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "12h 30m",
+            "stops": 1,
+            "price": 130.13,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6065",
+            "origin": "MAD",
+            "destination": "TFN",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "13h ",
+            "stops": 1,
+            "price": 130.13,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6005",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "2h 50m",
+            "stops": 0,
+            "price": 143.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VUELING AIRLINES",
+            "flight_number": "VY 5245",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T22:30:00",
+            "arrival_time": "2025-10-18T00:25:00",
+            "duration": "2h 55m",
+            "stops": 0,
+            "price": 147.52,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "SANTA CATALINA (PHW)",
+            "hotelId": null,
+            "rating": null,
+            "address": "LEON Y CASTILLO 227, GRAN CANARIA, 35005",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "FATAGA HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "CALLE NESTOR DE LA TORRE, 21, LAS PALMAS, 35006",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LES GENS DE MER HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "14 BD LOUIS NAIL, LORIENT, 56100",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LES GENS DE MER HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "20 AVENUE DU GENERAL GAULLE, LA ROCHELLE, 17000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "AC BY MARRIOTT IBERIA LAS PALM",
+            "hotelId": null,
+            "rating": null,
+            "address": "ALCALDE J RAMERZ BETHENCOURT 8, LAS PALMAS DE GRAN CANARI, 35003",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Playa de Las Canteras",
+            "description": "Una de las playas urbanas más famosas de España, ideal para nadar y practicar deportes acuáticos."
+          },
+          {
+            "name": "Vegueta",
+            "description": "El casco antiguo de la ciudad, lleno de arquitectura colonial, cafés y tiendas encantadoras."
+          },
+          {
+            "name": "Museo Canario",
+            "description": "Un museo que alberga una impresionante colección de artefactos indígenas y la historia de las Islas Canarias."
+          },
+          {
+            "name": "Catedral de Santa Ana",
+            "description": "Un magnífico ejemplo de arquitectura neogótica que se encuentra en el corazón de Vegueta."
+          },
+          {
+            "name": "Parque de Santa Catalina",
+            "description": "Un animado parque donde se celebran eventos y ferias, rodeado de bares y restaurantes."
+          }
+        ],
+        "summary": "Las Palmas de Gran Canaria es un destino vibrante que combina playas de ensueño con una rica herencia cultural. Disfruta de su clima cálido y su ambiente acogedor mientras exploras su historia y gastronomía.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Llegada a Las Palmas y registro en el hotel",
+              "Paseo por la Playa de Las Canteras"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Visita al casco antiguo de Vegueta",
+              "Exploración del Museo Canario"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Tour por la Catedral de Santa Ana",
+              "Tarde en el Parque de Santa Catalina"
+            ]
+          },
+          {
+            "day": 4,
+            "activities": [
+              "Día de relax en la Playa de Las Canteras",
+              "Cena en un restaurante local para probar la gastronomía canaria"
+            ]
+          }
+        ],
+        "budget": {
+          "total": 522.42,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760719440.811615
+    }
+  ]
+}

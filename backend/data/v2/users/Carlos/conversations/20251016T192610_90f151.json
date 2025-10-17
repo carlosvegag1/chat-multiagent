@@ -1,0 +1,107 @@
+{
+  "conversation_id": "20251016T192610_90f151",
+  "history": [
+    {
+      "role": "user",
+      "message": "¿Tengo algún viaje planeado?",
+      "timestamp": "2025-10-16T19:26:20Z"
+    },
+    {
+      "role": "bot",
+      "message": "No tienes viajes registrados todavía.",
+      "timestamp": "2025-10-16T19:26:20Z"
+    },
+    {
+      "role": "user",
+      "message": "Perfecto, pues quiero explorar la Provenza durante 4 días",
+      "timestamp": "2025-10-16T19:26:45Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No encontré un viaje a Marsella para modificar.",
+      "timestamp": "2025-10-16T19:26:45Z"
+    },
+    {
+      "role": "user",
+      "message": "Es un viaje nuevo que quiero que me ayudes a planificar",
+      "timestamp": "2025-10-16T19:27:09Z"
+    },
+    {
+      "role": "bot",
+      "message": "¡Listo! Aquí tienes tu plan de viaje para ****.\n\n\nNo he encontrado vuelos ni hoteles para este destino. Aquí tienes información general:\n\n🧭 **Sobre el destino:**\nDestino is an animated surrealist short film released in 2003 by Walt Disney Animation Studios. Destino is unique in that its production originally began in 1945, 58 years before its eventual completion in 2003. The project was originally a collaboration between Walt Disney and Spanish painter Salvador Dalí, with music written by Mexican songwriter Armando Domínguez and performed by Mexican singer Dora Luz as the soundtrack. It was included in the Animation Show of Shows in 2003.\n\n🗓️ **Plan de viaje sugerido:**\n**Día 1:** Visita Punto de interés 1 de ; Visita Punto de interés 2 de ; Visita Punto de interés 3 de ; Visita Punto de interés 4 de \n**Día 2:** Visita Punto de interés 3 de ; Visita Punto de interés 4 de ; Visita Punto de interés 5 de ; Visita Punto de interés 6 de \n**Día 3:** Visita Punto de interés 5 de ; Visita Punto de interés 6 de \n\n💰 **Presupuesto total estimado: 330.0 EUR**",
+      "timestamp": "2025-10-16T19:27:09Z"
+    },
+    {
+      "role": "user",
+      "message": "me parece poco, amplíalo un día más",
+      "timestamp": "2025-10-16T19:27:27Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ La duración del viaje a (2025-10-17 → 2025-10-20) ha sido ajustada a 3 días.",
+      "timestamp": "2025-10-16T19:27:27Z"
+    },
+    {
+      "role": "user",
+      "message": "ahora organiza un viaje a argentina",
+      "timestamp": "2025-10-16T19:27:38Z"
+    },
+    {
+      "role": "bot",
+      "message": "¡Listo! Aquí tienes tu plan de viaje para **Buenos Aires**.\n\n🏨 **Hoteles:**\n- LOISUITES RECOLETA HOTEL (None⭐)\n- SARMIENTO SUITES (None⭐)\n- LOISUITES ESMERALDA (None⭐)\n\n🧭 **Sobre el destino:**\nBuenos Aires, officially the Autonomous City of Buenos Aires, is the capital and largest city of Argentina. It is located on the southwest of the Río de la Plata. Buenos Aires is classified as an Alpha− global city, according to the GaWC 2024 ranking. The city proper has a population of 3.1 million and its urban area has a population of 16.7 million, making it the twentieth largest metropolitan area in the world.\n\n🗓️ **Plan de viaje sugerido:**\n**Día 1:** Visita Punto de interés 1 de Buenos Aires; Visita Punto de interés 2 de Buenos Aires; Visita Punto de interés 3 de Buenos Aires; Visita Punto de interés 4 de Buenos Aires\n**Día 2:** Visita Punto de interés 3 de Buenos Aires; Visita Punto de interés 4 de Buenos Aires; Visita Punto de interés 5 de Buenos Aires; Visita Punto de interés 6 de Buenos Aires\n**Día 3:** Visita Punto de interés 5 de Buenos Aires; Visita Punto de interés 6 de Buenos Aires\n\n💰 **Presupuesto total estimado: 330.0 EUR**",
+      "timestamp": "2025-10-16T19:27:38Z"
+    },
+    {
+      "role": "user",
+      "message": "acórtalo a 3 días",
+      "timestamp": "2025-10-16T19:27:43Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ La duración del viaje a Buenos Aires ha sido ajustada a 3 días.",
+      "timestamp": "2025-10-16T19:27:43Z"
+    },
+    {
+      "role": "user",
+      "message": "mueve el viaje dos semanas",
+      "timestamp": "2025-10-16T19:27:50Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Fechas del viaje a Buenos Aires desplazadas 14 día(s).",
+      "timestamp": "2025-10-16T19:27:50Z"
+    },
+    {
+      "role": "user",
+      "message": "ok, muéstrame mis planes",
+      "timestamp": "2025-10-16T19:27:54Z"
+    },
+    {
+      "role": "bot",
+      "message": "Aquí están tus viajes planeados:\n• **(2025-10-17 → 2025-10-20)**: del 17/10/2025 al 20/10/2025 [~330.0 EUR]\n• **Buenos Aires**: del 31/10/2025 al 03/11/2025 [~330.0 EUR]",
+      "timestamp": "2025-10-16T19:27:54Z"
+    },
+    {
+      "role": "user",
+      "message": "cancela el viaje a francia",
+      "timestamp": "2025-10-16T19:28:00Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No encontré un viaje a París para eliminar.",
+      "timestamp": "2025-10-16T19:28:00Z"
+    },
+    {
+      "role": "user",
+      "message": "perfecto, borra todo",
+      "timestamp": "2025-10-16T19:28:03Z"
+    },
+    {
+      "role": "bot",
+      "message": "🧹 Todos los viajes han sido eliminados correctamente.",
+      "timestamp": "2025-10-16T19:28:03Z"
+    }
+  ],
+  "created_at": "2025-10-16T19:26:20Z",
+  "updated_at": "2025-10-16T19:28:03Z"
+}

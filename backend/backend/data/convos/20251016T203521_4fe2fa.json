@@ -1,0 +1,147 @@
+{
+  "convo_id": "20251016T203521_4fe2fa",
+  "user": "Carlos",
+  "created_at": "2025-10-17T08:14:02.126714",
+  "messages": [
+    {
+      "ts": 1760688842.126714,
+      "role": "user",
+      "text": "Hola! Quiero explorar Roma durante 4 d\u00edas"
+    },
+    {
+      "ts": 1760688842.126714,
+      "role": "bot",
+      "text": "Aqu\u00ed tienes tu plan para Roma."
+    },
+    {
+      "ts": 1760688881.559671,
+      "role": "user",
+      "text": "\u00bfTengo alg\u00fan viaje planeado?"
+    },
+    {
+      "ts": 1760688881.578115,
+      "role": "bot",
+      "text": "\u2022 Roma \u2192 del 17/10/2025 al 21/10/2025 (2 segmentos, creado el 16/10/2025) [~516.52 EUR]"
+    },
+    {
+      "ts": 1760688893.836426,
+      "role": "user",
+      "text": "me parece poco, ampl\u00edalo un d\u00eda m\u00e1s"
+    },
+    {
+      "ts": 1760688893.848395,
+      "role": "bot",
+      "text": "\ud83c\udfe8 Estancia en Roma extendida 1 d\u00eda(s)."
+    },
+    {
+      "ts": 1760688900.570637,
+      "role": "user",
+      "text": "ahora organiza un viaje a argentina"
+    },
+    {
+      "ts": 1760688900.596886,
+      "role": "bot",
+      "text": "Aqu\u00ed tienes tu plan para Buenos Aires."
+    },
+    {
+      "ts": 1760688904.780163,
+      "role": "user",
+      "text": "ac\u00f3rtalo a 3 d\u00edas"
+    },
+    {
+      "ts": 1760688904.7864,
+      "role": "bot",
+      "text": "Veo varios viajes (\u2018Roma\u2019, \u2018Buenos Aires\u2019). \u00bfA cu\u00e1l te refieres?"
+    },
+    {
+      "ts": 1760688914.005905,
+      "role": "user",
+      "text": "El de buenos aires"
+    },
+    {
+      "ts": 1760688914.028399,
+      "role": "bot",
+      "text": "\ud83d\uddd1\ufe0f Viaje a Buenos Aires eliminado correctamente."
+    },
+    {
+      "ts": 1760688917.663651,
+      "role": "user",
+      "text": "ok, mu\u00e9strame mis planes"
+    },
+    {
+      "ts": 1760688917.68475,
+      "role": "bot",
+      "text": "\u2022 Roma \u2192 del 17/10/2025 al 18/10/2025 (2 segmentos, creado el 16/10/2025) [~516.52 EUR]"
+    },
+    {
+      "ts": 1760688926.204342,
+      "role": "user",
+      "text": "cancela el viaje a italia"
+    },
+    {
+      "ts": 1760688926.220617,
+      "role": "bot",
+      "text": "\ud83d\uddd1\ufe0f Viaje a Roma eliminado correctamente."
+    },
+    {
+      "ts": 1760688937.347713,
+      "role": "user",
+      "text": "Entonces qu\u00e9 planes tengo?"
+    },
+    {
+      "ts": 1760688937.371738,
+      "role": "bot",
+      "text": "No tienes viajes registrados todav\u00eda."
+    },
+    {
+      "ts": 1760689548.123284,
+      "role": "user",
+      "text": "ahora organiza un viaje a argentina"
+    },
+    {
+      "ts": 1760689548.145153,
+      "role": "bot",
+      "text": "Aqu\u00ed tienes tu plan para Buenos Aires."
+    },
+    {
+      "ts": 1760689881.473656,
+      "role": "user",
+      "text": "\u00bfQu\u00e9 viajes tengo planeados?"
+    },
+    {
+      "ts": 1760689881.510685,
+      "role": "bot",
+      "text": "\u2022 Buenos Aires \u2192 del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 17/10/2025) [~1291.09 EUR]"
+    },
+    {
+      "ts": 1760689891.425655,
+      "role": "user",
+      "text": "planifica un viaje a Roma 4 d\u00edas"
+    },
+    {
+      "ts": 1760689891.454111,
+      "role": "bot",
+      "text": "Aqu\u00ed tienes tu plan para Roma."
+    },
+    {
+      "ts": 1760689901.424213,
+      "role": "user",
+      "text": "ac\u00f3rtalo 2 d\u00edas"
+    },
+    {
+      "ts": 1760689901.454751,
+      "role": "bot",
+      "text": "Veo varios viajes (\u2018Buenos Aires\u2019, \u2018Roma\u2019). \u00bfA cu\u00e1l te refieres?"
+    },
+    {
+      "ts": 1760689914.478675,
+      "role": "user",
+      "text": "el de buenos aires"
+    },
+    {
+      "ts": 1760689914.512304,
+      "role": "bot",
+      "text": "\ud83c\udfe8 Estancia en Buenos Aires extendida -2 d\u00eda(s)."
+    }
+  ]
+}

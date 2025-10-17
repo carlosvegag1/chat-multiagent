@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251014T123307_18d810",
+  "user": "carlos",
+  "created_at": "2025-10-14T12:33:07.806662",
+  "messages": [
+    {
+      "ts": 1760445190.0916004,
+      "role": "user",
+      "text": "¿Qué clima hace en Nueva York?"
+    },
+    {
+      "ts": 1760445194.1134253,
+      "role": "bot",
+      "text": "¡Hola! El clima en Lisboa es mayormente despejado con una temperatura de 24.4 °C y vientos de 2.2 km/h. ¡Disfruta del buen tiempo! ¿Hay algo más en lo que pueda ayudarte?"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "convo_id": "20251014T140344_421880",
+  "user": "carlos",
+  "created_at": "2025-10-14T14:03:44.461992",
+  "messages": [
+    {
+      "ts": 1760450629.0239446,
+      "role": "user",
+      "text": "¿Qué clima hace hoy en madrid?"
+    },
+    {
+      "ts": 1760450633.278596,
+      "role": "bot",
+      "text": "¡Hola! Parece que hay un problema con la obtención del clima en algunas ubicaciones. Sin embargo, puedo proporcionarte información del clima en Quế. Actualmente, el clima es de chubascos ligeros con una temperatura de 24.7 °C y viento de 2.0 km/h. Esta información proviene de Open-Meteo. ¿Hay algo más en lo que pueda ayudarte con respecto al clima? ¡Estoy aquí para ayudarte!"
+    },
+    {
+      "ts": 1760450647.6884556,
+      "role": "user",
+      "text": "¿Qué clima hace hoy en Nueva York?"
+    },
+    {
+      "ts": 1760450650.4507654,
+      "role": "bot",
+      "text": "Lo siento, parece que hubo un error al intentar obtener el clima. Por favor, verifica que el nombre de la ciudad esté escrito correctamente y vuelve a intentarlo. Si necesitas más ayuda, no dudes en preguntar. ¡Estoy aquí para ayudarte!"
+    },
+    {
+      "ts": 1760450673.0634618,
+      "role": "user",
+      "text": "¿Qué clima hace hoy en New York?"
+    },
+    {
+      "ts": 1760450675.3352492,
+      "role": "bot",
+      "text": "¡Hola! Parece que hubo un error al intentar obtener el clima para la ciudad de \"Qué New York\". Lamentablemente, no pudimos encontrar información para esa ubicación. ¿Hay algo más en lo que pueda ayudarte? ¡Estoy aquí para asistirte en lo que necesites!"
+    },
+    {
+      "ts": 1760450690.7282996,
+      "role": "user",
+      "text": "Clima en New York"
+    },
+    {
+      "ts": 1760450694.3891346,
+      "role": "bot",
+      "text": "¡Hola! Aquí tienes el clima actual en York:\n\n- Sumario: 🌦️ Lluvia ligera\n- Temperatura: 9.9 °C\n- Viento: 14.1 km/h\n\n¡Espero que esta información te sea útil! ¿Hay algo más en lo que pueda ayudarte?"
+    },
+    {
+      "ts": 1760450715.273788,
+      "role": "user",
+      "text": "Buscame hoteles y clima en Roma"
+    },
+    {
+      "ts": 1760450718.2605765,
+      "role": "bot",
+      "text": "¡Hola! Parece que hubo un problema al intentar buscar hoteles y obtener el clima en Roma. Lamentablemente, no pudimos encontrar la información que solicitaste. Te recomendamos intentarlo de nuevo utilizando términos más específicos o separando las búsquedas de hoteles y clima en diferentes consultas. Si necesitas ayuda adicional, no dudes en preguntar. ¡Que tengas un excelente día!"
+    }
+  ]
+}

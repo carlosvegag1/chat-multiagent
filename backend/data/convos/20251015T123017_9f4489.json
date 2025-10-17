@@ -1,0 +1,37 @@
+{
+  "convo_id": "20251015T123017_9f4489",
+  "user": "carlos",
+  "created_at": "2025-10-15T12:30:17.040879",
+  "messages": [
+    {
+      "ts": 1760531423.5433903,
+      "role": "user",
+      "text": "que viajes tengo planeados?"
+    },
+    {
+      "ts": 1760531425.7200797,
+      "role": "bot",
+      "text": "• Lisboa → del 20/11/2025 al 20/11/2025 (6 segmentos, creado el 15/10/2025)"
+    },
+    {
+      "ts": 1760531434.5010858,
+      "role": "user",
+      "text": "elimina mis viajes planeados"
+    },
+    {
+      "ts": 1760531436.7200925,
+      "role": "bot",
+      "text": "🗑️ Viaje a Lisboa eliminado correctamente."
+    },
+    {
+      "ts": 1760531439.565894,
+      "role": "user",
+      "text": "que viajes tengo planeados?"
+    },
+    {
+      "ts": 1760531441.748498,
+      "role": "bot",
+      "text": "No tienes viajes registrados todavía."
+    }
+  ]
+}

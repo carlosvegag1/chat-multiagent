@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251017T105701_793abd",
+  "user": "carlos",
+  "created_at": "2025-10-17T10:57:01.171124",
+  "messages": [
+    {
+      "ts": 1760698622.7714403,
+      "role": "user",
+      "text": "¿Qué viajes tengo planeadoS?"
+    },
+    {
+      "ts": 1760698622.7924848,
+      "role": "bot",
+      "text": "{\n  \"summary\": \"Aquí tienes un resumen de tus viajes:\\n- **Roma**: del 17/09/2025 al 19/09/2025 con un presupuesto de ~297€.\\n- **Oporto**: del 17/10/2025 al 19/10/2025 con un presupuesto de ~274€.\\n- **Bangkok**: del 17/10/2025 al 24/10/2025 con un presupuesto de ~770€.\\n- **Las Palmas De Gran Canaria**: del 17/10/2025 al 23/10/2025 con un presupuesto de ~722€.\\n- **Edimburgo**: del 17/10/2025 al 21/10/2025 con un presupuesto de ~440€.\\n- **Florencia**: del 17/10/2025 al 24/10/2025 con un presupuesto de ~885€.\\n- **Reikiavik**: del 17/10/2025 al 17/10/2025 con un presupuesto de ~574€.\\n- **Friburgo**: del 17/10/2025 al 22/10/2025 con un presupuesto de ~550€.\\n- **Osaka**: del 17/10/2025 al 20/10/2025 con un presupuesto de ~1100€.\"\n}"
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "conversation_id": "demo1",
+  "history": [
+    {
+      "role": "user",
+      "message": "Busca vuelos de MAD a LIS para 2025-11-20",
+      "timestamp": "2025-10-14T18:46:36Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: FlightAgent call failed: All connection attempts failed",
+      "timestamp": "2025-10-14T18:46:36Z"
+    },
+    {
+      "role": "user",
+      "message": "Busca vuelos y hoteles en Lisboa para 2025-11-20",
+      "timestamp": "2025-10-15T08:34:49Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ No encontré vuelos desde MAD a LIS.",
+      "timestamp": "2025-10-15T08:34:49Z"
+    },
+    {
+      "role": "user",
+      "message": "Busca vuelos y hoteles en Lisboa del 20 al 23 de noviembre",
+      "timestamp": "2025-10-15T15:59:26Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA PRAIA — None⭐ — None EUR\n- HOTEL DO LAGO — None⭐ — None EUR\n- HOTEL DA LOLO — None⭐ — None EUR\n- HOTEL PRAIA MAR — None⭐ — None EUR\n- NOVOTEL SETUBAL — None⭐ — None EUR\n\n⚠️ Conflicto con ‘Oporto (2025-11-22 → 2025-11-22)’",
+      "timestamp": "2025-10-15T15:59:26Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T16:10:41Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: Tool desconocida o no implementada: hotel.search_hotels",
+      "timestamp": "2025-10-15T16:10:42Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T16:15:44Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: Tool desconocida o no implementada: hotel.search_hotels",
+      "timestamp": "2025-10-15T16:15:44Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T16:21:08Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en Lisboa extendida 3 día(s).",
+      "timestamp": "2025-10-15T16:21:08Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T16:28:03Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- TP1015 14:55–15:20 (38.52 EUR)\n- UX1153 10:25–10:45 (50.52 EUR)\n- UX1155 14:55–15:15 (50.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA PRAIA\n- HOTEL DO LAGO\n- HOTEL DA LOLO\n- PENSAO LAR DO ARREIRO - LISBOA\n- LONDRES HOTEL\n\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: Lisboa (pronunciación en portugués: /liʒˈβoɐ/ ()) es la capital​ y mayor ciudad de Portugal. Situada en la desembocadura del río Tajo, es la capital del país, capital del distrito de Lisboa, de la región de Lisboa, del área metropolitana de Lisboa, y es también el principal centro de la subregión de la Gran Lisboa. La ciudad tiene una población de 547 773 habitantes y su área metropolitana se sitúa en los 2 810 923 en una superficie de 2.921,90 km².\n\n💰 Presupuesto estimado total: N/A EUR",
+      "timestamp": "2025-10-15T16:28:03Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T16:28:41Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA PRAIA\n- HOTEL DO LAGO\n- HOTEL DA LOLO\n- HOTEL COMENDADOR - BOMBARRAL\n- HOTEL SANTA MARIA-FATIMA \n\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: Lisboa (pronunciación en portugués: /liʒˈβoɐ/ ()) es la capital​ y mayor ciudad de Portugal. Situada en la desembocadura del río Tajo, es la capital del país, capital del distrito de Lisboa, de la región de Lisboa, del área metropolitana de Lisboa, y es también el principal centro de la subregión de la Gran Lisboa. La ciudad tiene una población de 547 773 habitantes y su área metropolitana se sitúa en los 2 810 923 en una superficie de 2.921,90 km².\n\n💰 Presupuesto estimado total: N/A EUR",
+      "timestamp": "2025-10-15T16:28:41Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T16:35:23Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DO LAGO\n- HOTEL DA PRAIA\n- HOTEL DA LOLO\n- LISBON APARTMENTS - CAIS DO SODRE\n- HOTEL REAL D OBIDOS\n\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: Lisboa (pronunciación en portugués: /liʒˈβoɐ/ ()) es la capital​ y mayor ciudad de Portugal. Situada en la desembocadura del río Tajo, es la capital del país, capital del distrito de Lisboa, de la región de Lisboa, del área metropolitana de Lisboa, y es también el principal centro de la subregión de la Gran Lisboa. La ciudad tiene una población de 547 773 habitantes y su área metropolitana se sitúa en los 2 810 923 en una superficie de 2.921,90 km².\n\n💰 Presupuesto estimado total: N/A EUR",
+      "timestamp": "2025-10-15T16:35:23Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T16:35:40Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DO LAGO\n- HOTEL DA PRAIA\n- HOTEL DA LOLO\n- ALBATROZ BAYSIDE VILLA\n- THEOITAVOS\n\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: Lisboa (pronunciación en portugués: /liʒˈβoɐ/ ()) es la capital​ y mayor ciudad de Portugal. Situada en la desembocadura del río Tajo, es la capital del país, capital del distrito de Lisboa, de la región de Lisboa, del área metropolitana de Lisboa, y es también el principal centro de la subregión de la Gran Lisboa. La ciudad tiene una población de 547 773 habitantes y su área metropolitana se sitúa en los 2 810 923 en una superficie de 2.921,90 km².\n\n💰 Presupuesto estimado total: N/A EUR",
+      "timestamp": "2025-10-15T16:35:40Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T16:36:11Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA LOLO\n- HOTEL DA PRAIA\n- HOTEL DO LAGO\n- HOTEL DA ESTRELA\n- M'AR DE AR MURALHAS\n\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: Lisboa (pronunciación en portugués: /liʒˈβoɐ/ ()) es la capital​ y mayor ciudad de Portugal. Situada en la desembocadura del río Tajo, es la capital del país, capital del distrito de Lisboa, de la región de Lisboa, del área metropolitana de Lisboa, y es también el principal centro de la subregión de la Gran Lisboa. La ciudad tiene una población de 547 773 habitantes y su área metropolitana se sitúa en los 2 810 923 en una superficie de 2.921,90 km².\n\n💰 Presupuesto estimado total: N/A EUR",
+      "timestamp": "2025-10-15T16:36:11Z"
+    },
+    {
+      "role": "user",
+      "message": "Limpia todos mis viajes",
+      "timestamp": "2025-10-15T16:36:55Z"
+    },
+    {
+      "role": "bot",
+      "message": "🧹 Todos los viajes de carlos han sido eliminados correctamente (modo total).",
+      "timestamp": "2025-10-15T16:36:55Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T16:45:33Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA PRAIA\n- HOTEL DO LAGO\n- HOTEL DA LOLO\n- HOTEL DO LAGO\n- HOTEL ANJO DE PORTUGAL\n\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: Lisboa (pronunciación en portugués: /liʒˈβoɐ/ ()) es la capital​ y mayor ciudad de Portugal. Situada en la desembocadura del río Tajo, es la capital del país, capital del distrito de Lisboa, de la región de Lisboa, del área metropolitana de Lisboa, y es también el principal centro de la subregión de la Gran Lisboa. La ciudad tiene una población de 547 773 habitantes y su área metropolitana se sitúa en los 2 810 923 en una superficie de 2.921,90 km².\n\n💰 Presupuesto estimado total: N/A EUR",
+      "timestamp": "2025-10-15T16:45:33Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T16:45:37Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en Lisboa extendida 2 día(s).",
+      "timestamp": "2025-10-15T16:45:37Z"
+    },
+    {
+      "role": "user",
+      "message": "Borra mi viaje a Lisboa",
+      "timestamp": "2025-10-15T16:45:45Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗑️ Viaje a Lisboa eliminado correctamente.",
+      "timestamp": "2025-10-15T16:45:45Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo planeados?",
+      "timestamp": "2025-10-15T16:45:56Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n📍 Lugares recomendados en :\n• Lugar turístico 1 de Destino — Descripción breve del punto 1.\n• Lugar turístico 2 de Destino — Descripción breve del punto 2.\n• Lugar turístico 3 de Destino — Descripción breve del punto 3.\n• Lugar turístico 4 de Destino — Descripción breve del punto 4.\n• Lugar turístico 5 de Destino — Descripción breve del punto 5.\n\n🧭 Resumen: El destino (también llamado fatum, hado o sino) es el concepto por el cual una persona cree que los eventos o las acciones están determinadas. El destino sería un poder sobrenatural o plan que guía la vida humana y la de cualquier ser a un fin no escogido. El destino es por lo tanto, el antónimo del libre albedrío .\n\n💰 Presupuesto estimado total: N/A EUR",
+      "timestamp": "2025-10-15T16:45:56Z"
+    },
+    {
+      "role": "user",
+      "message": "Limpia todos mis viajes",
+      "timestamp": "2025-10-15T16:45:58Z"
+    },
+    {
+      "role": "bot",
+      "message": "🧹 Todos los viajes de carlos han sido eliminados correctamente (modo total).",
+      "timestamp": "2025-10-15T16:45:58Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T17:02:20Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: No se encontró información detallada sobre Lisboa.\n\n💰 Presupuesto estimado total: 430.0 EUR",
+      "timestamp": "2025-10-15T17:02:20Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T17:04:00Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: No se encontró información detallada sobre Lisboa.\n\n💰 Presupuesto estimado total: 430.0 EUR",
+      "timestamp": "2025-10-15T17:04:00Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T17:05:44Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA PRAIA\n- HOTEL DA LOLO\n- HOTEL DO LAGO\n- HOTEL DO ROSSIO\n- SANA METROPOLITAN HOTEL\n\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: Lisboa (pronunciación en portugués: /liʒˈβoɐ/ ()) es la capital​ y mayor ciudad de Portugal. Situada en la desembocadura del río Tajo, es la capital del país, capital del distrito de Lisboa, de la región de Lisboa, del área metropolitana de Lisboa, y es también el principal centro de la subregión de la Gran Lisboa. La ciudad tiene una población de 547 773 habitantes y su área metropolitana se sitúa en los 2 810 923 en una superficie de 2.921,90 km².\n\n💰 Presupuesto estimado total: 430.0 EUR",
+      "timestamp": "2025-10-15T17:05:44Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T17:17:53Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA LOLO\n- HOTEL DO LAGO\n- HOTEL DA PRAIA\n- HOTEL DE LISBOA\n- HOTEL DO LAGO\n\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: Lisboa (pronunciación en portugués: /liʒˈβoɐ/ ()) es la capital​ y mayor ciudad de Portugal. Situada en la desembocadura del río Tajo, es la capital del país, capital del distrito de Lisboa, de la región de Lisboa, del área metropolitana de Lisboa, y es también el principal centro de la subregión de la Gran Lisboa. La ciudad tiene una población de 547 773 habitantes y su área metropolitana se sitúa en los 2 810 923 en una superficie de 2.921,90 km².\n\n💰 Presupuesto estimado total: 430.0 EUR",
+      "timestamp": "2025-10-15T17:17:53Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T17:22:44Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA PRAIA\n- HOTEL DA LOLO\n- HOTEL DO LAGO\n- SINTRA SOL APARTMENTS\n- SANA RENO HOTEL\n\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: Lisboa (pronunciación en portugués: /liʒˈβoɐ/ ()) es la capital​ y mayor ciudad de Portugal. Situada en la desembocadura del río Tajo, es la capital del país, capital del distrito de Lisboa, de la región de Lisboa, del área metropolitana de Lisboa, y es también el principal centro de la subregión de la Gran Lisboa. La ciudad tiene una población de 547 773 habitantes y su área metropolitana se sitúa en los 2 810 923 en una superficie de 2.921,90 km².\n\n💰 Presupuesto estimado total: 430.0 EUR",
+      "timestamp": "2025-10-15T17:22:44Z"
+    },
+    {
+      "role": "user",
+      "message": "Mis viajes",
+      "timestamp": "2025-10-15T17:22:52Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 17/10/2025 al 20/10/2025 (4 segmentos, creado el 15/10/2025) [~430.0 EUR]",
+      "timestamp": "2025-10-15T17:22:52Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T17:24:20Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA LOLO\n- HOTEL DA PRAIA\n- HOTEL DO LAGO\n- HOLIDAY INN EXP AV. LIBERDADE\n- HOLIDAY INN EXPRESS LISBON - AV. LIBERDA\n\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: Lisboa (pronunciación en portugués: /liʒˈβoɐ/ ()) es la capital​ y mayor ciudad de Portugal. Situada en la desembocadura del río Tajo, es la capital del país, capital del distrito de Lisboa, de la región de Lisboa, del área metropolitana de Lisboa, y es también el principal centro de la subregión de la Gran Lisboa. La ciudad tiene una población de 547 773 habitantes y su área metropolitana se sitúa en los 2 810 923 en una superficie de 2.921,90 km².\n\n🗓️ Plan 72h:\n Día 1: Visita Lugar turístico 2 de Lisboa; Visita Lugar turístico 1 de Lisboa\n Día 2: Visita Lugar turístico 1 de Lisboa; Visita Lugar turístico 5 de Lisboa\n Día 3: Visita Lugar turístico 2 de Lisboa; Visita Lugar turístico 4 de Lisboa\n\n💰 Presupuesto estimado total: 430.0 EUR",
+      "timestamp": "2025-10-15T17:24:20Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T17:43:31Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA LOLO\n- HOTEL DA PRAIA\n- HOTEL DO LAGO\n- GRANDE REAL VILLA ITALIA HOTEL\n- VILA GALE OPERA\n\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: Lisboa (pronunciación en portugués: /liʒˈβoɐ/ ()) es la capital​ y mayor ciudad de Portugal. Situada en la desembocadura del río Tajo, es la capital del país, capital del distrito de Lisboa, de la región de Lisboa, del área metropolitana de Lisboa, y es también el principal centro de la subregión de la Gran Lisboa. La ciudad tiene una población de 547 773 habitantes y su área metropolitana se sitúa en los 2 810 923 en una superficie de 2.921,90 km².\n\n🗓️ Plan 72h:\n Día 1: Visita Lugar turístico 4 de Lisboa; Visita Lugar turístico 1 de Lisboa\n Día 2: Visita Lugar turístico 5 de Lisboa; Visita Lugar turístico 3 de Lisboa\n Día 3: Visita Lugar turístico 2 de Lisboa; Visita Lugar turístico 4 de Lisboa\n\n💰 Presupuesto estimado total: N/A EUR",
+      "timestamp": "2025-10-15T17:43:31Z"
+    },
+    {
+      "role": "user",
+      "message": "Mis viajes",
+      "timestamp": "2025-10-15T17:43:34Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 17/10/2025 al 20/10/2025 (4 segmentos, creado el 15/10/2025) [~430.0 EUR]",
+      "timestamp": "2025-10-15T17:43:34Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T18:49:31Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: flight.search_flights call failed: 'CalcAgent' object has no attribute 'query'",
+      "timestamp": "2025-10-15T18:49:31Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T18:49:54Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: flight.search_flights call failed: 'CalcAgent' object has no attribute 'query'",
+      "timestamp": "2025-10-15T18:49:54Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T18:51:33Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA PRAIA\n- HOTEL DA LOLO\n- HOTEL DO LAGO\n- THE HOTEL ARRIBAS-COLARES\n- AREIAS DO SEIXO-A-DOS-CUNHADOS\n\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: Lisboa (pronunciación en portugués: /liʒˈβoɐ/ ()) es la capital​ y mayor ciudad de Portugal. Situada en la desembocadura del río Tajo, es la capital del país, capital del distrito de Lisboa, de la región de Lisboa, del área metropolitana de Lisboa, y es también el principal centro de la subregión de la Gran Lisboa. La ciudad tiene una población de 547 773 habitantes y su área metropolitana se sitúa en los 2 810 923 en una superficie de 2.921,90 km².\n\n🗓️ Plan 72h:\n Día 1: Visita Lugar turístico 3 de Lisboa; Visita Lugar turístico 2 de Lisboa\n Día 2: Visita Lugar turístico 5 de Lisboa; Visita Lugar turístico 6 de Lisboa\n Día 3: Visita Lugar turístico 6 de Lisboa; Visita Lugar turístico 1 de Lisboa\n\n💰 Presupuesto estimado total: 208.6 EUR",
+      "timestamp": "2025-10-15T18:51:33Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T18:53:14Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DO LAGO\n- HOTEL DA LOLO\n- HOTEL DA PRAIA\n- ATLANTICO GOLF HOTEL\n- SANA CAPITOL HOTEL\n\n📍 Lugares recomendados en Lisboa:\n• Lugar turístico 1 de Lisboa — Descripción breve del punto 1.\n• Lugar turístico 2 de Lisboa — Descripción breve del punto 2.\n• Lugar turístico 3 de Lisboa — Descripción breve del punto 3.\n• Lugar turístico 4 de Lisboa — Descripción breve del punto 4.\n• Lugar turístico 5 de Lisboa — Descripción breve del punto 5.\n\n🧭 Resumen: Lisboa (pronunciación en portugués: /liʒˈβoɐ/ ()) es la capital​ y mayor ciudad de Portugal. Situada en la desembocadura del río Tajo, es la capital del país, capital del distrito de Lisboa, de la región de Lisboa, del área metropolitana de Lisboa, y es también el principal centro de la subregión de la Gran Lisboa. La ciudad tiene una población de 547 773 habitantes y su área metropolitana se sitúa en los 2 810 923 en una superficie de 2.921,90 km².\n\n🗓️ Plan 72h:\n Día 1: Visita Lugar turístico 5 de Lisboa; Visita Lugar turístico 3 de Lisboa\n Día 2: Visita Lugar turístico 7 de Lisboa; Visita Lugar turístico 3 de Lisboa\n Día 3: Visita Lugar turístico 5 de Lisboa; Visita Lugar turístico 2 de Lisboa\n\n💰 Presupuesto estimado total: 208.6 EUR",
+      "timestamp": "2025-10-15T18:53:15Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo?",
+      "timestamp": "2025-10-15T18:53:22Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 17/10/2025 al 20/10/2025 (4 segmentos, creado el 15/10/2025) [~208.6 EUR]",
+      "timestamp": "2025-10-15T18:53:22Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T18:53:36Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en Lisboa extendida 2 día(s).",
+      "timestamp": "2025-10-15T18:53:36Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T18:53:40Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en Lisboa extendida 2 día(s).",
+      "timestamp": "2025-10-15T18:53:40Z"
+    },
+    {
+      "role": "user",
+      "message": "Mueve mi viaje un día después",
+      "timestamp": "2025-10-15T18:53:44Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Fechas del viaje a Lisboa desplazadas 1 día(s).",
+      "timestamp": "2025-10-15T18:53:44Z"
+    },
+    {
+      "role": "user",
+      "message": "Ya no quiero ir a Lisboa",
+      "timestamp": "2025-10-15T18:53:47Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗑️ Viaje a Lisboa eliminado correctamente.",
+      "timestamp": "2025-10-15T18:53:47Z"
+    },
+    {
+      "role": "user",
+      "message": "Limpia todos mis viajes",
+      "timestamp": "2025-10-15T18:53:51Z"
+    },
+    {
+      "role": "bot",
+      "message": "Limpieza ejecutada.",
+      "timestamp": "2025-10-15T18:53:51Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Cuáles son mis próximas escapadas?",
+      "timestamp": "2025-10-15T18:53:58Z"
+    },
+    {
+      "role": "bot",
+      "message": "No tienes viajes registrados todavía.",
+      "timestamp": "2025-10-15T18:53:58Z"
+    }
+  ],
+  "created_at": "2025-10-14T18:46:36Z",
+  "updated_at": "2025-10-15T18:53:58Z"
+}

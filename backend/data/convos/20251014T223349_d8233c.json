@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251014T223349_d8233c",
+  "user": "carlos",
+  "created_at": "2025-10-14T22:33:49.047616",
+  "messages": [
+    {
+      "ts": 1760481231.676717,
+      "role": "user",
+      "text": "Busca vuelos de Madrid a Nueva York"
+    },
+    {
+      "ts": 1760481236.4615731,
+      "role": "bot",
+      "text": "✈️ No encontré vuelos desde MAD a NYC."
+    }
+  ]
+}

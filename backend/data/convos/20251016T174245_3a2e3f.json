@@ -1,0 +1,47 @@
+{
+  "convo_id": "20251016T174245_3a2e3f",
+  "user": "carlos",
+  "created_at": "2025-10-16T17:42:45.954367",
+  "messages": [
+    {
+      "ts": 1760636589.8599994,
+      "role": "user",
+      "text": "¿Qué viajes tengo agendados?"
+    },
+    {
+      "ts": 1760636592.1392682,
+      "role": "bot",
+      "text": "No tienes viajes registrados todavía."
+    },
+    {
+      "ts": 1760636610.867006,
+      "role": "user",
+      "text": "una escapada a berlín el finde"
+    },
+    {
+      "ts": 1760636621.5310955,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos a Berlín:\n- DY 1719 (100.19 EUR)\n- VY 5334 (112.04 EUR)\n- VY 5331 (112.04 EUR)\n\n🏨 Hoteles disponibles en Berlín:\n- WYNDHAM GRAND BERLIN POTSDAMER PLATZ (None⭐) - None EUR\n- EASYFLATS (None⭐) - None EUR\n- MELIA BERLIN (None⭐) - None EUR\n\n🧭 Resumen: Berlín es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h sugerido:\n Día 1: Castelo de São Jorge; Monasterio de los Jerónimos; Barrio Alto\n Día 2: Barrio Alto; Praça do Comércio; Miradouro da Senhora do Monte\n Día 3: Praça do Comércio; Miradouro da Senhora do Monte; Monasterio de los Jerónimos\n\n💰 **Presupuesto estimado: 320.19 EUR**"
+    },
+    {
+      "ts": 1760636623.6210887,
+      "role": "user",
+      "text": "qué tal si lo movemos para la semana que viene"
+    },
+    {
+      "ts": 1760636625.4022245,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Berlín desplazadas 7 día(s)."
+    },
+    {
+      "ts": 1760636638.1542513,
+      "role": "user",
+      "text": "cancela todos mis planes"
+    },
+    {
+      "ts": 1760636640.3055968,
+      "role": "bot",
+      "text": "🧹 Todos los viajes han sido eliminados correctamente."
+    }
+  ]
+}

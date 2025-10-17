@@ -1,0 +1,57 @@
+{
+  "conversation_id": "20251015T111306_7806b7",
+  "history": [
+    {
+      "role": "user",
+      "message": "Busca vuelos y hoteles en París del 10 al 14 de diciembre y crea un planning",
+      "timestamp": "2025-10-15T11:13:26Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos desde MAD a CDG:\n- IB591 21:40–23:50 (82.52 EUR)\n- AF1001 10:00–12:10 (102.02 EUR)\n- AF1301 12:25–14:35 (102.02 EUR)\n- AF1601 16:20–18:30 (102.02 EUR)\n- AF1101 20:10–22:20 (102.02 EUR)\n\n🏨 He encontrado 5 hoteles en CDG:\n- HILTON PARIS CDG — None⭐ — None EUR\n- IBIS PARIS ST-DENIS STADE SUD — None⭐ — None EUR\n- PENTAHOTEL PARIS CDG AIRPORT — None⭐ — None EUR\n- GOLDEN TULIP PARIS CDG AIRPORT VILLEPINT — None⭐ — None EUR\n- IBIS M LA VALLEE VAL D EUROPE — None⭐ — None EUR\n\n💰 Presupuesto estimado total: N/A EUR",
+      "timestamp": "2025-10-15T11:13:26Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Paris dos días más",
+      "timestamp": "2025-10-15T11:13:37Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en París extendida 2 día(s).",
+      "timestamp": "2025-10-15T11:13:37Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en París dos días más",
+      "timestamp": "2025-10-15T11:13:48Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en París extendida 2 día(s).",
+      "timestamp": "2025-10-15T11:13:48Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en CDG dos días más",
+      "timestamp": "2025-10-15T11:13:54Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en CDG extendida 2 día(s).",
+      "timestamp": "2025-10-15T11:13:54Z"
+    },
+    {
+      "role": "user",
+      "message": "Muéstrame todos mis viajes planeados",
+      "timestamp": "2025-10-15T11:14:01Z"
+    },
+    {
+      "role": "bot",
+      "message": "• 20251120_lis → del 20/11/2025 al 20/11/2025 (6 segmentos, creado el 15/10/2025)\n• 20251015_lis → del ? al ? (4 segmentos, creado el 15/10/2025)\n• 20251015_cdg → del ? al ? (2 segmentos, creado el 15/10/2025)\n• París → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T11:14:01Z"
+    }
+  ],
+  "created_at": "2025-10-15T11:13:26Z",
+  "updated_at": "2025-10-15T11:14:01Z"
+}

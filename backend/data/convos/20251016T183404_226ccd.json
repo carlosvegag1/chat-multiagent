@@ -1,0 +1,67 @@
+{
+  "convo_id": "20251016T183404_226ccd",
+  "user": "carlos",
+  "created_at": "2025-10-16T18:34:04.785926",
+  "messages": [
+    {
+      "ts": 1760639671.0830517,
+      "role": "user",
+      "text": "Tengo algun viaje planeado?"
+    },
+    {
+      "ts": 1760639672.8736622,
+      "role": "bot",
+      "text": "Aquí están tus viajes planeados:\n• **Aix-En-Provence**: del 17/10/2025 al 22/10/2025 [~440.0 EUR]\n• **Buenos Aires**: del 14/11/2025 al 17/11/2025 [~330.0 EUR]"
+    },
+    {
+      "ts": 1760639679.441679,
+      "role": "user",
+      "text": "Al final no puedo ir a ninguno"
+    },
+    {
+      "ts": 1760639680.8164399,
+      "role": "bot",
+      "text": "⚠️ No encontré un viaje a *."
+    },
+    {
+      "ts": 1760639688.452683,
+      "role": "user",
+      "text": "Elimina todos mis viajes"
+    },
+    {
+      "ts": 1760639690.0636816,
+      "role": "bot",
+      "text": "Veo varios viajes (‘Aix-En-Provence’, ‘Buenos Aires’). ¿A cuál te refieres?"
+    },
+    {
+      "ts": 1760639694.6787856,
+      "role": "user",
+      "text": "A ambos"
+    },
+    {
+      "ts": 1760639695.9247308,
+      "role": "bot",
+      "text": "🧹 Todos los viajes han sido eliminados correctamente."
+    },
+    {
+      "ts": 1760639704.317086,
+      "role": "user",
+      "text": "Entonces tengo algun viaje planeado?"
+    },
+    {
+      "ts": 1760639706.168631,
+      "role": "bot",
+      "text": "No tienes viajes registrados todavía."
+    },
+    {
+      "ts": 1760639712.3144398,
+      "role": "user",
+      "text": "Hola! Quiero explorar la Provenza durante 4 días"
+    },
+    {
+      "ts": 1760639715.6725664,
+      "role": "bot",
+      "text": "⚠️ Error: plan_trip call failed: name 'asyncio' is not defined"
+    }
+  ]
+}

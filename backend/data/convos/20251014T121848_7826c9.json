@@ -1,0 +1,37 @@
+{
+  "convo_id": "20251014T121848_7826c9",
+  "user": "carlos",
+  "created_at": "2025-10-14T12:18:48.613234",
+  "messages": [
+    {
+      "ts": 1760444351.7005537,
+      "role": "user",
+      "text": "¿Qué tiempo hace hoy en madrd?"
+    },
+    {
+      "ts": 1760444359.8505716,
+      "role": "bot",
+      "text": "(Error generando resumen: Connection error.)"
+    },
+    {
+      "ts": 1760444365.2165182,
+      "role": "user",
+      "text": "¿Qué tiempo hace hoy en madrid?"
+    },
+    {
+      "ts": 1760444372.7563329,
+      "role": "bot",
+      "text": "(Error generando resumen: Connection error.)"
+    },
+    {
+      "ts": 1760444381.8765638,
+      "role": "user",
+      "text": "¿Qué clima hace hoy en madrid?"
+    },
+    {
+      "ts": 1760444389.2763813,
+      "role": "bot",
+      "text": "(Error generando resumen: Connection error.)"
+    }
+  ]
+}

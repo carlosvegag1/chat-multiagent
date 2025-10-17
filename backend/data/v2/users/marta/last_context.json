@@ -1,0 +1,158 @@
+{
+  "agents": {
+    "flight.search_flights": {
+      "tool": "flight.search_flights",
+      "args": {
+        "city": "París",
+        "checkin": "2025-10-17",
+        "checkout": "2025-10-20",
+        "date": "2025-10-17",
+        "raw_message": "Planifica un viaje a roma para tres días"
+      },
+      "result": {
+        "city": "París",
+        "flights": [],
+        "hotels": [
+          {
+            "name": "HN TEST PROPERTY1 FOR E2E TESTING",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "FR",
+              "postalCode": "28027",
+              "cityName": "Paris",
+              "lines": [
+                "NICE, FRANCE"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/HN TEST PROPERTY1 FOR E2E TESTING"
+          },
+          {
+            "name": "IBIS PARIS TOUR MONTPARNASSE",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "FR",
+              "postalCode": "75015",
+              "cityName": "PARIS",
+              "lines": [
+                "22 AVENUE DU MAINE"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/IBIS PARIS TOUR MONTPARNASSE"
+          },
+          {
+            "name": "RENAISSANCE PARIS VENDOME",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "FR",
+              "postalCode": "75001",
+              "cityName": "PARIS",
+              "lines": [
+                "4 RUE DE MONT THABOR"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/RENAISSANCE PARIS VENDOME"
+          },
+          {
+            "name": "BEST WESTERN GAILLON OPERA",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "FR",
+              "postalCode": "75002",
+              "cityName": "PARIS",
+              "lines": [
+                "9 RUE GAILLON"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/BEST WESTERN GAILLON OPERA"
+          },
+          {
+            "name": "MERCURE PARIS LAFAYETTE",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "FR",
+              "postalCode": "75009",
+              "cityName": "PARIS",
+              "lines": [
+                "7 RUE DE TREVISE"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/MERCURE PARIS LAFAYETTE"
+          }
+        ],
+        "pois": [
+          {
+            "title": "Torre Eiffel",
+            "description": "Lugar emblemático de París"
+          },
+          {
+            "title": "Museo del Louvre",
+            "description": "Lugar emblemático de París"
+          },
+          {
+            "title": "Notre-Dame",
+            "description": "Lugar emblemático de París"
+          },
+          {
+            "title": "Arco del Triunfo",
+            "description": "Lugar emblemático de París"
+          },
+          {
+            "title": "Montmartre",
+            "description": "Lugar emblemático de París"
+          },
+          {
+            "title": "Palacio de Versalles",
+            "description": "Lugar emblemático de París"
+          }
+        ],
+        "summary": "París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.",
+        "budget": 0.0,
+        "checkin": "2025-10-17",
+        "checkout": "2025-10-20",
+        "plan_72h": [
+          {
+            "day": 1,
+            "activities": [
+              "Notre-Dame",
+              "Arco del Triunfo",
+              "Museo del Louvre"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Torre Eiffel",
+              "Montmartre",
+              "Notre-Dame"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Arco del Triunfo",
+              "Torre Eiffel",
+              "Notre-Dame"
+            ]
+          }
+        ]
+      },
+      "last_message": "Planifica un viaje a roma para tres días"
+    }
+  },
+  "last_tool": "flight.search_flights"
+}

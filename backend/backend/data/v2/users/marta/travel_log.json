@@ -1,0 +1,85 @@
+{
+  "user_id": "marta",
+  "created_at": "2025-10-15T20:54:08.220701",
+  "trips": [
+    {
+      "trip_id": "20251017_pars",
+      "created_at": "2025-10-15T20:54:09.910181Z",
+      "title": "París (2025-10-17 → 2025-10-20)",
+      "city": "París",
+      "iata": "PAR",
+      "segments": [
+        {
+          "type": "hotel",
+          "city": "París",
+          "checkin": "2025-10-17",
+          "checkout": "2025-10-20",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [
+        "flight.search_flights"
+      ],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-20",
+      "budget": 0.0,
+      "budget_updated_at": "2025-10-15T20:54:21.711608Z",
+      "destination_summary": "París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.",
+      "destination_pois": [
+        {
+          "title": "Torre Eiffel",
+          "description": "Lugar emblemático de París"
+        },
+        {
+          "title": "Museo del Louvre",
+          "description": "Lugar emblemático de París"
+        },
+        {
+          "title": "Notre-Dame",
+          "description": "Lugar emblemático de París"
+        },
+        {
+          "title": "Arco del Triunfo",
+          "description": "Lugar emblemático de París"
+        },
+        {
+          "title": "Montmartre",
+          "description": "Lugar emblemático de París"
+        },
+        {
+          "title": "Palacio de Versalles",
+          "description": "Lugar emblemático de París"
+        }
+      ],
+      "destination_plan_72h": [
+        {
+          "day": 1,
+          "activities": [
+            "Notre-Dame",
+            "Arco del Triunfo",
+            "Museo del Louvre"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Torre Eiffel",
+            "Montmartre",
+            "Notre-Dame"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Arco del Triunfo",
+            "Torre Eiffel",
+            "Notre-Dame"
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-15T20:54:21.728794Z"
+    }
+  ]
+}

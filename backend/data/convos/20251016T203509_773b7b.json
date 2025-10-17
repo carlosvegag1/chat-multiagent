@@ -1,0 +1,87 @@
+{
+  "convo_id": "20251016T203509_773b7b",
+  "user": "carlos",
+  "created_at": "2025-10-16T20:35:09.046658",
+  "messages": [
+    {
+      "ts": 1760646911.520858,
+      "role": "user",
+      "text": "planifica un viaje"
+    },
+    {
+      "ts": 1760646913.1633677,
+      "role": "bot",
+      "text": "No he entendido bien tu petición. Puedo planificar, listar, mover o borrar viajes."
+    },
+    {
+      "ts": 1760690294.9353797,
+      "role": "user",
+      "text": "¿Qué viajes tengo planeados?"
+    },
+    {
+      "ts": 1760690295.0086179,
+      "role": "bot",
+      "text": "• **Buenos Aires** → del 17/10/2025 al 17/10/2025 [~1291.09 EUR]\n• **Roma** → del 17/10/2025 al 21/10/2025 [~516.52 EUR]"
+    },
+    {
+      "ts": 1760690303.3414915,
+      "role": "user",
+      "text": "Ya no puedo ir a ninguno"
+    },
+    {
+      "ts": 1760690304.3855658,
+      "role": "bot",
+      "text": "🧹 Todos los viajes han sido eliminados."
+    },
+    {
+      "ts": 1760690319.072673,
+      "role": "user",
+      "text": "Planea un viaje a buenos aires de 4 dias"
+    },
+    {
+      "ts": 1760690323.7492788,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Buenos Aires."
+    },
+    {
+      "ts": 1760690325.1146243,
+      "role": "user",
+      "text": "Ahora otro a roma de 3 dias"
+    },
+    {
+      "ts": 1760690327.925104,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Roma."
+    },
+    {
+      "ts": 1760690334.043679,
+      "role": "user",
+      "text": "acórtalo 2 días"
+    },
+    {
+      "ts": 1760690334.1295464,
+      "role": "bot",
+      "text": "Veo varios viajes (‘Buenos Aires’, ‘Roma’). ¿A cuál te refieres?"
+    },
+    {
+      "ts": 1760690337.6133144,
+      "role": "user",
+      "text": "El de buenos aires"
+    },
+    {
+      "ts": 1760690338.3657084,
+      "role": "bot",
+      "text": "✅ Estancia en **Buenos Aires** acortada 2 días."
+    },
+    {
+      "ts": 1760690348.6332881,
+      "role": "user",
+      "text": "planifica un viaje a Londres de 5 días"
+    },
+    {
+      "ts": 1760690352.6348145,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Londres."
+    }
+  ]
+}

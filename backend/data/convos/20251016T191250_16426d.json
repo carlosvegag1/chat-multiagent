@@ -1,0 +1,127 @@
+{
+  "convo_id": "20251016T191250_16426d",
+  "user": "carlos",
+  "created_at": "2025-10-16T19:12:50.587294",
+  "messages": [
+    {
+      "ts": 1760641990.6637375,
+      "role": "user",
+      "text": "Hola! Quiero explorar la Provenza durante 4 días"
+    },
+    {
+      "ts": 1760641994.3862584,
+      "role": "bot",
+      "text": "✈️ No he encontrado vuelos disponibles para Marsella en las fechas solicitadas.\n\n🏨 **Hoteles en Marsella:**\n- RADISSON BLU MARSEILLE (None⭐)\n- GRAND TONIC HOTEL MARSEILLE-VIEUXPORT (None⭐)\n- HOTEL ALIZE (None⭐)\n\n🧭 **Sobre el destino:**\nMarsella or Marseille is a town and municipality in the Department of Risaralda in Colombia. About 30 km away from the capital Pereira. In 2023 the town had an estimated population of 17,208.\n\n🗓️ **Plan de viaje sugerido:**\n**Día 1:** Visita Punto de interés 1 de Marsella; Visita Punto de interés 2 de Marsella; Visita Punto de interés 3 de Marsella; Visita Punto de interés 4 de Marsella\n**Día 2:** Visita Punto de interés 3 de Marsella; Visita Punto de interés 4 de Marsella; Visita Punto de interés 5 de Marsella; Visita Punto de interés 6 de Marsella\n**Día 3:** Visita Punto de interés 5 de Marsella; Visita Punto de interés 6 de Marsella\n**Día 4:** Visita Punto de interés 1 de Marsella; Visita Punto de interés 2 de Marsella; Visita Punto de interés 3 de Marsella; Visita Punto de interés 4 de Marsella\n\n💰 **Presupuesto total estimado: 440.0 EUR**"
+    },
+    {
+      "ts": 1760642013.1967757,
+      "role": "user",
+      "text": "me parece poco, amplíalo un día más"
+    },
+    {
+      "ts": 1760642013.2889671,
+      "role": "bot",
+      "text": "Veo varios viajes (‘Aix-En-Provence’, ‘Marsella’). ¿A cuál te refieres?"
+    },
+    {
+      "ts": 1760642025.376104,
+      "role": "user",
+      "text": "Elimina todos mis viajes"
+    },
+    {
+      "ts": 1760642026.9326901,
+      "role": "bot",
+      "text": "🧹 Todos los viajes han sido eliminados correctamente."
+    },
+    {
+      "ts": 1760642032.2191088,
+      "role": "user",
+      "text": "Hola! Quiero explorar la Provenza durante 4 días"
+    },
+    {
+      "ts": 1760642034.306011,
+      "role": "bot",
+      "text": "✈️ No he encontrado vuelos disponibles para Marsella en las fechas solicitadas.\n\n🏨 **Hoteles en Marsella:**\n- RADISSON BLU MARSEILLE (None⭐)\n- GRAND TONIC HOTEL MARSEILLE-VIEUXPORT (None⭐)\n- HOTEL ALIZE (None⭐)\n\n🧭 **Sobre el destino:**\nMarsella or Marseille is a town and municipality in the Department of Risaralda in Colombia. About 30 km away from the capital Pereira. In 2023 the town had an estimated population of 17,208.\n\n🗓️ **Plan de viaje sugerido:**\n**Día 1:** Visita Punto de interés 1 de Marsella; Visita Punto de interés 2 de Marsella; Visita Punto de interés 3 de Marsella; Visita Punto de interés 4 de Marsella\n**Día 2:** Visita Punto de interés 3 de Marsella; Visita Punto de interés 4 de Marsella; Visita Punto de interés 5 de Marsella; Visita Punto de interés 6 de Marsella\n**Día 3:** Visita Punto de interés 5 de Marsella; Visita Punto de interés 6 de Marsella\n**Día 4:** Visita Punto de interés 1 de Marsella; Visita Punto de interés 2 de Marsella; Visita Punto de interés 3 de Marsella; Visita Punto de interés 4 de Marsella\n\n💰 **Presupuesto total estimado: 440.0 EUR**"
+    },
+    {
+      "ts": 1760642040.0425174,
+      "role": "user",
+      "text": "me parece poco, amplíalo un día más"
+    },
+    {
+      "ts": 1760642040.1352308,
+      "role": "bot",
+      "text": "✅ Estancia en Marsella extendida 1 día(s)."
+    },
+    {
+      "ts": 1760642052.6114974,
+      "role": "user",
+      "text": "ahora organiza un viaje a argentina"
+    },
+    {
+      "ts": 1760642054.8136847,
+      "role": "bot",
+      "text": "✈️ No he encontrado vuelos disponibles para Buenos Aires en las fechas solicitadas.\n\n🏨 **Hoteles en Buenos Aires:**\n- LOISUITES ESMERALDA (None⭐)\n- SARMIENTO SUITES (None⭐)\n- LOISUITES RECOLETA HOTEL (None⭐)\n\n🧭 **Sobre el destino:**\nBuenos Aires, officially the Autonomous City of Buenos Aires, is the capital and largest city of Argentina. It is located on the southwest of the Río de la Plata. Buenos Aires is classified as an Alpha− global city, according to the GaWC 2024 ranking. The city proper has a population of 3.1 million and its urban area has a population of 16.7 million, making it the twentieth largest metropolitan area in the world.\n\n🗓️ **Plan de viaje sugerido:**\n**Día 1:** Visita Punto de interés 1 de Buenos Aires; Visita Punto de interés 2 de Buenos Aires; Visita Punto de interés 3 de Buenos Aires; Visita Punto de interés 4 de Buenos Aires\n**Día 2:** Visita Punto de interés 3 de Buenos Aires; Visita Punto de interés 4 de Buenos Aires; Visita Punto de interés 5 de Buenos Aires; Visita Punto de interés 6 de Buenos Aires\n**Día 3:** Visita Punto de interés 5 de Buenos Aires; Visita Punto de interés 6 de Buenos Aires\n\n💰 **Presupuesto total estimado: 330.0 EUR**"
+    },
+    {
+      "ts": 1760642091.9744673,
+      "role": "user",
+      "text": "acórtalo a 3 días"
+    },
+    {
+      "ts": 1760642092.0703828,
+      "role": "bot",
+      "text": "Veo varios viajes (‘Marsella’, ‘Buenos Aires’). ¿A cuál te refieres?"
+    },
+    {
+      "ts": 1760642097.174184,
+      "role": "user",
+      "text": "El de Argentina"
+    },
+    {
+      "ts": 1760642100.3391898,
+      "role": "bot",
+      "text": "🗑️ Viaje a Buenos Aires eliminado correctamente."
+    },
+    {
+      "ts": 1760642113.6226034,
+      "role": "user",
+      "text": "mueve el viaje dos semanas"
+    },
+    {
+      "ts": 1760642113.7560182,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Marsella desplazadas -14 día(s)."
+    },
+    {
+      "ts": 1760642133.1096437,
+      "role": "user",
+      "text": "ok, muéstrame mis planes"
+    },
+    {
+      "ts": 1760642133.2070172,
+      "role": "bot",
+      "text": "Aquí están tus viajes planeados:\n• **Marsella**: del 03/10/2025 al 08/10/2025 [~440.0 EUR]"
+    },
+    {
+      "ts": 1760642146.6857686,
+      "role": "user",
+      "text": "cancela el viaje a francia"
+    },
+    {
+      "ts": 1760642148.5087345,
+      "role": "bot",
+      "text": "⚠️ No encontré un viaje a París para eliminar."
+    },
+    {
+      "ts": 1760642158.4871492,
+      "role": "user",
+      "text": "perfecto, borra todo"
+    },
+    {
+      "ts": 1760642158.6000483,
+      "role": "bot",
+      "text": "🧹 Todos los viajes han sido eliminados correctamente."
+    }
+  ]
+}

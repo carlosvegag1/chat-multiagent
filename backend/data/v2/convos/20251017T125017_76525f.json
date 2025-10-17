@@ -1,0 +1,83 @@
+{
+  "convo_id": "20251017T125017_76525f",
+  "user": "carlos",
+  "created_at": "2025-10-17T12:50:17.509398",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Quiero ir a la Toscana una semana",
+      "structured_data": null,
+      "ts": 1760705419.8536212
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Florencia**.",
+      "structured_data": {
+        "city": "Florencia",
+        "flights": [
+          {
+            "airline": "VY",
+            "price": 114.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "IB",
+            "price": 131.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "IB",
+            "price": 131.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VY",
+            "price": 131.52,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "RAPALLO HOTEL",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL FEDORA",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL BONIFACIO",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL CIMABUE",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "PALAZZO RICASOLI",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [],
+        "summary": "No se pudo obtener la información del destino 'Florencia'. Razón: ",
+        "plan_sugerido": null,
+        "budget": {
+          "total": 884.52,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760705433.9868104
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "convo_id": "20251017T091748_69ea8f",
+  "user": "carlos",
+  "created_at": "2025-10-17T09:17:48.978127",
+  "messages": [
+    {
+      "ts": 1760692675.1942008,
+      "role": "user",
+      "text": "Planifica un viaje de 2 días a Oporto"
+    },
+    {
+      "ts": 1760692689.0868988,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Oporto."
+    },
+    {
+      "ts": 1760692698.3533475,
+      "role": "user",
+      "text": "Quiero ir 7 días a Bangkok"
+    },
+    {
+      "ts": 1760692711.7312617,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Bangkok."
+    },
+    {
+      "ts": 1760692717.6050718,
+      "role": "user",
+      "text": "Un fin de semana en Roma"
+    },
+    {
+      "ts": 1760692725.8376136,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Roma."
+    }
+  ]
+}

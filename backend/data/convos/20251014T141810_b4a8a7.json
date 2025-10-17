@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251014T141810_b4a8a7",
+  "user": "carlos",
+  "created_at": "2025-10-14T14:18:10.420040",
+  "messages": [
+    {
+      "ts": 1760451492.5900245,
+      "role": "user",
+      "text": "¿Qué tiempo hace en Nueva York?"
+    },
+    {
+      "ts": 1760451496.6010275,
+      "role": "user",
+      "text": "¿Qué tiempo hace en Nueva York?"
+    }
+  ]
+}

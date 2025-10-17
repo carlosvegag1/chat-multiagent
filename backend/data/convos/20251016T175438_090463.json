@@ -1,0 +1,67 @@
+{
+  "convo_id": "20251016T175438_090463",
+  "user": "luis mariano",
+  "created_at": "2025-10-16T17:54:38.498684",
+  "messages": [
+    {
+      "ts": 1760637285.9432476,
+      "role": "user",
+      "text": "Quiero ir a Lisboa 4 días"
+    },
+    {
+      "ts": 1760637292.976345,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos a Lisboa:\n- UX 1159 (27.52 EUR)\n- UX 1153 (40.52 EUR)\n- UX 1155 (40.52 EUR)\n\n🏨 Hoteles disponibles en Lisboa:\n- HOTEL DA PRAIA (None⭐) - None EUR\n- HOTEL DA LOLO (None⭐) - None EUR\n- HOTEL DO LAGO (None⭐) - None EUR\n\n🧭 Resumen: Lisboa es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h sugerido:\n Día 1: Praça do Comércio; Monasterio de los Jerónimos; Miradouro da Senhora do Monte\n Día 2: Torre de Belém; Monasterio de los Jerónimos; Miradouro da Senhora do Monte\n Día 3: Barrio Alto; Praça do Comércio; Monasterio de los Jerónimos\n\n💰 **Presupuesto estimado: 467.52 EUR**"
+    },
+    {
+      "ts": 1760637297.361237,
+      "role": "user",
+      "text": "amplíalo un día más"
+    },
+    {
+      "ts": 1760637299.743558,
+      "role": "bot",
+      "text": "🏨 Estancia en Lisboa extendida 1 día(s)."
+    },
+    {
+      "ts": 1760637308.3232887,
+      "role": "user",
+      "text": "Ahora organiza una escapada a Oporto"
+    },
+    {
+      "ts": 1760637312.0031133,
+      "role": "bot",
+      "text": "\n🏨 Hoteles disponibles en Oporto:\n- POUSADA DO PORTO (None⭐) - None EUR\n- HOTEL TEATRO (None⭐) - None EUR\n- HOTEL TEATRO (None⭐) - None EUR\n\n🧭 Resumen: Oporto es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h sugerido:\n Día 1: Barrio Alto; Monasterio de los Jerónimos; Torre de Belém\n Día 2: Torre de Belém; Castelo de São Jorge; Monasterio de los Jerónimos\n Día 3: Torre de Belém; Praça do Comércio; Monasterio de los Jerónimos\n\n💰 **Presupuesto estimado: 330.0 EUR**"
+    },
+    {
+      "ts": 1760637319.1940112,
+      "role": "user",
+      "text": "mueve el viaje una semana"
+    },
+    {
+      "ts": 1760637320.759388,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Oporto desplazadas 7 día(s)."
+    },
+    {
+      "ts": 1760637339.8649068,
+      "role": "user",
+      "text": "el de lisboa"
+    },
+    {
+      "ts": 1760637341.8411624,
+      "role": "bot",
+      "text": "No te he entendido. Puedo planificar, listar, mover o borrar viajes."
+    },
+    {
+      "ts": 1760637730.2938282,
+      "role": "user",
+      "text": "el de Oporto, muévelo un día"
+    },
+    {
+      "ts": 1760637731.8496163,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Oporto desplazadas 1 día(s)."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251016T201248_905165",
+  "user": "carlos",
+  "created_at": "2025-10-16T20:12:48.210255",
+  "messages": [
+    {
+      "ts": 1760645570.026426,
+      "role": "user",
+      "text": "Hola, tengo algun viaje planeado?"
+    },
+    {
+      "ts": 1760645570.9955466,
+      "role": "bot",
+      "text": "No he entendido bien. Puedo planificar, listar, o modificar viajes."
+    }
+  ]
+}

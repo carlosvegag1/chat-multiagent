@@ -1,0 +1,27 @@
+{
+  "conversation_id": "20251014T191418_c5ca32",
+  "history": [
+    {
+      "role": "user",
+      "message": "Muéstrame hoteles en Lisboa del 20 al 23 de noviembre para dos personas",
+      "timestamp": "2025-10-14T19:14:23Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: Servidor MCP respondió con 404",
+      "timestamp": "2025-10-14T19:14:23Z"
+    },
+    {
+      "role": "user",
+      "message": "Busca vuelos de MAD a LIS el 20 de noviembre de 2025",
+      "timestamp": "2025-10-14T19:14:55Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: Servidor MCP respondió con 404",
+      "timestamp": "2025-10-14T19:14:55Z"
+    }
+  ],
+  "created_at": "2025-10-14T19:14:23Z",
+  "updated_at": "2025-10-14T19:14:55Z"
+}

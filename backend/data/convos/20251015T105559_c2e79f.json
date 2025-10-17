@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251015T105559_c2e79f",
+  "user": "carlos",
+  "created_at": "2025-10-15T10:55:59.715586",
+  "messages": [
+    {
+      "ts": 1760525762.1556811,
+      "role": "user",
+      "text": "Busca vuelos y hoteles en París del 10 al 14 de diciembre y crea un planning básico"
+    },
+    {
+      "ts": 1760525765.8252604,
+      "role": "bot",
+      "text": "⚠️ No pude obtener la información: flight.search_flights call failed: FlightAgent.query() got an unexpected keyword argument 'user_id'"
+    }
+  ]
+}

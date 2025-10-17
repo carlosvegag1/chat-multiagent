@@ -1,0 +1,127 @@
+{
+  "convo_id": "20251016T182738_370326",
+  "user": "carlos",
+  "created_at": "2025-10-16T18:27:38.141505",
+  "messages": [
+    {
+      "ts": 1760639273.4608028,
+      "role": "user",
+      "text": "Hola! Quiero explorar la Provenza durante 4 días"
+    },
+    {
+      "ts": 1760639279.9013371,
+      "role": "bot",
+      "text": "\n🏨 Hoteles en Aix-En-Provence:\n- HOTEL DA PRAIA (None⭐)\n- HOTEL DO LAGO (None⭐)\n- HOTEL DA LOLO (None⭐)\n\n🧭 Resumen: Aix-En-Provence es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan de viaje sugerido:\n Día 1: Monasterio de los Jerónimos; Miradouro da Senhora do Monte; Castelo de São Jorge\n Día 2: Torre de Belém; Monasterio de los Jerónimos; Praça do Comércio\n Día 3: Torre de Belém; Monasterio de los Jerónimos; Castelo de São Jorge\n\n💰 **Presupuesto: 440.0 EUR**"
+    },
+    {
+      "ts": 1760639295.7812464,
+      "role": "user",
+      "text": "me parece poco, amplíalo un día más"
+    },
+    {
+      "ts": 1760639297.72348,
+      "role": "bot",
+      "text": "✅ Estancia en Aix-En-Provence extendida 1 día(s)."
+    },
+    {
+      "ts": 1760639302.0554647,
+      "role": "user",
+      "text": "ahora organiza un viaje a argentina"
+    },
+    {
+      "ts": 1760639307.4243731,
+      "role": "bot",
+      "text": "\n🏨 Hoteles en Buenos Aires:\n- HOTEL DA PRAIA (None⭐)\n- HOTEL DA LOLO (None⭐)\n- HOTEL DO LAGO (None⭐)\n\n🧭 Resumen: Buenos Aires es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan de viaje sugerido:\n Día 1: Castelo de São Jorge; Praça do Comércio; Barrio Alto\n Día 2: Castelo de São Jorge; Miradouro da Senhora do Monte; Monasterio de los Jerónimos\n Día 3: Castelo de São Jorge; Torre de Belém; Barrio Alto\n\n💰 **Presupuesto: 330.0 EUR**"
+    },
+    {
+      "ts": 1760639309.3233905,
+      "role": "user",
+      "text": "acórtalo a 3 días"
+    },
+    {
+      "ts": 1760639311.5710585,
+      "role": "bot",
+      "text": "Veo que tienes varios viajes (‘Aix-En-Provence’, ‘Buenos Aires’). ¿A cuál de ellos te refieres?"
+    },
+    {
+      "ts": 1760639320.6794188,
+      "role": "user",
+      "text": "Al de argentina"
+    },
+    {
+      "ts": 1760639323.1642678,
+      "role": "bot",
+      "text": "✅ La duración del viaje a Buenos Aires ha sido ajustada a 3 días."
+    },
+    {
+      "ts": 1760639327.9862719,
+      "role": "user",
+      "text": "mueve el viaje dos semanas"
+    },
+    {
+      "ts": 1760639329.571944,
+      "role": "bot",
+      "text": "Veo que tienes varios viajes (‘Aix-En-Provence’, ‘Buenos Aires’). ¿A cuál de ellos te refieres?"
+    },
+    {
+      "ts": 1760639335.112345,
+      "role": "user",
+      "text": "Buenos aires"
+    },
+    {
+      "ts": 1760639336.8243206,
+      "role": "bot",
+      "text": "No te he entendido."
+    },
+    {
+      "ts": 1760639343.1096146,
+      "role": "user",
+      "text": "El de argentina"
+    },
+    {
+      "ts": 1760639345.2902389,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Buenos Aires desplazadas 14 día(s)."
+    },
+    {
+      "ts": 1760639353.2737477,
+      "role": "user",
+      "text": "Bueno, y el de francia tambien"
+    },
+    {
+      "ts": 1760639355.644177,
+      "role": "bot",
+      "text": "⚠️ No encontré un viaje a París."
+    },
+    {
+      "ts": 1760639366.7281775,
+      "role": "user",
+      "text": "ok, muéstrame mis planes"
+    },
+    {
+      "ts": 1760639369.4876955,
+      "role": "bot",
+      "text": "Aquí están tus viajes planeados:\n• **Aix-En-Provence**: del 17/10/2025 al 22/10/2025 [~440.0 EUR]\n• **Buenos Aires**: del 31/10/2025 al 03/11/2025 [~330.0 EUR]"
+    },
+    {
+      "ts": 1760639372.9106393,
+      "role": "user",
+      "text": "cancela el viaje a argentina"
+    },
+    {
+      "ts": 1760639375.1955528,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Buenos Aires desplazadas 14 día(s)."
+    },
+    {
+      "ts": 1760639379.6179526,
+      "role": "user",
+      "text": "perfecto, borra todo"
+    },
+    {
+      "ts": 1760639381.0640943,
+      "role": "bot",
+      "text": "⚠️ No encontré un viaje a ese destino."
+    }
+  ]
+}

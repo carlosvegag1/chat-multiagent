@@ -1,0 +1,77 @@
+{
+  "convo_id": "20251015T115109_1d9d49",
+  "user": "pedro",
+  "created_at": "2025-10-15T11:51:09.377828",
+  "messages": [
+    {
+      "ts": 1760529072.5395896,
+      "role": "user",
+      "text": "Muéstrame todos mis viajes planeados."
+    },
+    {
+      "ts": 1760529075.1380892,
+      "role": "bot",
+      "text": "• París → del ? al 14/12/2025 (3 segmentos, creado el 15/10/2025)\n• Lisboa → del 20/11/2025 al 20/11/2025 (4 segmentos, creado el 15/10/2025)\n• París → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)"
+    },
+    {
+      "ts": 1760529082.2859921,
+      "role": "user",
+      "text": "Limpia mis viajes antiguos."
+    },
+    {
+      "ts": 1760529083.559343,
+      "role": "bot",
+      "text": "🧹 Limpieza ejecutada correctamente para pedro."
+    },
+    {
+      "ts": 1760529088.482206,
+      "role": "user",
+      "text": "Muéstrame todos mis viajes planeados."
+    },
+    {
+      "ts": 1760529090.1720777,
+      "role": "bot",
+      "text": "• París → del ? al 14/12/2025 (3 segmentos, creado el 15/10/2025)\n• Lisboa → del 20/11/2025 al 20/11/2025 (4 segmentos, creado el 15/10/2025)"
+    },
+    {
+      "ts": 1760529119.7321467,
+      "role": "user",
+      "text": "Limpia todos mis viajes antiguos."
+    },
+    {
+      "ts": 1760529121.2275438,
+      "role": "bot",
+      "text": "🧹 Limpieza ejecutada correctamente para pedro."
+    },
+    {
+      "ts": 1760529125.5494862,
+      "role": "user",
+      "text": "Muéstrame todos mis viajes planeados."
+    },
+    {
+      "ts": 1760529126.589152,
+      "role": "bot",
+      "text": "• París → del ? al 14/12/2025 (3 segmentos, creado el 15/10/2025)\n• Lisboa → del 20/11/2025 al 20/11/2025 (4 segmentos, creado el 15/10/2025)"
+    },
+    {
+      "ts": 1760529131.0224972,
+      "role": "user",
+      "text": "Limpia todos mis viajes"
+    },
+    {
+      "ts": 1760529132.2943065,
+      "role": "bot",
+      "text": "🧹 Limpieza ejecutada correctamente para pedro."
+    },
+    {
+      "ts": 1760529134.7133017,
+      "role": "user",
+      "text": "Muéstrame todos mis viajes planeados."
+    },
+    {
+      "ts": 1760529135.920672,
+      "role": "bot",
+      "text": "• París → del ? al 14/12/2025 (3 segmentos, creado el 15/10/2025)\n• Lisboa → del 20/11/2025 al 20/11/2025 (4 segmentos, creado el 15/10/2025)"
+    }
+  ]
+}

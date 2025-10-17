@@ -1,0 +1,37 @@
+{
+  "convo_id": "20251016T201409_4bc6b0",
+  "user": "carlos",
+  "created_at": "2025-10-16T20:14:09.112144",
+  "messages": [
+    {
+      "ts": 1760645654.294418,
+      "role": "user",
+      "text": "Hola! Quiero explorar Paris durante 4 días"
+    },
+    {
+      "ts": 1760645655.0441556,
+      "role": "bot",
+      "text": "No he entendido bien. Puedo planificar, listar, o modificar viajes."
+    },
+    {
+      "ts": 1760645666.7389522,
+      "role": "user",
+      "text": "Hola! Quiero explorar planificar un viaje a paris durante 4 días"
+    },
+    {
+      "ts": 1760645667.1761718,
+      "role": "bot",
+      "text": "No he entendido bien. Puedo planificar, listar, o modificar viajes."
+    },
+    {
+      "ts": 1760645673.4100788,
+      "role": "user",
+      "text": "Hola! Quiero planificar un viaje a paris durante 4 días"
+    },
+    {
+      "ts": 1760645674.0106418,
+      "role": "bot",
+      "text": "No he entendido bien. Puedo planificar, listar, o modificar viajes."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "convo_id": "20251017T171908_ae18a7",
+  "user": "carlos",
+  "created_at": "2025-10-17T17:19:08.260168",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Planea un viaje a Mallorca este finde",
+      "structured_data": null,
+      "ts": 1760721556.1314254
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Palma**.",
+      "structured_data": {
+        "city": "Palma",
+        "flights": [],
+        "hotels": [],
+        "pois": [],
+        "summary": "No se pudo obtener la información del destino 'Palma'.",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 220.0,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760721564.6578443
+    }
+  ]
+}

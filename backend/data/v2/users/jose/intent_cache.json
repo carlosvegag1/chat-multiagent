@@ -1,0 +1,9 @@
+{
+  "e250e74a3efe94a14db78bd53d545a7c50602edb474e2c6e9623851e2dd216f1": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Mallorca",
+      "adults": 2
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "conversation_id": "20251015T174449_5f9b3f",
+  "history": [
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T17:44:53Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en Lisboa extendida 2 día(s).",
+      "timestamp": "2025-10-15T17:44:53Z"
+    },
+    {
+      "role": "user",
+      "message": "Mis viajes",
+      "timestamp": "2025-10-15T17:44:57Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 17/10/2025 al 22/10/2025 (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T17:44:57Z"
+    }
+  ],
+  "created_at": "2025-10-15T17:44:53Z",
+  "updated_at": "2025-10-15T17:44:57Z"
+}

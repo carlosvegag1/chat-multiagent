@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251014T143223_d0e2d1",
+  "user": "pepe",
+  "created_at": "2025-10-14T14:32:23.696505",
+  "messages": [
+    {
+      "ts": 1760452345.539072,
+      "role": "user",
+      "text": "http://localhost:3000/"
+    },
+    {
+      "ts": 1760452348.0639372,
+      "role": "bot",
+      "text": "🌤️ Clima actual en Lisboa: 24.8°C, viento 7.6 km/h."
+    }
+  ]
+}

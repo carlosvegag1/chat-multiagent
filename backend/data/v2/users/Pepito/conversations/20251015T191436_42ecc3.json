@@ -1,0 +1,117 @@
+{
+  "conversation_id": "20251015T191436_42ecc3",
+  "history": [
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo?",
+      "timestamp": "2025-10-15T19:14:42Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]\n• París → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~398.6 EUR]",
+      "timestamp": "2025-10-15T19:14:42Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T19:14:52Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en Lisboa extendida 2 día(s).",
+      "timestamp": "2025-10-15T19:14:52Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo?",
+      "timestamp": "2025-10-15T19:14:58Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 17/10/2025 al 22/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]\n• París → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~398.6 EUR]",
+      "timestamp": "2025-10-15T19:14:58Z"
+    },
+    {
+      "role": "user",
+      "message": "Mueve mi viaje a Lisboa tres días después",
+      "timestamp": "2025-10-15T19:15:08Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Fechas del viaje a Lisboa desplazadas 1 día(s).",
+      "timestamp": "2025-10-15T19:15:08Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo?",
+      "timestamp": "2025-10-15T19:15:16Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 17/10/2025 al 23/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]\n• París → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~398.6 EUR]",
+      "timestamp": "2025-10-15T19:15:16Z"
+    },
+    {
+      "role": "user",
+      "message": "Cancela mi viaje a Lisboa",
+      "timestamp": "2025-10-15T19:15:28Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗑️ Viaje a Lisboa eliminado correctamente.",
+      "timestamp": "2025-10-15T19:15:28Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo?",
+      "timestamp": "2025-10-15T19:15:33Z"
+    },
+    {
+      "role": "bot",
+      "message": "• París → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~398.6 EUR]",
+      "timestamp": "2025-10-15T19:15:34Z"
+    },
+    {
+      "role": "user",
+      "message": "Limpia todos mis viajes",
+      "timestamp": "2025-10-15T19:15:40Z"
+    },
+    {
+      "role": "bot",
+      "message": "Limpieza ejecutada correctamente para Pepito.",
+      "timestamp": "2025-10-15T19:15:40Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo?",
+      "timestamp": "2025-10-15T19:15:46Z"
+    },
+    {
+      "role": "bot",
+      "message": "• París → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~398.6 EUR]",
+      "timestamp": "2025-10-15T19:15:46Z"
+    },
+    {
+      "role": "user",
+      "message": "Elimina todos mis viajes",
+      "timestamp": "2025-10-15T19:15:53Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗑️ Viaje a  eliminado correctamente.",
+      "timestamp": "2025-10-15T19:15:53Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo?",
+      "timestamp": "2025-10-15T19:15:59Z"
+    },
+    {
+      "role": "bot",
+      "message": "No tienes viajes registrados todavía.",
+      "timestamp": "2025-10-15T19:15:59Z"
+    }
+  ],
+  "created_at": "2025-10-15T19:14:42Z",
+  "updated_at": "2025-10-15T19:15:59Z"
+}

@@ -1,0 +1,67 @@
+{
+  "convo_id": "20251015T114800_94a58a",
+  "user": "pedro",
+  "created_at": "2025-10-15T11:48:00.755916",
+  "messages": [
+    {
+      "ts": 1760528886.9878283,
+      "role": "user",
+      "text": "Hola, quiero planificar un nuevo viaje desde Madrid a Lisboa el 20 de noviembre."
+    },
+    {
+      "ts": 1760528898.7489567,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos desde MAD a Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (50.52 EUR)\n- UX1155 14:55–15:15 (50.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n- TP1015 14:55–15:20 (61.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA LOLO — None⭐ — None EUR\n- HOTEL DA PRAIA — None⭐ — None EUR\n- HOTEL DO LAGO — None⭐ — None EUR\n- HOTEL DA ESTRELA — None⭐ — None EUR\n- SOLEIL PENICHE — None⭐ — None EUR\n\n💰 Presupuesto estimado total: N/A EUR"
+    },
+    {
+      "ts": 1760528899.5851214,
+      "role": "user",
+      "text": "Amplía mi estancia en Lisboa dos días más."
+    },
+    {
+      "ts": 1760528901.0916083,
+      "role": "bot",
+      "text": "🏨 Estancia en Lisboa extendida 2 día(s)."
+    },
+    {
+      "ts": 1760528904.084822,
+      "role": "user",
+      "text": "Busca vuelos y hoteles en París del 10 al 14 de diciembre."
+    },
+    {
+      "ts": 1760528910.965378,
+      "role": "bot",
+      "text": "\n🏨 He encontrado 5 hoteles en París:\n- HOTEL PRINCE ALBERT LOUVRE — None⭐ — None EUR\n- BEST WESTERN GAILLON OPERA — None⭐ — None EUR\n- HN TEST PROPERTY1 FOR E2E TESTING — None⭐ — None EUR\n- MERCURE PARIS LAFAYETTE — None⭐ — None EUR\n- IBIS PARIS TOUR MONTPARNASSE — None⭐ — None EUR\n\n💰 Presupuesto estimado total: N/A EUR\n\n⚠️ Conflicto con ‘París (2025-12-10 → 2025-12-10)’"
+    },
+    {
+      "ts": 1760528913.4510574,
+      "role": "user",
+      "text": "Muéstrame todos mis viajes planeados."
+    },
+    {
+      "ts": 1760528915.593343,
+      "role": "bot",
+      "text": "• París → del 10/12/2025 al 14/12/2025 (3 segmentos, creado el 15/10/2025)\n• Lisboa → del 20/11/2025 al 20/11/2025 (4 segmentos, creado el 15/10/2025)\n• París → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)"
+    },
+    {
+      "ts": 1760528921.775777,
+      "role": "user",
+      "text": "Limpia mis viajes antiguos."
+    },
+    {
+      "ts": 1760528923.402976,
+      "role": "bot",
+      "text": "🧹 Limpieza ejecutada correctamente para pedro."
+    },
+    {
+      "ts": 1760528927.3647182,
+      "role": "user",
+      "text": "Muéstrame todos mis viajes planeados."
+    },
+    {
+      "ts": 1760528929.0300996,
+      "role": "bot",
+      "text": "• París → del 10/12/2025 al 14/12/2025 (3 segmentos, creado el 15/10/2025)\n• Lisboa → del 20/11/2025 al 20/11/2025 (4 segmentos, creado el 15/10/2025)\n• París → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)"
+    }
+  ]
+}

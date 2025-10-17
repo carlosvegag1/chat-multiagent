@@ -1,0 +1,87 @@
+{
+  "conversation_id": "20251014T142029_240c43",
+  "history": [
+    {
+      "role": "user",
+      "message": "tiempo en new york",
+      "timestamp": "2025-10-14T14:20:51Z"
+    },
+    {
+      "role": "bot",
+      "message": "🌤️ Clima actual en York: 10.1°C, viento 14.8 km/h (código 3).",
+      "timestamp": "2025-10-14T14:20:51Z"
+    },
+    {
+      "role": "user",
+      "message": "Tiempo en madrid",
+      "timestamp": "2025-10-14T14:21:00Z"
+    },
+    {
+      "role": "bot",
+      "message": "🌤️ Clima actual en Madrid: 24.1°C, viento 2.2 km/h (código 1).",
+      "timestamp": "2025-10-14T14:21:00Z"
+    },
+    {
+      "role": "user",
+      "message": "tiempo en barcelona",
+      "timestamp": "2025-10-14T14:21:09Z"
+    },
+    {
+      "role": "bot",
+      "message": "🌤️ Clima actual en Barcelona: 21.9°C, viento 9.0 km/h (código 3).",
+      "timestamp": "2025-10-14T14:21:09Z"
+    },
+    {
+      "role": "user",
+      "message": "Teimpo en las palmas de gran canaria",
+      "timestamp": "2025-10-14T14:21:20Z"
+    },
+    {
+      "role": "bot",
+      "message": "🌤️ Clima actual en Las Palmas de Gran Canaria: 23.6°C, viento 13.6 km/h (código 3).",
+      "timestamp": "2025-10-14T14:21:20Z"
+    },
+    {
+      "role": "user",
+      "message": "Teimpo en las palmas de gran canaria el 16 de octubre",
+      "timestamp": "2025-10-14T14:21:46Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗓️ Clima en Las Palmas de Gran Canaria del 2023-10-16 al 2023-10-16 recibido correctamente.",
+      "timestamp": "2025-10-14T14:21:46Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué tiempo hara en las palmas de gran canaria el 16 de octubre?",
+      "timestamp": "2025-10-14T14:22:16Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗓️ Clima en Las Palmas de Gran Canaria del 2023-10-16 al 2023-10-16 recibido correctamente.",
+      "timestamp": "2025-10-14T14:22:16Z"
+    },
+    {
+      "role": "user",
+      "message": "東京の天気は？",
+      "timestamp": "2025-10-14T14:22:53Z"
+    },
+    {
+      "role": "bot",
+      "message": "No pude obtener información: HTTP 404: {\"error\":\"City '東京' not found\"}",
+      "timestamp": "2025-10-14T14:22:53Z"
+    },
+    {
+      "role": "user",
+      "message": "Como está o tempo em São Paulo?",
+      "timestamp": "2025-10-14T14:23:16Z"
+    },
+    {
+      "role": "bot",
+      "message": "🌤️ Clima actual en São Paulo: 23.1°C, viento 11.7 km/h (código 2).",
+      "timestamp": "2025-10-14T14:23:16Z"
+    }
+  ],
+  "created_at": "2025-10-14T14:20:51Z",
+  "updated_at": "2025-10-14T14:23:16Z"
+}

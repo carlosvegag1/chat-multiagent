@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251016T174825_f6c400",
+  "history": [
+    {
+      "role": "user",
+      "message": "planifica un viaje a Roma de tres días",
+      "timestamp": "2025-10-16T17:48:36Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos a Roma:\n- UX 1043 (49.52 EUR)\n- UX 1047 (76.52 EUR)\n- TP 1013 (105.82 EUR)\n\n🏨 Hoteles disponibles en Roma:\n- B-B HOTEL ROMA TRASTEVERE (None⭐) - None EUR\n- INN AT THE ROMAN FORUM, THE (None⭐) - None EUR\n- HOTEL APOLLO (None⭐) - None EUR\n\n🧭 Resumen: Roma es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h sugerido:\n Día 1: Museos Vaticanos; Piazza Navona; Panteón\n Día 2: Coliseo; Museos Vaticanos; Piazza Navona\n Día 3: Coliseo; Piazza Navona; Basílica de San Pedro\n\n💰 **Presupuesto estimado: 379.52 EUR**",
+      "timestamp": "2025-10-16T17:48:36Z"
+    }
+  ],
+  "created_at": "2025-10-16T17:48:36Z",
+  "updated_at": "2025-10-16T17:48:36Z"
+}

@@ -1,0 +1,107 @@
+{
+  "convo_id": "20251016T184255_52c1bf",
+  "user": "carlos",
+  "created_at": "2025-10-16T18:42:55.866815",
+  "messages": [
+    {
+      "ts": 1760640178.7590034,
+      "role": "user",
+      "text": "Hola! Quiero explorar la Provenza durante 4 días"
+    },
+    {
+      "ts": 1760640186.2646563,
+      "role": "bot",
+      "text": "🏨 **Hoteles en Aix-En-Provence:**\n- HOTEL DA LOLO (None⭐)\n- HOTEL DA PRAIA (None⭐)\n- HOTEL DO LAGO (None⭐)\n\n🧭 **Resumen:**\nAix-En-Provence es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ **Plan de viaje sugerido:**\n**Día 1:** Monasterio de los Jerónimos; Castelo de São Jorge; Miradouro da Senhora do Monte\n**Día 2:** Monasterio de los Jerónimos; Torre de Belém; Castelo de São Jorge\n**Día 3:** Castelo de São Jorge; Praça do Comércio; Monasterio de los Jerónimos\n\n💰 **Presupuesto estimado: 440.0 EUR**"
+    },
+    {
+      "ts": 1760640190.5798175,
+      "role": "user",
+      "text": "me parece poco, amplíalo un día más"
+    },
+    {
+      "ts": 1760640191.712643,
+      "role": "bot",
+      "text": "✅ Estancia en Aix-En-Provence extendida 1 día(s)."
+    },
+    {
+      "ts": 1760640196.5323315,
+      "role": "user",
+      "text": "ahora organiza un viaje a argentina"
+    },
+    {
+      "ts": 1760640201.0037396,
+      "role": "bot",
+      "text": "🏨 **Hoteles en Buenos Aires:**\n- HOTEL DA PRAIA (None⭐)\n- HOTEL DO LAGO (None⭐)\n- HOTEL DA LOLO (None⭐)\n\n🧭 **Resumen:**\nBuenos Aires es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ **Plan de viaje sugerido:**\n**Día 1:** Barrio Alto; Torre de Belém; Monasterio de los Jerónimos\n**Día 2:** Monasterio de los Jerónimos; Castelo de São Jorge; Torre de Belém\n**Día 3:** Torre de Belém; Praça do Comércio; Barrio Alto\n\n💰 **Presupuesto estimado: 330.0 EUR**"
+    },
+    {
+      "ts": 1760640203.9402862,
+      "role": "user",
+      "text": "acórtalo a 3 días"
+    },
+    {
+      "ts": 1760640204.9835744,
+      "role": "bot",
+      "text": "Veo varios viajes (‘Aix-En-Provence’, ‘Buenos Aires’). ¿A cuál te refieres?"
+    },
+    {
+      "ts": 1760640218.0343645,
+      "role": "user",
+      "text": "Al de Buenos Aires"
+    },
+    {
+      "ts": 1760640220.692964,
+      "role": "bot",
+      "text": "🗑️ Viaje a Buenos Aires eliminado correctamente."
+    },
+    {
+      "ts": 1760640222.4891858,
+      "role": "user",
+      "text": "mueve el viaje dos semanas"
+    },
+    {
+      "ts": 1760640223.720628,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Aix-En-Provence desplazadas -14 día(s)."
+    },
+    {
+      "ts": 1760640228.8857164,
+      "role": "user",
+      "text": "el de francia"
+    },
+    {
+      "ts": 1760640230.9382823,
+      "role": "bot",
+      "text": "⚠️ No encontré un viaje a París para eliminar."
+    },
+    {
+      "ts": 1760640233.8257551,
+      "role": "user",
+      "text": "ok, muéstrame mis planes"
+    },
+    {
+      "ts": 1760640235.2715437,
+      "role": "bot",
+      "text": "Aquí están tus viajes planeados:\n• **Aix-En-Provence**: del 03/10/2025 al 08/10/2025 [~440.0 EUR]"
+    },
+    {
+      "ts": 1760640238.8722901,
+      "role": "user",
+      "text": "cancela el viaje a argentina"
+    },
+    {
+      "ts": 1760640240.992437,
+      "role": "bot",
+      "text": "⚠️ No encontré un viaje a Buenos Aires para eliminar."
+    },
+    {
+      "ts": 1760640243.6026,
+      "role": "user",
+      "text": "perfecto, borra todo"
+    },
+    {
+      "ts": 1760640244.474556,
+      "role": "bot",
+      "text": "🧹 Todos los viajes han sido eliminados correctamente."
+    }
+  ]
+}

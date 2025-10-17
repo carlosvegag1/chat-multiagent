@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251014T143334_d89107",
+  "user": "pepe",
+  "created_at": "2025-10-14T14:33:34.907630",
+  "messages": [
+    {
+      "ts": 1760452423.5961046,
+      "role": "user",
+      "text": "Y en Cáceres"
+    },
+    {
+      "ts": 1760452425.8096302,
+      "role": "bot",
+      "text": "🌤️ Clima actual en Cáceres: 26.7°C, viento 5.5 km/h."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "conversation_id": "20251016T180855_ba5663",
+  "history": [
+    {
+      "role": "user",
+      "message": "Hola , que planes tengo agendados?",
+      "timestamp": "2025-10-16T18:09:05Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Roma → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 16/10/2025) [~379.52 EUR]",
+      "timestamp": "2025-10-16T18:09:05Z"
+    },
+    {
+      "role": "user",
+      "message": "Al final no quiero ir",
+      "timestamp": "2025-10-16T18:09:12Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗑️ Viaje a Roma eliminado correctamente.",
+      "timestamp": "2025-10-16T18:09:12Z"
+    },
+    {
+      "role": "user",
+      "message": "Ahora, que planes tengo?",
+      "timestamp": "2025-10-16T18:09:19Z"
+    },
+    {
+      "role": "bot",
+      "message": "No tienes viajes registrados todavía.",
+      "timestamp": "2025-10-16T18:09:19Z"
+    }
+  ],
+  "created_at": "2025-10-16T18:09:05Z",
+  "updated_at": "2025-10-16T18:09:19Z"
+}

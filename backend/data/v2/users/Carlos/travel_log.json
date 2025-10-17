@@ -1,0 +1,338 @@
+{
+  "user_id": "Carlos",
+  "created_at": "2025-10-15T11:48:00",
+  "trips": [
+    {
+      "trip_id": "20251017_nantes",
+      "created_at": "2025-10-17T14:39:48.538533Z",
+      "title": "Nantes (2025-10-17 → 2025-10-25)",
+      "city": "Nantes",
+      "iata": "NTE",
+      "segments": [
+        {
+          "type": "flight",
+          "count": 5
+        },
+        {
+          "type": "hotel",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-25",
+      "budget": 796.26,
+      "budget_updated_at": "2025-10-17T14:40:10.420645Z",
+      "destination_summary": "Nantes, una ciudad vibrante en el oeste de Francia, es conocida por su rica historia, su impresionante arquitectura y su ambiente artístico. Con una mezcla de cultura, naturaleza y gastronomía, Nantes ofrece una experiencia única para cada viajero.",
+      "destination_pois": [
+        {
+          "name": "Castillo de los Duques de Bretaña",
+          "description": "Un impresionante castillo que alberga el museo de historia de Nantes y ofrece vistas espectaculares de la ciudad."
+        },
+        {
+          "name": "Les Machines de l'île",
+          "description": "Un fascinante parque de atracciones que presenta enormes máquinas mecánicas inspiradas en el mundo de Julio Verne."
+        },
+        {
+          "name": "Catedral de San Pedro y San Pablo",
+          "description": "Una majestuosa catedral gótica que destaca por su impresionante arquitectura y su historia."
+        },
+        {
+          "name": "Isla de las Maquinas",
+          "description": "Un espacio creativo donde se pueden ver y experimentar las obras de arte mecánicas."
+        },
+        {
+          "name": "Jardín de las Plantas",
+          "description": "Un hermoso jardín botánico que ofrece un lugar de tranquilidad y naturaleza en el corazón de la ciudad."
+        }
+      ],
+      "destination_plan_sugerido": [
+        {
+          "day": 1,
+          "activities": [
+            "Llegada a Nantes y registro en el hotel",
+            "Paseo por el centro histórico y cena en un restaurante local."
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Visita al Castillo de los Duques de Bretaña",
+            "Exploración del museo de historia de Nantes."
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Día en Les Machines de l'île",
+            "Disfrutar de un paseo en la Gran Máquina de Elefante."
+          ]
+        },
+        {
+          "day": 4,
+          "activities": [
+            "Visita a la Catedral de San Pedro y San Pablo",
+            "Recorrido por el barrio de Bouffay y almuerzo en un café local."
+          ]
+        },
+        {
+          "day": 5,
+          "activities": [
+            "Exploración del Jardín de las Plantas",
+            "Salida de Nantes y regreso a casa."
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-17T14:40:10.445119Z"
+    },
+    {
+      "trip_id": "20251017_liubliana",
+      "created_at": "2025-10-17T14:40:36.810560Z",
+      "title": "Liubliana (2025-10-17 → 2025-10-19)",
+      "city": "Liubliana",
+      "iata": "LJU",
+      "segments": [
+        {
+          "type": "flight",
+          "count": 5
+        },
+        {
+          "type": "hotel",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-19",
+      "budget": 373.52,
+      "budget_updated_at": "2025-10-17T14:40:36.894546Z",
+      "destination_summary": "Liubliana, la encantadora capital de Eslovenia, combina un vibrante ambiente urbano con un rico patrimonio cultural. Sus pintorescas calles, hermosos puentes y espacios verdes la convierten en un destino ideal para explorar en un corto período de tiempo.",
+      "destination_pois": [
+        {
+          "name": "Castillo de Liubliana",
+          "description": "Una fortaleza histórica que ofrece vistas panorámicas de la ciudad y un fascinante recorrido por su historia."
+        },
+        {
+          "name": "Puente Triple",
+          "description": "Un icónico puente que conecta las dos orillas del río Ljubljanica, famoso por su arquitectura única."
+        },
+        {
+          "name": "Plaza Prešeren",
+          "description": "El corazón de la ciudad, rodeada de cafés y tiendas, ideal para disfrutar del ambiente local."
+        },
+        {
+          "name": "Parque Tivoli",
+          "description": "El parque más grande de Liubliana, perfecto para un paseo relajante entre naturaleza y arte."
+        }
+      ],
+      "destination_plan_sugerido": [
+        {
+          "day": 1,
+          "activities": [
+            "Visitar el Castillo de Liubliana y disfrutar de las vistas desde la cima.",
+            "Pasear por la Plaza Prešeren y explorar las tiendas y cafés cercanos."
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Recorrer el Puente Triple y fotografiar su arquitectura.",
+            "Disfrutar de un paseo por el Parque Tivoli y visitar la Galería de Arte Moderna."
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-17T14:40:36.923432Z"
+    },
+    {
+      "trip_id": "20251017_cracovia",
+      "created_at": "2025-10-17T14:40:53.903425Z",
+      "title": "Cracovia (2025-10-17 → 2025-10-24)",
+      "city": "Cracovia",
+      "iata": "KRK",
+      "segments": [
+        {
+          "type": "flight",
+          "count": 5
+        },
+        {
+          "type": "hotel",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-27",
+      "budget": 1012.26,
+      "budget_updated_at": "2025-10-17T14:40:53.957312Z",
+      "destination_summary": "No se pudo obtener la información del destino 'Cracovia'.",
+      "destination_pois": [],
+      "destination_plan_sugerido": [],
+      "destination_updated_at": "2025-10-17T14:40:53.966659Z"
+    },
+    {
+      "trip_id": "20251017_oporto",
+      "created_at": "2025-10-17T14:42:13.841452Z",
+      "title": "Oporto (2025-10-17 → 2025-10-20)",
+      "city": "Oporto",
+      "iata": "OPO",
+      "segments": [
+        {
+          "type": "flight",
+          "count": 5
+        },
+        {
+          "type": "hotel",
+          "count": 0
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-20",
+      "budget": 411.82,
+      "budget_updated_at": "2025-10-17T14:42:13.925426Z",
+      "destination_summary": "No se pudo obtener la información del destino 'Oporto'.",
+      "destination_pois": [],
+      "destination_plan_sugerido": [],
+      "destination_updated_at": "2025-10-17T14:42:13.948198Z"
+    },
+    {
+      "trip_id": "20251017_las-palmas-de-gran-canaria",
+      "created_at": "2025-10-17T15:47:10.907773Z",
+      "title": "Las Palmas De Gran Canaria (2025-10-17 → 2025-10-20)",
+      "city": "Las Palmas De Gran Canaria",
+      "iata": "LPA",
+      "segments": [],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-20",
+      "destination_summary": "Las Palmas de Gran Canaria es un destino vibrante que combina playas de ensueño con una rica herencia cultural. Disfruta de su clima cálido y su ambiente acogedor mientras exploras su historia y gastronomía.",
+      "destination_pois": [
+        {
+          "name": "Playa de Las Canteras",
+          "description": "Una de las playas urbanas más famosas de España, ideal para nadar y practicar deportes acuáticos."
+        },
+        {
+          "name": "Vegueta",
+          "description": "El casco antiguo de la ciudad, lleno de arquitectura colonial, cafés y tiendas encantadoras."
+        },
+        {
+          "name": "Museo Canario",
+          "description": "Un museo que alberga una impresionante colección de artefactos indígenas y la historia de las Islas Canarias."
+        },
+        {
+          "name": "Catedral de Santa Ana",
+          "description": "Un magnífico ejemplo de arquitectura neogótica que se encuentra en el corazón de Vegueta."
+        },
+        {
+          "name": "Parque de Santa Catalina",
+          "description": "Un animado parque donde se celebran eventos y ferias, rodeado de bares y restaurantes."
+        }
+      ],
+      "destination_plan_sugerido": [
+        {
+          "day": 1,
+          "activities": [
+            "Llegada a Las Palmas y registro en el hotel",
+            "Paseo por la Playa de Las Canteras"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Visita al casco antiguo de Vegueta",
+            "Exploración del Museo Canario"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Tour por la Catedral de Santa Ana",
+            "Tarde en el Parque de Santa Catalina"
+          ]
+        },
+        {
+          "day": 4,
+          "activities": [
+            "Día de relax en la Playa de Las Canteras",
+            "Cena en un restaurante local para probar la gastronomía canaria"
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-17T16:44:00.783752Z",
+      "budget": 522.42,
+      "budget_updated_at": "2025-10-17T16:44:00.803566Z"
+    },
+    {
+      "trip_id": "20251017_santa-cruz-de-tenerife",
+      "created_at": "2025-10-17T16:02:39.869043Z",
+      "title": "Santa Cruz De Tenerife (2025-10-17 → 2025-10-24)",
+      "city": "Santa Cruz De Tenerife",
+      "iata": "TFS",
+      "segments": [],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-22",
+      "destination_summary": "Santa Cruz de Tenerife es una vibrante ciudad canaria que combina hermosas playas, cultura rica y un clima perfecto durante todo el año. Es el lugar ideal para disfrutar de la naturaleza, la arquitectura y la deliciosa gastronomía local.",
+      "destination_pois": [
+        {
+          "name": "Playa de Las Teresitas",
+          "description": "Una impresionante playa de arena dorada perfecta para relajarse y disfrutar del sol."
+        },
+        {
+          "name": "Auditorio de Tenerife",
+          "description": "Una obra maestra arquitectónica diseñada por Santiago Calatrava, ideal para disfrutar de conciertos y eventos culturales."
+        },
+        {
+          "name": "Parque García Sanabria",
+          "description": "Un hermoso parque urbano lleno de jardines y esculturas, perfecto para pasear y desconectar."
+        },
+        {
+          "name": "Museo de la Naturaleza y el Hombre",
+          "description": "Un museo fascinante que explora la historia natural y cultural de las Islas Canarias."
+        },
+        {
+          "name": "Mercado de Nuestra Señora de África",
+          "description": "Un bullicioso mercado donde se puede experimentar la cultura local a través de la comida y las artesanías."
+        }
+      ],
+      "destination_plan_sugerido": [
+        {
+          "day": 1,
+          "activities": [
+            "Llegada a Santa Cruz de Tenerife y check-in en el hotel.",
+            "Visita a la Playa de Las Teresitas para disfrutar del sol y el mar."
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Exploración del Auditorio de Tenerife y sus alrededores.",
+            "Paseo por el Parque García Sanabria para disfrutar de la naturaleza."
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Visita al Museo de la Naturaleza y el Hombre para conocer la historia de las islas.",
+            "Recorrido por el Mercado de Nuestra Señora de África para degustar la gastronomía local."
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-17T16:04:11.784774Z",
+      "budget": 911.08,
+      "budget_updated_at": "2025-10-17T16:04:11.814901Z"
+    }
+  ]
+}

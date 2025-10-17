@@ -1,0 +1,15 @@
+{
+  "last_tool": "get_current_weather",
+  "last_city": "Cáceres",
+  "last_message": "Y en Cáceres",
+  "last_result": {
+    "city": "Cáceres",
+    "latitude": 39.47649,
+    "longitude": -6.37224,
+    "temperature_celsius": 26.7,
+    "windspeed_kmh": 5.5,
+    "weathercode": 1,
+    "time": "2025-10-14T14:30",
+    "source": "Open-Meteo"
+  }
+}

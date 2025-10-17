@@ -1,0 +1,37 @@
+{
+  "conversation_id": "20251015T113933_3bde53",
+  "history": [
+    {
+      "role": "user",
+      "message": "Muéstrame mis viajes planeados",
+      "timestamp": "2025-10-15T11:39:40Z"
+    },
+    {
+      "role": "bot",
+      "message": "• París → del ? al ? (2 segmentos, creado el 15/10/2025)\n• Lisboa → del 20/11/2025 al 20/11/2025 (2 segmentos, creado el 15/10/2025)\n• París → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T11:39:40Z"
+    },
+    {
+      "role": "user",
+      "message": "Limpia mis viajes antiguos",
+      "timestamp": "2025-10-15T11:39:50Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: Tool desconocida: memory.clean_travel_log",
+      "timestamp": "2025-10-15T11:39:50Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en París dos días más",
+      "timestamp": "2025-10-15T11:40:02Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en París extendida 2 día(s).",
+      "timestamp": "2025-10-15T11:40:02Z"
+    }
+  ],
+  "created_at": "2025-10-15T11:39:40Z",
+  "updated_at": "2025-10-15T11:40:02Z"
+}

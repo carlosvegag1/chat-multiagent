@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251015T123935_f0bc18",
+  "history": [
+    {
+      "role": "user",
+      "message": "Buscame ahora hoteles en parís",
+      "timestamp": "2025-10-15T12:39:45Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: Tool desconocida: hotel.search_hotels",
+      "timestamp": "2025-10-15T12:39:45Z"
+    }
+  ],
+  "created_at": "2025-10-15T12:39:45Z",
+  "updated_at": "2025-10-15T12:39:45Z"
+}

@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251014T223349_d8233c",
+  "history": [
+    {
+      "role": "user",
+      "message": "Busca vuelos de Madrid a Nueva York",
+      "timestamp": "2025-10-14T22:33:56Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ No encontré vuelos desde MAD a NYC.",
+      "timestamp": "2025-10-14T22:33:56Z"
+    }
+  ],
+  "created_at": "2025-10-14T22:33:56Z",
+  "updated_at": "2025-10-14T22:33:56Z"
+}

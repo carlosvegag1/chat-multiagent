@@ -1,0 +1,55 @@
+{
+  "convo_id": "20251017T145018_cf456e",
+  "user": "carlos",
+  "created_at": "2025-10-17T14:50:18.429312",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Busca vuelos a Gran Canaria para 4 personas",
+      "structured_data": null,
+      "ts": 1760712620.0324724
+    },
+    {
+      "role": "bot",
+      "text": "No he entendido bien tu petición. Puedo planificar, listar, mover o borrar viajes.",
+      "structured_data": null,
+      "ts": 1760712620.0564322
+    },
+    {
+      "role": "user",
+      "text": "Busca vuelos a Gran Canaria para 4 personas",
+      "structured_data": null,
+      "ts": 1760712635.5821767
+    },
+    {
+      "role": "bot",
+      "text": "No he entendido bien tu petición. Puedo planificar, listar, mover o borrar viajes.",
+      "structured_data": null,
+      "ts": 1760712635.5872378
+    },
+    {
+      "role": "user",
+      "text": "Y hoteles?",
+      "structured_data": null,
+      "ts": 1760712647.9758844
+    },
+    {
+      "role": "bot",
+      "text": "No he entendido bien tu petición. Puedo planificar, listar, mover o borrar viajes.",
+      "structured_data": null,
+      "ts": 1760712648.7799866
+    },
+    {
+      "role": "user",
+      "text": "Y planes?",
+      "structured_data": null,
+      "ts": 1760712651.5127423
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes un resumen de tus viajes:\n- **Nantes**: del 17/10/2025 al 25/10/2025 con un presupuesto de ~796€.\n- **Liubliana**: del 17/10/2025 al 19/10/2025 con un presupuesto de ~374€.\n- **Cracovia**: del 17/10/2025 al 27/10/2025 con un presupuesto de ~1012€.\n- **Oporto**: del 17/10/2025 al 20/10/2025 con un presupuesto de ~412€.",
+      "structured_data": null,
+      "ts": 1760712652.259013
+    }
+  ]
+}

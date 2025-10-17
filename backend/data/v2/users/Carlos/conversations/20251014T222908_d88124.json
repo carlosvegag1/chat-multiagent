@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251014T222908_d88124",
+  "history": [
+    {
+      "role": "user",
+      "message": "Muéstrame hoteles en Tokio del 12 al 16 de abril para 2 personas",
+      "timestamp": "2025-10-14T22:29:13Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 No encontré hoteles disponibles en Tokyo.",
+      "timestamp": "2025-10-14T22:29:13Z"
+    }
+  ],
+  "created_at": "2025-10-14T22:29:13Z",
+  "updated_at": "2025-10-14T22:29:13Z"
+}

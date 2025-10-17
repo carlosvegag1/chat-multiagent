@@ -1,0 +1,172 @@
+{
+  "user_id": "Luis mariano",
+  "created_at": "2025-10-16T18:54:45.975989",
+  "trips": [
+    {
+      "trip_id": "20251017_lisboa",
+      "created_at": "2025-10-16T17:54:52.754047Z",
+      "title": "Lisboa (2025-10-17 → 2025-10-22)",
+      "city": "Lisboa",
+      "iata": "LIS",
+      "segments": [
+        {
+          "type": "flight",
+          "origin": "MAD",
+          "destination": "Lisboa",
+          "date": "2025-10-17",
+          "count": 5
+        },
+        {
+          "type": "hotel",
+          "city": "Lisboa",
+          "checkin": "2025-10-17",
+          "checkout": "2025-10-22",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [
+        "plan_trip",
+        "plan_trip"
+      ],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-22",
+      "budget": 467.52,
+      "budget_updated_at": "2025-10-16T17:54:52.853674Z",
+      "destination_summary": "Lisboa es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.",
+      "destination_pois": [
+        {
+          "title": "Torre de Belém",
+          "description": "Lugar emblemático de Lisboa"
+        },
+        {
+          "title": "Monasterio de los Jerónimos",
+          "description": "Lugar emblemático de Lisboa"
+        },
+        {
+          "title": "Barrio Alto",
+          "description": "Lugar emblemático de Lisboa"
+        },
+        {
+          "title": "Praça do Comércio",
+          "description": "Lugar emblemático de Lisboa"
+        },
+        {
+          "title": "Castelo de São Jorge",
+          "description": "Lugar emblemático de Lisboa"
+        },
+        {
+          "title": "Miradouro da Senhora do Monte",
+          "description": "Lugar emblemático de Lisboa"
+        }
+      ],
+      "destination_plan_72h": [
+        {
+          "day": 1,
+          "activities": [
+            "Praça do Comércio",
+            "Monasterio de los Jerónimos",
+            "Miradouro da Senhora do Monte"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Torre de Belém",
+            "Monasterio de los Jerónimos",
+            "Miradouro da Senhora do Monte"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Barrio Alto",
+            "Praça do Comércio",
+            "Monasterio de los Jerónimos"
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-16T17:54:52.881462Z"
+    },
+    {
+      "trip_id": "20251016_oporto",
+      "created_at": "2025-10-16T17:55:11.785972Z",
+      "title": "Oporto",
+      "city": "Oporto",
+      "iata": "OPO",
+      "segments": [
+        {
+          "type": "hotel",
+          "city": "Oporto",
+          "checkin": null,
+          "checkout": null,
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [
+        "plan_trip"
+      ],
+      "start_date": null,
+      "end_date": "2025-10-16",
+      "budget": 330.0,
+      "budget_updated_at": "2025-10-16T17:55:11.840078Z",
+      "destination_summary": "Oporto es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.",
+      "destination_pois": [
+        {
+          "title": "Torre de Belém",
+          "description": "Lugar emblemático de Oporto"
+        },
+        {
+          "title": "Monasterio de los Jerónimos",
+          "description": "Lugar emblemático de Oporto"
+        },
+        {
+          "title": "Barrio Alto",
+          "description": "Lugar emblemático de Oporto"
+        },
+        {
+          "title": "Praça do Comércio",
+          "description": "Lugar emblemático de Oporto"
+        },
+        {
+          "title": "Castelo de São Jorge",
+          "description": "Lugar emblemático de Oporto"
+        },
+        {
+          "title": "Miradouro da Senhora do Monte",
+          "description": "Lugar emblemático de Oporto"
+        }
+      ],
+      "destination_plan_72h": [
+        {
+          "day": 1,
+          "activities": [
+            "Barrio Alto",
+            "Monasterio de los Jerónimos",
+            "Torre de Belém"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Torre de Belém",
+            "Castelo de São Jorge",
+            "Monasterio de los Jerónimos"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Torre de Belém",
+            "Praça do Comércio",
+            "Monasterio de los Jerónimos"
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-16T17:55:11.871113Z"
+    }
+  ]
+}

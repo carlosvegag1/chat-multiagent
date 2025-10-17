@@ -1,0 +1,203 @@
+{
+  "agents": {
+    "flight.search_flights": {
+      "tool": "flight.search_flights",
+      "args": {
+        "origin": "CDG",
+        "destination": "CDG",
+        "departure_date": "2025-12-10",
+        "return_date": "2025-12-14"
+      },
+      "result": {
+        "city": "París",
+        "flights": [],
+        "hotels": [
+          {
+            "name": "HOTEL PRINCE ALBERT LOUVRE",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": "5 RUE SAINTE HYACINTHE",
+            "rating": null,
+            "url": "https://www.google.com/maps/search/HOTEL PRINCE ALBERT LOUVRE"
+          },
+          {
+            "name": "BEST WESTERN GAILLON OPERA",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": "9 RUE GAILLON",
+            "rating": null,
+            "url": "https://www.google.com/maps/search/BEST WESTERN GAILLON OPERA"
+          },
+          {
+            "name": "HN TEST PROPERTY1 FOR E2E TESTING",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": "NICE, FRANCE",
+            "rating": null,
+            "url": "https://www.google.com/maps/search/HN TEST PROPERTY1 FOR E2E TESTING"
+          },
+          {
+            "name": "MERCURE PARIS LAFAYETTE",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": "7 RUE DE TREVISE",
+            "rating": null,
+            "url": "https://www.google.com/maps/search/MERCURE PARIS LAFAYETTE"
+          },
+          {
+            "name": "IBIS PARIS TOUR MONTPARNASSE",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": "22 AVENUE DU MAINE",
+            "rating": null,
+            "url": "https://www.google.com/maps/search/IBIS PARIS TOUR MONTPARNASSE"
+          }
+        ],
+        "pois": [],
+        "budget": "N/A",
+        "checkin": "2025-12-10",
+        "checkout": "2025-12-14"
+      },
+      "last_message": "Busca vuelos y hoteles en París del 10 al 14 de diciembre."
+    },
+    "memory.extend_stay": {
+      "tool": "memory.extend_stay",
+      "args": {
+        "city": "Lisboa",
+        "extra_days": 2
+      },
+      "result": {
+        "summary": "🏨 Estancia en Lisboa extendida 2 día(s)."
+      },
+      "last_message": "Amplía mi estancia en Lisboa dos días más."
+    },
+    "memory.list_trips": {
+      "tool": "memory.list_trips",
+      "args": {},
+      "result": {
+        "summary": "• París → del ? al 14/12/2025 (3 segmentos, creado el 15/10/2025)\n• Lisboa → del 20/11/2025 al 20/11/2025 (4 segmentos, creado el 15/10/2025)"
+      },
+      "last_message": "Muéstrame todos mis viajes planeados."
+    },
+    "memory.delete_trip": {
+      "tool": "memory.delete_trip",
+      "args": {
+        "city": "París"
+      },
+      "result": {
+        "summary": "🗑️ Viaje a París eliminado correctamente."
+      },
+      "last_message": "Limpia mis viajes antiguos."
+    },
+    "memory.clean_travel_log": {
+      "tool": "memory.clean_travel_log",
+      "args": {},
+      "result": {
+        "summary": "🧹 Limpieza ejecutada correctamente para pedro.",
+        "details": {
+          "trips": [
+            {
+              "trip_id": "20251015_pars",
+              "created_at": "2025-10-15T11:14:59.454896Z",
+              "title": "París",
+              "city": "París",
+              "iata": "PAR",
+              "segments": [
+                {
+                  "type": "flight",
+                  "origin": "MAD",
+                  "destination": "CDG",
+                  "date": null,
+                  "count": 5
+                },
+                {
+                  "type": "hotel",
+                  "city": "CDG",
+                  "checkin": null,
+                  "checkout": null,
+                  "count": 5
+                },
+                {
+                  "type": "hotel",
+                  "city": "París",
+                  "checkin": "2025-12-10",
+                  "checkout": "2025-12-14",
+                  "count": 5
+                }
+              ],
+              "status": "planned",
+              "notes": "",
+              "agents_called": [
+                "flight.search_flights",
+                "flight.search_flights",
+                "flight.search_flights"
+              ],
+              "start_date": "2025-12-10",
+              "end_date": "2025-12-14"
+            },
+            {
+              "trip_id": "20251120_lisboa",
+              "created_at": "2025-10-15T11:33:03.785901Z",
+              "title": "Lisboa (2025-11-20 → 2025-11-20)",
+              "city": "Lisboa",
+              "iata": "LIS",
+              "segments": [
+                {
+                  "type": "flight",
+                  "origin": "MAD",
+                  "destination": "Lisboa",
+                  "date": "2025-11-20",
+                  "count": 5
+                },
+                {
+                  "type": "hotel",
+                  "city": "Lisboa",
+                  "checkin": "2025-11-20",
+                  "checkout": "2025-11-20",
+                  "count": 5
+                },
+                {
+                  "type": "flight",
+                  "origin": "MAD",
+                  "destination": "Lisboa",
+                  "date": "2025-11-20",
+                  "count": 5
+                },
+                {
+                  "type": "hotel",
+                  "city": "Lisboa",
+                  "checkin": "2025-11-20",
+                  "checkout": "2025-11-20",
+                  "count": 5
+                }
+              ],
+              "status": "planned",
+              "notes": "",
+              "agents_called": [
+                "flight.search_flights",
+                "flight.search_flights",
+                "flight.search_flights",
+                "flight.search_flights"
+              ],
+              "start_date": "2025-11-20",
+              "end_date": "2025-11-20"
+            }
+          ],
+          "summary": {
+            "removed": 0,
+            "duplicates": 0,
+            "fixed": 2,
+            "total": 2
+          }
+        }
+      },
+      "last_message": "Limpia todos mis viajes"
+    }
+  },
+  "last_tool": "memory.list_trips"
+}

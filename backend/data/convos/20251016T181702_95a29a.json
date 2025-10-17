@@ -1,0 +1,27 @@
+{
+  "convo_id": "20251016T181702_95a29a",
+  "user": "carlos",
+  "created_at": "2025-10-16T18:17:02.533464",
+  "messages": [
+    {
+      "ts": 1760638630.3795013,
+      "role": "user",
+      "text": "Tengo algun viaje proximamente?"
+    },
+    {
+      "ts": 1760638654.603311,
+      "role": "bot",
+      "text": "No te he entendido."
+    },
+    {
+      "ts": 1760638670.0333443,
+      "role": "user",
+      "text": "Que si tengo algun viaje planeado?"
+    },
+    {
+      "ts": 1760638671.2294643,
+      "role": "bot",
+      "text": "No te he entendido."
+    }
+  ]
+}

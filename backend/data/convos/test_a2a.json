@@ -1,0 +1,27 @@
+{
+  "convo_id": "test_a2a",
+  "user": "Carlos",
+  "created_at": "2025-10-15T10:34:00.091931",
+  "messages": [
+    {
+      "ts": 1760524440.0919313,
+      "role": "user",
+      "text": "Busca vuelos y hoteles en Lisboa del 20 al 23 de noviembre y dame un planning básico"
+    },
+    {
+      "ts": 1760524452.4538221,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos desde MAD a LIS:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (50.52 EUR)\n- UX1155 14:55–15:15 (50.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n- TP1015 14:55–15:20 (61.52 EUR)\n⚠️ Conflicto con ‘Lisboa (2025-11-20 → 2025-11-20)’"
+    },
+    {
+      "ts": 1760524536.4379346,
+      "role": "user",
+      "text": "Busca vuelos y hoteles en Lisboa del 20 al 23 de noviembre y dame un planning básico"
+    },
+    {
+      "ts": 1760524547.9724393,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos desde MAD a LIS:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (50.52 EUR)\n- UX1155 14:55–15:15 (50.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n- TP1015 14:55–15:20 (61.52 EUR)\n\n🏨 He encontrado 5 hoteles en LIS:\n- HOTEL DA PRAIA — None⭐ — None EUR\n- HOTEL DA LOLO — None⭐ — None EUR\n- HOTEL DO LAGO — None⭐ — None EUR\n- AMAZONIA LISBOA HOTEL — None⭐ — None EUR\n- HOTEL DA PRAIA — None⭐ — None EUR\n\n📍 No pude obtener información turística para LIS.\n\n💰 Presupuesto estimado total: N/A EUR\n\n⚠️ Conflicto con ‘Lisboa (2025-11-20 → 2025-11-20)’"
+    }
+  ]
+}

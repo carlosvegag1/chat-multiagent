@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251015T123935_f0bc18",
+  "user": "carlos",
+  "created_at": "2025-10-15T12:39:35.988962",
+  "messages": [
+    {
+      "ts": 1760531982.5961986,
+      "role": "user",
+      "text": "Buscame ahora hoteles en parís"
+    },
+    {
+      "ts": 1760531985.9420762,
+      "role": "bot",
+      "text": "⚠️ No pude obtener la información: Tool desconocida: hotel.search_hotels"
+    }
+  ]
+}

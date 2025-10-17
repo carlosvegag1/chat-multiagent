@@ -1,0 +1,77 @@
+{
+  "conversation_id": "mem3",
+  "history": [
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T10:42:34Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: Tool desconocida: memory.extend_stay",
+      "timestamp": "2025-10-15T10:42:34Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T10:46:06Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No se pudo extender la estancia en Lisboa.",
+      "timestamp": "2025-10-15T10:46:06Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T10:47:49Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No se pudo extender la estancia en Lisboa.",
+      "timestamp": "2025-10-15T10:47:49Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T10:48:38Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No se pudo extender la estancia en Lisboa.",
+      "timestamp": "2025-10-15T10:48:38Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T10:50:35Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No se pudo extender la estancia en Lisboa.",
+      "timestamp": "2025-10-15T10:50:35Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T10:51:01Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No se pudo extender la estancia en Lisboa.",
+      "timestamp": "2025-10-15T10:51:01Z"
+    },
+    {
+      "role": "user",
+      "message": "Amplía mi estancia en Lisboa dos días más",
+      "timestamp": "2025-10-15T10:53:14Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 Estancia en Lisboa extendida 2 día(s).",
+      "timestamp": "2025-10-15T10:53:14Z"
+    }
+  ],
+  "created_at": "2025-10-15T10:42:34Z",
+  "updated_at": "2025-10-15T10:53:14Z"
+}

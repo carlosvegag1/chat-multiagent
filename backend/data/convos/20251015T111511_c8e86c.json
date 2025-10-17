@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251015T111511_c8e86c",
+  "user": "pedro",
+  "created_at": "2025-10-15T11:15:11.809377",
+  "messages": [
+    {
+      "ts": 1760526917.6855206,
+      "role": "user",
+      "text": "listame todos mis viajes actuales"
+    },
+    {
+      "ts": 1760526920.0538301,
+      "role": "bot",
+      "text": "• París → del ? al ? (2 segmentos, creado el 15/10/2025)"
+    }
+  ]
+}

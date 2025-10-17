@@ -1,0 +1,47 @@
+{
+  "convo_id": "20251015T211535_b659cd",
+  "user": "carlos",
+  "created_at": "2025-10-15T21:15:35.618791",
+  "messages": [
+    {
+      "ts": 1760562944.201007,
+      "role": "user",
+      "text": "¿Qué viajes tengo ahora?"
+    },
+    {
+      "ts": 1760562944.4032052,
+      "role": "bot",
+      "text": "• París → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~398.6 EUR]"
+    },
+    {
+      "ts": 1760562952.9147904,
+      "role": "user",
+      "text": "Resume mi viaje a París"
+    },
+    {
+      "ts": 1760562955.0303872,
+      "role": "bot",
+      "text": "\n🏨 He encontrado 5 hoteles en París:\n- MERCURE PARIS LAFAYETTE\n- RENAISSANCE PARIS VENDOME\n- MERCURE PARIS TOUR EIFFEL 4*\n- HOTEL PRINCE ALBERT LOUVRE\n- IBIS PARIS TOUR MONTPARNASSE\n\n📍 Lugares recomendados en París:\n• Torre Eiffel — Lugar emblemático de París\n• Museo del Louvre — Lugar emblemático de París\n• Notre-Dame — Lugar emblemático de París\n• Arco del Triunfo — Lugar emblemático de París\n• Montmartre — Lugar emblemático de París\n\n🧭 Resumen: París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Arco del Triunfo; Palacio de Versalles; Torre Eiffel\n Día 2: Museo del Louvre; Torre Eiffel; Notre-Dame\n Día 3: Museo del Louvre; Montmartre; Notre-Dame"
+    },
+    {
+      "ts": 1760562963.3446097,
+      "role": "user",
+      "text": "Ya no quiero ir a París"
+    },
+    {
+      "ts": 1760562963.5629792,
+      "role": "bot",
+      "text": "🗑️ Viaje a París eliminado correctamente."
+    },
+    {
+      "ts": 1760562973.3025396,
+      "role": "user",
+      "text": "¿Qué viajes tengo proximamente?"
+    },
+    {
+      "ts": 1760562973.4990537,
+      "role": "bot",
+      "text": "No tienes viajes registrados todavía."
+    }
+  ]
+}

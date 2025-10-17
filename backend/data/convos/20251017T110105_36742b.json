@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251017T110105_36742b",
+  "user": "carlos",
+  "created_at": "2025-10-17T11:01:05.564187",
+  "messages": [
+    {
+      "ts": 1760698867.0043688,
+      "role": "user",
+      "text": "Quiero ir a la Toscana una semana"
+    },
+    {
+      "ts": 1760698880.9656014,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Florencia."
+    }
+  ]
+}

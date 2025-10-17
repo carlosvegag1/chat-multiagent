@@ -1,0 +1,27 @@
+{
+  "conversation_id": "20251015T191137_951777",
+  "history": [
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo?",
+      "timestamp": "2025-10-15T19:11:44Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 17/10/2025 al 22/10/2025 (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T19:11:44Z"
+    },
+    {
+      "role": "user",
+      "message": "No voy a ir a este viaje",
+      "timestamp": "2025-10-15T19:11:54Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n📍 Lugares recomendados en Ir:\n• Kandolus — Museum\". Deputy of research and technology. Retrieved 14 October 2024. \"Visit enchanting Kandolus village, a UNESCO nominee\". newspaper.irandaily.ir.\n• Kelardasht — visitors trying to escape the heat of Tehran and points further south. Its attractions include Alamkuh Mountain (the second tallest peak in Iran at 4850m),\n• Tomb of Two Kamals — a museum, a library, and other places which commemorate the legacies of the artists buried therein. niafam.com. \"Tomb of Two Kamals\". en.icro.ir. Retrieved\n• Catholic Church of Tabriz — Board, East Azerbaijan Geography, Iranian Ministry of Education, 2000 (High School Text Book in Persian) http://www.eachto.ir Portal: Iran v t e v t e\n• Zibad — Organization of Iran as a national natural monument and is a major tourist attraction with a height of 20 metres and with a perimeter of 6.5 meters (21 ft)\n\n🧭 Resumen: IR or Ir may refer to:\n\n🗓️ Plan 72h:\n Día 1: Visita Tomb of Two Kamals; Visita Catholic Church of Tabriz\n Día 2: Visita Mausoleum of Poets; Visita Kelardasht\n Día 3: Visita Catholic Church of Tabriz; Visita Kelardasht",
+      "timestamp": "2025-10-15T19:11:54Z"
+    }
+  ],
+  "created_at": "2025-10-15T19:11:44Z",
+  "updated_at": "2025-10-15T19:11:54Z"
+}

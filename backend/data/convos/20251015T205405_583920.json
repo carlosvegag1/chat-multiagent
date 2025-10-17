@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251015T205405_583920",
+  "user": "marta",
+  "created_at": "2025-10-15T20:54:05.532464",
+  "messages": [
+    {
+      "ts": 1760561648.1966896,
+      "role": "user",
+      "text": "Planifica un viaje a Roma para tres días"
+    },
+    {
+      "ts": 1760561650.011452,
+      "role": "bot",
+      "text": "\n🏨 He encontrado 5 hoteles en París:\n- BW PREMIER FAUBOURG 88\n- BEST WESTERN GAILLON OPERA\n- MERCURE PARIS TOUR EIFFEL 4*\n- HN TEST PROPERTY1 FOR E2E TESTING\n- DIAMOND HOTEL\n\n📍 Lugares recomendados en París:\n• Torre Eiffel — Lugar emblemático de París\n• Museo del Louvre — Lugar emblemático de París\n• Notre-Dame — Lugar emblemático de París\n• Arco del Triunfo — Lugar emblemático de París\n• Montmartre — Lugar emblemático de París\n\n🧭 Resumen: París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Arco del Triunfo; Palacio de Versalles; Montmartre\n Día 2: Museo del Louvre; Torre Eiffel; Palacio de Versalles\n Día 3: Museo del Louvre; Notre-Dame; Arco del Triunfo"
+    }
+  ]
+}

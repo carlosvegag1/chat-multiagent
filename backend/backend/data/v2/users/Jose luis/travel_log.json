@@ -1,0 +1,174 @@
+{
+  "user_id": "Jose luis",
+  "created_at": "2025-10-15T19:09:53.411963",
+  "trips": [
+    {
+      "trip_id": "20251017_lisboa",
+      "created_at": "2025-10-15T19:09:59.563613Z",
+      "title": "Lisboa (2025-10-17 → 2025-10-22)",
+      "city": "Lisboa",
+      "iata": "LIS",
+      "segments": [
+        {
+          "type": "flight",
+          "origin": "MAD",
+          "destination": "Lisboa",
+          "date": "2025-10-17",
+          "count": 5
+        },
+        {
+          "type": "hotel",
+          "city": "Lisboa",
+          "checkin": "2025-10-17",
+          "checkout": "2025-10-22",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [
+        "flight.search_flights",
+        "flight.search_flights"
+      ],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-22",
+      "budget": 0.0,
+      "budget_updated_at": "2025-10-15T19:11:34.439282Z",
+      "destination_summary": "Lisbon is the capital and most populous municipality of Portugal, with an estimated population of 575,739, as of 2024, within its administrative limits and 3,028,000 within the metropolis, as of 2025. Lisbon is mainland Europe's westernmost capital city, and the only one along the Atlantic coast, the others being on islands. The city lies in the western portion of the Iberian Peninsula, on the northern shore of the River Tagus. The western portion of its metro area, the Portuguese Riviera, hosts the westernmost point of Continental Europe, culminating at Cabo da Roca.",
+      "destination_pois": [
+        {
+          "name": "Lisboa Games Week",
+          "description": "Lisboa Games Week, or simply LGW, is a trade fair for video games held annually at the FIL Exhibition Centre in Lisbon, Portugal. It is organised by FIL"
+        },
+        {
+          "name": "Lisbon Oceanarium",
+          "description": "The Lisbon Oceanarium (Portuguese: Oceanário de Lisboa, pronounced [ɔsi.ɐˈnaɾi.u ðɨ liʒˈβoɐ]) is an oceanarium in Lisbon, Portugal. It is located in the"
+        },
+        {
+          "name": "Lisbon Zoo",
+          "description": "(Jardim Zoologico de Lisboa) is a zoological garden in Lisbon, Portugal. It was founded in 1884. The zoo was originally located in the park of São Sebastião"
+        },
+        {
+          "name": "Praça do Império",
+          "description": "Império (Empire Square) is a city square and park situated adjacent to principal monuments and tourist attractions in the civil parish of Belém, municipality"
+        },
+        {
+          "name": "Santa Justa Lift",
+          "description": "Carmo (Carmo Square). Since its construction the lift has become a tourist attraction for Lisbon as, among the urban lifts in the city, Santa Justa is the"
+        },
+        {
+          "name": "Casino Estoril",
+          "description": "de Notícias (in Portuguese) Gibbs, Erik (2022-10-28). \"Portugal's Casino Lisboa and Casino Estoril to Remain in the Ho Family\". Casino.org. Retrieved 2025-02-28"
+        }
+      ],
+      "destination_plan_72h": [
+        {
+          "day": 1,
+          "activities": [
+            "Visita Lisbon Oceanarium",
+            "Visita Lisboa Games Week"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Visita Lisbon Oceanarium",
+            "Visita Casino Estoril"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Visita Casino Estoril",
+            "Visita Lisboa Games Week"
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-15T19:11:34.465127Z"
+    },
+    {
+      "trip_id": "20251017_pars",
+      "created_at": "2025-10-15T19:12:38.633383Z",
+      "title": "París (2025-10-17 → 2025-10-20)",
+      "city": "París",
+      "iata": "PAR",
+      "segments": [
+        {
+          "type": "flight",
+          "origin": "MAD",
+          "destination": "París",
+          "date": "2025-10-17",
+          "count": 5
+        },
+        {
+          "type": "hotel",
+          "city": "París",
+          "checkin": "2025-10-17",
+          "checkout": "2025-10-20",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [
+        "flight.search_flights",
+        "flight.search_flights"
+      ],
+      "start_date": "2025-10-17",
+      "end_date": "2025-10-20",
+      "budget": 398.6,
+      "budget_updated_at": "2025-10-15T19:12:38.739133Z",
+      "destination_summary": "Paris is the capital and largest city of France, with an estimated city population of 2,048,472 in an area of 105.4 km2 (40.7 sq mi), and a metropolitan population of 13,171,056 as of January 2025. Located on the river Seine in the centre of the Île-de-France region, it is the largest metropolitan area and fourth-most populous city in the European Union (EU). Nicknamed the City of Light, partly because of its role in the Age of Enlightenment, Paris has been one of the world's major centres of finance, diplomacy, commerce, culture, fashion, and gastronomy since the 17th century.",
+      "destination_pois": [
+        {
+          "name": "List of tourist attractions in Berlin",
+          "description": "and Potsdam. The decentralised development has resulted in a plethora of sights in Berlin – not just in the centre of the city, but also in the outlying"
+        },
+        {
+          "name": "List of tourist attractions in Paris",
+          "description": "Visitor attractions in Paris. Landmarks in Paris Historical quarters of Paris List of Domes in France List of museums in Paris List of tourist attractions worldwide"
+        },
+        {
+          "name": "List of sights and historic places in Budapest",
+          "description": "houses some of the city's finest museums. (The below sights are grouped by location.) Andrássy Avenue with its several sights including the Hungarian State"
+        },
+        {
+          "name": "Tourism in Paris",
+          "description": "Top sights include Notre Dame (12 million visitors in 2017), Disneyland Paris (11), Sacre Cœur (10), the Versailles Palace (7.7), the Louvre Museum (6"
+        },
+        {
+          "name": "Lists of tourist attractions",
+          "description": "Tourism in Egypt List of tourist attractions in Helsinki List of tourist attractions in Paris List of sights in Berlin List of sights of Potsdam List of castles"
+        },
+        {
+          "name": "France Miniature",
+          "description": "a miniature park tourist attraction in Élancourt, France featuring scale models of major French landmarks and monuments in an outdoor park. France Miniature"
+        }
+      ],
+      "destination_plan_72h": [
+        {
+          "day": 1,
+          "activities": [
+            "Visita List of sights and historic places in Budapest",
+            "Visita List of tourist attractions in Paris"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Visita Lists of tourist attractions",
+            "Visita List of tourist attractions in Paris"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Visita List of tourist attractions in Paris",
+            "Visita France Miniature"
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-15T19:12:38.763524Z"
+    }
+  ]
+}

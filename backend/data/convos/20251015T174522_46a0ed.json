@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251015T174522_46a0ed",
+  "user": "pepito",
+  "created_at": "2025-10-15T17:45:22.154650",
+  "messages": [
+    {
+      "ts": 1760550324.627754,
+      "role": "user",
+      "text": "Limpia todos mis viajes"
+    },
+    {
+      "ts": 1760550324.7365274,
+      "role": "bot",
+      "text": "🧹 Todos los viajes de Pepito han sido eliminados correctamente (modo total)."
+    }
+  ]
+}

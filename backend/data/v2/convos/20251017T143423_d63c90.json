@@ -1,0 +1,198 @@
+{
+  "convo_id": "20251017T143423_d63c90",
+  "user": "carlos",
+  "created_at": "2025-10-17T14:34:23.061037",
+  "messages": [
+    {
+      "role": "user",
+      "text": "¿Qué viajes tengo planeados?",
+      "structured_data": null,
+      "ts": 1760711910.8142798
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes un resumen de tus viajes:\n- **Lisboa**: del ? al ?.\n- **Roma**: del 17/10/2025 al 20/10/2025 con un presupuesto de ~1206€.\n- **Barcelona**: del 17/10/2025 al 18/10/2025 con un presupuesto de ~187€.\n- **París**: del 17/10/2025 al 20/10/2025 con un presupuesto de ~421€.",
+      "structured_data": null,
+      "ts": 1760711912.893684
+    },
+    {
+      "role": "user",
+      "text": "Al final no me apetece ninguno",
+      "structured_data": null,
+      "ts": 1760711918.6463947
+    },
+    {
+      "role": "bot",
+      "text": "🧹 Todos tus viajes han sido eliminados.",
+      "structured_data": null,
+      "ts": 1760711920.5686204
+    },
+    {
+      "role": "user",
+      "text": "Cuales son mis viajes ahora entonces?",
+      "structured_data": null,
+      "ts": 1760711928.6878598
+    },
+    {
+      "role": "bot",
+      "text": "No tienes viajes registrados todavía.",
+      "structured_data": null,
+      "ts": 1760711929.4459395
+    },
+    {
+      "role": "user",
+      "text": "Prepara una escapada a Liubliana",
+      "structured_data": null,
+      "ts": 1760711936.4927294
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Liubliana**.",
+      "structured_data": {
+        "city": "Liubliana",
+        "flights": [
+          {
+            "airline": "AIR SERBIA",
+            "flight_number": "JU 573",
+            "origin": "MAD",
+            "destination": "BEG",
+            "departure_time": "2025-10-17T17:50:00",
+            "arrival_time": "2025-10-17T20:55:00",
+            "duration": "15h 5m",
+            "stops": 1,
+            "price": 153.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "AIR SERBIA",
+            "flight_number": "JU 573",
+            "origin": "MAD",
+            "destination": "BEG",
+            "departure_time": "2025-10-17T17:50:00",
+            "arrival_time": "2025-10-17T20:55:00",
+            "duration": "20h 35m",
+            "stops": 1,
+            "price": 153.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1508",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T20:25:00",
+            "arrival_time": "2025-10-17T23:00:00",
+            "duration": "15h 40m",
+            "stops": 1,
+            "price": 248.26,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1508",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T20:25:00",
+            "arrival_time": "2025-10-17T23:00:00",
+            "duration": "15h 10m",
+            "stops": 2,
+            "price": 264.17,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1506",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T17:10:00",
+            "arrival_time": "2025-10-17T19:45:00",
+            "duration": "18h 55m",
+            "stops": 1,
+            "price": 289.26,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "EMONEC HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "WOLFOVA 12, LJUBLJANA, 1000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "GRAND HOTEL UNION BUSINESS",
+            "hotelId": null,
+            "rating": null,
+            "address": "MIKLOSICEVA 3, LJUBLJANA, 1000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "VANDER URBANI RESORT",
+            "hotelId": null,
+            "rating": null,
+            "address": "KROJASKA ULICA 6 TO 8, LUJUBLJANA, 1000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "BEST WESTERN PREMIER HTL SLON",
+            "hotelId": null,
+            "rating": null,
+            "address": "SLOVENSKA 34, LJUBLJANA, 1000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "CUBO HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "SLOVENSKA CESTA 15, LJUBLJANA - SI",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Castillo de Liubliana",
+            "description": "Una fortaleza histórica que ofrece vistas panorámicas de la ciudad y una rica historia."
+          },
+          {
+            "name": "Puente Triple",
+            "description": "Un icónico puente que conecta las partes más antiguas de la ciudad con un diseño arquitectónico único."
+          }
+        ],
+        "summary": "Liubliana, la encantadora capital de Eslovenia, es famosa por su vibrante vida cultural y su hermoso casco antiguo. Con sus pintorescas calles y el majestuoso castillo, es un destino perfecto para una escapada corta.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Visitar el Castillo de Liubliana y disfrutar de las vistas desde la cima.",
+              "Pasear por el casco antiguo y cruzar el Puente Triple, explorando las tiendas y cafés locales."
+            ]
+          }
+        ],
+        "budget": {
+          "total": 263.52,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760711944.9831343
+    },
+    {
+      "role": "user",
+      "text": "Eliminalo",
+      "structured_data": null,
+      "ts": 1760711963.4423683
+    },
+    {
+      "role": "bot",
+      "text": "🗑️ Viaje a **Liubliana** eliminado correctamente.",
+      "structured_data": null,
+      "ts": 1760711965.280615
+    }
+  ]
+}

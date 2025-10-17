@@ -1,0 +1,17 @@
+{
+  "convo_id": "mem2",
+  "user": "Carlos",
+  "created_at": "2025-10-15T10:42:19.700813",
+  "messages": [
+    {
+      "ts": 1760524939.7008138,
+      "role": "user",
+      "text": "Cambia mi vuelo a Lisboa al domingo siguiente"
+    },
+    {
+      "ts": 1760524941.5583475,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Lisboa actualizadas (+1 días)."
+    }
+  ]
+}

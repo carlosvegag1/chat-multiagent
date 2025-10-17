@@ -1,0 +1,67 @@
+{
+  "convo_id": "20251017T092820_c7beeb",
+  "user": "carlos",
+  "created_at": "2025-10-17T09:28:20.692329",
+  "messages": [
+    {
+      "ts": 1760693310.6759706,
+      "role": "user",
+      "text": "¿Tengo algún viaje planeado?"
+    },
+    {
+      "ts": 1760693310.762341,
+      "role": "bot",
+      "text": "• **Buenos Aires** → del 17/10/2025 al 19/10/2025 [~1401.09 EUR]\n• **Roma** → del 17/10/2025 al 20/10/2025 [~296.52 EUR]\n• **Londres** → del 17/10/2025 al 22/10/2025 [~589.52 EUR]\n• **Marrakech** → del 17/10/2025 al 22/10/2025 [~663.09 EUR]\n• **Dubrovnik** → del 17/10/2025 al 20/10/2025 [~330.00 EUR]\n• **Cusco** → del 17/10/2025 al 20/10/2025 [~330.00 EUR]\n• **Oporto** → del 17/10/2025 al 19/10/2025 [~273.52 EUR]\n• **Bangkok** → del 17/10/2025 al 24/10/2025 [~770.00 EUR]"
+    },
+    {
+      "ts": 1760693318.145974,
+      "role": "user",
+      "text": "Al final no puedo ir a ninguno"
+    },
+    {
+      "ts": 1760693319.214272,
+      "role": "bot",
+      "text": "🧹 Todos los viajes han sido eliminados."
+    },
+    {
+      "ts": 1760693328.4320555,
+      "role": "user",
+      "text": "Planifica un viaje de 2 días a Oporto"
+    },
+    {
+      "ts": 1760693337.745812,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Oporto."
+    },
+    {
+      "ts": 1760693342.8475351,
+      "role": "user",
+      "text": "Quiero ir 7 días a Bangkok"
+    },
+    {
+      "ts": 1760693353.4235058,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Bangkok."
+    },
+    {
+      "ts": 1760693355.461042,
+      "role": "user",
+      "text": "Un fin de semana en Roma"
+    },
+    {
+      "ts": 1760693361.7836413,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Roma."
+    },
+    {
+      "ts": 1760693373.0341082,
+      "role": "user",
+      "text": "Que viajes tengo planeados?"
+    },
+    {
+      "ts": 1760693373.8778977,
+      "role": "bot",
+      "text": "• **Oporto** → del 17/10/2025 al 19/10/2025 [~273.52 EUR]\n• **Bangkok** → del 17/10/2025 al 24/10/2025 [~770.00 EUR]\n• **Roma** → del 17/10/2025 al 19/10/2025 [~296.52 EUR]"
+    }
+  ]
+}

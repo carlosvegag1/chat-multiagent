@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251015T210554_a5a5f5",
+  "history": [
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Roma para tres días",
+      "timestamp": "2025-10-15T21:06:02Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia París:\n- UX1027 08:00–09:55 (55.52 EUR)\n- UX1029 14:20–16:15 (55.52 EUR)\n- VY5145 18:05–20:05 (90.52 EUR)\n- VY5184 09:45–11:55 (95.52 EUR)\n- VY5131 07:20–09:20 (101.52 EUR)\n\n🏨 He encontrado 5 hoteles en París:\n- DIAMOND HOTEL\n- HN TEST PROPERTY1 FOR E2E TESTING\n- MERCURE PARIS TOUR EIFFEL 4*\n- BW PREMIER FAUBOURG 88\n- HOTEL PRINCE ALBERT LOUVRE\n\n📍 Lugares recomendados en París:\n• Torre Eiffel — Lugar emblemático de París\n• Museo del Louvre — Lugar emblemático de París\n• Notre-Dame — Lugar emblemático de París\n• Arco del Triunfo — Lugar emblemático de París\n• Montmartre — Lugar emblemático de París\n\n🧭 Resumen: París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Palacio de Versalles; Montmartre; Notre-Dame\n Día 2: Palacio de Versalles; Montmartre; Museo del Louvre\n Día 3: Torre Eiffel; Museo del Louvre; Palacio de Versalles",
+      "timestamp": "2025-10-15T21:06:03Z"
+    }
+  ],
+  "created_at": "2025-10-15T21:06:02Z",
+  "updated_at": "2025-10-15T21:06:03Z"
+}

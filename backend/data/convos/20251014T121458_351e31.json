@@ -1,0 +1,12 @@
+{
+  "convo_id": "20251014T121458_351e31",
+  "user": "carlos",
+  "created_at": "2025-10-14T12:14:58.681171",
+  "messages": [
+    {
+      "ts": 1760444110.258344,
+      "role": "user",
+      "text": "¿Qué tiempo hace hoy en Madrid?"
+    }
+  ]
+}

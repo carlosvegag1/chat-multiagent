@@ -1,0 +1,37 @@
+{
+  "convo_id": "20251017T090720_855738",
+  "user": "Carlos",
+  "created_at": "2025-10-17T09:07:42.429207",
+  "messages": [
+    {
+      "ts": 1760692062.429207,
+      "role": "user",
+      "text": "Planea un viaje de 5 dias a Marrakech"
+    },
+    {
+      "ts": 1760692062.430524,
+      "role": "bot",
+      "text": "Aqu\u00ed tienes tu plan para Marrakech."
+    },
+    {
+      "ts": 1760692079.75924,
+      "role": "user",
+      "text": "Ahora a Dubrovnik"
+    },
+    {
+      "ts": 1760692079.768862,
+      "role": "bot",
+      "text": "Aqu\u00ed tienes tu plan para Dubrovnik."
+    },
+    {
+      "ts": 1760692097.694632,
+      "role": "user",
+      "text": "Ahora a cusco"
+    },
+    {
+      "ts": 1760692097.715813,
+      "role": "bot",
+      "text": "Aqu\u00ed tienes tu plan para Cusco."
+    }
+  ]
+}

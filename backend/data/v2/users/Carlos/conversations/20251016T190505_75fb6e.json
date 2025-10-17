@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251016T190505_75fb6e",
+  "history": [
+    {
+      "role": "user",
+      "message": "Hola! Quiero explorar la Provenza durante 4 días",
+      "timestamp": "2025-10-16T19:05:09Z"
+    },
+    {
+      "role": "bot",
+      "message": "🏨 **Hoteles en Aix-En-Provence:**\n- HOTEL DA PRAIA (None⭐)\n- HOTEL DO LAGO (None⭐)\n- HOTEL DA LOLO (None⭐)\n\n🧭 **Resumen:**\nAix-en-Provence, or simply Aix, is a city and commune in southern France, about 30 km (20 mi) north of Marseille. A former capital of Provence, it is the subprefecture of the arrondissement of Aix-en-Provence, in the department of Bouches-du-Rhône, in the region of Provence-Alpes-Côte d'Azur. The population of Aix-en-Provence is approximately 148,000. Its inhabitants are called Aixois or, less commonly, Aquisextains.\n\n🗓️ **Plan de viaje sugerido:**\n**Día 1:** Visita Punto de interés 1 de Aix-En-Provence; Visita Punto de interés 2 de Aix-En-Provence; Visita Punto de interés 3 de Aix-En-Provence; Visita Punto de interés 4 de Aix-En-Provence\n**Día 2:** Visita Punto de interés 3 de Aix-En-Provence; Visita Punto de interés 4 de Aix-En-Provence; Visita Punto de interés 5 de Aix-En-Provence; Visita Punto de interés 6 de Aix-En-Provence\n**Día 3:** Visita Punto de interés 5 de Aix-En-Provence; Visita Punto de interés 6 de Aix-En-Provence\n**Día 4:** Visita Punto de interés 1 de Aix-En-Provence; Visita Punto de interés 2 de Aix-En-Provence; Visita Punto de interés 3 de Aix-En-Provence; Visita Punto de interés 4 de Aix-En-Provence\n\n💰 **Presupuesto estimado: 440.0 EUR**",
+      "timestamp": "2025-10-16T19:05:09Z"
+    }
+  ],
+  "created_at": "2025-10-16T19:05:09Z",
+  "updated_at": "2025-10-16T19:05:09Z"
+}

@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251015T101255_d8ca7a",
+  "user": "carlos",
+  "created_at": "2025-10-15T10:12:55.489237",
+  "messages": [
+    {
+      "ts": 1760523177.926549,
+      "role": "user",
+      "text": "Busca vuelos y hoteles en Lisboa del 20 al 23 de noviembre y dame un planning básico"
+    },
+    {
+      "ts": 1760523181.676542,
+      "role": "bot",
+      "text": "⚠️ No pude obtener la información: flight.search_flights call failed: FlightAgent.query() got an unexpected keyword argument 'departure_date'"
+    }
+  ]
+}

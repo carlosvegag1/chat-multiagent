@@ -1,0 +1,289 @@
+{
+  "b45b45adb5e94e0ca7c578e45070cb4f6c3617bea6c42aff903a1506469d9a74": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Kioto",
+      "days": 3
+    }
+  },
+  "4b2496f1804d3d6a5c36e02baf69d607f6daa8228e303a61266107db73b7ee3c": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Kioto",
+      "days": 10
+    }
+  },
+  "44289c47f878f70ac864c9cbee1cb6cebc9148fe570f3982d7699ca3cbd8a6d3": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Roma",
+      "days": 3
+    }
+  },
+  "46bef5af5df3af881bd0aff4aff3bd65c4fe6fb821d36d8c1c6620d21f252769": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "days": 10
+    }
+  },
+  "92d61a9ee8b6f1c090f12b72ce50e0babff9af29fd61708d135645904b3395a8": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Roma",
+      "days": 3
+    }
+  },
+  "1a17f92dff1a173738dbf14d643d0a23493734028557aa2c99ca7112cec3c311": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Roma",
+      "days": 10
+    }
+  },
+  "012069d1a1235f64c6304f6bf6161f0f8d4aa462481de4c363bf258186411b93": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Roma",
+      "days": 3
+    }
+  },
+  "afc3c67c0b1830869976afbd61b3a54ece4e48d36cd5c3880113e2c0a4c45151": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Barcelona",
+      "days": 1
+    }
+  },
+  "2c0305126b1f4fd0064aa87037574e5e11ec1c272a0652621d8dce6ca4cd9c5b": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "París"
+    }
+  },
+  "fde458fecc1807bfda248a2cfcfcc39d94db1e18b39848f817908b40bbc94fab": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Barcelona",
+      "days": 1
+    }
+  },
+  "0a2d5a31c8194a9ae77619543680f3d70cf303cfb853884eb432e806a948d371": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Roma",
+      "days": 3
+    }
+  },
+  "1e062ec24ae3f652bed945f741859d1e91407b46ca05ca513afc7d6a4049f616": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Roma",
+      "days": 10
+    }
+  },
+  "0db09fadfe777cad8152a0553faf0494fd0370a4578d629622457871618a13f0": {
+    "intent": "LIST_TRIPS",
+    "entities": {}
+  },
+  "159b38ec0499c3e2c4e31dde50962f6463d4056581196fb7de6cd1cb7fdd0adc": {
+    "intent": "DELETE_TRIP",
+    "entities": {
+      "city": "Roma"
+    }
+  },
+  "e6dc2febd08390c3c3bcb2de1b3fcf8d79976dd57e19683ecddf818c25c65ed7": {
+    "intent": "LIST_TRIPS",
+    "entities": {}
+  },
+  "6fe471b97791922fd8f66a5e397e6fbfa39f1e68a68b188ad982da4071d03c5b": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Liubliana",
+      "days": 1
+    }
+  },
+  "7f20ef2e52f25d9264e5458ffd154ce461bf6ce01e6d228262b4c805ccc7e5ca": {
+    "intent": "DELETE_TRIP",
+    "entities": {
+      "city": "Liubliana"
+    }
+  },
+  "7d44b4a733b4cf8d2990978e8df985625f6f83d65c2dafc9f237b1f40d78c2a7": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Loira",
+      "days": 8
+    }
+  },
+  "128a2c60921139b622509324812f1d7274062eae9f53780f288e2e0eac9bad64": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "days": 5
+    }
+  },
+  "48d70b7267e77d64c7472204d6c073c9cc87035f211d814dc81fc4531b148a9a": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Liubliana",
+      "days": 2
+    }
+  },
+  "a436d905cb42c61b8ba89e9de26ba1e165d728cc7b5259a23a225dcf15035a21": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Cracovia",
+      "days": 7
+    }
+  },
+  "654d6ca19f4ae32a921d51d7d1d6e2391987c8ae06d259044923f9ce31c2b607": {
+    "intent": "EXTEND_TRIP",
+    "entities": {
+      "city": "Cracovia",
+      "days_change": 3
+    }
+  },
+  "46c708fa5c86360646de21aa359cf4c515616816728bcaa74bba9a088b254b14": {
+    "intent": "LIST_TRIPS",
+    "entities": {}
+  },
+  "5d9714cc127f2a8dd9b29e3684c3cd0d92e719766823f48c0f400e1177b0284e": {
+    "intent": "LIST_TRIPS",
+    "entities": {}
+  },
+  "366d9c46aab5de120b4964758a14dadebee6f2f11c439b16b04de8bbebd3831f": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Oporto"
+    }
+  },
+  "b89bc1a5e78fa445e3fe03180f4ed237562f05017133eefc31afe4fd80a34075": {
+    "intent": "UNKNOWN",
+    "entities": {}
+  },
+  "db2d4ebc0d5cf92413f9bfaae1cb8b994f33569f4122bad290e3613b60e87a0f": {
+    "intent": "UNKNOWN",
+    "entities": {
+      "city": "Gran Canaria"
+    }
+  },
+  "98fc7445e61e494050ff3a5f7128ce8e8da410a52552b2c14880498c3da7d8e2": {
+    "intent": "UNKNOWN",
+    "entities": {}
+  },
+  "8be38d32acce3745b40b5869fcf2099f516a269f9e7780aa4bb75b0b013ae00c": {
+    "intent": "UNKNOWN",
+    "entities": {}
+  },
+  "deaf96a17a648b3fe838c25f1b650e1ca836780ea89ed4c140cd999662d59f8e": {
+    "intent": "UNKNOWN",
+    "entities": {}
+  },
+  "a4a08b76b8c1b966eda6fb54089f8cc462af8a519a231b9cfb42af51eb43fb36": {
+    "intent": "LIST_TRIPS",
+    "entities": {}
+  },
+  "886b0fd7b1112d6f36e3e691dd144513324852d6bead3eee927d52192e71bd64": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Gran Canaria",
+      "adults": 4
+    }
+  },
+  "3cfd6cc51f6f342f106f0ad15fd73ba64b1fd177a2d0632f559acc07fcc51840": {
+    "intent": "SEARCH_FLIGHTS",
+    "entities": {
+      "city": "Gran Canaria",
+      "adults": 4
+    }
+  },
+  "65e374d529cafceb4bbdc9c6166273bb7957830c787e39c3bbcbe9475829a2cd": {
+    "intent": "SEARCH_HOTELS",
+    "entities": {
+      "city": "Las Palmas de Gran Canaria",
+      "adults": 1
+    }
+  },
+  "2cbda73f8f7b1ea46086500404a19e97d0a172ba5b1515337a87553ef9863fd2": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Las Palmas de Gran Canaria",
+      "days": 7,
+      "adults": 1
+    }
+  },
+  "e1035698bbd80d94b7747e9e56c794944824c281b7c63abdf44774a762c6f85e": {
+    "intent": "LIST_TRIPS",
+    "entities": {}
+  },
+  "dc112925395b9b0b3e74c2e9b7fc30a3130c8e407932a02af4d4bf025ac971cd": {
+    "intent": "SEARCH_FLIGHTS",
+    "entities": {
+      "city": "Tenerife",
+      "adults": 1
+    }
+  },
+  "b4a3c78f291563cc6ea28a5220df6765d33071dc4d20ec9d6de612a8be83f1aa": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Santa Cruz de Tenerife",
+      "days": 7,
+      "adults": 1
+    }
+  },
+  "787b534f32a218a36bab6ba1ea46ab360216e744907e6729f8f039f435bc1bd6": {
+    "intent": "SHORTEN_TRIP",
+    "entities": {
+      "days_change": -2
+    }
+  },
+  "38e7d566fde936d6837a912b441ab02a38aed01c9824d0025234aad5fd65db6e": {
+    "intent": "UNKNOWN",
+    "entities": {
+      "adults": 4
+    }
+  },
+  "8b7c4beddb4f5c80a4ba9dd73f6e6e477041f2380e3842e9b338327c33a7fdc1": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "adults": 1
+    }
+  },
+  "3cbb11ce5aff2eba623317c727a3c64530ac08fd16f16da629236746769d4f1b": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "adults": 1,
+      "city": "Tenerife"
+    }
+  },
+  "920d85db5f9fe2eeb4fa17a2db72c793a9c9f6617bedfb677ff418d5806ba27d": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Santa Cruz de Tenerife",
+      "adults": 4
+    }
+  },
+  "bac18906e33aaaae5a8ae9cd2ff9d1548c0c1501e3cc4720fdccd03368d439f7": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Gran Canaria",
+      "days": 4,
+      "adults": 1
+    }
+  },
+  "7c5f95f28bfdeb4c877c66c6a4dd7483d4cea299c94b204431b0f7de8620897e": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Mallorca",
+      "days": 2,
+      "adults": 1
+    }
+  },
+  "29b8df05098b5d8208d2b8faa54132c354537efcd8be31a5b4c71b6de92efbce": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Mallorca",
+      "days": 2,
+      "adults": 1
+    }
+  }
+}

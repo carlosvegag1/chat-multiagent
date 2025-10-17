@@ -1,0 +1,128 @@
+{
+  "convo_id": "20251017T144157_9ef972",
+  "user": "carlos",
+  "created_at": "2025-10-17T14:41:57.695572",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Busca un viaje a Oport",
+      "structured_data": null,
+      "ts": 1760712122.3469675
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes un resumen de tus viajes:\n- **Nantes**: del 17/10/2025 al 25/10/2025 con un presupuesto de ~796€.\n- **Liubliana**: del 17/10/2025 al 19/10/2025 con un presupuesto de ~374€.\n- **Cracovia**: del 17/10/2025 al 27/10/2025 con un presupuesto de ~1012€.",
+      "structured_data": null,
+      "ts": 1760712123.2092457
+    },
+    {
+      "role": "user",
+      "text": "Busca un viaje a Oporto",
+      "structured_data": null,
+      "ts": 1760712129.2897809
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Oporto**.\n\n**Nota:** No se pudo obtener la información del destino 'Oporto'. Razón: Cannot connect to host 127.0.0.1:8773 ssl:default [Connect call failed ('127.0.0.1', 8773)]",
+      "structured_data": {
+        "city": "Oporto",
+        "flights": [
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 3960",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T18:00:00",
+            "arrival_time": "2025-10-17T18:20:00",
+            "duration": "3h 25m",
+            "stops": 1,
+            "price": 81.82,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 3961",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T18:00:00",
+            "arrival_time": "2025-10-17T18:20:00",
+            "duration": "6h ",
+            "stops": 1,
+            "price": 81.82,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 1021",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T22:15:00",
+            "arrival_time": "2025-10-17T22:40:00",
+            "duration": "10h 45m",
+            "stops": 1,
+            "price": 81.82,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 1021",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T22:15:00",
+            "arrival_time": "2025-10-17T22:40:00",
+            "duration": "11h 45m",
+            "stops": 1,
+            "price": 81.82,
+            "currency": "EUR"
+          },
+          {
+            "airline": "TAP PORTUGAL",
+            "flight_number": "TP 1019",
+            "origin": "MAD",
+            "destination": "LIS",
+            "departure_time": "2025-10-17T20:10:00",
+            "arrival_time": "2025-10-17T20:35:00",
+            "duration": "3h 50m",
+            "stops": 1,
+            "price": 95.82,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [],
+        "pois": [],
+        "summary": "No se pudo obtener la información del destino 'Oporto'.",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 411.82,
+          "currency": "EUR"
+        },
+        "error": "No se pudo obtener la información del destino 'Oporto'. Razón: Cannot connect to host 127.0.0.1:8773 ssl:default [Connect call failed ('127.0.0.1', 8773)]"
+      },
+      "ts": 1760712133.9481983
+    },
+    {
+      "role": "user",
+      "text": "Busca vuelos a Gran Canaria para 4 personas",
+      "structured_data": null,
+      "ts": 1760712515.0565574
+    },
+    {
+      "role": "bot",
+      "text": "No he entendido bien tu petición. Puedo planificar, listar, mover o borrar viajes.",
+      "structured_data": null,
+      "ts": 1760712515.7535005
+    },
+    {
+      "role": "user",
+      "text": "Busca vuelos a Gran Canaria ",
+      "structured_data": null,
+      "ts": 1760712523.10683
+    },
+    {
+      "role": "bot",
+      "text": "No he entendido bien tu petición. Puedo planificar, listar, mover o borrar viajes.",
+      "structured_data": null,
+      "ts": 1760712524.6723614
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251015T174441_c87793",
+  "user": "pepito",
+  "created_at": "2025-10-15T17:44:41.786482",
+  "messages": [
+    {
+      "ts": 1760550287.1432853,
+      "role": "user",
+      "text": "Mis viajes"
+    },
+    {
+      "ts": 1760550287.234586,
+      "role": "bot",
+      "text": "• Lisboa → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025)"
+    }
+  ]
+}

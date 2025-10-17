@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251014T223339_7147f1",
+  "user": "carlos",
+  "created_at": "2025-10-14T22:33:39.290099",
+  "messages": [
+    {
+      "ts": 1760481222.561514,
+      "role": "user",
+      "text": "Busca vuelos de Madrid a Nueva York para el 10 de diciembre de 2025"
+    },
+    {
+      "ts": 1760481226.6769536,
+      "role": "bot",
+      "text": "✈️ No encontré vuelos desde MAD a NYC."
+    }
+  ]
+}

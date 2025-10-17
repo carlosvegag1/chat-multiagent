@@ -1,0 +1,127 @@
+{
+  "conversation_id": "20251016T182738_370326",
+  "history": [
+    {
+      "role": "user",
+      "message": "Hola! Quiero explorar la Provenza durante 4 días",
+      "timestamp": "2025-10-16T18:27:59Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n🏨 Hoteles en Aix-En-Provence:\n- HOTEL DA PRAIA (None⭐)\n- HOTEL DO LAGO (None⭐)\n- HOTEL DA LOLO (None⭐)\n\n🧭 Resumen: Aix-En-Provence es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan de viaje sugerido:\n Día 1: Monasterio de los Jerónimos; Miradouro da Senhora do Monte; Castelo de São Jorge\n Día 2: Torre de Belém; Monasterio de los Jerónimos; Praça do Comércio\n Día 3: Torre de Belém; Monasterio de los Jerónimos; Castelo de São Jorge\n\n💰 **Presupuesto: 440.0 EUR**",
+      "timestamp": "2025-10-16T18:27:59Z"
+    },
+    {
+      "role": "user",
+      "message": "me parece poco, amplíalo un día más",
+      "timestamp": "2025-10-16T18:28:17Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Estancia en Aix-En-Provence extendida 1 día(s).",
+      "timestamp": "2025-10-16T18:28:17Z"
+    },
+    {
+      "role": "user",
+      "message": "ahora organiza un viaje a argentina",
+      "timestamp": "2025-10-16T18:28:27Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n🏨 Hoteles en Buenos Aires:\n- HOTEL DA PRAIA (None⭐)\n- HOTEL DA LOLO (None⭐)\n- HOTEL DO LAGO (None⭐)\n\n🧭 Resumen: Buenos Aires es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan de viaje sugerido:\n Día 1: Castelo de São Jorge; Praça do Comércio; Barrio Alto\n Día 2: Castelo de São Jorge; Miradouro da Senhora do Monte; Monasterio de los Jerónimos\n Día 3: Castelo de São Jorge; Torre de Belém; Barrio Alto\n\n💰 **Presupuesto: 330.0 EUR**",
+      "timestamp": "2025-10-16T18:28:27Z"
+    },
+    {
+      "role": "user",
+      "message": "acórtalo a 3 días",
+      "timestamp": "2025-10-16T18:28:31Z"
+    },
+    {
+      "role": "bot",
+      "message": "Veo que tienes varios viajes (‘Aix-En-Provence’, ‘Buenos Aires’). ¿A cuál de ellos te refieres?",
+      "timestamp": "2025-10-16T18:28:31Z"
+    },
+    {
+      "role": "user",
+      "message": "Al de argentina",
+      "timestamp": "2025-10-16T18:28:43Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ La duración del viaje a Buenos Aires ha sido ajustada a 3 días.",
+      "timestamp": "2025-10-16T18:28:43Z"
+    },
+    {
+      "role": "user",
+      "message": "mueve el viaje dos semanas",
+      "timestamp": "2025-10-16T18:28:49Z"
+    },
+    {
+      "role": "bot",
+      "message": "Veo que tienes varios viajes (‘Aix-En-Provence’, ‘Buenos Aires’). ¿A cuál de ellos te refieres?",
+      "timestamp": "2025-10-16T18:28:49Z"
+    },
+    {
+      "role": "user",
+      "message": "Buenos aires",
+      "timestamp": "2025-10-16T18:28:56Z"
+    },
+    {
+      "role": "bot",
+      "message": "No te he entendido.",
+      "timestamp": "2025-10-16T18:28:56Z"
+    },
+    {
+      "role": "user",
+      "message": "El de argentina",
+      "timestamp": "2025-10-16T18:29:05Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Fechas del viaje a Buenos Aires desplazadas 14 día(s).",
+      "timestamp": "2025-10-16T18:29:05Z"
+    },
+    {
+      "role": "user",
+      "message": "Bueno, y el de francia tambien",
+      "timestamp": "2025-10-16T18:29:15Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No encontré un viaje a París.",
+      "timestamp": "2025-10-16T18:29:15Z"
+    },
+    {
+      "role": "user",
+      "message": "ok, muéstrame mis planes",
+      "timestamp": "2025-10-16T18:29:29Z"
+    },
+    {
+      "role": "bot",
+      "message": "Aquí están tus viajes planeados:\n• **Aix-En-Provence**: del 17/10/2025 al 22/10/2025 [~440.0 EUR]\n• **Buenos Aires**: del 31/10/2025 al 03/11/2025 [~330.0 EUR]",
+      "timestamp": "2025-10-16T18:29:29Z"
+    },
+    {
+      "role": "user",
+      "message": "cancela el viaje a argentina",
+      "timestamp": "2025-10-16T18:29:35Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Fechas del viaje a Buenos Aires desplazadas 14 día(s).",
+      "timestamp": "2025-10-16T18:29:35Z"
+    },
+    {
+      "role": "user",
+      "message": "perfecto, borra todo",
+      "timestamp": "2025-10-16T18:29:41Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No encontré un viaje a ese destino.",
+      "timestamp": "2025-10-16T18:29:41Z"
+    }
+  ],
+  "created_at": "2025-10-16T18:27:59Z",
+  "updated_at": "2025-10-16T18:29:41Z"
+}

@@ -1,0 +1,27 @@
+{
+  "conversation_id": "mem4",
+  "history": [
+    {
+      "role": "user",
+      "message": "Borra mi viaje a Lisboa",
+      "timestamp": "2025-10-15T10:42:39Z"
+    },
+    {
+      "role": "bot",
+      "message": "⚠️ No pude obtener la información: Tool desconocida: memory.delete_trip",
+      "timestamp": "2025-10-15T10:42:39Z"
+    },
+    {
+      "role": "user",
+      "message": "Borra mi viaje a Lisboa",
+      "timestamp": "2025-10-15T10:46:19Z"
+    },
+    {
+      "role": "bot",
+      "message": "🗑️ Viaje a Lisboa eliminado correctamente.",
+      "timestamp": "2025-10-15T10:46:19Z"
+    }
+  ],
+  "created_at": "2025-10-15T10:42:39Z",
+  "updated_at": "2025-10-15T10:46:19Z"
+}

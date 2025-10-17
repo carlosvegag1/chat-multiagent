@@ -1,0 +1,17 @@
+{
+  "convo_id": "mem1",
+  "user": "Carlos",
+  "created_at": "2025-10-15T10:42:11.388397",
+  "messages": [
+    {
+      "ts": 1760524931.3883972,
+      "role": "user",
+      "text": "Muéstrame mis viajes planeados"
+    },
+    {
+      "ts": 1760524933.3667378,
+      "role": "bot",
+      "text": "• 20251120_lis → del 20/11/2025 al 20/11/2025 (6 segmentos, creado el 15/10/2025)\n• 20251015_lis → del ? al ? (4 segmentos, creado el 15/10/2025)\n• 20251120_lisboa → del 20/11/2025 al 20/11/2025 (1 segmentos, creado el 15/10/2025)"
+    }
+  ]
+}

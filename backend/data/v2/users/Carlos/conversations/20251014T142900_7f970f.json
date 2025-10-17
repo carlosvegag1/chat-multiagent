@@ -1,0 +1,27 @@
+{
+  "conversation_id": "20251014T142900_7f970f",
+  "history": [
+    {
+      "role": "user",
+      "message": "¿Qué hora es en Tokio?",
+      "timestamp": "2025-10-14T14:29:05Z"
+    },
+    {
+      "role": "bot",
+      "message": "🌍 Zona horaria de Tokio: Desconocida",
+      "timestamp": "2025-10-14T14:29:05Z"
+    },
+    {
+      "role": "user",
+      "message": "Y en Nueva York?",
+      "timestamp": "2025-10-14T14:29:12Z"
+    },
+    {
+      "role": "bot",
+      "message": "🌍 Zona horaria de Nueva York: Desconocida",
+      "timestamp": "2025-10-14T14:29:12Z"
+    }
+  ],
+  "created_at": "2025-10-14T14:29:05Z",
+  "updated_at": "2025-10-14T14:29:12Z"
+}

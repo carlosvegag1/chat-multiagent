@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251015T110812_1c2946",
+  "user": "carlos",
+  "created_at": "2025-10-15T11:08:12.538308",
+  "messages": [
+    {
+      "ts": 1760526495.0085764,
+      "role": "user",
+      "text": "Muéstrame todos mis viajes planeados"
+    },
+    {
+      "ts": 1760526497.8891704,
+      "role": "bot",
+      "text": "• 20251120_lis → del 20/11/2025 al 20/11/2025 (6 segmentos, creado el 15/10/2025)\n• 20251015_lis → del ? al ? (4 segmentos, creado el 15/10/2025)\n• 20251015_cdg → del ? al ? (2 segmentos, creado el 15/10/2025)"
+    }
+  ]
+}

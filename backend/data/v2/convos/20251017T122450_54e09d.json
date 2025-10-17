@@ -1,0 +1,29 @@
+{
+  "convo_id": "20251017T122450_54e09d",
+  "user": "carlos",
+  "created_at": "2025-10-17T12:24:50.014230",
+  "messages": [
+    {
+      "role": "user",
+      "text": "hola",
+      "ts": 1760703893.1040425
+    },
+    {
+      "role": "bot",
+      "text": "No he entendido bien tu petición. Puedo planificar, listar, mover o borrar viajes.",
+      "structured_data": {},
+      "ts": 1760703893.1130219
+    },
+    {
+      "role": "user",
+      "text": "hola",
+      "ts": 1760704015.579192
+    },
+    {
+      "role": "bot",
+      "text": "No he entendido bien tu petición. Puedo planificar, listar, mover o borrar viajes.",
+      "structured_data": {},
+      "ts": 1760704016.5268567
+    }
+  ]
+}

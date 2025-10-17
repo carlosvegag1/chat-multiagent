@@ -1,0 +1,212 @@
+{
+  "convo_id": "20251017T131359_dbd339",
+  "user": "carlos",
+  "created_at": "2025-10-17T13:13:59.992663",
+  "messages": [
+    {
+      "role": "user",
+      "text": "plan para 3 días en Roma",
+      "structured_data": null,
+      "ts": 1760706843.9656327
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Roma**.",
+      "structured_data": {
+        "city": "Roma",
+        "flights": [
+          {
+            "airline": "AZ",
+            "price": 113.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "IB",
+            "price": 122.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VY",
+            "price": 122.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VY",
+            "price": 122.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VY",
+            "price": 122.52,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "ROULETTE ROME TERMINI 5*",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL MASCAGNI",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LE PETIT HOTEL",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "MAGNIFICO",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "EVEREST INN ROME",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Coliseo",
+            "description": "El icónico anfiteatro romano, símbolo de la antigua Roma y un lugar imprescindible para los visitantes."
+          },
+          {
+            "name": "Vaticano",
+            "description": "El corazón de la Iglesia Católica y hogar de la Capilla Sixtina, famosa por sus frescos de Miguel Ángel."
+          },
+          {
+            "name": "Fontana di Trevi",
+            "description": "Una de las fuentes más famosas del mundo, donde los visitantes lanzan monedas para asegurar su regreso a Roma."
+          },
+          {
+            "name": "Panteón",
+            "description": "Un templo antiguo dedicado a todos los dioses romanos, conocido por su impresionante cúpula."
+          },
+          {
+            "name": "Plaza Navona",
+            "description": "Una hermosa plaza barroca llena de artistas, restaurantes y la famosa Fuente de los Cuatro Ríos."
+          }
+        ],
+        "summary": "Roma, la Ciudad Eterna, es un destino que combina historia, arte y gastronomía en cada rincón. Desde sus impresionantes ruinas hasta sus encantadoras plazas, cada día en Roma promete ser una aventura inolvidable.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Visita al Coliseo y al Foro Romano",
+              "Paseo por el Palatino y almuerzo en una trattoria local"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Exploración del Vaticano, incluyendo la Basílica de San Pedro y la Capilla Sixtina",
+              "Cena en un restaurante típico en Trastevere"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Visita a la Fontana di Trevi y al Panteón",
+              "Tarde en la Plaza Navona con café y gelato"
+            ]
+          }
+        ],
+        "budget": {
+          "total": 443.52,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760706853.9265592
+    },
+    {
+      "role": "user",
+      "text": "Ahora hazlo de nuevo pero para un viaje completo de 10 dias",
+      "structured_data": null,
+      "ts": 1760706859.9705932
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Roma**.\n\n**Nota:** No se pudo obtener la información del destino 'Roma'. Razón: ",
+      "structured_data": {
+        "city": "Roma",
+        "flights": [
+          {
+            "airline": "AZ",
+            "price": 113.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "IB",
+            "price": 122.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VY",
+            "price": 122.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VY",
+            "price": 122.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VY",
+            "price": 122.52,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "ROULETTE ROME TERMINI 5*",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL MASCAGNI",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LE PETIT HOTEL",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "MAGNIFICO",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "EVEREST INN ROME",
+            "rating": null,
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [],
+        "summary": "No se pudo obtener la información del destino 'Roma'.",
+        "plan_sugerido": [],
+        "budget": {
+          "total": 1213.52,
+          "currency": "EUR"
+        },
+        "error": "No se pudo obtener la información del destino 'Roma'. Razón: "
+      },
+      "ts": 1760706870.9265952
+    }
+  ]
+}

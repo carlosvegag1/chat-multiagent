@@ -1,0 +1,17 @@
+{
+  "convo_id": "20251017T093214_dcd92e",
+  "user": "carlos",
+  "created_at": "2025-10-17T09:32:14.485809",
+  "messages": [
+    {
+      "ts": 1760693547.1513515,
+      "role": "user",
+      "text": "Puedes organizarme un viaje de 6 dias en gran canaria?"
+    },
+    {
+      "ts": 1760693559.3104482,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Las Palmas De Gran Canaria."
+    }
+  ]
+}

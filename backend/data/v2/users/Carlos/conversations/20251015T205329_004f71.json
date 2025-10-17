@@ -1,0 +1,27 @@
+{
+  "conversation_id": "20251015T205329_004f71",
+  "history": [
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Roma para tres días",
+      "timestamp": "2025-10-15T20:53:36Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n🏨 He encontrado 5 hoteles en París:\n- MERCURE PARIS TOUR EIFFEL 4*\n- HN TEST PROPERTY1 FOR E2E TESTING\n- BW PREMIER FAUBOURG 88\n- MERCURE PARIS LAFAYETTE\n- IBIS PARIS TOUR MONTPARNASSE\n\n📍 Lugares recomendados en París:\n• Torre Eiffel — Lugar emblemático de París\n• Museo del Louvre — Lugar emblemático de París\n• Notre-Dame — Lugar emblemático de París\n• Arco del Triunfo — Lugar emblemático de París\n• Montmartre — Lugar emblemático de París\n\n🧭 Resumen: París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Torre Eiffel; Museo del Louvre; Arco del Triunfo\n Día 2: Palacio de Versalles; Museo del Louvre; Torre Eiffel\n Día 3: Notre-Dame; Arco del Triunfo; Museo del Louvre",
+      "timestamp": "2025-10-15T20:53:36Z"
+    },
+    {
+      "role": "user",
+      "message": "Planifica un viaje a roma para tres días",
+      "timestamp": "2025-10-15T20:53:47Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n🏨 He encontrado 5 hoteles en París:\n- HN TEST PROPERTY1 FOR E2E TESTING\n- BEST WESTERN GAILLON OPERA\n- RENAISSANCE PARIS VENDOME\n- MERCURE PARIS TOUR EIFFEL 4*\n- DIAMOND HOTEL\n\n📍 Lugares recomendados en París:\n• Torre Eiffel — Lugar emblemático de París\n• Museo del Louvre — Lugar emblemático de París\n• Notre-Dame — Lugar emblemático de París\n• Arco del Triunfo — Lugar emblemático de París\n• Montmartre — Lugar emblemático de París\n\n🧭 Resumen: París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Museo del Louvre; Arco del Triunfo; Torre Eiffel\n Día 2: Montmartre; Palacio de Versalles; Museo del Louvre\n Día 3: Palacio de Versalles; Museo del Louvre; Notre-Dame",
+      "timestamp": "2025-10-15T20:53:47Z"
+    }
+  ],
+  "created_at": "2025-10-15T20:53:36Z",
+  "updated_at": "2025-10-15T20:53:47Z"
+}

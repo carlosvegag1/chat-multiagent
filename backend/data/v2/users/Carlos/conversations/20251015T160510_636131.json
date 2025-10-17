@@ -1,0 +1,37 @@
+{
+  "conversation_id": "20251015T160510_636131",
+  "history": [
+    {
+      "role": "user",
+      "message": "¿Que viajes tengo planeados?",
+      "timestamp": "2025-10-15T16:05:19Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 20/11/2025 al 25/11/2025 (3 segmentos, creado el 15/10/2025)\n• Madrid → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)\n• Oporto → del 22/11/2025 al 22/11/2025 (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T16:05:19Z"
+    },
+    {
+      "role": "user",
+      "message": "Desplaza el viaje a lisboa 3 dias",
+      "timestamp": "2025-10-15T16:05:24Z"
+    },
+    {
+      "role": "bot",
+      "message": "✅ Fechas del viaje a Lisboa desplazadas 3 día(s).",
+      "timestamp": "2025-10-15T16:05:24Z"
+    },
+    {
+      "role": "user",
+      "message": "Entonces que viajes tengo en el futuro?",
+      "timestamp": "2025-10-15T16:05:35Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 20/11/2025 al 25/11/2025 (3 segmentos, creado el 15/10/2025)\n• Madrid → del 10/12/2025 al 10/12/2025 (2 segmentos, creado el 15/10/2025)\n• Oporto → del 22/11/2025 al 22/11/2025 (2 segmentos, creado el 15/10/2025)",
+      "timestamp": "2025-10-15T16:05:35Z"
+    }
+  ],
+  "created_at": "2025-10-15T16:05:19Z",
+  "updated_at": "2025-10-15T16:05:35Z"
+}

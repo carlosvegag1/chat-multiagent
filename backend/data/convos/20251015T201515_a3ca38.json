@@ -1,0 +1,177 @@
+{
+  "convo_id": "20251015T201515_a3ca38",
+  "user": "carlos",
+  "created_at": "2025-10-15T20:15:15.476425",
+  "messages": [
+    {
+      "ts": 1760559321.6833398,
+      "role": "user",
+      "text": "Planifica un viaje a Lisboa para tres días"
+    },
+    {
+      "ts": 1760559329.424306,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA PRAIA\n- HOTEL DA LOLO\n- HOTEL DO LAGO\n- HOTEL CASCAIS MIRAGEM\n- HOTEL DO CAMPO\n\n📍 Lugares recomendados en Lisboa:\n• Torre de Belém — Lugar emblemático de Lisboa\n• Monasterio de los Jerónimos — Lugar emblemático de Lisboa\n• Barrio Alto — Lugar emblemático de Lisboa\n• Praça do Comércio — Lugar emblemático de Lisboa\n• Castelo de São Jorge — Lugar emblemático de Lisboa\n\n🧭 Resumen: Lisboa es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Praça do Comércio; Torre de Belém; Barrio Alto\n Día 2: Monasterio de los Jerónimos; Miradouro da Senhora do Monte; Praça do Comércio\n Día 3: Praça do Comércio; Monasterio de los Jerónimos; Miradouro da Senhora do Monte"
+    },
+    {
+      "ts": 1760559334.864203,
+      "role": "user",
+      "text": "Planifica un viaje a Roma para tres días"
+    },
+    {
+      "ts": 1760559340.5157962,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos hacia París:\n- UX1027 08:00–09:55 (55.52 EUR)\n- UX1029 14:20–16:15 (55.52 EUR)\n- VY5145 18:05–20:05 (90.52 EUR)\n- VY5184 09:45–11:55 (95.52 EUR)\n- VY5131 07:20–09:20 (101.52 EUR)\n\n🏨 He encontrado 5 hoteles en París:\n- BEST WESTERN GAILLON OPERA\n- HOTEL PRINCE ALBERT LOUVRE\n- MERCURE PARIS TOUR EIFFEL 4*\n- DIAMOND HOTEL\n- RENAISSANCE PARIS VENDOME\n\n📍 Lugares recomendados en París:\n• Torre Eiffel — Lugar emblemático de París\n• Museo del Louvre — Lugar emblemático de París\n• Notre-Dame — Lugar emblemático de París\n• Arco del Triunfo — Lugar emblemático de París\n• Montmartre — Lugar emblemático de París\n\n🧭 Resumen: París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Palacio de Versalles; Montmartre; Notre-Dame\n Día 2: Torre Eiffel; Montmartre; Arco del Triunfo\n Día 3: Montmartre; Palacio de Versalles; Museo del Louvre\n\n⚠️ Conflicto con ‘Lisboa (2025-10-17 → 2025-10-20)’"
+    },
+    {
+      "ts": 1760559470.1411817,
+      "role": "user",
+      "text": "Planifica un viaje a París del 18 al 21 de noviembre"
+    },
+    {
+      "ts": 1760559472.2543385,
+      "role": "bot",
+      "text": "\n🏨 He encontrado 5 hoteles en París:\n- BEST WESTERN GAILLON OPERA\n- DIAMOND HOTEL\n- MERCURE PARIS LAFAYETTE\n- HN TEST PROPERTY1 FOR E2E TESTING\n- MERCURE PARIS TOUR EIFFEL 4*\n\n📍 Lugares recomendados en París:\n• Torre Eiffel — Lugar emblemático de París\n• Museo del Louvre — Lugar emblemático de París\n• Notre-Dame — Lugar emblemático de París\n• Arco del Triunfo — Lugar emblemático de París\n• Montmartre — Lugar emblemático de París\n\n🧭 Resumen: París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Museo del Louvre; Notre-Dame; Torre Eiffel\n Día 2: Torre Eiffel; Palacio de Versalles; Museo del Louvre\n Día 3: Palacio de Versalles; Arco del Triunfo; Montmartre"
+    },
+    {
+      "ts": 1760559482.8660388,
+      "role": "user",
+      "text": "¿Qué viajes tengo ahora?"
+    },
+    {
+      "ts": 1760559486.2039442,
+      "role": "bot",
+      "text": "• Lisboa → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]\n• París → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~0.0 EUR]"
+    },
+    {
+      "ts": 1760559498.4410548,
+      "role": "user",
+      "text": "Planifica un viaje a Rome para tres días"
+    },
+    {
+      "ts": 1760559504.0810945,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos hacia París:\n- UX1027 08:00–09:55 (55.52 EUR)\n- UX1029 14:20–16:15 (55.52 EUR)\n- VY5145 18:05–20:05 (90.52 EUR)\n- VY5184 09:45–11:55 (95.52 EUR)\n- VY5131 07:20–09:20 (101.52 EUR)\n\n🏨 He encontrado 5 hoteles en París:\n- DIAMOND HOTEL\n- HN TEST PROPERTY1 FOR E2E TESTING\n- MERCURE PARIS TOUR EIFFEL 4*\n- IBIS PARIS TOUR MONTPARNASSE\n- RENAISSANCE PARIS VENDOME\n\n📍 Lugares recomendados en París:\n• Torre Eiffel — Lugar emblemático de París\n• Museo del Louvre — Lugar emblemático de París\n• Notre-Dame — Lugar emblemático de París\n• Arco del Triunfo — Lugar emblemático de París\n• Montmartre — Lugar emblemático de París\n\n🧭 Resumen: París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Museo del Louvre; Torre Eiffel; Palacio de Versalles\n Día 2: Notre-Dame; Museo del Louvre; Torre Eiffel\n Día 3: Arco del Triunfo; Museo del Louvre; Montmartre\n\n⚠️ Conflicto con ‘Lisboa (2025-10-17 → 2025-10-20)’"
+    },
+    {
+      "ts": 1760559510.2992756,
+      "role": "user",
+      "text": "Planifica un viaje a roma para tres días"
+    },
+    {
+      "ts": 1760559515.3909974,
+      "role": "bot",
+      "text": "✈️ Encontré 5 vuelos hacia París:\n- UX1027 08:00–09:55 (55.52 EUR)\n- UX1029 14:20–16:15 (55.52 EUR)\n- VY5145 18:05–20:05 (90.52 EUR)\n- VY5184 09:45–11:55 (95.52 EUR)\n- VY5131 07:20–09:20 (101.52 EUR)\n\n🏨 He encontrado 5 hoteles en París:\n- MERCURE PARIS LAFAYETTE\n- DIAMOND HOTEL\n- HN TEST PROPERTY1 FOR E2E TESTING\n- MERCURE PARIS TOUR EIFFEL 4*\n- BEST WESTERN GAILLON OPERA\n\n📍 Lugares recomendados en París:\n• Torre Eiffel — Lugar emblemático de París\n• Museo del Louvre — Lugar emblemático de París\n• Notre-Dame — Lugar emblemático de París\n• Arco del Triunfo — Lugar emblemático de París\n• Montmartre — Lugar emblemático de París\n\n🧭 Resumen: París es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Notre-Dame; Museo del Louvre; Palacio de Versalles\n Día 2: Montmartre; Torre Eiffel; Arco del Triunfo\n Día 3: Torre Eiffel; Notre-Dame; Montmartre\n\n⚠️ Conflicto con ‘Lisboa (2025-10-17 → 2025-10-20)’"
+    },
+    {
+      "ts": 1760559524.1728215,
+      "role": "user",
+      "text": "Retrasa mi viaje a Lisboa dos días"
+    },
+    {
+      "ts": 1760559524.3097308,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Lisboa desplazadas 1 día(s)."
+    },
+    {
+      "ts": 1760559536.7506247,
+      "role": "user",
+      "text": "Amplía mi estancia en Paris un día más"
+    },
+    {
+      "ts": 1760559536.8621902,
+      "role": "bot",
+      "text": "🏨 Estancia en París extendida 1 día(s)."
+    },
+    {
+      "ts": 1760559545.304459,
+      "role": "user",
+      "text": "¿Qué viajes tengo ahora?"
+    },
+    {
+      "ts": 1760559547.508655,
+      "role": "bot",
+      "text": "• Lisboa → del 17/10/2025 al 21/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]\n• París → del 17/10/2025 al 21/10/2025 (2 segmentos, creado el 15/10/2025) [~398.6 EUR]"
+    },
+    {
+      "ts": 1760559556.2630804,
+      "role": "user",
+      "text": "Elimina mi viaje a París"
+    },
+    {
+      "ts": 1760559556.3739438,
+      "role": "bot",
+      "text": "🗑️ Viaje a París eliminado correctamente."
+    },
+    {
+      "ts": 1760559563.740497,
+      "role": "user",
+      "text": "¿Qué viajes tengo ahora?"
+    },
+    {
+      "ts": 1760559565.370876,
+      "role": "bot",
+      "text": "• Lisboa → del 17/10/2025 al 21/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]"
+    },
+    {
+      "ts": 1760559571.9726512,
+      "role": "user",
+      "text": "Limpia mis viajes duplicados o vacíos"
+    },
+    {
+      "ts": 1760559572.090324,
+      "role": "bot",
+      "text": "Limpieza ejecutada correctamente para Carlos."
+    },
+    {
+      "ts": 1760559582.5983286,
+      "role": "user",
+      "text": "Muéstrame todos mis viajes actuales"
+    },
+    {
+      "ts": 1760559582.7316973,
+      "role": "bot",
+      "text": "• Lisboa → del 18/10/2025 al 21/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]"
+    },
+    {
+      "ts": 1760559593.4148448,
+      "role": "user",
+      "text": "Dame un resumen de mi viaje a Lisboa"
+    },
+    {
+      "ts": 1760559595.1674454,
+      "role": "bot",
+      "text": "\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DO LAGO\n- HOTEL DA LOLO\n- HOTEL DA PRAIA\n- LUX FATIMA\n- AMAZONIA LISBOA HOTEL\n\n📍 Lugares recomendados en Lisboa:\n• Torre de Belém — Lugar emblemático de Lisboa\n• Monasterio de los Jerónimos — Lugar emblemático de Lisboa\n• Barrio Alto — Lugar emblemático de Lisboa\n• Praça do Comércio — Lugar emblemático de Lisboa\n• Castelo de São Jorge — Lugar emblemático de Lisboa\n\n🧭 Resumen: Lisboa es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.\n\n🗓️ Plan 72h:\n Día 1: Barrio Alto; Miradouro da Senhora do Monte; Monasterio de los Jerónimos\n Día 2: Monasterio de los Jerónimos; Miradouro da Senhora do Monte; Castelo de São Jorge\n Día 3: Barrio Alto; Miradouro da Senhora do Monte; Castelo de São Jorge"
+    },
+    {
+      "ts": 1760559601.8243268,
+      "role": "user",
+      "text": "Calcula el presupuesto total de todos mis viajes"
+    },
+    {
+      "ts": 1760559601.9404697,
+      "role": "bot",
+      "text": "• Lisboa → del 18/10/2025 al 21/10/2025 (2 segmentos, creado el 15/10/2025) [~0.0 EUR]"
+    },
+    {
+      "ts": 1760559614.9856553,
+      "role": "user",
+      "text": "Ya no quiero ir a Lisboa"
+    },
+    {
+      "ts": 1760559615.096333,
+      "role": "bot",
+      "text": "🗑️ Viaje a Lisboa eliminado correctamente."
+    },
+    {
+      "ts": 1760559622.240241,
+      "role": "user",
+      "text": "¿Qué viajes tengo?"
+    },
+    {
+      "ts": 1760559624.0988948,
+      "role": "bot",
+      "text": "No tienes viajes registrados todavía."
+    }
+  ]
+}

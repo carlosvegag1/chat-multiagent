@@ -1,0 +1,27 @@
+{
+  "convo_id": "20251014T143228_c679d4",
+  "user": "pepe",
+  "created_at": "2025-10-14T14:32:28.095225",
+  "messages": [
+    {
+      "ts": 1760452363.3465989,
+      "role": "user",
+      "text": "¿Cómo está el día en Madrid?"
+    },
+    {
+      "ts": 1760452366.1730597,
+      "role": "bot",
+      "text": "🌤️ Clima actual en Madrid: 24.2°C, viento 2.5 km/h."
+    },
+    {
+      "ts": 1760452389.2563846,
+      "role": "user",
+      "text": "¿Y mañana?"
+    },
+    {
+      "ts": 1760452392.6981604,
+      "role": "bot",
+      "text": "🗓️ Clima en Madrid entre 2025-10-15T00:00:00Z y 2025-10-15T23:59:59Z recibido correctamente."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "convo_id": "20251015T191436_42ecc3",
+  "user": "pepito",
+  "created_at": "2025-10-15T19:14:36.866780",
+  "messages": [
+    {
+      "ts": 1760555679.010887,
+      "role": "user",
+      "text": "¿Qué viajes tengo?"
+    },
+    {
+      "ts": 1760555682.2405128,
+      "role": "bot",
+      "text": "• Lisboa → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]\n• París → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~398.6 EUR]"
+    },
+    {
+      "ts": 1760555692.0037382,
+      "role": "user",
+      "text": "Amplía mi estancia en Lisboa dos días más"
+    },
+    {
+      "ts": 1760555692.1468976,
+      "role": "bot",
+      "text": "🏨 Estancia en Lisboa extendida 2 día(s)."
+    },
+    {
+      "ts": 1760555696.6828141,
+      "role": "user",
+      "text": "¿Qué viajes tengo?"
+    },
+    {
+      "ts": 1760555698.7442071,
+      "role": "bot",
+      "text": "• Lisboa → del 17/10/2025 al 22/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]\n• París → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~398.6 EUR]"
+    },
+    {
+      "ts": 1760555708.81091,
+      "role": "user",
+      "text": "Mueve mi viaje a Lisboa tres días después"
+    },
+    {
+      "ts": 1760555708.9791012,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Lisboa desplazadas 1 día(s)."
+    },
+    {
+      "ts": 1760555713.6907158,
+      "role": "user",
+      "text": "¿Qué viajes tengo?"
+    },
+    {
+      "ts": 1760555716.4737647,
+      "role": "bot",
+      "text": "• Lisboa → del 17/10/2025 al 23/10/2025 (2 segmentos, creado el 15/10/2025) [~208.6 EUR]\n• París → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~398.6 EUR]"
+    },
+    {
+      "ts": 1760555728.355597,
+      "role": "user",
+      "text": "Cancela mi viaje a Lisboa"
+    },
+    {
+      "ts": 1760555728.493605,
+      "role": "bot",
+      "text": "🗑️ Viaje a Lisboa eliminado correctamente."
+    },
+    {
+      "ts": 1760555731.9943185,
+      "role": "user",
+      "text": "¿Qué viajes tengo?"
+    },
+    {
+      "ts": 1760555734.0090296,
+      "role": "bot",
+      "text": "• París → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~398.6 EUR]"
+    },
+    {
+      "ts": 1760555740.4264724,
+      "role": "user",
+      "text": "Limpia todos mis viajes"
+    },
+    {
+      "ts": 1760555740.5535464,
+      "role": "bot",
+      "text": "Limpieza ejecutada correctamente para Pepito."
+    },
+    {
+      "ts": 1760555744.8737118,
+      "role": "user",
+      "text": "¿Qué viajes tengo?"
+    },
+    {
+      "ts": 1760555746.9171758,
+      "role": "bot",
+      "text": "• París → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 15/10/2025) [~398.6 EUR]"
+    },
+    {
+      "ts": 1760555753.7597363,
+      "role": "user",
+      "text": "Elimina todos mis viajes"
+    },
+    {
+      "ts": 1760555753.8865907,
+      "role": "bot",
+      "text": "🗑️ Viaje a  eliminado correctamente."
+    },
+    {
+      "ts": 1760555757.3556366,
+      "role": "user",
+      "text": "¿Qué viajes tengo?"
+    },
+    {
+      "ts": 1760555759.2595236,
+      "role": "bot",
+      "text": "No tienes viajes registrados todavía."
+    }
+  ]
+}

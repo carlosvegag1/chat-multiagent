@@ -1,0 +1,79 @@
+﻿name: chat-multiagent-copia
+
+services:
+  calc:
+    build:
+      context: .
+      dockerfile: Dockerfile.mcp
+    working_dir: /app
+    command: uvicorn server:app --host 0.0.0.0 --port 8770
+    ports: ["8770:8770"]
+    volumes:
+      - ./mcp_calc_server:/app
+    restart: unless-stopped
+
+  flights:
+    build:
+      context: .
+      dockerfile: Dockerfile.mcp
+    working_dir: /app
+    command: uvicorn server:app --host 0.0.0.0 --port 8771
+    ports: ["8771:8771"]
+    volumes:
+      - ./mcp_flight_server:/app
+    restart: unless-stopped
+
+  hotels:
+    build:
+      context: .
+      dockerfile: Dockerfile.mcp
+    working_dir: /app
+    command: uvicorn server:app --host 0.0.0.0 --port 8772
+    ports: ["8772:8772"]
+    volumes:
+      - ./mcp_hotel_server:/app
+    restart: unless-stopped
+
+  destinations:
+    build:
+      context: .
+      dockerfile: Dockerfile.mcp
+    working_dir: /app
+    command: uvicorn server:app --host 0.0.0.0 --port 8773
+    ports: ["8773:8773"]
+    volumes:
+      - ./mcp_destination_server:/app
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    depends_on:
+      calc: { condition: service_started }
+      flights: { condition: service_started }
+      hotels: { condition: service_started }
+      destinations: { condition: service_started }
+    environment:
+      # Claves (opcionales). Si existen en tu host, se inyectan.
+      OPENAI_API_KEY: ${OPENAI_API_KEY-}
+      AMADEUS_API_KEY: ${AMADEUS_API_KEY-}
+      AMADEUS_API_SECRET: ${AMADEUS_API_SECRET-}
+      WEATHER_API_KEY: ${WEATHER_API_KEY-}
+
+      # URLs de los MCP via red de Docker
+      MCP_DESTINATION_URL: http://destinations:8773
+      MCP_FLIGHT_URL:      http://flights:8771
+      MCP_HOTEL_URL:       http://hotels:8772
+      MCP_TIMEOUT_SECONDS: "60"
+    ports: ["8000:8000"]
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    depends_on:
+      backend: { condition: service_started }
+    ports: ["3000:3000"]
+    restart: unless-stopped

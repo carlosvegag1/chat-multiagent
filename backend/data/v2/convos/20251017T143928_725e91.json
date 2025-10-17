@@ -1,0 +1,394 @@
+{
+  "convo_id": "20251017T143928_725e91",
+  "user": "carlos",
+  "created_at": "2025-10-17T14:39:28.728775",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Quiero hacer un tour por los castillos del Loira en Francia durante 8 días",
+      "structured_data": null,
+      "ts": 1760711976.108314
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Nantes**.",
+      "structured_data": {
+        "city": "Nantes",
+        "flights": [
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1508",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T20:25:00",
+            "arrival_time": "2025-10-17T23:00:00",
+            "duration": "14h 50m",
+            "stops": 1,
+            "price": 246.26,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1506",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T17:10:00",
+            "arrival_time": "2025-10-17T19:45:00",
+            "duration": "18h 5m",
+            "stops": 1,
+            "price": 246.26,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1508",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T20:25:00",
+            "arrival_time": "2025-10-17T23:00:00",
+            "duration": "20h 10m",
+            "stops": 1,
+            "price": 246.26,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1506",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T17:10:00",
+            "arrival_time": "2025-10-17T19:45:00",
+            "duration": "23h 25m",
+            "stops": 1,
+            "price": 271.76,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1508",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T20:25:00",
+            "arrival_time": "2025-10-17T23:00:00",
+            "duration": "25h 40m",
+            "stops": 1,
+            "price": 271.76,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "MERCURE NANTES CENTRE GD HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "4 RUE DU COUEDIC, NANTES, 44000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "IBIS STYLES NANTES ROYALE",
+            "hotelId": null,
+            "rating": null,
+            "address": "3 RUE COUEDIC, NANTES, 44000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LA PEROUSE",
+            "hotelId": null,
+            "rating": null,
+            "address": "3, ALLEE DUQUESNE, NANTES, 44000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL POMMERAYE",
+            "hotelId": null,
+            "rating": null,
+            "address": "2 RUE BOILEAU, NANTES, 44000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "IBIS STYLES NANTES CENTRE",
+            "hotelId": null,
+            "rating": null,
+            "address": "5 RUE DU CHAPEAU ROUGE, NANTES, 44000",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Castillo de los Duques de Bretaña",
+            "description": "Un magnífico castillo que alberga el Museo de Historia de Nantes, ideal para conocer la historia de la región."
+          },
+          {
+            "name": "Les Machines de l'île",
+            "description": "Un fascinante parque de atracciones que combina arte y mecánica, donde puedes ver enormes máquinas inspiradas en el mundo de Julio Verne."
+          },
+          {
+            "name": "Jardín de las Plantas",
+            "description": "Un hermoso jardín botánico que ofrece un refugio de paz y una gran variedad de plantas y flores."
+          },
+          {
+            "name": "Catedral de San Pedro y San Pablo",
+            "description": "Una impresionante catedral gótica que destaca por su arquitectura y hermosos vitrales."
+          },
+          {
+            "name": "Isla de las Máquinas",
+            "description": "Un espacio creativo donde se pueden ver y experimentar obras de arte mecánicas y esculturas interactivas."
+          }
+        ],
+        "summary": "Nantes, una ciudad vibrante y culturalmente rica en Francia, es conocida por su impresionante patrimonio histórico y su ambiente artístico. Desde castillos hasta jardines, Nantes ofrece una mezcla perfecta de historia y modernidad que cautivará a cada visitante.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Llegada a Nantes y check-in en el hotel",
+              "Paseo por el centro histórico y cena en un restaurante local"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Visita al Castillo de los Duques de Bretaña",
+              "Exploración del Museo de Historia de Nantes"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Día en Les Machines de l'île",
+              "Disfrutar de un espectáculo de las máquinas mecánicas"
+            ]
+          },
+          {
+            "day": 4,
+            "activities": [
+              "Recorrido por el Jardín de las Plantas",
+              "Visita a la Catedral de San Pedro y San Pablo"
+            ]
+          },
+          {
+            "day": 5,
+            "activities": [
+              "Excursión a la Isla de las Máquinas",
+              "Tarde libre para explorar tiendas y cafés locales"
+            ]
+          },
+          {
+            "day": 6,
+            "activities": [
+              "Visita al Museo de Bellas Artes de Nantes",
+              "Paseo por el barrio de Graslin"
+            ]
+          },
+          {
+            "day": 7,
+            "activities": [
+              "Día de excursión a la costa de La Baule",
+              "Relajación en la playa y cena en un restaurante frente al mar"
+            ]
+          },
+          {
+            "day": 8,
+            "activities": [
+              "Últimas compras y exploración de Nantes",
+              "Salida y regreso a casa"
+            ]
+          }
+        ],
+        "budget": {
+          "total": 1126.26,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760711988.604008
+    },
+    {
+      "role": "user",
+      "text": "Me parece bien, pero que sean solo 5 días",
+      "structured_data": null,
+      "ts": 1760711999.290007
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Nantes**.",
+      "structured_data": {
+        "city": "Nantes",
+        "flights": [
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1508",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T20:25:00",
+            "arrival_time": "2025-10-17T23:00:00",
+            "duration": "14h 50m",
+            "stops": 1,
+            "price": 246.26,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1506",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T17:10:00",
+            "arrival_time": "2025-10-17T19:45:00",
+            "duration": "18h 5m",
+            "stops": 1,
+            "price": 246.26,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1508",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T20:25:00",
+            "arrival_time": "2025-10-17T23:00:00",
+            "duration": "20h 10m",
+            "stops": 1,
+            "price": 246.26,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1506",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T17:10:00",
+            "arrival_time": "2025-10-17T19:45:00",
+            "duration": "23h 25m",
+            "stops": 1,
+            "price": 271.76,
+            "currency": "EUR"
+          },
+          {
+            "airline": "KLM ROYAL DUTCH AIRLINES",
+            "flight_number": "KL 1508",
+            "origin": "MAD",
+            "destination": "AMS",
+            "departure_time": "2025-10-17T20:25:00",
+            "arrival_time": "2025-10-17T23:00:00",
+            "duration": "25h 40m",
+            "stops": 1,
+            "price": 271.76,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "MERCURE NANTES CENTRE GD HOTEL",
+            "hotelId": null,
+            "rating": null,
+            "address": "4 RUE DU COUEDIC, NANTES, 44000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "IBIS STYLES NANTES ROYALE",
+            "hotelId": null,
+            "rating": null,
+            "address": "3 RUE COUEDIC, NANTES, 44000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "LA PEROUSE",
+            "hotelId": null,
+            "rating": null,
+            "address": "3, ALLEE DUQUESNE, NANTES, 44000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL POMMERAYE",
+            "hotelId": null,
+            "rating": null,
+            "address": "2 RUE BOILEAU, NANTES, 44000",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "IBIS STYLES NANTES CENTRE",
+            "hotelId": null,
+            "rating": null,
+            "address": "5 RUE DU CHAPEAU ROUGE, NANTES, 44000",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Castillo de los Duques de Bretaña",
+            "description": "Un impresionante castillo que alberga el museo de historia de Nantes y ofrece vistas espectaculares de la ciudad."
+          },
+          {
+            "name": "Les Machines de l'île",
+            "description": "Un fascinante parque de atracciones que presenta enormes máquinas mecánicas inspiradas en el mundo de Julio Verne."
+          },
+          {
+            "name": "Catedral de San Pedro y San Pablo",
+            "description": "Una majestuosa catedral gótica que destaca por su impresionante arquitectura y su historia."
+          },
+          {
+            "name": "Isla de las Maquinas",
+            "description": "Un espacio creativo donde se pueden ver y experimentar las obras de arte mecánicas."
+          },
+          {
+            "name": "Jardín de las Plantas",
+            "description": "Un hermoso jardín botánico que ofrece un lugar de tranquilidad y naturaleza en el corazón de la ciudad."
+          }
+        ],
+        "summary": "Nantes, una ciudad vibrante en el oeste de Francia, es conocida por su rica historia, su impresionante arquitectura y su ambiente artístico. Con una mezcla de cultura, naturaleza y gastronomía, Nantes ofrece una experiencia única para cada viajero.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Llegada a Nantes y registro en el hotel",
+              "Paseo por el centro histórico y cena en un restaurante local."
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Visita al Castillo de los Duques de Bretaña",
+              "Exploración del museo de historia de Nantes."
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Día en Les Machines de l'île",
+              "Disfrutar de un paseo en la Gran Máquina de Elefante."
+            ]
+          },
+          {
+            "day": 4,
+            "activities": [
+              "Visita a la Catedral de San Pedro y San Pablo",
+              "Recorrido por el barrio de Bouffay y almuerzo en un café local."
+            ]
+          },
+          {
+            "day": 5,
+            "activities": [
+              "Exploración del Jardín de las Plantas",
+              "Salida de Nantes y regreso a casa."
+            ]
+          }
+        ],
+        "budget": {
+          "total": 796.26,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760712010.447839
+    }
+  ]
+}

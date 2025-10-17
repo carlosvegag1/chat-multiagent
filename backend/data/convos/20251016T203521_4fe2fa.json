@@ -1,0 +1,157 @@
+{
+  "convo_id": "20251016T203521_4fe2fa",
+  "user": "carlos",
+  "created_at": "2025-10-16T20:35:21.378849",
+  "messages": [
+    {
+      "ts": 1760646922.520858,
+      "role": "user",
+      "text": "Hola! Quiero explorar Roma durante 4 días"
+    },
+    {
+      "ts": 1760646924.1583908,
+      "role": "bot",
+      "text": "✈️ **Vuelos a Roma:**\n- Vuelo con UX por 49.52 EUR\n- Vuelo con UX por 76.52 EUR\n- Vuelo con UX por 106.52 EUR\n\n🏨 **Hoteles en Roma:**\n- ROULETTE ROME TERMINI 5* (None⭐)\n- HOTEL MASCAGNI (None⭐)\n- LE PETIT HOTEL (None⭐)\n\n🧭 **Sobre el destino:**\nRoma or ROMA may refer to:\n\n🗓️ **Plan de viaje sugerido:**\n**Día 1:** Visita Punto de interés 1 de Roma; Visita Punto de interés 2 de Roma; Visita Punto de interés 3 de Roma; Visita Punto de interés 4 de Roma\n**Día 2:** Visita Punto de interés 3 de Roma; Visita Punto de interés 4 de Roma; Visita Punto de interés 5 de Roma; Visita Punto de interés 6 de Roma\n**Día 3:** Visita Punto de interés 5 de Roma; Visita Punto de interés 6 de Roma\n**Día 4:** Visita Punto de interés 1 de Roma; Visita Punto de interés 2 de Roma; Visita Punto de interés 3 de Roma; Visita Punto de interés 4 de Roma\n\n💰 **Presupuesto total estimado: 489.52 EUR**"
+    },
+    {
+      "ts": 1760688839.298501,
+      "role": "user",
+      "text": "Hola! Quiero explorar Roma durante 4 días"
+    },
+    {
+      "ts": 1760688842.1466608,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Roma."
+    },
+    {
+      "ts": 1760688879.9114888,
+      "role": "user",
+      "text": "¿Tengo algún viaje planeado?"
+    },
+    {
+      "ts": 1760688881.5937498,
+      "role": "bot",
+      "text": "• Roma → del 17/10/2025 al 21/10/2025 (2 segmentos, creado el 16/10/2025) [~516.52 EUR]"
+    },
+    {
+      "ts": 1760688892.5620856,
+      "role": "user",
+      "text": "me parece poco, amplíalo un día más"
+    },
+    {
+      "ts": 1760688893.8642018,
+      "role": "bot",
+      "text": "🏨 Estancia en Roma extendida 1 día(s)."
+    },
+    {
+      "ts": 1760688896.9194553,
+      "role": "user",
+      "text": "ahora organiza un viaje a argentina"
+    },
+    {
+      "ts": 1760688900.6148508,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Buenos Aires."
+    },
+    {
+      "ts": 1760688903.200755,
+      "role": "user",
+      "text": "acórtalo a 3 días"
+    },
+    {
+      "ts": 1760688904.803464,
+      "role": "bot",
+      "text": "Veo varios viajes (‘Roma’, ‘Buenos Aires’). ¿A cuál te refieres?"
+    },
+    {
+      "ts": 1760688911.7959468,
+      "role": "user",
+      "text": "El de buenos aires"
+    },
+    {
+      "ts": 1760688914.0444858,
+      "role": "bot",
+      "text": "🗑️ Viaje a Buenos Aires eliminado correctamente."
+    },
+    {
+      "ts": 1760688916.8484197,
+      "role": "user",
+      "text": "ok, muéstrame mis planes"
+    },
+    {
+      "ts": 1760688917.704166,
+      "role": "bot",
+      "text": "• Roma → del 17/10/2025 al 18/10/2025 (2 segmentos, creado el 16/10/2025) [~516.52 EUR]"
+    },
+    {
+      "ts": 1760688924.9442616,
+      "role": "user",
+      "text": "cancela el viaje a italia"
+    },
+    {
+      "ts": 1760688926.2377656,
+      "role": "bot",
+      "text": "🗑️ Viaje a Roma eliminado correctamente."
+    },
+    {
+      "ts": 1760688935.927588,
+      "role": "user",
+      "text": "Entonces qué planes tengo?"
+    },
+    {
+      "ts": 1760688937.3929377,
+      "role": "bot",
+      "text": "No tienes viajes registrados todavía."
+    },
+    {
+      "ts": 1760689545.1568499,
+      "role": "user",
+      "text": "ahora organiza un viaje a argentina"
+    },
+    {
+      "ts": 1760689548.1692457,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Buenos Aires."
+    },
+    {
+      "ts": 1760689880.403898,
+      "role": "user",
+      "text": "¿Qué viajes tengo planeados?"
+    },
+    {
+      "ts": 1760689881.541153,
+      "role": "bot",
+      "text": "• Buenos Aires → del 17/10/2025 al 20/10/2025 (2 segmentos, creado el 17/10/2025) [~1291.09 EUR]"
+    },
+    {
+      "ts": 1760689888.6040356,
+      "role": "user",
+      "text": "planifica un viaje a Roma 4 días"
+    },
+    {
+      "ts": 1760689891.4747257,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Roma."
+    },
+    {
+      "ts": 1760689900.2964208,
+      "role": "user",
+      "text": "acórtalo 2 días"
+    },
+    {
+      "ts": 1760689901.495922,
+      "role": "bot",
+      "text": "Veo varios viajes (‘Buenos Aires’, ‘Roma’). ¿A cuál te refieres?"
+    },
+    {
+      "ts": 1760689913.1711862,
+      "role": "user",
+      "text": "el de buenos aires"
+    },
+    {
+      "ts": 1760689914.5390346,
+      "role": "bot",
+      "text": "🏨 Estancia en Buenos Aires extendida -2 día(s)."
+    }
+  ]
+}

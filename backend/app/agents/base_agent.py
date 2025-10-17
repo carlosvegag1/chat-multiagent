@@ -1,35 +1,52 @@
-import asyncio
+# app/agents/base_agent.py
+from __future__ import annotations
+import os
 import json
-from typing import Any, Dict
 import httpx
-
+from typing import Any, Dict, Optional
 
 class BaseAgent:
     """
-    Plantilla base para agentes MCP.
-    Cada agente define su endpoint y puede llamar a un servidor MCP real o usar datos mock.
+    Base para agentes MCP vía HTTP JSON-RPC 2.0.
+    Convención: el endpoint expone POST /messages que recibe el payload JSON-RPC.
     """
 
-    def __init__(self, name: str, mcp_endpoint: str):
+    def __init__(self, name: str, endpoint: str, timeout: Optional[float] = None) -> None:
         self.name = name
-        self.endpoint = mcp_endpoint
+        self.endpoint = endpoint.rstrip("/")
+        # usa MCP_TIMEOUT_SECONDS por defecto si no pasas timeout
+        self.timeout = timeout or float(os.getenv("MCP_TIMEOUT_SECONDS", "10"))
 
-    async def query(self, payload: Dict[str, Any]) -> Dict[str, Any]:
-        """Ejecuta la llamada MCP o devuelve datos mock."""
-        # Si el endpoint empieza con "mock://", devolvemos datos simulados
-        if self.endpoint.startswith("mock://"):
-            return self._mock_response(payload)
+    def _build_payload(self, **kwargs) -> Dict[str, Any]:
+        """
+        Cada agente debe implementar esto para devolver:
+        {
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "tools/call",
+          "params": {"name": "<tool>", "arguments": {...}}
+        }
+        """
+        raise NotImplementedError
 
-        # Si es un endpoint real, hacemos una llamada HTTP
-        async with httpx.AsyncClient(timeout=10.0) as client:
-            try:
-                response = await client.post(self.endpoint, json=payload)
-                response.raise_for_status()
-                return response.json()
-            except Exception as e:
-                # En caso de error, devolvemos un mock de respaldo
-                return {"error": str(e), "mock_fallback": self._mock_response(payload)}
+    async def query(self, **kwargs) -> Dict[str, Any]:
+        """
+        Llama al MCP (POST /messages) con el payload que genera _build_payload.
+        Devuelve el JSON del servidor o {"error": "..."}.
+        """
+        payload = self._build_payload(**kwargs)
+        url = f"{self.endpoint}/messages"
 
-    def _mock_response(self, payload: Dict[str, Any]) -> Dict[str, Any]:
-        """Debe ser implementado por cada subclase para simular sus datos."""
-        raise NotImplementedError("Implementar en subclase concreta")
+        try:
+            async with httpx.AsyncClient(timeout=self.timeout) as client:
+                resp = await client.post(url, json=payload)
+                if resp.status_code not in (200, 202):
+                    return {"error": f"HTTP {resp.status_code}: {resp.text}"}
+                # el servidor MCP puede devolver JSON-RPC o un JSON plano de datos
+                data = resp.json()
+                # Si viene envuelto tipo JSON-RPC con "result", intenta destapar
+                if isinstance(data, dict) and "result" in data and isinstance(data["result"], dict):
+                    return data["result"]
+                return data
+        except Exception as e:
+            return {"error": f"{self.name} call failed: {e}"}

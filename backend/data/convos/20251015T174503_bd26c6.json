@@ -1,0 +1,27 @@
+{
+  "convo_id": "20251015T174503_bd26c6",
+  "user": "pepito",
+  "created_at": "2025-10-15T17:45:03.175578",
+  "messages": [
+    {
+      "ts": 1760550304.8828723,
+      "role": "user",
+      "text": "Mueve mi viaje a Lisboa un día después"
+    },
+    {
+      "ts": 1760550304.9874334,
+      "role": "bot",
+      "text": "✅ Fechas del viaje a Lisboa desplazadas 1 día(s)."
+    },
+    {
+      "ts": 1760550307.8825176,
+      "role": "user",
+      "text": "Mis viajes"
+    },
+    {
+      "ts": 1760550308.0288646,
+      "role": "bot",
+      "text": "• Lisboa → del 17/10/2025 al 23/10/2025 (2 segmentos, creado el 15/10/2025)"
+    }
+  ]
+}

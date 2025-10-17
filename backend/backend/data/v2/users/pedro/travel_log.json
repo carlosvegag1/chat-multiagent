@@ -1,0 +1,92 @@
+{
+  "user_id": "pedro",
+  "created_at": "2025-10-15T12:14:54.374861",
+  "trips": [
+    {
+      "trip_id": "20251015_pars",
+      "created_at": "2025-10-15T11:14:59.454896Z",
+      "title": "París",
+      "city": "París",
+      "iata": "PAR",
+      "segments": [
+        {
+          "type": "flight",
+          "origin": "MAD",
+          "destination": "CDG",
+          "date": null,
+          "count": 5
+        },
+        {
+          "type": "hotel",
+          "city": "CDG",
+          "checkin": null,
+          "checkout": null,
+          "count": 5
+        },
+        {
+          "type": "hotel",
+          "city": "París",
+          "checkin": "2025-12-10",
+          "checkout": "2025-12-14",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [
+        "flight.search_flights",
+        "flight.search_flights",
+        "flight.search_flights"
+      ],
+      "start_date": "2025-12-10",
+      "end_date": "2025-12-14"
+    },
+    {
+      "trip_id": "20251120_lisboa",
+      "created_at": "2025-10-15T11:33:03.785901Z",
+      "title": "Lisboa (2025-11-20 → 2025-11-20)",
+      "city": "Lisboa",
+      "iata": "LIS",
+      "segments": [
+        {
+          "type": "flight",
+          "origin": "MAD",
+          "destination": "Lisboa",
+          "date": "2025-11-20",
+          "count": 5
+        },
+        {
+          "type": "hotel",
+          "city": "Lisboa",
+          "checkin": "2025-11-20",
+          "checkout": "2025-11-20",
+          "count": 5
+        },
+        {
+          "type": "flight",
+          "origin": "MAD",
+          "destination": "Lisboa",
+          "date": "2025-11-20",
+          "count": 5
+        },
+        {
+          "type": "hotel",
+          "city": "Lisboa",
+          "checkin": "2025-11-20",
+          "checkout": "2025-11-20",
+          "count": 5
+        }
+      ],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [
+        "flight.search_flights",
+        "flight.search_flights",
+        "flight.search_flights",
+        "flight.search_flights"
+      ],
+      "start_date": "2025-11-20",
+      "end_date": "2025-11-20"
+    }
+  ]
+}

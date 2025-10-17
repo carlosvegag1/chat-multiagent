@@ -1,0 +1,27 @@
+{
+  "conversation_id": "20251015T193746_87256c",
+  "history": [
+    {
+      "role": "user",
+      "message": "Planifica un viaje a París del 18 al 21 de noviembre",
+      "timestamp": "2025-10-15T19:37:48Z"
+    },
+    {
+      "role": "bot",
+      "message": "\n📍 Lugares recomendados en París:\n• List of tourist attractions in Berlin — and Potsdam. The decentralised development has resulted in a plethora of sights in Berlin – not just in the centre of the city, but also in the outlying\n• List of tourist attractions in Paris — Visitor attractions in Paris. Landmarks in Paris Historical quarters of Paris List of Domes in France List of museums in Paris List of tourist attractions worldwide\n• List of sights and historic places in Budapest — houses some of the city's finest museums. (The below sights are grouped by location.) Andrássy Avenue with its several sights including the Hungarian State\n• Tourism in Paris — Top sights include Notre Dame (12 million visitors in 2017), Disneyland Paris (11), Sacre Cœur (10), the Versailles Palace (7.7), the Louvre Museum (6\n• Lists of tourist attractions — Tourism in Egypt List of tourist attractions in Helsinki List of tourist attractions in Paris List of sights in Berlin List of sights of Potsdam List of castles\n\n🧭 Resumen: Paris is the capital and largest city of France, with an estimated city population of 2,048,472 in an area of 105.4 km2 (40.7 sq mi), and a metropolitan population of 13,171,056 as of January 2025. Located on the river Seine in the centre of the Île-de-France region, it is the largest metropolitan area and fourth-most populous city in the European Union (EU). Nicknamed the City of Light, partly because of its role in the Age of Enlightenment, Paris has been one of the world's major centres of finance, diplomacy, commerce, culture, fashion, and gastronomy since the 17th century.\n\n🗓️ Plan 72h:\n Día 1: Visita Lists of tourist attractions; Visita List of tourist attractions in Paris\n Día 2: Visita Lists of tourist attractions; Visita France Miniature\n Día 3: Visita List of tourist attractions in Paris; Visita List of tourist attractions in Berlin",
+      "timestamp": "2025-10-15T19:37:48Z"
+    },
+    {
+      "role": "user",
+      "message": "¿Qué viajes tengo ahora?",
+      "timestamp": "2025-10-15T19:37:56Z"
+    },
+    {
+      "role": "bot",
+      "message": "• Lisboa → del 20/11/2025 al 20/11/2025 (2 segmentos, creado el 15/10/2025) [~240.6 EUR]",
+      "timestamp": "2025-10-15T19:37:56Z"
+    }
+  ],
+  "created_at": "2025-10-15T19:37:48Z",
+  "updated_at": "2025-10-15T19:37:56Z"
+}

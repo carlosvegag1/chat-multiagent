@@ -1,0 +1,47 @@
+{
+  "convo_id": "20251016T182204_73e38d",
+  "user": "carlos",
+  "created_at": "2025-10-16T18:22:04.613291",
+  "messages": [
+    {
+      "ts": 1760638928.0138445,
+      "role": "user",
+      "text": "Tengo algun viaje proximamente?"
+    },
+    {
+      "ts": 1760638929.6950428,
+      "role": "bot",
+      "text": "Aquí están tus viajes planeados:\n• **Toscana**: del 17/10/2025 al 25/10/2025 [~550.0 EUR]\n• **Berlín**: del 24/10/2025 al 26/10/2025 [~320.19 EUR]"
+    },
+    {
+      "ts": 1760638938.921232,
+      "role": "user",
+      "text": "Al final no puedo ir a ninguno"
+    },
+    {
+      "ts": 1760638941.4365602,
+      "role": "bot",
+      "text": "🧹 Todos los viajes han sido eliminados correctamente."
+    },
+    {
+      "ts": 1760638954.1736114,
+      "role": "user",
+      "text": "Entonces tengo algun viaje?"
+    },
+    {
+      "ts": 1760638955.9288204,
+      "role": "bot",
+      "text": "No tienes viajes registrados todavía."
+    },
+    {
+      "ts": 1760638962.521926,
+      "role": "user",
+      "text": "Hola! Quiero explorar la Provenza durante 4 días"
+    },
+    {
+      "ts": 1760638966.251088,
+      "role": "bot",
+      "text": "⚠️ Error: plan_trip call failed: name '_next_friday_from_today' is not defined"
+    }
+  ]
+}

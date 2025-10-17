@@ -1,0 +1,579 @@
+{
+  "convo_id": "20251017T160210_22a393",
+  "user": "carlos",
+  "created_at": "2025-10-17T16:02:10.560980",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Buscame vuelos a tenerife",
+      "structured_data": null,
+      "ts": 1760716933.1493447
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes los vuelos que encontré para **Santa Cruz De Tenerife**:",
+      "structured_data": {
+        "city": "Santa Cruz De Tenerife",
+        "flights": [
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6005",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "13h 55m",
+            "stops": 1,
+            "price": 145.27,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6005",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "15h 40m",
+            "stops": 1,
+            "price": 146.16,
+            "currency": "EUR"
+          },
+          {
+            "airline": "IBERIA",
+            "flight_number": "IB 1553",
+            "origin": "MAD",
+            "destination": "TFS",
+            "departure_time": "2025-10-17T22:55:00",
+            "arrival_time": "2025-10-18T01:00:00",
+            "duration": "3h 5m",
+            "stops": 0,
+            "price": 554.52,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [],
+        "pois": [],
+        "summary": null,
+        "plan_sugerido": null,
+        "budget": {
+          "total": 475.27,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760716941.1586483
+    },
+    {
+      "role": "user",
+      "text": "Hazme un planning para visitarla durante una semana",
+      "structured_data": null,
+      "ts": 1760716944.9730577
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Santa Cruz De Tenerife**.",
+      "structured_data": {
+        "city": "Santa Cruz De Tenerife",
+        "flights": [
+          {
+            "airline": "VUELING AIRLINES",
+            "flight_number": "VY 5472",
+            "origin": "MAD",
+            "destination": "TFS",
+            "departure_time": "2025-10-17T22:55:00",
+            "arrival_time": "2025-10-18T01:00:00",
+            "duration": "3h 5m",
+            "stops": 0,
+            "price": 106.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6005",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "13h 55m",
+            "stops": 1,
+            "price": 145.27,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6005",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "15h 40m",
+            "stops": 1,
+            "price": 146.16,
+            "currency": "EUR"
+          },
+          {
+            "airline": "IBERIA",
+            "flight_number": "IB 1553",
+            "origin": "MAD",
+            "destination": "TFS",
+            "departure_time": "2025-10-17T22:55:00",
+            "arrival_time": "2025-10-18T01:00:00",
+            "duration": "3h 5m",
+            "stops": 0,
+            "price": 554.52,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "HOTEL MONICA SUR",
+            "hotelId": null,
+            "rating": null,
+            "address": "C BENCHIJIGUA, 4, GRANADILLA DE ABONA, 38611",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL PLAYA SUR TENERIFE",
+            "hotelId": null,
+            "rating": null,
+            "address": "PLAYA DE EL MEDANO, EL MEDANO, 38612",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "AGUAMARINA GOLF APARTAMENTOS",
+            "hotelId": null,
+            "rating": null,
+            "address": "AVDA. DEL ATLANTICO, 6. URB. GOLF DEL SUR, TENERIFFA, 38620",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "CASAS ALBERTO",
+            "hotelId": null,
+            "rating": null,
+            "address": "CALLE FERMIN 88, EL FRONTON, SAN MIGUEL, 38629",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "CORAL LOS ALISIOS",
+            "hotelId": null,
+            "rating": null,
+            "address": "CARRETERA VIEJA A GUAZA, ARONA, 38660",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Playa de Las Teresitas",
+            "description": "Una de las playas más famosas de Tenerife, conocida por su arena dorada y aguas tranquilas."
+          },
+          {
+            "name": "Auditorio de Tenerife",
+            "description": "Una impresionante obra arquitectónica diseñada por Santiago Calatrava, que alberga conciertos y eventos culturales."
+          },
+          {
+            "name": "Parque García Sanabria",
+            "description": "Un hermoso parque urbano ideal para pasear, con jardines exóticos y esculturas."
+          },
+          {
+            "name": "Museo de la Naturaleza y el Hombre",
+            "description": "Un museo que ofrece una visión fascinante de la historia natural y la cultura de las Islas Canarias."
+          },
+          {
+            "name": "Mercado de Nuestra Señora de África",
+            "description": "Un mercado vibrante donde se pueden encontrar productos locales frescos y artesanías."
+          }
+        ],
+        "summary": "Santa Cruz de Tenerife es una vibrante ciudad canaria que combina hermosos paisajes naturales con una rica cultura y arquitectura. Desde sus playas hasta su animada vida nocturna, hay algo para todos en esta encantadora ciudad.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Llegada a Santa Cruz de Tenerife y check-in en el hotel",
+              "Paseo por el centro histórico y cena en un restaurante local"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Visita al Auditorio de Tenerife y exploración de sus alrededores",
+              "Tarde en la Playa de Las Teresitas"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Excursión al Parque García Sanabria para disfrutar de un picnic",
+              "Visita al Museo de la Naturaleza y el Hombre"
+            ]
+          },
+          {
+            "day": 4,
+            "activities": [
+              "Día de relax en la Playa de Las Teresitas",
+              "Cena en el Mercado de Nuestra Señora de África"
+            ]
+          },
+          {
+            "day": 5,
+            "activities": [
+              "Exploración de la zona de Anaga y senderismo por sus rutas",
+              "Visita a un mirador para disfrutar de las vistas"
+            ]
+          },
+          {
+            "day": 6,
+            "activities": [
+              "Día libre para compras y exploración personal",
+              "Visita a alguna de las terrazas locales para disfrutar de la vida nocturna"
+            ]
+          },
+          {
+            "day": 7,
+            "activities": [
+              "Últimas compras y despedida de Santa Cruz",
+              "Check-out y regreso a casa"
+            ]
+          }
+        ],
+        "budget": {
+          "total": 876.52,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760716959.9331863
+    },
+    {
+      "role": "user",
+      "text": "Reducelo a 3 dias",
+      "structured_data": null,
+      "ts": 1760716968.753195
+    },
+    {
+      "role": "bot",
+      "text": "✅ Viaje a **Santa Cruz De Tenerife** acortado. Ahora dura **5 días**, del 17/10/2025 al 22/10/2025.",
+      "structured_data": null,
+      "ts": 1760716969.6834493
+    },
+    {
+      "role": "user",
+      "text": "Hazme el presupuesto para 4 personas",
+      "structured_data": null,
+      "ts": 1760716977.7491581
+    },
+    {
+      "role": "bot",
+      "text": "No he entendido bien tu petición. Puedo planificar viajes, buscar vuelos u hoteles, y darte información sobre destinos.",
+      "structured_data": null,
+      "ts": 1760716978.7899816
+    },
+    {
+      "role": "user",
+      "text": "Cual es el precio de mi viaje a tenerife?",
+      "structured_data": null,
+      "ts": 1760717007.0557373
+    },
+    {
+      "role": "bot",
+      "text": "No he entendido a qué destino te refieres. ¿Podrías indicármelo?",
+      "structured_data": null,
+      "ts": 1760717007.8894513
+    },
+    {
+      "role": "user",
+      "text": "Necesito saber el presupuesto de mi viaje a tenerife",
+      "structured_data": null,
+      "ts": 1760717019.9382646
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Santa Cruz De Tenerife**.",
+      "structured_data": {
+        "city": "Santa Cruz De Tenerife",
+        "flights": [
+          {
+            "airline": "VUELING AIRLINES",
+            "flight_number": "VY 5472",
+            "origin": "MAD",
+            "destination": "TFS",
+            "departure_time": "2025-10-17T22:55:00",
+            "arrival_time": "2025-10-18T01:00:00",
+            "duration": "3h 5m",
+            "stops": 0,
+            "price": 106.52,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6005",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "13h 55m",
+            "stops": 1,
+            "price": 145.27,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6005",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "15h 40m",
+            "stops": 1,
+            "price": 146.16,
+            "currency": "EUR"
+          },
+          {
+            "airline": "IBERIA",
+            "flight_number": "IB 1553",
+            "origin": "MAD",
+            "destination": "TFS",
+            "departure_time": "2025-10-17T22:55:00",
+            "arrival_time": "2025-10-18T01:00:00",
+            "duration": "3h 5m",
+            "stops": 0,
+            "price": 554.52,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "HOTEL MONICA SUR",
+            "hotelId": null,
+            "rating": null,
+            "address": "C BENCHIJIGUA, 4, GRANADILLA DE ABONA, 38611",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL PLAYA SUR TENERIFE",
+            "hotelId": null,
+            "rating": null,
+            "address": "PLAYA DE EL MEDANO, EL MEDANO, 38612",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "AGUAMARINA GOLF APARTAMENTOS",
+            "hotelId": null,
+            "rating": null,
+            "address": "AVDA. DEL ATLANTICO, 6. URB. GOLF DEL SUR, TENERIFFA, 38620",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "CASAS ALBERTO",
+            "hotelId": null,
+            "rating": null,
+            "address": "CALLE FERMIN 88, EL FRONTON, SAN MIGUEL, 38629",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "CORAL LOS ALISIOS",
+            "hotelId": null,
+            "rating": null,
+            "address": "CARRETERA VIEJA A GUAZA, ARONA, 38660",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Playa de Las Teresitas",
+            "description": "Una de las playas más famosas de Tenerife, conocida por su arena dorada y aguas tranquilas."
+          },
+          {
+            "name": "Auditorio de Tenerife",
+            "description": "Una obra maestra de la arquitectura moderna, este auditorio es un ícono cultural de la ciudad."
+          },
+          {
+            "name": "Parque García Sanabria",
+            "description": "Un hermoso parque urbano lleno de jardines exóticos, perfecto para un paseo relajante."
+          },
+          {
+            "name": "Museo de la Naturaleza y el Hombre",
+            "description": "Un museo fascinante que explora la historia natural y cultural de las Islas Canarias."
+          },
+          {
+            "name": "Castillo de San Juan Bautista",
+            "description": "Una fortaleza histórica que ofrece vistas panorámicas del puerto y la ciudad."
+          }
+        ],
+        "summary": "Santa Cruz de Tenerife es una vibrante ciudad canaria que combina hermosos paisajes naturales con una rica cultura. Desde sus impresionantes playas hasta su arquitectura histórica, cada rincón ofrece algo único para explorar.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Visitar la Playa de Las Teresitas y disfrutar del sol y el mar.",
+              "Explorar el Auditorio de Tenerife y sus alrededores."
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Pasear por el Parque García Sanabria y disfrutar de su belleza natural.",
+              "Visitar el Museo de la Naturaleza y el Hombre para aprender sobre la historia local."
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Recorrer el Castillo de San Juan Bautista y apreciar las vistas.",
+              "Disfrutar de una cena en un restaurante local probando la gastronomía canaria."
+            ]
+          }
+        ],
+        "budget": {
+          "total": 436.52,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760717029.957762
+    },
+    {
+      "role": "user",
+      "text": "Y podrias recalcularlo para 4 personas?",
+      "structured_data": null,
+      "ts": 1760717038.2781281
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Santa Cruz De Tenerife**.",
+      "structured_data": {
+        "city": "Santa Cruz De Tenerife",
+        "flights": [
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6005",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "13h 55m",
+            "stops": 1,
+            "price": 581.08,
+            "currency": "EUR"
+          },
+          {
+            "airline": "BINTER CANARIAS",
+            "flight_number": "NT 6005",
+            "origin": "MAD",
+            "destination": "LPA",
+            "departure_time": "2025-10-17T20:00:00",
+            "arrival_time": "2025-10-17T21:50:00",
+            "duration": "15h 40m",
+            "stops": 1,
+            "price": 584.64,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "HOTEL MONICA SUR",
+            "hotelId": null,
+            "rating": null,
+            "address": "C BENCHIJIGUA, 4, GRANADILLA DE ABONA, 38611",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL PLAYA SUR TENERIFE",
+            "hotelId": null,
+            "rating": null,
+            "address": "PLAYA DE EL MEDANO, EL MEDANO, 38612",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "AGUAMARINA GOLF APARTAMENTOS",
+            "hotelId": null,
+            "rating": null,
+            "address": "AVDA. DEL ATLANTICO, 6. URB. GOLF DEL SUR, TENERIFFA, 38620",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "CASAS ALBERTO",
+            "hotelId": null,
+            "rating": null,
+            "address": "CALLE FERMIN 88, EL FRONTON, SAN MIGUEL, 38629",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "CORAL LOS ALISIOS",
+            "hotelId": null,
+            "rating": null,
+            "address": "CARRETERA VIEJA A GUAZA, ARONA, 38660",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Playa de Las Teresitas",
+            "description": "Una impresionante playa de arena dorada perfecta para relajarse y disfrutar del sol."
+          },
+          {
+            "name": "Auditorio de Tenerife",
+            "description": "Una obra maestra arquitectónica diseñada por Santiago Calatrava, ideal para disfrutar de conciertos y eventos culturales."
+          },
+          {
+            "name": "Parque García Sanabria",
+            "description": "Un hermoso parque urbano lleno de jardines y esculturas, perfecto para pasear y desconectar."
+          },
+          {
+            "name": "Museo de la Naturaleza y el Hombre",
+            "description": "Un museo fascinante que explora la historia natural y cultural de las Islas Canarias."
+          },
+          {
+            "name": "Mercado de Nuestra Señora de África",
+            "description": "Un bullicioso mercado donde se puede experimentar la cultura local a través de la comida y las artesanías."
+          }
+        ],
+        "summary": "Santa Cruz de Tenerife es una vibrante ciudad canaria que combina hermosas playas, cultura rica y un clima perfecto durante todo el año. Es el lugar ideal para disfrutar de la naturaleza, la arquitectura y la deliciosa gastronomía local.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Llegada a Santa Cruz de Tenerife y check-in en el hotel.",
+              "Visita a la Playa de Las Teresitas para disfrutar del sol y el mar."
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Exploración del Auditorio de Tenerife y sus alrededores.",
+              "Paseo por el Parque García Sanabria para disfrutar de la naturaleza."
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Visita al Museo de la Naturaleza y el Hombre para conocer la historia de las islas.",
+              "Recorrido por el Mercado de Nuestra Señora de África para degustar la gastronomía local."
+            ]
+          }
+        ],
+        "budget": {
+          "total": 911.08,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760717051.8168874
+    }
+  ]
+}

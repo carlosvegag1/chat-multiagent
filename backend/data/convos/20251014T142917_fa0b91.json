@@ -1,0 +1,27 @@
+{
+  "convo_id": "20251014T142917_fa0b91",
+  "user": "carlos",
+  "created_at": "2025-10-14T14:29:17.919543",
+  "messages": [
+    {
+      "ts": 1760452167.3847532,
+      "role": "user",
+      "text": "¿Cómo está el día en Madrid?"
+    },
+    {
+      "ts": 1760452170.0742128,
+      "role": "bot",
+      "text": "🌤️ Clima actual en Madrid: 24.1°C, viento 2.2 km/h."
+    },
+    {
+      "ts": 1760452175.5384698,
+      "role": "user",
+      "text": "Y en Tokio¿"
+    },
+    {
+      "ts": 1760452177.7872367,
+      "role": "bot",
+      "text": "🌤️ Clima actual en Tokio: 15.3°C, viento 5.2 km/h."
+    }
+  ]
+}

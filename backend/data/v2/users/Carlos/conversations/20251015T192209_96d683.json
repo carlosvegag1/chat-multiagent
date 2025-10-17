@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251015T192209_96d683",
+  "history": [
+    {
+      "role": "user",
+      "message": "Planifica un viaje a Lisboa para tres días",
+      "timestamp": "2025-10-15T19:22:23Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos hacia Lisboa:\n- UX1159 06:30–06:50 (27.52 EUR)\n- UX1153 10:25–10:45 (40.52 EUR)\n- UX1155 14:55–15:15 (40.52 EUR)\n- TP3960 18:00–18:20 (49.52 EUR)\n- UX1157 18:55–19:15 (50.52 EUR)\n\n🏨 He encontrado 5 hoteles en Lisboa:\n- HOTEL DA LOLO\n- HOTEL DA PRAIA\n- HOTEL DO LAGO\n- M'AR DE AR MURALHAS\n- HOTEL DO LAGO\n\n📍 Lugares recomendados en Lisboa:\n• Lisboa Games Week — Lisboa Games Week, or simply LGW, is a trade fair for video games held annually at the FIL Exhibition Centre in Lisbon, Portugal. It is organised by FIL\n• Lisbon Oceanarium — The Lisbon Oceanarium (Portuguese: Oceanário de Lisboa, pronounced [ɔsi.ɐˈnaɾi.u ðɨ liʒˈβoɐ]) is an oceanarium in Lisbon, Portugal. It is located in the\n• Lisbon Zoo — (Jardim Zoologico de Lisboa) is a zoological garden in Lisbon, Portugal. It was founded in 1884. The zoo was originally located in the park of São Sebastião\n• Praça do Império — Império (Empire Square) is a city square and park situated adjacent to principal monuments and tourist attractions in the civil parish of Belém, municipality\n• Santa Justa Lift — Carmo (Carmo Square). Since its construction the lift has become a tourist attraction for Lisbon as, among the urban lifts in the city, Santa Justa is the\n\n🧭 Resumen: Lisbon is the capital and most populous municipality of Portugal, with an estimated population of 575,739, as of 2024, within its administrative limits and 3,028,000 within the metropolis, as of 2025. Lisbon is mainland Europe's westernmost capital city, and the only one along the Atlantic coast, the others being on islands. The city lies in the western portion of the Iberian Peninsula, on the northern shore of the River Tagus. The western portion of its metro area, the Portuguese Riviera, hosts the westernmost point of Continental Europe, culminating at Cabo da Roca.\n\n🗓️ Plan 72h:\n Día 1: Visita Casino Estoril; Visita Lisboa Games Week\n Día 2: Visita Santa Justa Lift; Visita Lisboa Games Week\n Día 3: Visita Lisboa Games Week; Visita Santa Justa Lift",
+      "timestamp": "2025-10-15T19:22:23Z"
+    }
+  ],
+  "created_at": "2025-10-15T19:22:23Z",
+  "updated_at": "2025-10-15T19:22:23Z"
+}

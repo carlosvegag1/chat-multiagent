@@ -1,0 +1,17 @@
+{
+  "conversation_id": "20251015T124229_39774c",
+  "history": [
+    {
+      "role": "user",
+      "message": "Quiero un vuelo de Madrid a Oporto el 22 de noviembre y hotel 1 noche.",
+      "timestamp": "2025-10-15T12:42:41Z"
+    },
+    {
+      "role": "bot",
+      "message": "✈️ Encontré 5 vuelos desde MAD a Oporto:\n- UX1143 15:00–15:15 (40.52 EUR)\n- UX1147 06:35–06:50 (53.52 EUR)\n- UX1145 10:35–10:50 (53.52 EUR)\n- UX1141 19:05–19:20 (53.52 EUR)\n- TP1015 14:55–15:20 (81.82 EUR)\n\n🏨 He encontrado 5 hoteles en Oporto:\n- TORRE MAR — None⭐ — None EUR\n- AC BY MARRIOTT HOTEL PORTO — None⭐ — None EUR\n- CASA BRANCA BEACH - GOLF RESORT — None⭐ — None EUR\n- INTERCONTINENTAL PALACIO DAS — None⭐ — None EUR\n- INTERNACIONAL — None⭐ — None EUR\n\n💰 Presupuesto estimado total: N/A EUR\n\n⚠️ Conflicto con ‘Lisboa (2025-11-20 → 2025-11-20)’",
+      "timestamp": "2025-10-15T12:42:41Z"
+    }
+  ],
+  "created_at": "2025-10-15T12:42:41Z",
+  "updated_at": "2025-10-15T12:42:41Z"
+}

@@ -1,0 +1,151 @@
+{
+  "convo_id": "20251017T132838_480255",
+  "user": "carlos",
+  "created_at": "2025-10-17T13:28:38.778900",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Busca un viaje a Barcelona para el próximo viernes",
+      "structured_data": null,
+      "ts": 1760707721.530226
+    },
+    {
+      "role": "bot",
+      "text": "Aquí tienes tu plan para **Barcelona**.",
+      "structured_data": {
+        "city": "Barcelona",
+        "flights": [
+          {
+            "airline": "VUELING AIRLINES",
+            "flight_number": "VY 5122",
+            "origin": "MAD",
+            "destination": "BCN",
+            "departure_time": "2025-10-17T18:00:00",
+            "arrival_time": "2025-10-17T19:15:00",
+            "duration": "1h 15m",
+            "stops": 0,
+            "price": 77.37,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VUELING AIRLINES",
+            "flight_number": "VY 5063",
+            "origin": "MAD",
+            "destination": "BCN",
+            "departure_time": "2025-10-17T19:05:00",
+            "arrival_time": "2025-10-17T20:20:00",
+            "duration": "1h 15m",
+            "stops": 0,
+            "price": 77.37,
+            "currency": "EUR"
+          },
+          {
+            "airline": "VUELING AIRLINES",
+            "flight_number": "VY 5058",
+            "origin": "MAD",
+            "destination": "BCN",
+            "departure_time": "2025-10-17T15:55:00",
+            "arrival_time": "2025-10-17T17:20:00",
+            "duration": "1h 25m",
+            "stops": 0,
+            "price": 77.37,
+            "currency": "EUR"
+          },
+          {
+            "airline": "AIR EUROPA",
+            "flight_number": "UX 6049",
+            "origin": "MAD",
+            "destination": "PMI",
+            "departure_time": "2025-10-17T21:45:00",
+            "arrival_time": "2025-10-17T23:05:00",
+            "duration": "10h 10m",
+            "stops": 1,
+            "price": 81.46,
+            "currency": "EUR"
+          },
+          {
+            "airline": "AIR EUROPA",
+            "flight_number": "UX 6049",
+            "origin": "MAD",
+            "destination": "PMI",
+            "departure_time": "2025-10-17T21:45:00",
+            "arrival_time": "2025-10-17T23:05:00",
+            "duration": "13h 20m",
+            "stops": 1,
+            "price": 110.46,
+            "currency": "EUR"
+          }
+        ],
+        "hotels": [
+          {
+            "name": "H10 CATALUNYA PLAZA",
+            "hotelId": null,
+            "rating": null,
+            "address": "PL. DE CATALUNYA 7, BARCELONA, 08002",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "TEST BOOKINGPROPERTY",
+            "hotelId": null,
+            "rating": null,
+            "address": "LEFISTON STREET, BARCELONA",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "RAMBLAS CHARM",
+            "hotelId": null,
+            "rating": null,
+            "address": "CABRES 9, BARCELONA, SPAIN, BARCELONA",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "CITY PARK SANT JUST",
+            "hotelId": null,
+            "rating": null,
+            "address": "CARRETERA REIAL, 132 08960 SANT JUST DESVERN, SPAIN, BARCELONA",
+            "price_per_night": null,
+            "currency": "EUR"
+          },
+          {
+            "name": "HOTEL PULITZER",
+            "hotelId": null,
+            "rating": null,
+            "address": "BERGARA 8, BARCELONA, 08002",
+            "price_per_night": null,
+            "currency": "EUR"
+          }
+        ],
+        "pois": [
+          {
+            "name": "Sagrada Familia",
+            "description": "Una impresionante basílica diseñada por Antoni Gaudí, famosa por su arquitectura única y sus torres icónicas."
+          },
+          {
+            "name": "Parque Güell",
+            "description": "Un colorido parque también diseñado por Gaudí, lleno de mosaicos y esculturas que ofrecen vistas panorámicas de la ciudad."
+          }
+        ],
+        "summary": "Barcelona, una ciudad vibrante y llena de historia, ofrece una mezcla única de arquitectura, cultura y gastronomía. Desde las obras maestras de Gaudí hasta las hermosas playas, cada rincón es una experiencia inolvidable.",
+        "plan_sugerido": [
+          {
+            "day": 1,
+            "activities": [
+              "Visita a la Sagrada Familia por la mañana",
+              "Paseo por el Parque Güell en la tarde",
+              "Cena en un restaurante local en el barrio de Gràcia"
+            ]
+          }
+        ],
+        "budget": {
+          "total": 187.37,
+          "currency": "EUR"
+        },
+        "error": null
+      },
+      "ts": 1760707727.9210424
+    }
+  ]
+}

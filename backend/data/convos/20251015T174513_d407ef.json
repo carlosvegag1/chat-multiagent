@@ -1,0 +1,27 @@
+{
+  "convo_id": "20251015T174513_d407ef",
+  "user": "pepito",
+  "created_at": "2025-10-15T17:45:13.435549",
+  "messages": [
+    {
+      "ts": 1760550314.8945568,
+      "role": "user",
+      "text": "Ya no quiero ir a Lisboa"
+    },
+    {
+      "ts": 1760550315.0447416,
+      "role": "bot",
+      "text": "🗑️ Viaje a Lisboa eliminado correctamente."
+    },
+    {
+      "ts": 1760550317.2011468,
+      "role": "user",
+      "text": "Mis viajes"
+    },
+    {
+      "ts": 1760550317.3162484,
+      "role": "bot",
+      "text": "No tienes viajes registrados todavía."
+    }
+  ]
+}

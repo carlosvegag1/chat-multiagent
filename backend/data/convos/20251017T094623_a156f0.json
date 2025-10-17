@@ -1,0 +1,27 @@
+{
+  "convo_id": "20251017T094623_a156f0",
+  "user": "carlos",
+  "created_at": "2025-10-17T09:46:23.134114",
+  "messages": [
+    {
+      "ts": 1760694385.5256138,
+      "role": "user",
+      "text": "Plan para 3 días en Kioto"
+    },
+    {
+      "ts": 1760694396.9043324,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Osaka."
+    },
+    {
+      "ts": 1760694399.158283,
+      "role": "user",
+      "text": "Me ha gustado. Ahora hazlo de nuevo pero para un viaje completo de 10 días a Kioto"
+    },
+    {
+      "ts": 1760694410.9732342,
+      "role": "bot",
+      "text": "Aquí tienes tu plan para Osaka."
+    }
+  ]
+}

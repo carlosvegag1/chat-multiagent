@@ -1,0 +1,191 @@
+{
+  "agents": {
+    "flight.search_flights": {
+      "tool": "flight.search_flights",
+      "args": {
+        "city": "Lisboa",
+        "raw_message": "Dame un resumen de mi viaje a Lisboa"
+      },
+      "result": {
+        "city": "Lisboa",
+        "flights": [],
+        "hotels": [
+          {
+            "name": "HOTEL DA LOLO",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "CA",
+              "postalCode": "06650",
+              "stateCode": "NL",
+              "cityName": "LISBON",
+              "lines": [
+                "53 TEST STREET"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/HOTEL DA LOLO"
+          },
+          {
+            "name": "HOTEL DA PRAIA",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "CA",
+              "postalCode": "06650",
+              "stateCode": "NL",
+              "cityName": "LISBON",
+              "lines": [
+                "52 TEST STREET"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/HOTEL DA PRAIA"
+          },
+          {
+            "name": "HOTEL DO LAGO",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "CA",
+              "postalCode": "06650",
+              "stateCode": "NL",
+              "cityName": "LISBON",
+              "lines": [
+                "1 BIDULE STREET"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/HOTEL DO LAGO"
+          },
+          {
+            "name": "SANA SILVER COAST",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "PT",
+              "postalCode": "2500184",
+              "cityName": "CALDAS DA RAINHA",
+              "lines": [
+                "AV.DOM MANUEL FIGUEIRA DA CAMARA"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/SANA SILVER COAST"
+          },
+          {
+            "name": "HOTEL COMENDADOR - BOMBARRAL",
+            "stars": null,
+            "price": null,
+            "currency": "EUR",
+            "address": {
+              "countryCode": "PT",
+              "postalCode": "2540033",
+              "cityName": "BOMBARRAL",
+              "lines": [
+                "LARGO COMENDADOR JOAO FERREIRA DOS SANTOS"
+              ]
+            },
+            "rating": null,
+            "url": "https://www.google.com/maps/search/HOTEL COMENDADOR - BOMBARRAL"
+          }
+        ],
+        "pois": [
+          {
+            "title": "Torre de Belém",
+            "description": "Lugar emblemático de Lisboa"
+          },
+          {
+            "title": "Monasterio de los Jerónimos",
+            "description": "Lugar emblemático de Lisboa"
+          },
+          {
+            "title": "Barrio Alto",
+            "description": "Lugar emblemático de Lisboa"
+          },
+          {
+            "title": "Praça do Comércio",
+            "description": "Lugar emblemático de Lisboa"
+          },
+          {
+            "title": "Castelo de São Jorge",
+            "description": "Lugar emblemático de Lisboa"
+          },
+          {
+            "title": "Miradouro da Senhora do Monte",
+            "description": "Lugar emblemático de Lisboa"
+          }
+        ],
+        "summary": "Lisboa es un destino lleno de historia y cultura. Durante tu estancia de tres días podrás descubrir sus principales atractivos, disfrutar de su gastronomía y recorrer sus barrios más emblemáticos.",
+        "budget": 0.0,
+        "checkin": null,
+        "checkout": null,
+        "plan_72h": [
+          {
+            "day": 1,
+            "activities": [
+              "Torre de Belém",
+              "Miradouro da Senhora do Monte",
+              "Monasterio de los Jerónimos"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Monasterio de los Jerónimos",
+              "Praça do Comércio",
+              "Miradouro da Senhora do Monte"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Miradouro da Senhora do Monte",
+              "Barrio Alto",
+              "Monasterio de los Jerónimos"
+            ]
+          }
+        ]
+      },
+      "last_message": "Dame un resumen de mi viaje a Lisboa"
+    },
+    "memory.list_trips": {
+      "tool": "memory.list_trips",
+      "args": {
+        "raw_message": "¿Qué viajes tengo ahora?"
+      },
+      "result": {
+        "summary": "No tienes viajes registrados todavía."
+      },
+      "last_message": "¿Qué viajes tengo ahora?"
+    },
+    "memory.shift_trip": {
+      "tool": "memory.shift_trip",
+      "args": {
+        "city": "Lisboa",
+        "days_shift": 2,
+        "raw_message": "Retrasa mi viaje a Lisboa 2 días"
+      },
+      "result": {
+        "summary": "✅ Fechas del viaje a Lisboa desplazadas 2 día(s)."
+      },
+      "last_message": "Retrasa mi viaje a Lisboa 2 días"
+    },
+    "memory.delete_trip": {
+      "tool": "memory.delete_trip",
+      "args": {
+        "city": "",
+        "raw_message": "Elimina todos mis viajes"
+      },
+      "result": {
+        "summary": "🧹 Todos los viajes han sido eliminados correctamente."
+      },
+      "last_message": "Elimina todos mis viajes"
+    }
+  },
+  "last_tool": "memory.list_trips"
+}
