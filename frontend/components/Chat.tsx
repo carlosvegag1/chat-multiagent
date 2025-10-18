@@ -37,7 +37,6 @@ type Message = { role: "user" | "bot"; text: string; structured_data?: Structure
 type ConvoSummary = { convo_id: string; created_at: string };
 
 // --- Componentes de UI (Base y Enriquecidos) ---
-
 function SectionCard({ title, children }: { title: string; children: React.ReactNode }) {
     return (
         <div className="bg-white border border-slate-200 rounded-2xl p-4 shadow-sm animate-fade-in">
@@ -61,20 +60,27 @@ const MarkdownRenderer: FC<{ content: string }> = ({ content }) => (
 );
 
 function FlightCard({ flight }: { flight: FlightInfo }) {
-    const formatTime = (isoString?: string) => isoString ? new Date(isoString).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '?';
+    const formatTime = (isoString?: string) =>
+        isoString ? new Date(isoString).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) : "?";
 
     return (
         <div className="border border-slate-200 bg-slate-50/80 rounded-xl p-3 flex items-center justify-between gap-4">
             <div className="flex flex-col">
-                <span className="font-bold text-slate-800">{flight.airline || 'Aerolínea'}</span>
+                <span className="font-bold text-slate-800">{flight.airline || "Aerolínea"}</span>
                 <span className="text-xs text-slate-500">{flight.flight_number}</span>
             </div>
             <div className="text-center">
-                <span className="font-mono text-lg font-semibold text-slate-900">{flight.origin} → {flight.destination}</span>
-                <div className="text-sm text-slate-600">{formatTime(flight.departure_time)} - {formatTime(flight.arrival_time)}</div>
+                <span className="font-mono text-lg font-semibold text-slate-900">
+                    {flight.origin} → {flight.destination}
+                </span>
+                <div className="text-sm text-slate-600">
+                    {formatTime(flight.departure_time)} - {formatTime(flight.arrival_time)}
+                </div>
             </div>
             <div className="text-right">
-                <span className="text-lg font-bold text-indigo-600">{flight.price?.toFixed(2) || '?'} {flight.currency}</span>
+                <span className="text-lg font-bold text-indigo-600">
+                    {flight.price?.toFixed(2) || "?"} {flight.currency}
+                </span>
                 <div className="text-xs text-slate-500">{flight.duration}</div>
             </div>
         </div>
@@ -86,7 +92,11 @@ function HotelCard({ hotel }: { hotel: HotelInfo }) {
         <div className="border border-slate-200 bg-slate-50/80 rounded-xl p-3">
             <div className="flex justify-between items-start">
                 <span className="font-bold text-slate-800">{hotel.name}</span>
-                {hotel.rating && <span className="text-sm font-semibold bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full">{hotel.rating} ⭐</span>}
+                {hotel.rating && (
+                    <span className="text-sm font-semibold bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full">
+                        {hotel.rating} ⭐
+                    </span>
+                )}
             </div>
             {hotel.address && <p className="text-xs text-slate-500 mt-1">{hotel.address}</p>}
         </div>
@@ -174,7 +184,6 @@ function ErrorCard({ error }: { error?: string }) {
 }
 
 // ---------------- COMPONENTE PRINCIPAL ----------------
-
 export default function Chat() {
     const [userName, setUserName] = useState<string | null>(null);
     const [messages, setMessages] = useState<Message[]>([]);
@@ -188,11 +197,11 @@ export default function Chat() {
     const messagesEndRef = useRef<HTMLDivElement | null>(null);
     const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
 
+    // ---- Inicialización usuario y conversaciones ----
     useEffect(() => {
         const saved = localStorage.getItem("chatUserName");
-        if (saved) {
-            setUserName(saved);
-        } else {
+        if (saved) setUserName(saved);
+        else {
             const name = prompt("¡Bienvenido! ¿Cómo te llamas?");
             if (name) {
                 localStorage.setItem("chatUserName", name);
@@ -205,45 +214,30 @@ export default function Chat() {
         try {
             const res = await fetch(`${API_URL}/convos?user=${encodeURIComponent(user)}`);
             const data: ConvoSummary[] = await res.json();
-            if (data && data.length > 0) {
+            if (data?.length) {
                 setAvailableConvos(data);
-                if (!convoId) {
-                    setConvoId(data[0].convo_id);
-                }
-            } else {
-                await createNewConvo(true);
-            }
+                if (!convoId) setConvoId(data[0].convo_id);
+            } else await createNewConvo(true);
         } catch (error) {
             console.error("Error al cargar conversaciones:", error);
         }
     };
-    
-    useEffect(() => {
-        if (userName) {
-            fetchConvos(userName);
-        }
-    }, [userName]);
+
+    useEffect(() => { if (userName) fetchConvos(userName); }, [userName]);
 
     useEffect(() => {
         if (!convoId) return;
         fetch(`${API_URL}/convo/${convoId}`)
             .then((r) => r.json())
-            .then((data) => {
-                setMessages(data.messages || []);
-            })
-            .catch(err => {
-                console.error("Error al cargar la conversación:", err);
-                setMessages([]);
-            });
+            .then((data) => setMessages(data.messages || []))
+            .catch(() => setMessages([]));
     }, [convoId, API_URL]);
 
-    useEffect(() => {
-        messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-    }, [messages]);
+    useEffect(() => { messagesEndRef.current?.scrollIntoView({ behavior: "smooth" }); }, [messages]);
 
+    // ---- Envío de texto ----
     const sendText = async () => {
         if (!text.trim() || !convoId || !userName) return;
-
         const currentText = text;
         const userMessage: Message = { role: "user", text: currentText, ts: Date.now() / 1000 };
         setMessages((prev) => [...prev, userMessage]);
@@ -255,12 +249,9 @@ export default function Chat() {
             form.append("message", currentText);
             form.append("convo_id", convoId);
             form.append("user", userName);
-
             const res = await fetch(`${API_URL}/chat/`, { method: "POST", body: form });
-            if (!res.ok) throw new Error(`Error en la API: ${res.statusText}`);
-            
             const data = await res.json();
-            
+
             const botMessage: Message = {
                 role: "bot",
                 text: data.reply_text,
@@ -270,12 +261,6 @@ export default function Chat() {
             setMessages((prev) => [...prev, botMessage]);
         } catch (error) {
             console.error("Error al enviar mensaje:", error);
-            const errorMessage: Message = {
-                role: "bot",
-                text: "Lo siento, hubo un error de conexión con el servidor.",
-                ts: Date.now() / 1000,
-            };
-            setMessages((prev) => [...prev, errorMessage]);
         } finally {
             setBotTyping(false);
         }
@@ -283,35 +268,82 @@ export default function Chat() {
 
     const createNewConvo = async (isInitial: boolean = false) => {
         if (!userName) return;
-        // ✅ AJUSTE FINAL: Limpia los mensajes de la UI inmediatamente para dar feedback visual.
-        setMessages([]); 
+        setMessages([]);
         try {
             const form = new FormData();
             form.append("user", userName);
             const res = await fetch(`${API_URL}/new_convo`, { method: "POST", body: form });
-            if (!res.ok) throw new Error("Fallo al crear la conversación en el servidor.");
             const newConvoData = await res.json();
-            
             const newConvoSummary: ConvoSummary = {
                 convo_id: newConvoData.convo_id,
                 created_at: newConvoData.created_at,
             };
-
-            setAvailableConvos(prev => [newConvoSummary, ...prev.filter(c => c.convo_id !== newConvoSummary.convo_id)]);
+            setAvailableConvos((prev) => [newConvoSummary, ...prev]);
             setConvoId(newConvoSummary.convo_id);
         } catch (error) {
             console.error("Error al crear nueva conversación:", error);
         }
     };
 
-    const startRecording = () => {};
-    const stopRecording = () => {};
+    // ---- 🎙️ Grabación y envío de audio (Whisper) ----
+    const startRecording = async () => {
+        try {
+            const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            const mediaRecorder = new MediaRecorder(stream);
+            mediaRecorderRef.current = mediaRecorder;
+            chunksRef.current = [];
+            setRecording(true);
 
+            mediaRecorder.ondataavailable = (e) => {
+                if (e.data.size > 0) chunksRef.current.push(e.data);
+            };
+
+            mediaRecorder.onstop = async () => {
+                const blob = new Blob(chunksRef.current, { type: "audio/webm" });
+                const formData = new FormData();
+                formData.append("file", blob, "audio.webm");
+                formData.append("user", userName || "demo");
+                formData.append("convo_id", convoId || "");
+
+                try {
+                    const res = await fetch(`${API_URL}/chat/audio`, {
+                        method: "POST",
+                        body: formData,
+                    });
+                    const data = await res.json();
+
+                    setMessages((prev) => [
+                        ...prev,
+                        { role: "user", text: "🎙️ Mensaje de voz enviado", ts: Date.now() / 1000 },
+                        {
+                            role: "bot",
+                            text: data.reply_text,
+                            structured_data: data.structured_data,
+                            ts: Date.now() / 1000,
+                        },
+                    ]);
+                } catch (err) {
+                    console.error("Error al enviar audio:", err);
+                }
+            };
+
+            mediaRecorder.start();
+        } catch (err) {
+            console.error("Error al iniciar grabación:", err);
+        }
+    };
+
+    const stopRecording = () => {
+        mediaRecorderRef.current?.stop();
+        setRecording(false);
+    };
+
+    // ---- Render principal ----
     return (
         <div className="flex flex-col w-[1000px] h-screen bg-gradient-to-b from-slate-50 to-slate-100 shadow-lg mx-auto overflow-hidden">
             <header className="fixed top-0 left-1/2 -translate-x-1/2 flex items-center justify-between w-[1000px] h-[88px] p-6 bg-white border-b border-slate-200 z-20">
                 <h1 className="text-2xl font-bold text-slate-800">
-                    Bienvenido{userName ? `, ${userName}` : ""} 👋
+                    Bienvenido{userName ? `, {userName}` : ""} 👋
                 </h1>
                 <div className="flex gap-2 items-center">
                     <select
@@ -322,11 +354,17 @@ export default function Chat() {
                     >
                         {availableConvos.map((c) => (
                             <option key={c.convo_id} value={c.convo_id}>
-                                {new Date(c.created_at).toLocaleString([], { dateStyle: "short", timeStyle: "short" })}
+                                {new Date(c.created_at).toLocaleString([], {
+                                    dateStyle: "short",
+                                    timeStyle: "short",
+                                })}
                             </option>
                         ))}
                     </select>
-                    <button onClick={() => createNewConvo()} className="px-3 py-2 bg-indigo-600 text-white rounded-full text-sm font-bold hover:bg-indigo-700 transition">
+                    <button
+                        onClick={() => createNewConvo()}
+                        className="px-3 py-2 bg-indigo-600 text-white rounded-full text-sm font-bold hover:bg-indigo-700 transition"
+                    >
                         Nueva
                     </button>
                 </div>
@@ -335,43 +373,49 @@ export default function Chat() {
             <main className="flex flex-col flex-1 w-full px-12 py-6 gap-3 overflow-y-auto mt-[88px] mb-[120px]" style={{ height: "calc(100vh - 208px)" }}>
                 {messages.map((m, i) => {
                     const isBot = m.role === "bot";
-                    const hasData = isBot && m.structured_data && (
-                        m.structured_data.flights?.length ||
-                        m.structured_data.hotels?.length ||
-                        m.structured_data.pois?.length ||
-                        m.structured_data.summary ||
-                        m.structured_data.plan_sugerido?.length ||
-                        m.structured_data.budget ||
-                        m.structured_data.error
-                    );
-                    const timestamp = m.ts ? new Date(m.ts * 1000).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '';
-                    
+                    const timestamp = m.ts
+                        ? new Date(m.ts * 1000).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+                        : "";
+
                     return (
-                        <div key={i} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"} animate-fade-in`}>
+                        <div key={i} className={`flex ${isBot ? "justify-start" : "justify-end"} animate-fade-in`}>
                             <div className="flex items-start gap-2 w-full max-w-[750px]">
-                                {isBot && <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-200 to-indigo-400 flex-shrink-0 flex items-center justify-center text-indigo-900 font-bold">B</div>}
+                                {isBot && (
+                                    <img
+                                        src="/icons/bot.svg"
+                                        alt="Bot"
+                                        className="w-10 h-10 rounded-full border border-slate-300"
+                                    />
+                                )}
                                 <div className="w-full">
-                                    {hasData ? (
-                                        <div className="flex flex-col gap-3">
-                                            <div className="bg-white border border-slate-200 rounded-2xl p-3 shadow-sm">
-                                                <MarkdownRenderer content={m.text} />
-                                            </div>
-                                            <FlightsList city={m.structured_data!.city} flights={m.structured_data!.flights} />
-                                            <HotelsList city={m.structured_data!.city} hotels={m.structured_data!.hotels} />
-                                            <PoisList pois={m.structured_data!.pois} />
-                                            <SummaryBox summary={m.structured_data!.summary} />
-                                            <PlanCard plan={m.structured_data!.plan_sugerido} />
-                                            <BudgetBadge budget={m.structured_data!.budget} />
-                                            <ErrorCard error={m.structured_data!.error} />
-                                        </div>
-                                    ) : (
-                                        <div className={`p-3 rounded-2xl break-words shadow-md ${m.role === "user" ? "bg-gradient-to-r from-indigo-600 to-indigo-400 text-white ml-auto" : "bg-white border border-slate-200"}`} style={{ maxWidth: "calc(100% - 48px)" }}>
-                                            <MarkdownRenderer content={m.text} />
+                                    <div
+                                        className={`p-3 rounded-2xl break-words shadow-md ${
+                                            m.role === "user"
+                                                ? "bg-gradient-to-r from-indigo-600 to-indigo-400 text-white ml-auto"
+                                                : "bg-white border border-slate-200"
+                                        }`}
+                                    >
+                                        <MarkdownRenderer content={m.text} />
+                                    </div>
+                                    {timestamp && (
+                                        <div
+                                            className={`text-xs mt-1 ${
+                                                m.role === "user"
+                                                    ? "text-right text-slate-400"
+                                                    : "text-left text-slate-500"
+                                            }`}
+                                        >
+                                            {timestamp}
                                         </div>
                                     )}
-                                    {timestamp && <div className={`text-xs mt-1 ${m.role === "user" ? "text-right text-slate-400" : "text-left text-slate-500"}`}>{timestamp}</div>}
                                 </div>
-                                {m.role === "user" && <div className="w-10 h-10 rounded-full bg-slate-300 flex-shrink-0" />}
+                                {m.role === "user" && (
+                                    <img
+                                        src="/icons/user.svg"
+                                        alt="Usuario"
+                                        className="w-10 h-10 rounded-full border border-slate-300"
+                                    />
+                                )}
                             </div>
                         </div>
                     );
@@ -379,7 +423,7 @@ export default function Chat() {
 
                 {botTyping && (
                     <div className="flex justify-start animate-pulse gap-2 mt-1">
-                        <div className="w-10 h-10 rounded-full bg-indigo-200 flex items-center justify-center text-indigo-900 font-bold">B</div>
+                        <img src="/icons/bot.svg" alt="Bot" className="w-10 h-10 rounded-full border border-slate-300" />
                         <div className="p-3 rounded-2xl bg-white text-slate-700 shadow-sm">Bot está escribiendo...</div>
                     </div>
                 )}

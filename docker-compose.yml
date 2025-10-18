@@ -1,79 +1,133 @@
-﻿name: chat-multiagent-copia
+﻿name: chat-multiagent
 
 services:
+  # ====================================================
+  # 🧮 Agente MCP - Cálculos (Calc)
+  # ====================================================
   calc:
     build:
       context: .
       dockerfile: Dockerfile.mcp
     working_dir: /app
     command: uvicorn server:app --host 0.0.0.0 --port 8770
-    ports: ["8770:8770"]
+    ports:
+      - "8770:8770"
     volumes:
       - ./mcp_calc_server:/app
+    networks:
+      - multiagent_net
     restart: unless-stopped
 
+  # ====================================================
+  # ✈️ Agente MCP - Vuelos
+  # ====================================================
   flights:
     build:
       context: .
       dockerfile: Dockerfile.mcp
     working_dir: /app
     command: uvicorn server:app --host 0.0.0.0 --port 8771
-    ports: ["8771:8771"]
+    ports:
+      - "8771:8771"
     volumes:
       - ./mcp_flight_server:/app
+    networks:
+      - multiagent_net
     restart: unless-stopped
 
+  # ====================================================
+  # 🏨 Agente MCP - Hoteles
+  # ====================================================
   hotels:
     build:
       context: .
       dockerfile: Dockerfile.mcp
     working_dir: /app
     command: uvicorn server:app --host 0.0.0.0 --port 8772
-    ports: ["8772:8772"]
+    ports:
+      - "8772:8772"
     volumes:
       - ./mcp_hotel_server:/app
+    networks:
+      - multiagent_net
     restart: unless-stopped
 
+  # ====================================================
+  # 🌍 Agente MCP - Destinos
+  # ====================================================
   destinations:
     build:
       context: .
       dockerfile: Dockerfile.mcp
     working_dir: /app
     command: uvicorn server:app --host 0.0.0.0 --port 8773
-    ports: ["8773:8773"]
+    ports:
+      - "8773:8773"
     volumes:
       - ./mcp_destination_server:/app
+    networks:
+      - multiagent_net
     restart: unless-stopped
 
+  # ====================================================
+  # ⚙️ Backend - FastAPI + Whisper + MCP Orchestrator
+  # ====================================================
   backend:
     build:
       context: .
       dockerfile: Dockerfile.backend
     depends_on:
-      calc: { condition: service_started }
-      flights: { condition: service_started }
-      hotels: { condition: service_started }
-      destinations: { condition: service_started }
+      calc:
+        condition: service_started
+      flights:
+        condition: service_started
+      hotels:
+        condition: service_started
+      destinations:
+        condition: service_started
     environment:
-      # Claves (opcionales). Si existen en tu host, se inyectan.
+      # 🔑 Claves opcionales (se inyectan si existen en el entorno host)
       OPENAI_API_KEY: ${OPENAI_API_KEY-}
       AMADEUS_API_KEY: ${AMADEUS_API_KEY-}
       AMADEUS_API_SECRET: ${AMADEUS_API_SECRET-}
       WEATHER_API_KEY: ${WEATHER_API_KEY-}
 
-      # URLs de los MCP via red de Docker
+      # 🌐 URLs internas (dentro de Docker)
       MCP_DESTINATION_URL: http://destinations:8773
-      MCP_FLIGHT_URL:      http://flights:8771
-      MCP_HOTEL_URL:       http://hotels:8772
+      MCP_FLIGHT_URL: http://flights:8771
+      MCP_HOTEL_URL: http://hotels:8772
+      CALC_SERVER_URL: http://calc:8770
       MCP_TIMEOUT_SECONDS: "60"
-    ports: ["8000:8000"]
+
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/data:/app/data
+    networks:
+      - multiagent_net
     restart: unless-stopped
 
+  # ====================================================
+  # 💬 Frontend - Next.js 15
+  # ====================================================
   frontend:
     build:
       context: .
       dockerfile: Dockerfile.frontend
     depends_on:
-      backend: { condition: service_started }
-    ports: ["3000:3000"]
+      backend:
+        condition: service_started
+    environment:
+      NEXT_PUBLIC_API_URL: http://backend:8000
+    ports:
+      - "3000:3000"
+    networks:
+      - multiagent_net
     restart: unless-stopped
+
+# ====================================================
+# 🌐 Red interna entre contenedores
+# ====================================================
+networks:
+  multiagent_net:
+    driver: bridge

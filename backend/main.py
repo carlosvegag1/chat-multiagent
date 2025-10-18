@@ -8,6 +8,8 @@ from datetime import datetime
 from fastapi import FastAPI, UploadFile, File, Form, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Dict, Any
+from pathlib import Path
+import whisper  # 👈 NUEVO: importamos Whisper
 
 from app.core.orchestrator.orchestrator import Orchestrator
 from app.core.schemas import StructuredChatResponse, Message, Conversation, StructuredReply
@@ -20,7 +22,7 @@ ALLOWED_ORIGINS = ["http://localhost:3000", "http://127.0.0.1:3000"]
 DATA_BASE_DIR = os.path.join(os.path.dirname(__file__), "data", "v2")
 CONVOS_DIR = os.path.join(DATA_BASE_DIR, "convos")
 USERS_DIR = os.path.join(DATA_BASE_DIR, "users")
-UPLOADS_DIR = os.path.join(DATA_BASE_DIR, "uploads") # Directorio para subidas de audio
+UPLOADS_DIR = os.path.join(DATA_BASE_DIR, "uploads")  # Directorio para subidas de audio
 
 os.makedirs(CONVOS_DIR, exist_ok=True)
 os.makedirs(USERS_DIR, exist_ok=True)
@@ -141,27 +143,34 @@ async def chat_text(message: str = Form(...), convo_id: str = Form(...), user: s
     )
 
 # ---------------------------
-# ENDPOINT DE AUDIO (V2 - Robusto y Consistente)
+# ENDPOINT DE AUDIO (V2 - Actualizado con Whisper real)
 # ---------------------------
+# Cargamos el modelo Whisper una sola vez (optimización)
+whisper_model = whisper.load_model("base")
+
 @app.post("/chat/audio", response_model=StructuredChatResponse)
 async def chat_audio(file: UploadFile = File(...), convo_id: str = Form(...), user: str = Form(...)):
-    suffix = os.path.splitext(file.filename)[1] or ".wav"
+    suffix = Path(file.filename).suffix or ".wav"
     with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
         tmp.write(await file.read())
         tmp_path = tmp.name
-    
-    # Aquí iría la lógica real de transcripción (e.g., con Whisper)
-    # transcription = await transcribe_audio(tmp_path)
-    transcription = "(Transcripción simulada: 'planifica un viaje a Roma')"
-    os.remove(tmp_path) # Limpiamos el fichero temporal
 
-    # ✅ COHERENCIA: Usamos la misma lógica que en el endpoint /chat/
+    try:
+        # 🔊 Transcripción real con Whisper
+        result = whisper_model.transcribe(tmp_path)
+        transcription = result["text"].strip()
+    except Exception as e:
+        transcription = f"(Error en transcripción: {e})"
+    finally:
+        os.remove(tmp_path)
+
+    # ✅ Misma lógica que el endpoint /chat/
     user_message = Message(role="user", text=transcription)
     save_structured_message(convo_id, user_message, user)
 
     result = await orchestrator.handle(user, convo_id, transcription)
-    
     structured_data_obj = StructuredReply(**result.get("structured_data", {})) if result.get("structured_data") else None
+
     bot_message = Message(
         role="bot",
         text=str(result.get("reply_text", "")),
@@ -180,4 +189,4 @@ async def chat_audio(file: UploadFile = File(...), convo_id: str = Form(...), us
 # ---------------------------
 @app.get("/")
 def root():
-    return {"message": "🚀 Backend del Chat Multiagente operativo (API Estructurada V2)"}
+    return {"message": "🚀 Backend del Chat Multiagente operativo (API Estructurada V2 con Whisper activo)"}
