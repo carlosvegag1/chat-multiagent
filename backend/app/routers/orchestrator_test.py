@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+﻿from fastapi import APIRouter
 from app.core.orchestrator.orchestrator import Orchestrator
 import os, asyncio
 
@@ -11,3 +11,4 @@ async def orchestrate(user_id: str = "carlos", conversation_id: str = "demo1", m
     orchestrator = Orchestrator(openai_api_key=OPENAI_KEY)
     result = await orchestrator.handle(user_id, conversation_id, message)
     return result
+

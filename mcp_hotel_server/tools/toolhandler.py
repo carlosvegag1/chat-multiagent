@@ -112,11 +112,11 @@ def search_hotels(args: HotelSearchArgs) -> Dict[str, Any]:
 def list_tools():
     return [{"name": "hotel.search_hotels", "description": "Busca hoteles por ciudad para un número de huéspedes.", "parameters": HotelSearchArgs.schema()}]
 
-def call_tool(name: str, args: dict):
-    if name == "hotel.search_hotels":
+def call_tool(tool_name: str, args: dict):
+    if tool_name == "hotel.search_hotels":
         try:
             parsed_args = HotelSearchArgs(**args)
             return search_hotels(parsed_args)
         except Exception as e:
             return {"hotels": [], "error": f"Argumentos inválidos: {e}"}
-    return {"error": f"Herramienta desconocida: {name}"}
+    return {"error": f"Herramienta desconocida: {tool_name}"}

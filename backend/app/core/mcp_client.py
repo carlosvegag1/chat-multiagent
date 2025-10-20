@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 import json
 import os
 import subprocess
@@ -12,10 +12,10 @@ class MCPClientError(Exception):
 
 class MCPClient:
     """
-    Cliente genérico para invocar herramientas MCP desde el backend.
+    Cliente genÃ©rico para invocar herramientas MCP desde el backend.
     Soporta tres transportes:
       - HTTP:    endpoint REST/bridge que expone tools.invoke
-      - WS:      (pendiente de ampliar) – placeholder
+      - WS:      (pendiente de ampliar) â€“ placeholder
       - STDIO:   proceso local `server --stdio` (JSON-RPC)
     """
     def __init__(self, transport: str = "HTTP", timeout: int = 30):
@@ -38,8 +38,8 @@ class MCPClient:
     # =======================
     def _invoke_stdio(self, command: str, args: Optional[list[str]] = None, payload: Dict[str, Any] = None) -> Dict[str, Any]:
         """
-        Lanza un binario MCP con --stdio y le envía un request JSON-RPC.
-        NOTA: Esto es un shell mínimo. Para producción, usa un cliente MCP completo.
+        Lanza un binario MCP con --stdio y le envÃ­a un request JSON-RPC.
+        NOTA: Esto es un shell mÃ­nimo. Para producciÃ³n, usa un cliente MCP completo.
         """
         if args is None:
             args = []
@@ -65,21 +65,21 @@ class MCPClient:
                 # Muchos servidores sacan logs por stderr; solo levantamos si hay "error"
                 if "error" in stderr.lower():
                     raise MCPClientError(stderr.strip())
-            # El server suele devolver múltiples líneas; tomamos la última JSON válida
+            # El server suele devolver mÃºltiples lÃ­neas; tomamos la Ãºltima JSON vÃ¡lida
             last_line = None
             for line in stdout.splitlines():
                 line = line.strip()
                 if line.startswith("{") and line.endswith("}"):
                     last_line = line
             if not last_line:
-                raise MCPClientError("Respuesta STDIO vacía o no JSON.")
+                raise MCPClientError("Respuesta STDIO vacÃ­a o no JSON.")
             return json.loads(last_line)
         except Exception as e:
             proc.kill()
             raise MCPClientError(f"[MCP STDIO] Error: {e}")
 
     # =======================
-    # API pública
+    # API pÃºblica
     # =======================
     def invoke_tool(self, *, endpoint: str | None = None, payload: Dict[str, Any], stdio_cmd: str | None = None, stdio_args: Optional[list[str]] = None) -> Dict[str, Any]:
         if self.transport == "HTTP":
@@ -92,3 +92,4 @@ class MCPClient:
             return self._invoke_stdio(stdio_cmd, stdio_args or [], payload)
         else:
             raise MCPClientError(f"Transporte MCP no soportado: {self.transport}")
+

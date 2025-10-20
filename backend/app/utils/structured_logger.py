@@ -1,4 +1,4 @@
-# backend/app/utils/structured_logger.py
+﻿# backend/app/utils/structured_logger.py
 import logging
 import sys
 from typing import Optional
@@ -7,7 +7,7 @@ from typing import Optional
 LOG_FORMAT = "%(levelname)s | %(intent)s | %(tool)s | %(summary)s | %(message)s"
 
 class StructuredLoggerAdapter(logging.LoggerAdapter):
-    """Adaptador para añadir campos estructurados al log."""
+    """Adaptador para aÃ±adir campos estructurados al log."""
     def process(self, msg, kwargs):
         extra = kwargs.get("extra", {})
         # Establece valores por defecto si no se proporcionan
@@ -22,7 +22,7 @@ def setup_logger() -> logging.LoggerAdapter:
     """Configura y devuelve un logger con formato estructurado."""
     logger = logging.getLogger("MultiAgentSystem")
     
-    # Evita añadir manejadores duplicados si ya está configurado
+    # Evita aÃ±adir manejadores duplicados si ya estÃ¡ configurado
     if not logger.handlers:
         logger.setLevel(logging.INFO)
         handler = logging.StreamHandler(sys.stdout)
@@ -44,5 +44,5 @@ def setup_logger() -> logging.LoggerAdapter:
     
     return adapter
 
-# Instancia global para ser importada por otros módulos
+# Instancia global para ser importada por otros mÃ³dulos
 log = setup_logger()

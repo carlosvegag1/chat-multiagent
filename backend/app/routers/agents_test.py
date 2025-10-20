@@ -1,4 +1,4 @@
-# app/routers/agents_test.py
+﻿# app/routers/agents_test.py
 from __future__ import annotations
 from fastapi import APIRouter, Query
 from typing import Optional, List, Dict, Any
@@ -25,7 +25,7 @@ async def test_destination(city: str = Query(...)):
     agent = DestinationAgent()
     return await agent.query(city=city)
 
-# 💰 Calc: permite probar MCP calc con payloads mínimos y ver fallback del orquestador si se desea
+# ðŸ’° Calc: permite probar MCP calc con payloads mÃ­nimos y ver fallback del orquestador si se desea
 @router.get("/calc")
 async def test_calc(
     flight_prices: Optional[str] = Query(None, description="Lista CSV de precios de vuelos, ej: '40.5,55,120'"),
@@ -50,3 +50,4 @@ def clean_memory(user: str = Query("Carlos")):
         return {"status": "ok", "message": f"Travel log de {user} limpiado correctamente.", "summary": summary}
     except Exception as e:
         return {"status": "error", "message": f"Error al limpiar travel log: {str(e)}"}
+

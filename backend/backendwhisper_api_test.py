@@ -1,8 +1,8 @@
-# backend/whisper_api_test.py
+﻿# backend/whisper_api_test.py
 """
-Prueba mínima y segura de la API de Whisper (OpenAI).
+Prueba mÃ­nima y segura de la API de Whisper (OpenAI).
 Ejecuta: python backend/whisper_api_test.py
-Asegúrate de tener backend/.env con OPENAI_API_KEY=sk-...
+AsegÃºrate de tener backend/.env con OPENAI_API_KEY=sk-...
 """
 
 import os
@@ -31,9 +31,10 @@ if __name__ == "__main__":
     # Usa un fichero corto para la prueba, p.ej. test.wav (<= 15s), para minimizar coste.
     test_file = "test.wav"
     if not os.path.exists(test_file):
-        print(f"Falta {test_file}. Genera o copia un WAV corto en la raíz (<= 25MB recomendado).")
+        print(f"Falta {test_file}. Genera o copia un WAV corto en la raÃ­z (<= 25MB recomendado).")
     else:
         print("Transcribiendo", test_file)
         txt = transcribe_local_file(test_file)
-        print("Transcripción resultante:")
+        print("TranscripciÃ³n resultante:")
         print(txt)
+

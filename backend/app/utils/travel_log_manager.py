@@ -1,4 +1,4 @@
-# backend/app/utils/travel_log_manager.py
+﻿# backend/app/utils/travel_log_manager.py
 from __future__ import annotations
 import json, os, re, unicodedata
 from datetime import datetime, date
@@ -7,15 +7,15 @@ from app.utils.structured_logger import log
 
 ISO_FMT = "%Y-%m-%dT%H:%M:%S.%fZ"
 
-# --- NORMALIZACIÓN CIUDAD/IATA (CACHÉ DINÁMICA) ---
+# --- NORMALIZACIÃ“N CIUDAD/IATA (CACHÃ‰ DINÃMICA) ---
 IATA_TO_CITY = {
-    "MAD": "Madrid", "BCN": "Barcelona", "PAR": "París", "LON": "Londres",
+    "MAD": "Madrid", "BCN": "Barcelona", "PAR": "ParÃ­s", "LON": "Londres",
     "ROM": "Roma", "NYC": "Nueva York", "TYO": "Tokio"
 }
 
 CITY_ALIASES = {
     "madrid": ("Madrid", "MAD"), "barcelona": ("Barcelona", "BCN"),
-    "paris": ("París", "PAR"), "parís": ("París", "PAR"),
+    "paris": ("ParÃ­s", "PAR"), "parÃ­s": ("ParÃ­s", "PAR"),
     "londres": ("Londres", "LON"), "london": ("Londres", "LON"),
     "roma": ("Roma", "ROM"), "rome": ("Roma", "ROM"),
     "nueva york": ("Nueva York", "NYC"), "new york": ("Nueva York", "NYC"),
@@ -27,7 +27,7 @@ def _strip_accents(s: str) -> str:
 
 def add_city_to_cache(city_name: str, iata_code: str):
     """
-    Añade una nueva correspondencia ciudad-IATA a la caché en memoria para futuras consultas.
+    AÃ±ade una nueva correspondencia ciudad-IATA a la cachÃ© en memoria para futuras consultas.
     """
     if not city_name or not iata_code or len(iata_code) != 3:
         return
@@ -39,11 +39,11 @@ def add_city_to_cache(city_name: str, iata_code: str):
     if alias_key not in CITY_ALIASES:
         CITY_ALIASES[alias_key] = (city_clean, iata_upper)
         IATA_TO_CITY[iata_upper] = city_clean
-        log.info(f"Caché de ciudades actualizada: '{city_clean}' -> '{iata_upper}'", extra={"summary": "CACHE_UPDATE"})
+        log.info(f"CachÃ© de ciudades actualizada: '{city_clean}' -> '{iata_upper}'", extra={"summary": "CACHE_UPDATE"})
 
 def normalize_city(query: Optional[str]) -> Tuple[str, Optional[str]]:
     """
-    Busca en la caché local el nombre canónico y el IATA de una ciudad.
+    Busca en la cachÃ© local el nombre canÃ³nico y el IATA de una ciudad.
     Si no lo encuentra, devuelve el nombre capitalizado y None como IATA.
     """
     if not query:
@@ -68,7 +68,7 @@ def normalize_city(query: Optional[str]) -> Tuple[str, Optional[str]]:
 # ------------------ IO helpers ------------------
 
 def _user_dir(base: str, user: str) -> str:
-    # Corrección para asegurar que la ruta base 'backend' no se duplique
+    # CorrecciÃ³n para asegurar que la ruta base 'backend' no se duplique
     if os.path.basename(base) == 'backend':
         return os.path.join(os.path.dirname(base), "data", "v2", "users", user)
     return os.path.join(base, "data", "v2", "users", user)
@@ -136,7 +136,7 @@ def _compute_trip_range_from_segments(segments: List[Dict[str, Any]]) -> Tuple[O
 
 def auto_title(dest_or_hint: str, start_date: Optional[str], end_date: Optional[str]) -> str:
     if start_date and end_date:
-        return f"{dest_or_hint.title()} ({start_date} → {end_date})"
+        return f"{dest_or_hint.title()} ({start_date} â†’ {end_date})"
     if start_date:
         return f"{dest_or_hint.title()} ({start_date})"
     return dest_or_hint.title()
@@ -153,7 +153,7 @@ def clean_travel_log(base: str, user: str, drop_empty: bool = True, full_reset: 
         new_data = {"user_id": user, "created_at": datetime.utcnow().isoformat(), "trips": []}
         with open(path, "w", encoding="utf-8") as f: json.dump(new_data, f, ensure_ascii=False, indent=2)
         print(f"[CleanTravelLog] Todos los viajes de '{user}' han sido eliminados (modo total).")
-        return {"status": "ok", "message": f"🧹 Todos los viajes de {user} han sido eliminados.", "summary": {"removed": "ALL"}}
+        return {"status": "ok", "message": f"ðŸ§¹ Todos los viajes de {user} han sido eliminados.", "summary": {"removed": "ALL"}}
 
     data = load_travel_log(base, user)
     trips = data.get("trips", [])
@@ -188,7 +188,7 @@ def clean_travel_log(base: str, user: str, drop_empty: bool = True, full_reset: 
     print(f"[CleanTravelLog] {user}: removed={removed}, duplicates={duplicates}, fixed={fixed}, total={len(cleaned)}")
     return {"status": "ok", "message": f"Limpieza ejecutada para {user}.", "summary": summary}
 
-# ------------------ CREACIÓN / REUSO DE VIAJES ------------------
+# ------------------ CREACIÃ“N / REUSO DE VIAJES ------------------
 
 def create_or_get_trip(base: str, user: str, title_hint: str, start_date: Optional[str], end_date: Optional[str]) -> Dict[str, Any]:
     data = load_travel_log(base, user)
@@ -213,7 +213,7 @@ def create_or_get_trip(base: str, user: str, title_hint: str, start_date: Option
     save_travel_log(base, user, data)
     return trip
 
-# ------------------ GESTIÓN DE SEGMENTOS Y DATOS ------------------
+# ------------------ GESTIÃ“N DE SEGMENTOS Y DATOS ------------------
 
 def add_segment(base: str, user: str, trip_id: str, segment: Dict[str, Any], agent_name: Optional[str] = None) -> Dict[str, Any]:
     data = load_travel_log(base, user)
@@ -245,7 +245,7 @@ def set_trip_budget(base: str, user: str, trip_id: str, budget_value: float) -> 
         if t.get("trip_id") == trip_id:
             t["budget"] = budget_value; t["budget_updated_at"] = _now_iso(); updated = t; break
     if updated: save_travel_log(base, user, data); print(f"[TravelLog] Presupuesto actualizado para {trip_id}: {budget_value} EUR"); return updated
-    else: print(f"[TravelLog] No se encontró el viaje {trip_id} para asignar presupuesto."); return {}
+    else: print(f"[TravelLog] No se encontrÃ³ el viaje {trip_id} para asignar presupuesto."); return {}
 
 def set_trip_destination_info(base: str, user: str, trip_id: str, summary: str, pois: list, plan_sugerido: list) -> Dict[str, Any]:
     data = load_travel_log(base, user)
@@ -264,5 +264,5 @@ def set_trip_destination_info(base: str, user: str, trip_id: str, summary: str, 
         log.info(f"Info de destino guardada para {trip_id} ({len(pois)} POIs).", extra={"summary": "LOG_DEST_SAVE"})
         return updated
     else:
-        log.warning(f"No se encontró el viaje {trip_id} para guardar destino.", extra={"summary": "LOG_DEST_FAIL"})
+        log.warning(f"No se encontrÃ³ el viaje {trip_id} para guardar destino.", extra={"summary": "LOG_DEST_FAIL"})
         return {}

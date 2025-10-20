@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 from typing import Dict, Any, List, Optional
 from openai import AsyncOpenAI
 from datetime import datetime, timedelta
@@ -48,21 +48,21 @@ class Orchestrator:
                 json.dump({"user_id": user_id, "created_at": datetime.now().isoformat(), "trips": []}, f, indent=2)
 
     async def _geo_normalize(self, location: str) -> str:
-        prompt = (f"Un usuario quiere planificar un viaje a '{location}'. Para buscar vuelos y hoteles, ¿cuál es la ciudad principal y más práctica, "
+        prompt = (f"Un usuario quiere planificar un viaje a '{location}'. Para buscar vuelos y hoteles, Â¿cuÃ¡l es la ciudad principal y mÃ¡s prÃ¡ctica, "
                   f"que probablemente tenga un aeropuerto internacional (IATA)? Responde solo con el nombre de la ciudad. "
-                  f"Ejemplos:\n- 'Provenza' -> 'Marsella'\n- 'Toscana' -> 'Florencia'\n- 'Costa Amalfitana' -> 'Nápoles'")
+                  f"Ejemplos:\n- 'Provenza' -> 'Marsella'\n- 'Toscana' -> 'Florencia'\n- 'Costa Amalfitana' -> 'NÃ¡poles'")
         try:
             completion = await self.client.chat.completions.create(model="gpt-4o-mini", messages=[{"role": "user", "content": prompt}], temperature=0.0)
             city = completion.choices[0].message.content.strip().replace(".", "")
-            log.info(f"Geo-normalización inteligente: '{location}' -> '{city}'", extra={"summary": "GEO_NORM_SMART"})
+            log.info(f"Geo-normalizaciÃ³n inteligente: '{location}' -> '{city}'", extra={"summary": "GEO_NORM_SMART"})
             return city
         except Exception:
             return location
     
     async def _find_iata_dynamically(self, city_name: str) -> Optional[str]:
-        prompt = (f"¿Cuál es el principal código de aeropuerto IATA de 3 letras para la ciudad de '{city_name}'? "
-                  "Responde únicamente con el código de 3 letras. Si no estás seguro o no existe, responde 'N/A'.\n"
-                  "Ejemplos:\n- 'Cusco' -> 'CUZ'\n- 'Marrakech' -> 'RAK'\n- 'Zanzíbar' -> 'ZNZ'")
+        prompt = (f"Â¿CuÃ¡l es el principal cÃ³digo de aeropuerto IATA de 3 letras para la ciudad de '{city_name}'? "
+                  "Responde Ãºnicamente con el cÃ³digo de 3 letras. Si no estÃ¡s seguro o no existe, responde 'N/A'.\n"
+                  "Ejemplos:\n- 'Cusco' -> 'CUZ'\n- 'Marrakech' -> 'RAK'\n- 'ZanzÃ­bar' -> 'ZNZ'")
         try:
             completion = await self.client.chat.completions.create(
                 model="gpt-4o-mini", messages=[{"role": "user", "content": prompt}], temperature=0.0
@@ -72,7 +72,7 @@ class Orchestrator:
                 return code
             return None
         except Exception as e:
-            log.error(f"Error al buscar IATA dinámicamente para '{city_name}': {e}", extra={"summary": "IATA_FIND_FAIL"})
+            log.error(f"Error al buscar IATA dinÃ¡micamente para '{city_name}': {e}", extra={"summary": "IATA_FIND_FAIL"})
             return None
 
     async def handle(self, user_id: str, conversation_id: str, message: str) -> Dict[str, Any]:
@@ -94,7 +94,7 @@ class Orchestrator:
             final_entities = pending_intent.get("entities", {})
             final_entities.update(entities)
             entities = final_entities
-            log.info(f"BLINDAJE DE CLARIFICACIÓN: Intención forzada a '{intent}'.", extra={"summary": "CLARIFICATION_SHIELD_APPLIED"})
+            log.info(f"BLINDAJE DE CLARIFICACIÃ“N: IntenciÃ³n forzada a '{intent}'.", extra={"summary": "CLARIFICATION_SHIELD_APPLIED"})
 
         if "city" not in entities and "last_city" in context_for_norm:
             entities["city"] = context_for_norm["last_city"]
@@ -105,9 +105,9 @@ class Orchestrator:
             if not is_iata:
                 entities["city"] = await self._geo_normalize(original)
 
-        log.info(f"Intención final: {intent}, Entidades: {entities}", extra={"intent": intent})
+        log.info(f"IntenciÃ³n final: {intent}, Entidades: {entities}", extra={"intent": intent})
 
-        # --- Lógica de Despacho Principal ---
+        # --- LÃ³gica de Despacho Principal ---
         search_intents = ["PLAN_TRIP", "SEARCH_FLIGHTS", "SEARCH_HOTELS", "GET_DESTINATION_INFO"]
         memory_intents = ["LIST_TRIPS", "SHIFT_TRIP", "EXTEND_TRIP", "SHORTEN_TRIP", "DELETE_TRIP"]
 
@@ -118,7 +118,7 @@ class Orchestrator:
             if not entities.get("city"):
                 return self._end_conversation(
                     user_id, conversation_id, message,
-                    "No he entendido a qué destino te refieres. ¿Podrías indicármelo?",
+                    "No he entendido a quÃ© destino te refieres. Â¿PodrÃ­as indicÃ¡rmelo?",
                     "ERROR_NO_CITY", entities
                 )
             result_data, agents_called = await self._dispatch_and_gather_tasks(intent, entities)
@@ -128,7 +128,7 @@ class Orchestrator:
             agents_called = [intent.lower()]
         
         else:  # UNKNOWN o intenciones no manejadas
-            reply_text = "No he entendido bien tu petición. Puedo planificar viajes, buscar vuelos u hoteles, y darte información sobre destinos."
+            reply_text = "No he entendido bien tu peticiÃ³n. Puedo planificar viajes, buscar vuelos u hoteles, y darte informaciÃ³n sobre destinos."
             return self._end_conversation(user_id, conversation_id, message, reply_text, intent, entities)
 
         structured_reply, reply_text = self._summarize(user_id, intent, entities, result_data)
@@ -152,11 +152,11 @@ class Orchestrator:
             "reply_text": reply_text, "agents_called": tool or []
         }
 
-    # --- ✅ NUEVO CEREBRO MODULAR ---
+    # --- âœ… NUEVO CEREBRO MODULAR ---
     async def _dispatch_and_gather_tasks(self, intent: str, entities: Dict[str, Any]) -> tuple[Dict[str, Any], List[str]]:
         city_norm, iata_norm = normalize_city(entities.get("city", ""))
         if not iata_norm:
-            log.info(f"IATA para '{city_norm}' no en caché. Buscando dinámicamente...", extra={"summary": "IATA_CACHE_MISS"})
+            log.info(f"IATA para '{city_norm}' no en cachÃ©. Buscando dinÃ¡micamente...", extra={"summary": "IATA_CACHE_MISS"})
             iata_norm = await self._find_iata_dynamically(city_norm)
             if iata_norm:
                 add_city_to_cache(city_norm, iata_norm)
@@ -174,7 +174,7 @@ class Orchestrator:
         tasks = []
         agents_to_call: List[str] = []
         
-        # Construir lista de tareas basadas en la intención
+        # Construir lista de tareas basadas en la intenciÃ³n
         if intent in ["PLAN_TRIP", "SEARCH_FLIGHTS"]:
             tasks.append(self.flight_agent.query(origin=DEFAULT_ORIGIN_IATA, destination=destination_query, date=checkin, adults=adults))
             agents_to_call.append("flight")
@@ -233,7 +233,7 @@ class Orchestrator:
         }
         handler = tool_map.get(intent)
         if not handler:
-            return {"error": f"Operación de memoria no implementada: {intent}"}
+            return {"error": f"OperaciÃ³n de memoria no implementada: {intent}"}
 
         # Construir argumentos para el handler
         handler_args = [user_id, city_arg] if city_arg else [user_id]
@@ -246,27 +246,27 @@ class Orchestrator:
         
         return handler(*handler_args)
 
-    # --- ✅ FUNCIÓN DE RESUMEN MODULARIZADA ---
+    # --- âœ… FUNCIÃ“N DE RESUMEN MODULARIZADA ---
     def _summarize(self, user_id: str, intent: str, args: Dict[str, Any], result: Dict[str, Any]) -> tuple[Dict[str, Any], str]:
         if "error" in result and result["error"] and intent not in ["PLAN_TRIP", "SEARCH_FLIGHTS", "SEARCH_HOTELS"]:
-            return {"error": result['error']}, f"⚠️ Hubo un problema: {result['error']}"
+            return {"error": result['error']}, f"âš ï¸ Hubo un problema: {result['error']}"
 
         if intent in ["LIST_TRIPS", "SHIFT_TRIP", "EXTEND_TRIP", "SHORTEN_TRIP", "DELETE_TRIP"]:
-            return {}, result.get("summary", "Operación completada.")
+            return {}, result.get("summary", "OperaciÃ³n completada.")
 
-        # Para intenciones de búsqueda y planificación
+        # Para intenciones de bÃºsqueda y planificaciÃ³n
         city = result.get("city", "Destino")
         
-        # Lógica para construir el texto de respuesta
+        # LÃ³gica para construir el texto de respuesta
         reply_text = ""
         if intent == "SEARCH_FLIGHTS":
-            reply_text = f"Aquí tienes los vuelos que encontré para **{city}**:"
+            reply_text = f"AquÃ­ tienes los vuelos que encontrÃ© para **{city}**:"
         elif intent == "SEARCH_HOTELS":
             reply_text = f"Estos son los hoteles disponibles en **{city}**:"
         elif intent == "GET_DESTINATION_INFO":
-            reply_text = f"Esto es lo que sé sobre **{city}**:"
+            reply_text = f"Esto es lo que sÃ© sobre **{city}**:"
         else:
-            reply_text = f"Aquí tienes tu plan para **{city}**."
+            reply_text = f"AquÃ­ tienes tu plan para **{city}**."
 
         # Guardar en el log de viaje solo si es un plan completo
         if intent == "PLAN_TRIP":
@@ -290,7 +290,7 @@ class Orchestrator:
             "budget": BudgetInfo(total=result.get("budget")).model_dump() if result.get("budget") is not None else None
         }
 
-        # Añadir notas de error si algún agente falló
+        # AÃ±adir notas de error si algÃºn agente fallÃ³
         errors = [v.get("error") for k, v in result.items() if isinstance(v, dict) and "error" in v]
         if errors:
             error_note = "\n\n**Nota:** " + " y ".join(errors)
@@ -298,3 +298,4 @@ class Orchestrator:
             structured_data["error"] = error_note
 
         return structured_data, reply_text
+

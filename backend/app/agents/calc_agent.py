@@ -1,4 +1,4 @@
-from typing import Dict, Any, List, Optional
+﻿from typing import Dict, Any, List, Optional
 from datetime import datetime
 
 DEFAULT_NIGHTLY_EUR = float(110.0)  # Coste por defecto por noche
@@ -19,7 +19,7 @@ class CalcAgent:
             return None
 
     def _get_min_flight_price(self, flights: List[Dict[str, Any]]) -> float:
-        """Encuentra el precio mínimo de una lista de vuelos."""
+        """Encuentra el precio mÃ­nimo de una lista de vuelos."""
         min_price = float('inf')
         found = False
         for f in flights:
@@ -31,7 +31,7 @@ class CalcAgent:
 
     def _estimate_hotel_cost(self, hotels: List[Dict[str, Any]], checkin: Optional[str], checkout: Optional[str]) -> float:
         """Estima el coste total del hotel."""
-        # Opción 1: Si los hoteles ya traen un precio total, usar el más barato
+        # OpciÃ³n 1: Si los hoteles ya traen un precio total, usar el mÃ¡s barato
         min_hotel_price = float('inf')
         found_price = False
         for h in hotels:
@@ -43,7 +43,7 @@ class CalcAgent:
         if found_price:
             return min_hotel_price
 
-        # Opción 2: Si no hay precios, estimar por número de noches
+        # OpciÃ³n 2: Si no hay precios, estimar por nÃºmero de noches
         if checkin and checkout:
             try:
                 d1 = datetime.fromisoformat(checkin)
@@ -63,18 +63,18 @@ class CalcAgent:
         checkin: Optional[str] = None,
         checkout: Optional[str] = None,
         adults: Optional[int] = None,
-        **kwargs: Any,  # <-- ignora parámetros futuros sin romper
+        **kwargs: Any,  # <-- ignora parÃ¡metros futuros sin romper
     ) -> Dict[str, Any]:
         """
         Calcula el presupuesto total estimado.
-        Se basa en el vuelo más barato y el coste total de hotel.
-        'adults' es aceptado por compatibilidad pero no altera el cálculo.
+        Se basa en el vuelo mÃ¡s barato y el coste total de hotel.
+        'adults' es aceptado por compatibilidad pero no altera el cÃ¡lculo.
         """
         try:
             flight_list = flights.get("flights", []) if isinstance(flights, dict) else (flights or [])
             hotel_list = hotels.get("hotels", []) if isinstance(hotels, dict) else (hotels or [])
 
-            # Calcular coste de vuelos (el más barato)
+            # Calcular coste de vuelos (el mÃ¡s barato)
             flight_cost = self._get_min_flight_price(flight_list)
 
             # Calcular coste de hotel
@@ -94,3 +94,4 @@ class CalcAgent:
         except Exception as e:
             print(f"[CalcAgent] Error en query(): {e}")
             return {"total_eur": "N/A", "error": str(e)}
+

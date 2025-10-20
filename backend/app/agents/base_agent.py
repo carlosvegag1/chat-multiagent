@@ -1,4 +1,4 @@
-# app/agents/base_agent.py
+﻿# app/agents/base_agent.py
 from __future__ import annotations
 import os
 import json
@@ -7,8 +7,8 @@ from typing import Any, Dict, Optional
 
 class BaseAgent:
     """
-    Base para agentes MCP vía HTTP JSON-RPC 2.0.
-    Convención: el endpoint expone POST /messages que recibe el payload JSON-RPC.
+    Base para agentes MCP vÃ­a HTTP JSON-RPC 2.0.
+    ConvenciÃ³n: el endpoint expone POST /messages que recibe el payload JSON-RPC.
     """
 
     def __init__(self, name: str, endpoint: str, timeout: Optional[float] = None) -> None:
@@ -50,3 +50,4 @@ class BaseAgent:
                 return data
         except Exception as e:
             return {"error": f"{self.name} call failed: {e}"}
+

@@ -1,4 +1,4 @@
-# tests/test_orchestrator_no_weather.py
+﻿# tests/test_orchestrator_no_weather.py
 import pytest
 import asyncio
 import os
@@ -48,3 +48,4 @@ async def test_weather_disabled():
     orch = Orchestrator(openai_api_key=settings.OPENAI_API_KEY or "dummy-key")
     result = await orch._dispatch_agent("get_current_weather", {"city": "Lisbon"})
     assert "WeatherAgent desactivado" in result["summary"]
+

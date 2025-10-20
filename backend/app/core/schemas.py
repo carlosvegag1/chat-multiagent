@@ -1,11 +1,11 @@
-# backend/app/core/schemas.py
+﻿# backend/app/core/schemas.py
 from typing import List, Optional, Literal, Any
 from pydantic import BaseModel, Field, field_validator
 from datetime import datetime
 import json
 import time
 
-# --- ✅ Modelos de Datos Enriquecidos ---
+# --- âœ… Modelos de Datos Enriquecidos ---
 
 class FlightInfo(BaseModel):
     airline: Optional[str] = None
@@ -23,8 +23,8 @@ class HotelInfo(BaseModel):
     name: Optional[str] = None
     hotelId: Optional[str] = None
     rating: Optional[int] = None
-    address: Optional[str] = None # Dirección simplificada a un string
-    price_per_night: Optional[float] = None # Mantenido para el cálculo de presupuesto
+    address: Optional[str] = None # DirecciÃ³n simplificada a un string
+    price_per_night: Optional[float] = None # Mantenido para el cÃ¡lculo de presupuesto
     currency: str = "EUR"
 
 class POIInfo(BaseModel):

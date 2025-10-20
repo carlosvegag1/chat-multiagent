@@ -1,23 +1,23 @@
-import os
+﻿import os
 import aiohttp
 import asyncio
 from app.utils.structured_logger import log
 
 def _running_in_docker() -> bool:
-    # Heurística estándar
+    # HeurÃ­stica estÃ¡ndar
     return os.path.exists("/.dockerenv") or os.getenv("RUNNING_IN_DOCKER") == "1"
 
 class DestinationAgent:
-    """📍 Agente MCP de destinos turísticos (Cliente)."""
+    """ðŸ“ Agente MCP de destinos turÃ­sticos (Cliente)."""
 
     def __init__(self):
-        # Default según entorno
-        default_url = "http://destinations:8773" if _running_in_docker() else "http://127.0.0.1:8773"
+        # Default segÃºn entorno
+        default_url = "http://mcp_destination_server:8773" if _running_in_docker() else "http://127.0.0.1:8773"
         base_url = os.getenv("MCP_DESTINATION_URL", default_url)
 
-        # Si corre en Docker y alguien dejó localhost/127.0.0.1, lo corregimos
+        # Si corre en Docker y alguien dejÃ³ localhost/127.0.0.1, lo corregimos
         if _running_in_docker() and ("127.0.0.1" in base_url or "localhost" in base_url):
-            base_url = "http://destinations:8773"
+            base_url = "http://mcp_destination_server:8773"
 
         self.base_url = base_url
 
@@ -72,7 +72,7 @@ class DestinationAgent:
 
                     result = data.get("result", {})
                     if not result:
-                        return self._fallback(city, "La respuesta del servidor de destinos estaba vacía.")
+                        return self._fallback(city, "La respuesta del servidor de destinos estaba vacÃ­a.")
 
                     return {
                         "summary": result.get("summary", f"Resumen no disponible para {city}."),
@@ -81,18 +81,19 @@ class DestinationAgent:
                     }
 
         except asyncio.TimeoutError:
-            return self._fallback(city, f"La solicitud al servidor de destinos tardó más de {self.timeout} segundos (Timeout).")
+            return self._fallback(city, f"La solicitud al servidor de destinos tardÃ³ mÃ¡s de {self.timeout} segundos (Timeout).")
         except Exception as e:
             return self._fallback(city, str(e))
 
     def _fallback(self, city: str, reason: str) -> dict:
         log.warning(
-            f"DestinationAgent activó fallback para '{city}'. Razón: {reason}",
+            f"DestinationAgent activÃ³ fallback para '{city}'. RazÃ³n: {reason}",
             extra={"summary": "DEST_AGENT_FALLBACK"}
         )
         return {
-            "error": f"No se pudo obtener la información del destino '{city}'. Razón: {reason}",
-            "summary": f"No se pudo obtener la información del destino '{city}'.",
+            "error": f"No se pudo obtener la informaciÃ³n del destino '{city}'. RazÃ³n: {reason}",
+            "summary": f"No se pudo obtener la informaciÃ³n del destino '{city}'.",
             "pois": [],
             "plan_sugerido": []
         }
+

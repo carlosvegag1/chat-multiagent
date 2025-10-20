@@ -1,11 +1,11 @@
-# backend/app/agents/travel_memory_agent.py
+﻿# backend/app/agents/travel_memory_agent.py
 import os
 from datetime import datetime, timedelta
 from typing import Dict, Any, List, Optional
 
 from app.utils.travel_log_manager import load_travel_log, save_travel_log
 
-# 🔻 NOTA: La línea que causaba el error (from app.agents.travel_memory_agent...) ha sido eliminada. 🔻
+# ðŸ”» NOTA: La lÃ­nea que causaba el error (from app.agents.travel_memory_agent...) ha sido eliminada. ðŸ”»
 
 def _norm(s: Optional[str]) -> str:
     return s.strip().lower() if s else ""
@@ -22,7 +22,7 @@ def _iso_date_only(dt: datetime) -> str:
     return dt.date().isoformat()
 
 class TravelMemoryAgent:
-    """🧠 Agente de memoria contextual de viajes (con respuestas enriquecidas)."""
+    """ðŸ§  Agente de memoria contextual de viajes (con respuestas enriquecidas)."""
 
     def __init__(self, data_path: str = "backend/data/v2/users"):
         self.data_path = data_path
@@ -45,32 +45,32 @@ class TravelMemoryAgent:
         try:
             log = load_travel_log("backend", user_id)
             trips = [t for t in log.get("trips", []) if t.get("status") != "cancelled"]
-            if not trips: return {"summary": "No tienes viajes registrados todavía."}
+            if not trips: return {"summary": "No tienes viajes registrados todavÃ­a."}
             
-            resumen = ["Aquí tienes un resumen de tus viajes:"]
+            resumen = ["AquÃ­ tienes un resumen de tus viajes:"]
             for t in sorted(trips, key=lambda x: x.get("start_date", "")):
-                city = t.get("city") or "¿Destino?"
+                city = t.get("city") or "Â¿Destino?"
                 start = self._fmt(t.get("start_date")) or "?"
                 end = self._fmt(t.get("end_date")) or start
                 budget = t.get("budget")
-                budget_txt = f" con un presupuesto de ~{budget:.0f}€" if budget is not None else ""
+                budget_txt = f" con un presupuesto de ~{budget:.0f}â‚¬" if budget is not None else ""
                 resumen.append(f"- **{city}**: del {start} al {end}{budget_txt}.")
             
             return {"summary": "\n".join(resumen)}
         except Exception as e:
-            return {"summary": f"⚠️ Error al listar viajes: {e}"}
+            return {"summary": f"âš ï¸ Error al listar viajes: {e}"}
 
     def _modify_stay(self, user_id: str, city: str, days_change: int) -> Dict[str, Any]:
         target_trip = self._find_target_trip(user_id, city)
         if not target_trip:
-            return {"summary": f"⚠️ No encontré un viaje a **{city or 'ese destino'}** para modificar."}
+            return {"summary": f"âš ï¸ No encontrÃ© un viaje a **{city or 'ese destino'}** para modificar."}
 
         start_date = _parse_dt(target_trip.get("start_date"))
         end_date = _parse_dt(target_trip.get("end_date") or target_trip.get("start_date"))
         new_end_date = end_date + timedelta(days=days_change)
         
         if new_end_date < start_date:
-            return {"summary": f"⚠️ No se puede acortar el viaje a **{target_trip['city']}** más allá de su fecha de inicio."}
+            return {"summary": f"âš ï¸ No se puede acortar el viaje a **{target_trip['city']}** mÃ¡s allÃ¡ de su fecha de inicio."}
 
         target_trip["end_date"] = _iso_date_only(new_end_date)
         
@@ -81,7 +81,7 @@ class TravelMemoryAgent:
         new_duration = (new_end_date - start_date).days
         action_word = "extendido" if days_change > 0 else "acortado"
         
-        summary = f"✅ Viaje a **{target_trip['city']}** {action_word}. Ahora dura **{new_duration} días**, del {self._fmt(_iso_date_only(start_date))} al {self._fmt(_iso_date_only(new_end_date))}."
+        summary = f"âœ… Viaje a **{target_trip['city']}** {action_word}. Ahora dura **{new_duration} dÃ­as**, del {self._fmt(_iso_date_only(start_date))} al {self._fmt(_iso_date_only(new_end_date))}."
         return {"summary": summary, "updated_trip": target_trip}
 
     def extend_stay(self, user_id: str, city: str, extra_days: int) -> Dict[str, Any]:
@@ -92,7 +92,7 @@ class TravelMemoryAgent:
 
     def shift_trip_dates(self, user_id: str, city: str, days_shift: int) -> Dict[str, Any]:
         target_trip = self._find_target_trip(user_id, city)
-        if not target_trip: return {"summary": f"⚠️ No encontré un viaje a **{city or 'ese destino'}**."}
+        if not target_trip: return {"summary": f"âš ï¸ No encontrÃ© un viaje a **{city or 'ese destino'}**."}
         
         new_dates = {}
         for key in ["start_date", "end_date"]:
@@ -106,7 +106,7 @@ class TravelMemoryAgent:
         log_data["trips"] = [target_trip if t.get("trip_id") == target_trip.get("trip_id") else t for t in log_data.get("trips", [])]
         save_travel_log("backend", user_id, log_data)
         
-        summary = f"✅ Fechas del viaje a **{target_trip['city']}** desplazadas. Nuevas fechas: del {self._fmt(new_dates.get('start_date'))} al {self._fmt(new_dates.get('end_date'))}."
+        summary = f"âœ… Fechas del viaje a **{target_trip['city']}** desplazadas. Nuevas fechas: del {self._fmt(new_dates.get('start_date'))} al {self._fmt(new_dates.get('end_date'))}."
         return {"summary": summary, "updated_trip": target_trip}
 
     def delete_trip(self, user_id: str, city: str) -> Dict[str, Any]:
@@ -118,16 +118,16 @@ class TravelMemoryAgent:
             if not trips: return {"summary": "No tienes viajes registrados."}
             log_data["trips"] = []
             save_travel_log("backend", user_id, log_data)
-            return {"summary": "🧹 Todos tus viajes han sido eliminados."}
+            return {"summary": "ðŸ§¹ Todos tus viajes han sido eliminados."}
         
         original_count = len(trips)
         new_trips = [t for t in trips if city_norm not in _norm(t.get("city", ""))]
         
-        if len(new_trips) == original_count: return {"summary": f"⚠️ No encontré un viaje a **{city}** para eliminar."}
+        if len(new_trips) == original_count: return {"summary": f"âš ï¸ No encontrÃ© un viaje a **{city}** para eliminar."}
         
         log_data["trips"] = new_trips
         save_travel_log("backend", user_id, log_data)
-        return {"summary": f"🗑️ Viaje a **{city}** eliminado correctamente."}
+        return {"summary": f"ðŸ—‘ï¸ Viaje a **{city}** eliminado correctamente."}
 
     @staticmethod
     def _fmt(s: str) -> str:
@@ -135,3 +135,4 @@ class TravelMemoryAgent:
             return datetime.fromisoformat(s).strftime("%d/%m/%Y")
         except:
             return s or "?"
+

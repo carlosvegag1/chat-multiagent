@@ -1,4 +1,4 @@
-import os
+﻿import os
 import aiohttp
 import asyncio
 from app.utils.structured_logger import log
@@ -9,12 +9,12 @@ def _running_in_docker() -> bool:
 
 class FlightAgent:
     def __init__(self):
-        default_url = "http://flights:8771" if _running_in_docker() else "http://127.0.0.1:8771"
+        default_url = "http://mcp_flight_server:8771" if _running_in_docker() else "http://127.0.0.1:8771"
         base_url = os.getenv("MCP_FLIGHT_URL", default_url)
 
         # Corrige localhost/127.0.0.1 cuando corre en Docker
         if _running_in_docker() and ("127.0.0.1" in base_url or "localhost" in base_url):
-            base_url = "http://flights:8771"
+            base_url = "http://mcp_flight_server:8771"
 
         self.base_url = base_url
         self.timeout = int(os.getenv("MCP_TIMEOUT_SECONDS", "15"))
@@ -43,7 +43,7 @@ class FlightAgent:
                 async with session.post(f"{self.base_url}/messages", json=payload) as response:
                     if response.status != 200:
                         err_text = await response.text()
-                        return self._fallback(f"Servidor MCP respondió con {response.status}: {err_text}")
+                        return self._fallback(f"Servidor MCP respondiÃ³ con {response.status}: {err_text}")
 
                     data = await response.json()
                     result = data.get("result", {})
@@ -52,12 +52,13 @@ class FlightAgent:
                     return result
 
         except aiohttp.ClientConnectorError:
-            return self._fallback(f"No se pudo conectar al servidor de vuelos en {self.base_url}. ¿Está en ejecución?")
+            return self._fallback(f"No se pudo conectar al servidor de vuelos en {self.base_url}. Â¿EstÃ¡ en ejecuciÃ³n?")
         except asyncio.TimeoutError:
-            return self._fallback(f"La solicitud al servidor de vuelos tardó más de {self.timeout} segundos.")
+            return self._fallback(f"La solicitud al servidor de vuelos tardÃ³ mÃ¡s de {self.timeout} segundos.")
         except Exception as e:
             return self._fallback(f"Fallo inesperado en la llamada: {e}")
 
     def _fallback(self, reason: str) -> dict:
-        log.error(f"FlightAgent activó fallback. Razón: {reason}", extra={"summary": "FLIGHT_AGENT_FALLBACK"})
+        log.error(f"FlightAgent activÃ³ fallback. RazÃ³n: {reason}", extra={"summary": "FLIGHT_AGENT_FALLBACK"})
         return {"flights": [], "error": reason}
+

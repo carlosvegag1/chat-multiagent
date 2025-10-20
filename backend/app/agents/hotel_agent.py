@@ -1,9 +1,8 @@
+﻿# -*- coding: utf-8 -*-
 import os, aiohttp, json
 
 class HotelAgent:
-    """
-    🏨 Agente MCP de hoteles que conecta con el servidor MCP real de Amadeus.
-    """
+    """🏨 Agente MCP de hoteles que conecta con el servidor MCP real de Amadeus."""
 
     def __init__(self):
         self.base_url = os.getenv("MCP_HOTEL_URL", "http://127.0.0.1:8772")
@@ -19,9 +18,7 @@ class HotelAgent:
         rooms: int = 1,
         max_results: int = 5
     ) -> dict:
-        """
-        Envía una petición JSON-RPC al servidor MCP de hoteles y devuelve los resultados estructurados.
-        """
+        """Envía una petición JSON-RPC al servidor MCP de hoteles y devuelve los resultados estructurados."""
         payload = {
             "jsonrpc": "2.0",
             "method": "tools/call",
@@ -31,7 +28,7 @@ class HotelAgent:
                     "city": city,
                     "checkin": checkin,
                     "checkout": checkout,
-                    "adults": adults,      # <-- clave correcta para el MCP server
+                    "adults": adults,
                     "rooms": rooms,
                     "max_results": max_results
                 }
@@ -64,4 +61,5 @@ class HotelAgent:
                     return {"hotels": formatted}
 
         except Exception as e:
+            print(f"[HotelAgent][ERROR] {e}")
             return {"error": f"HotelAgent call failed: {str(e)}"}

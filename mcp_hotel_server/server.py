@@ -28,24 +28,35 @@ async def handle_message(request: Request):
     if method == "tools/list":
         tools = list_tools()
         return {"jsonrpc": "2.0", "id": payload.get("id"), "result": tools}
-
+    
     elif method == "tools/call":
-        params = payload.get("params", {})
-        name = params.get("name")
-        args = params.get("arguments", {})
-
-        # 🛟 Fallback automático de fechas
-        if not args.get("checkin") or not args.get("checkout"):
-            today = date.today()
-            args["checkin"] = today.isoformat()
-            args["checkout"] = (today + timedelta(days=3)).isoformat()
-
-        print(f"[MCP] Ejecutando tool: {name} con args: {args}")
         try:
-            result = call_tool(name, args)
-            return {"jsonrpc": "2.0", "id": payload.get("id"), "result": result}
-        except Exception as e:
-            print(f"[ERROR] MCP tool {name} → {str(e)}")
-            return {"jsonrpc": "2.0", "id": payload.get("id"), "error": str(e)}
+            params = payload.get("params", {}) or {}
+            # Aseguramos compatibilidad con cualquier naming
+            tool_name = (
+                params.get("tool_name")
+                or params.get("name")
+                or payload.get("tool_name")
+                or payload.get("name")
+            )
+            args = (
+                params.get("args")
+                or params.get("arguments")
+                or payload.get("args")
+                or payload.get("arguments")
+                or {}
+            )
 
-    return {"jsonrpc": "2.0", "id": payload.get("id"), "error": f"Unknown method: {method}"}
+            # 🛟 Fallback automático de fechas
+            if not args.get("checkin") or not args.get("checkout"):
+                today = date.today()
+                args["checkin"] = today.isoformat()
+                args["checkout"] = (today + timedelta(days=3)).isoformat()
+
+            print(f"[MCP] Ejecutando tool: {tool_name} con args: {args}")
+            result = call_tool(tool_name, args)
+            return {"jsonrpc": "2.0", "id": payload.get("id"), "result": result}
+
+        except Exception as e:
+            print(f"[ERROR] MCP tool {tool_name} → {str(e)}")
+            return {"jsonrpc": "2.0", "id": payload.get("id"), "error": str(e)}

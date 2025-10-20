@@ -1,4 +1,4 @@
-import json, os, re, hashlib
+﻿import json, os, re, hashlib
 from datetime import datetime
 from typing import Dict, Any
 from openai import AsyncOpenAI
@@ -34,48 +34,48 @@ class NormalizerAgent:
         match = re.search(r"\{.*\}", text, re.DOTALL)
         if match:
             return match.group(0)
-        raise ValueError("No se encontró un bloque JSON en la respuesta del LLM.")
+        raise ValueError("No se encontrÃ³ un bloque JSON en la respuesta del LLM.")
 
-    # --- ✅ PROMPT V2 - MODULAR Y PARAMETRIZADO ---
+    # --- âœ… PROMPT V2 - MODULAR Y PARAMETRIZADO ---
     def _build_system_prompt(self, context: Dict[str, Any]) -> str:
         today = datetime.now().strftime("%Y-%m-%d")
-        context_str = f"Contexto de la conversación actual: {json.dumps(context)}" if context else ""
+        context_str = f"Contexto de la conversaciÃ³n actual: {json.dumps(context)}" if context else ""
 
         return f"""
-Eres un motor NLU V2 para un asistente de viajes modular. Tu misión es detectar la intención del usuario y extraer las entidades relevantes. Hoy es {today}. {context_str}
+Eres un motor NLU V2 para un asistente de viajes modular. Tu misiÃ³n es detectar la intenciÃ³n del usuario y extraer las entidades relevantes. Hoy es {today}. {context_str}
 
 ## Intenciones y Entidades Disponibles
 
 - **Intenciones Principales**:
-  - `PLAN_TRIP`: Petición genérica para planificar un viaje completo.
-  - `SEARCH_FLIGHTS`: Petición específica para buscar SOLO vuelos.
-  - `SEARCH_HOTELS`: Petición específica para buscar SOLO hoteles.
-  - `GET_DESTINATION_INFO`: Petición específica para obtener SOLO información de un lugar (resumen, POIs).
+  - `PLAN_TRIP`: PeticiÃ³n genÃ©rica para planificar un viaje completo.
+  - `SEARCH_FLIGHTS`: PeticiÃ³n especÃ­fica para buscar SOLO vuelos.
+  - `SEARCH_HOTELS`: PeticiÃ³n especÃ­fica para buscar SOLO hoteles.
+  - `GET_DESTINATION_INFO`: PeticiÃ³n especÃ­fica para obtener SOLO informaciÃ³n de un lugar (resumen, POIs).
 
 - **Intenciones Secundarias**: `LIST_TRIPS`, `SHIFT_TRIP`, `EXTEND_TRIP`, `SHORTEN_TRIP`, `DELETE_TRIP`, `UNKNOWN`.
 
 - **Entidades**:
   - `city` (str): El destino del viaje.
-  - `days` (int): La duración total del viaje.
-  - `adults` (int): El número de personas que viajan.
+  - `days` (int): La duraciÃ³n total del viaje.
+  - `adults` (int): El nÃºmero de personas que viajan.
   - `days_shift` (int): Desplazamiento relativo de fechas.
-  - `days_change` (int): Cambio relativo de duración.
+  - `days_change` (int): Cambio relativo de duraciÃ³n.
 
-## Reglas Críticas Inquebrantables
-1. **JSON, Y SOLO JSON**: Tu respuesta DEBE ser únicamente un objeto JSON válido.
-2. **Prioridad a la Especificidad**: Si el usuario pide explícitamente "vuelos" u "hoteles", usa `SEARCH_FLIGHTS` o `SEARCH_HOTELS`. Usa `PLAN_TRIP` solo para peticiones genéricas como "un viaje a...".
-3. **IGNORA ENTIDADES DESCONOCIDAS**: Si el usuario menciona detalles que no son entidades disponibles (presupuesto, tipo de hotel...), ignóralos.
-4. **Uso del Contexto**: Si no se menciona ciudad y existe `last_city` en el contexto, úsala.
+## Reglas CrÃ­ticas Inquebrantables
+1. **JSON, Y SOLO JSON**: Tu respuesta DEBE ser Ãºnicamente un objeto JSON vÃ¡lido.
+2. **Prioridad a la Especificidad**: Si el usuario pide explÃ­citamente "vuelos" u "hoteles", usa `SEARCH_FLIGHTS` o `SEARCH_HOTELS`. Usa `PLAN_TRIP` solo para peticiones genÃ©ricas como "un viaje a...".
+3. **IGNORA ENTIDADES DESCONOCIDAS**: Si el usuario menciona detalles que no son entidades disponibles (presupuesto, tipo de hotel...), ignÃ³ralos.
+4. **Uso del Contexto**: Si no se menciona ciudad y existe `last_city` en el contexto, Ãºsala.
 
 ## Manual de Operaciones V2
 ### Caso 1: Peticiones Modulares
 - User: "busca vuelos a Gran Canaria para 4 personas" -> {{"intent":"SEARCH_FLIGHTS","entities":{{"city":"Gran Canaria","adults":4}}}}
-- User: "qué hoteles hay en Oporto para una pareja?" -> {{"intent":"SEARCH_HOTELS","entities":{{"city":"Oporto","adults":2}}}}
+- User: "quÃ© hoteles hay en Oporto para una pareja?" -> {{"intent":"SEARCH_HOTELS","entities":{{"city":"Oporto","adults":2}}}}
 - User: "dame info sobre Tokio" -> {{"intent":"GET_DESTINATION_INFO","entities":{{"city":"Tokio"}}}}
-- User: "vuelos y hoteles para ir a Roma 3 días" -> {{"intent":"PLAN_TRIP","entities":{{"city":"Roma","days":3}}}}
+- User: "vuelos y hoteles para ir a Roma 3 dÃ­as" -> {{"intent":"PLAN_TRIP","entities":{{"city":"Roma","days":3}}}}
 
-### Caso 2: Peticiones Genéricas
-- User: "un viaje a Kioto de 5 días" -> {{"intent":"PLAN_TRIP","entities":{{"city":"Kioto","days":5,"adults":1}}}}
+### Caso 2: Peticiones GenÃ©ricas
+- User: "un viaje a Kioto de 5 dÃ­as" -> {{"intent":"PLAN_TRIP","entities":{{"city":"Kioto","days":5,"adults":1}}}}
 - User: "prepara una escapada a la Toscana" -> {{"intent":"PLAN_TRIP","entities":{{"city":"Toscana","adults":1}}}}
 
 ### Caso 3: Uso del Contexto
@@ -85,27 +85,27 @@ Eres un motor NLU V2 para un asistente de viajes modular. Tu misión es detectar
 
     async def normalize(self, user_id: str, message: str, context: Dict[str, Any]) -> Dict[str, Any]:
         """
-        Normaliza una entrada a {intent, entities} con caché versionada.
+        Normaliza una entrada a {intent, entities} con cachÃ© versionada.
         Si el cache hit trae UNKNOWN, se recalcula y se sobrescribe.
         """
-        # --- Construye el prompt y una semilla de versión para invalidar caché vieja ---
+        # --- Construye el prompt y una semilla de versiÃ³n para invalidar cachÃ© vieja ---
         system_prompt = self._build_system_prompt(context)
         version_seed = hashlib.sha256(system_prompt.encode()).hexdigest()[:8]
 
-        # --- Clave de caché: mensaje + contexto + versión del prompt ---
+        # --- Clave de cachÃ©: mensaje + contexto + versiÃ³n del prompt ---
         context_key = json.dumps(context, sort_keys=True)
         cache_key_source = f"{message}||{context_key}||{version_seed}"
         msg_hash = hashlib.sha256(cache_key_source.encode()).hexdigest()
 
         cache = self._load_cache(user_id)
 
-        # Si hay cache y NO es UNKNOWN, devuélvelo; si es UNKNOWN, forzamos recomputación
+        # Si hay cache y NO es UNKNOWN, devuÃ©lvelo; si es UNKNOWN, forzamos recomputaciÃ³n
         cached = cache.get(msg_hash)
         if cached and cached.get("intent") != "UNKNOWN":
             log.info("Cache HIT.", extra={"intent": "CACHE_HIT", "tool": "NormalizerAgent"})
             return cached
         elif cached:
-            log.info("Cache HIT (UNKNOWN) → Recomputando.", extra={"intent": "CACHE_HIT_RECOMPUTE", "tool": "NormalizerAgent"})
+            log.info("Cache HIT (UNKNOWN) â†’ Recomputando.", extra={"intent": "CACHE_HIT_RECOMPUTE", "tool": "NormalizerAgent"})
 
         # --- Llamada al LLM ---
         log.info("Cache MISS. Llamando a LLM.", extra={"intent": "LLM_CALL", "tool": "NormalizerAgent"})
@@ -129,7 +129,7 @@ Eres un motor NLU V2 para un asistente de viajes modular. Tu misión es detectar
                 normalized_data.setdefault("entities", {})
                 normalized_data["entities"].setdefault("adults", 1)
 
-            # --- Paracaídas heurístico si sigue UNKNOWN ---
+            # --- ParacaÃ­das heurÃ­stico si sigue UNKNOWN ---
             if normalized_data.get("intent") == "UNKNOWN":
                 txt = message.lower()
 
@@ -137,7 +137,7 @@ Eres un motor NLU V2 para un asistente de viajes modular. Tu misión es detectar
                     normalized_data["intent"] = "SEARCH_FLIGHTS"
                 elif any(w in txt for w in ["hotel", "hoteles"]):
                     normalized_data["intent"] = "SEARCH_HOTELS"
-                elif any(w in txt for w in ["info", "información", "qué ver", "que ver"]):
+                elif any(w in txt for w in ["info", "informaciÃ³n", "quÃ© ver", "que ver"]):
                     normalized_data["intent"] = "GET_DESTINATION_INFO"
                 elif any(w in txt for w in ["viaje", "plan", "escapada", "itinerario"]):
                     normalized_data["intent"] = "PLAN_TRIP"
@@ -150,13 +150,13 @@ Eres un motor NLU V2 para un asistente de viajes modular. Tu misión es detectar
                 else:
                     entities.setdefault("adults", 1)
 
-                m = re.search(r"\ba\s+([a-záéíóúüñ\s]+?)(?=\s+(?:para|de)\b|$)", txt)
+                m = re.search(r"\ba\s+([a-zÃ¡Ã©Ã­Ã³ÃºÃ¼Ã±\s]+?)(?=\s+(?:para|de)\b|$)", txt)
                 if m:
                     city_guess = m.group(1).strip().title()
                     city_guess = re.sub(r"\s+", " ", city_guess)
                     entities["city"] = city_guess
 
-            # Guarda en caché y devuelve
+            # Guarda en cachÃ© y devuelve
             cache[msg_hash] = normalized_data
             self._save_cache(user_id, cache)
             return normalized_data
@@ -168,3 +168,4 @@ Eres un motor NLU V2 para un asistente de viajes modular. Tu misión es detectar
                 extra={"tool": "NormalizerAgent", "summary": "LLM_PARSE_FAIL"},
             )
             return {"intent": "UNKNOWN", "entities": {"error": str(e)}}
+
