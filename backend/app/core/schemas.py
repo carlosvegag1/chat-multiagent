@@ -57,6 +57,7 @@ class StructuredChatResponse(BaseModel):
     reply_text: str
     structured_data: Optional[StructuredReply] = None
     agents_called: List[str] = Field(default_factory=list)
+    transcription: Optional[str] = None
 
     @field_validator("reply_text", mode="before")
     @classmethod

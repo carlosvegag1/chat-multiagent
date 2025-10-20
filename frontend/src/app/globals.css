@@ -56,3 +56,61 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: rgba(100, 116, 139, 0.7);
 }
+
+
+/* --- Ondas de audio (grabación) --- */
+@keyframes wave-pulse {
+  0%, 100% {
+    transform: scaleY(0.5);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+.wave-bar {
+  width: 4px;
+  background-color: rgb(99 102 241); /* Indigo-500 */
+  border-radius: 4px;
+  margin: 0 1px;
+  transform-origin: bottom;
+  animation: wave-pulse 0.5s infinite ease-in-out;
+}
+
+/* --- Animaciones complementarias --- */
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+}
+
+.animate-fade-out {
+  animation: fade-out 0.3s ease-in forwards;
+}
+
+@keyframes pulse-smooth {
+  0%, 100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-pulse-smooth {
+  animation: pulse-smooth 1.5s ease-in-out infinite;
+}
+
+/* --- Efectos de botón de grabación --- */
+button[title="Grabar mensaje de voz"] {
+  transition: transform 0.15s ease;
+}
+button[title="Grabar mensaje de voz"]:active {
+  transform: scale(0.9);
+}

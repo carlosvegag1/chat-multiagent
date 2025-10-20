@@ -215,62 +215,44 @@
       "agents_called": [],
       "start_date": "2025-10-17",
       "end_date": "2025-10-20",
-      "destination_summary": "Las Palmas de Gran Canaria es un destino vibrante que combina playas de ensueño con una rica herencia cultural. Disfruta de su clima cálido y su ambiente acogedor mientras exploras su historia y gastronomía.",
+      "destination_summary": "Palma, la capital de Mallorca, es un lugar donde la historia se encuentra con la belleza natural. Disfruta de sus impresionantes playas, arquitectura gótica y vibrante vida cultural en un ambiente mediterráneo encantador.",
       "destination_pois": [
         {
-          "name": "Playa de Las Canteras",
-          "description": "Una de las playas urbanas más famosas de España, ideal para nadar y practicar deportes acuáticos."
+          "name": "Catedral de Santa María de Palma",
+          "description": "Una majestuosa catedral gótica que ofrece vistas espectaculares al mar."
         },
         {
-          "name": "Vegueta",
-          "description": "El casco antiguo de la ciudad, lleno de arquitectura colonial, cafés y tiendas encantadoras."
+          "name": "Castillo de Bellver",
+          "description": "Un castillo del siglo XIV con una forma circular y vistas panorámicas de la ciudad."
         },
         {
-          "name": "Museo Canario",
-          "description": "Un museo que alberga una impresionante colección de artefactos indígenas y la historia de las Islas Canarias."
+          "name": "Paseo Marítimo",
+          "description": "Un hermoso paseo junto al mar ideal para caminar, correr o disfrutar de una bebida."
         },
         {
-          "name": "Catedral de Santa Ana",
-          "description": "Un magnífico ejemplo de arquitectura neogótica que se encuentra en el corazón de Vegueta."
-        },
-        {
-          "name": "Parque de Santa Catalina",
-          "description": "Un animado parque donde se celebran eventos y ferias, rodeado de bares y restaurantes."
+          "name": "Mercado de Olivar",
+          "description": "Un mercado local vibrante donde puedes probar productos frescos y tapas típicas."
         }
       ],
       "destination_plan_sugerido": [
         {
           "day": 1,
           "activities": [
-            "Llegada a Las Palmas y registro en el hotel",
-            "Paseo por la Playa de Las Canteras"
+            "Visitar la Catedral de Santa María de Palma",
+            "Explorar el casco antiguo y disfrutar de un almuerzo en una terraza local"
           ]
         },
         {
           "day": 2,
           "activities": [
-            "Visita al casco antiguo de Vegueta",
-            "Exploración del Museo Canario"
-          ]
-        },
-        {
-          "day": 3,
-          "activities": [
-            "Tour por la Catedral de Santa Ana",
-            "Tarde en el Parque de Santa Catalina"
-          ]
-        },
-        {
-          "day": 4,
-          "activities": [
-            "Día de relax en la Playa de Las Canteras",
-            "Cena en un restaurante local para probar la gastronomía canaria"
+            "Subir al Castillo de Bellver para disfrutar de las vistas",
+            "Pasear por el Paseo Marítimo y cenar en un restaurante frente al mar"
           ]
         }
       ],
-      "destination_updated_at": "2025-10-17T16:44:00.783752Z",
-      "budget": 522.42,
-      "budget_updated_at": "2025-10-17T16:44:00.803566Z"
+      "destination_updated_at": "2025-10-19T20:06:53.333790Z",
+      "budget": 260.26,
+      "budget_updated_at": "2025-10-19T20:06:53.359267Z"
     },
     {
       "trip_id": "20251017_santa-cruz-de-tenerife",
@@ -284,55 +266,290 @@
       "agents_called": [],
       "start_date": "2025-10-17",
       "end_date": "2025-10-22",
-      "destination_summary": "Santa Cruz de Tenerife es una vibrante ciudad canaria que combina hermosas playas, cultura rica y un clima perfecto durante todo el año. Es el lugar ideal para disfrutar de la naturaleza, la arquitectura y la deliciosa gastronomía local.",
+      "destination_summary": "Santa Cruz de Tenerife es una vibrante ciudad canaria que combina hermosos paisajes naturales con una rica cultura y historia. Disfruta de sus playas, parques y una deliciosa gastronomía local durante tu estancia de una semana.",
       "destination_pois": [
         {
-          "name": "Playa de Las Teresitas",
-          "description": "Una impresionante playa de arena dorada perfecta para relajarse y disfrutar del sol."
+          "name": "Parque García Sanabria",
+          "description": "Un hermoso parque urbano ideal para pasear y disfrutar de jardines exóticos."
         },
         {
           "name": "Auditorio de Tenerife",
-          "description": "Una obra maestra arquitectónica diseñada por Santiago Calatrava, ideal para disfrutar de conciertos y eventos culturales."
+          "description": "Una impresionante obra arquitectónica que alberga eventos culturales y conciertos."
         },
         {
-          "name": "Parque García Sanabria",
-          "description": "Un hermoso parque urbano lleno de jardines y esculturas, perfecto para pasear y desconectar."
+          "name": "Playa de las Teresitas",
+          "description": "Una de las playas más famosas de la isla, con arena dorada y aguas cristalinas."
         },
         {
           "name": "Museo de la Naturaleza y el Hombre",
-          "description": "Un museo fascinante que explora la historia natural y cultural de las Islas Canarias."
+          "description": "Un museo que ofrece una mirada fascinante a la historia natural y cultural de Canarias."
         },
         {
           "name": "Mercado de Nuestra Señora de África",
-          "description": "Un bullicioso mercado donde se puede experimentar la cultura local a través de la comida y las artesanías."
+          "description": "Un vibrante mercado donde puedes encontrar productos locales y disfrutar de la gastronomía canaria."
         }
       ],
       "destination_plan_sugerido": [
         {
           "day": 1,
           "activities": [
-            "Llegada a Santa Cruz de Tenerife y check-in en el hotel.",
-            "Visita a la Playa de Las Teresitas para disfrutar del sol y el mar."
+            "Llegada a Santa Cruz de Tenerife y alojamiento en el hotel.",
+            "Paseo por el Parque García Sanabria."
           ]
         },
         {
           "day": 2,
           "activities": [
-            "Exploración del Auditorio de Tenerife y sus alrededores.",
-            "Paseo por el Parque García Sanabria para disfrutar de la naturaleza."
+            "Visita al Auditorio de Tenerife.",
+            "Exploración del centro histórico de Santa Cruz."
           ]
         },
         {
           "day": 3,
           "activities": [
-            "Visita al Museo de la Naturaleza y el Hombre para conocer la historia de las islas.",
-            "Recorrido por el Mercado de Nuestra Señora de África para degustar la gastronomía local."
+            "Día de playa en Playa de las Teresitas.",
+            "Cena en un restaurante local frente al mar."
+          ]
+        },
+        {
+          "day": 4,
+          "activities": [
+            "Visita al Museo de la Naturaleza y el Hombre.",
+            "Recorrido por el Mercado de Nuestra Señora de África."
+          ]
+        },
+        {
+          "day": 5,
+          "activities": [
+            "Excursión al Parque Nacional del Teide.",
+            "Observación de estrellas por la noche en el Teide."
+          ]
+        },
+        {
+          "day": 6,
+          "activities": [
+            "Día de senderismo en Anaga.",
+            "Visita a los encantadores pueblos de la zona."
+          ]
+        },
+        {
+          "day": 7,
+          "activities": [
+            "Últimas compras en Santa Cruz.",
+            "Regreso a casa."
           ]
         }
       ],
-      "destination_updated_at": "2025-10-17T16:04:11.784774Z",
-      "budget": 911.08,
-      "budget_updated_at": "2025-10-17T16:04:11.814901Z"
+      "destination_updated_at": "2025-10-19T22:51:56.056365Z",
+      "budget": 910.54,
+      "budget_updated_at": "2025-10-19T22:51:56.091023Z"
+    },
+    {
+      "trip_id": "20251024_barcelona",
+      "created_at": "2025-10-19T20:01:43.954516Z",
+      "title": "Barcelona (2025-10-24 → 2025-10-26)",
+      "city": "Barcelona",
+      "iata": "BCN",
+      "segments": [],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-24",
+      "end_date": "2025-10-28",
+      "destination_summary": "Barcelona es una ciudad vibrante que combina la rica historia con la modernidad. Desde su famosa arquitectura hasta sus hermosas playas, cada rincón ofrece una experiencia única para los visitantes.",
+      "destination_pois": [
+        {
+          "name": "Sagrada Familia",
+          "description": "Una obra maestra de Antoni Gaudí, famosa por su arquitectura única y en constante construcción."
+        },
+        {
+          "name": "Parque Güell",
+          "description": "Un colorido parque diseñado por Gaudí, lleno de mosaicos y esculturas que reflejan su estilo distintivo."
+        },
+        {
+          "name": "Las Ramblas",
+          "description": "Una famosa calle peatonal que ofrece una mezcla de cultura, ocio y gastronomía."
+        },
+        {
+          "name": "Barrio Gótico",
+          "description": "El corazón histórico de Barcelona, con calles estrechas y plazas llenas de encanto."
+        }
+      ],
+      "destination_plan_sugerido": [
+        {
+          "day": 1,
+          "activities": [
+            "Visita a la Sagrada Familia por la mañana",
+            "Paseo por el Parque Güell por la tarde"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Exploración del Barrio Gótico por la mañana",
+            "Tarde en Las Ramblas disfrutando de tapas y compras"
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-19T20:08:54.481954Z",
+      "budget": 268.27,
+      "budget_updated_at": "2025-10-19T20:08:54.514082Z"
+    },
+    {
+      "trip_id": "20251024_yola",
+      "created_at": "2025-10-19T20:15:45.793448Z",
+      "title": "Yola (2025-10-24 → 2025-10-25)",
+      "city": "Yola",
+      "iata": null,
+      "segments": [],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-24",
+      "end_date": "2025-10-25",
+      "destination_summary": "Yola, la capital del estado de Edo en Nigeria, es un destino vibrante que combina historia y cultura. Con su rica herencia cultural y hermosos paisajes, es un lugar ideal para explorar en un día.",
+      "destination_pois": [
+        {
+          "name": "Museo de Edo",
+          "description": "Un lugar fascinante que exhibe la historia y la cultura de la región de Edo."
+        },
+        {
+          "name": "Mercado de Yola",
+          "description": "Un bullicioso mercado local donde puedes encontrar artesanías y productos frescos."
+        }
+      ],
+      "destination_plan_sugerido": [
+        {
+          "day": 1,
+          "activities": [
+            "Visitar el Museo de Edo por la mañana para aprender sobre la historia local.",
+            "Explorar el Mercado de Yola por la tarde para disfrutar de la cultura local y comprar souvenirs."
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-19T20:15:45.819775Z",
+      "budget": 110.0,
+      "budget_updated_at": "2025-10-19T20:15:45.856455Z"
+    },
+    {
+      "trip_id": "20251024_madrid",
+      "created_at": "2025-10-19T21:51:41.269083Z",
+      "title": "Madrid (2025-10-24 → 2025-10-27)",
+      "city": "Madrid",
+      "iata": "MAD",
+      "segments": [],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-24",
+      "end_date": "2025-10-27",
+      "destination_summary": "Madrid, la vibrante capital de España, es conocida por su rica historia, cultura y gastronomía. Desde impresionantes museos hasta hermosos parques, Madrid ofrece una experiencia única para todos los visitantes.",
+      "destination_pois": [
+        {
+          "name": "Museo del Prado",
+          "description": "Uno de los museos de arte más importantes del mundo, alberga obras maestras de artistas como Velázquez y Goya."
+        },
+        {
+          "name": "Parque del Retiro",
+          "description": "Un hermoso parque en el corazón de la ciudad, ideal para pasear, hacer un picnic o disfrutar de un paseo en barca."
+        },
+        {
+          "name": "Palacio Real",
+          "description": "La residencia oficial de la familia real española, con impresionantes salones y jardines que se pueden visitar."
+        },
+        {
+          "name": "Plaza Mayor",
+          "description": "Una de las plazas más emblemáticas de Madrid, rodeada de restaurantes y tiendas, perfecta para disfrutar de un café."
+        },
+        {
+          "name": "Mercado de San Miguel",
+          "description": "Un mercado gastronómico donde se pueden degustar tapas y platos típicos de la cocina española."
+        }
+      ],
+      "destination_plan_sugerido": [
+        {
+          "day": 1,
+          "activities": [
+            "Visita al Museo del Prado por la mañana",
+            "Paseo por el Parque del Retiro por la tarde"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Recorrido por el Palacio Real en la mañana",
+            "Almuerzo en el Mercado de San Miguel y visita a la Plaza Mayor"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Exploración del barrio de Malasaña y sus tiendas únicas",
+            "Cena en un restaurante típico español en Chueca"
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-19T21:53:00.696887Z",
+      "budget": 330.0,
+      "budget_updated_at": "2025-10-19T21:53:00.718154Z"
+    },
+    {
+      "trip_id": "20251024_puerto-del-rosario",
+      "created_at": "2025-10-20T07:45:25.604117Z",
+      "title": "Puerto Del Rosario (2025-10-24 → 2025-10-27)",
+      "city": "Puerto Del Rosario",
+      "iata": "FUE",
+      "segments": [],
+      "status": "planned",
+      "notes": "",
+      "agents_called": [],
+      "start_date": "2025-10-24",
+      "end_date": "2025-10-27",
+      "destination_summary": "Puerto Del Rosario, la capital de Fuerteventura, ofrece una mezcla vibrante de cultura, playas y gastronomía local. Disfruta de su ambiente relajado mientras exploras sus bellos paisajes y atracciones únicas.",
+      "destination_pois": [
+        {
+          "name": "Playa de la Cebada",
+          "description": "Una hermosa playa ideal para disfrutar del sol y practicar deportes acuáticos."
+        },
+        {
+          "name": "Museo de la Sal",
+          "description": "Un interesante museo que narra la historia de la producción de sal en la isla."
+        },
+        {
+          "name": "Parque Natural de las Dunas de Corralejo",
+          "description": "Un impresionante parque con dunas de arena y vistas al océano."
+        },
+        {
+          "name": "Centro Comercial Las Rotondas",
+          "description": "Un lugar perfecto para ir de compras y degustar la gastronomía local."
+        }
+      ],
+      "destination_plan_sugerido": [
+        {
+          "day": 1,
+          "activities": [
+            "Llegada a Puerto Del Rosario y check-in en el hotel",
+            "Visita al Museo de la Sal para conocer la historia local"
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Día de playa en Playa de la Cebada con actividades acuáticas",
+            "Cena en un restaurante local para probar platos típicos"
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Excursión al Parque Natural de las Dunas de Corralejo",
+            "Compras y paseo por el Centro Comercial Las Rotondas antes de partir"
+          ]
+        }
+      ],
+      "destination_updated_at": "2025-10-20T07:54:16.651618Z",
+      "budget": 470.26,
+      "budget_updated_at": "2025-10-20T07:54:16.674008Z"
     }
   ]
 }

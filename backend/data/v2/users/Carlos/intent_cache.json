@@ -285,5 +285,181 @@
       "days": 2,
       "adults": 1
     }
+  },
+  "5f3ac4648a454093e0f73dda2cebaf2900096a3f583391c741fd518097fe5ea5": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Mallorca",
+      "days": 2,
+      "adults": 1
+    }
+  },
+  "321a8cbd68228cfbd6fb92218fd473264c25163ea6e846c86ab23399fbc9f403": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Barcelona",
+      "days": 2,
+      "adults": 1
+    }
+  },
+  "ca47b6bca31666ecc78a5d89118a5a5274efd5e40491b38bc97b7538c46551d6": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Mallorca",
+      "days": 2,
+      "adults": 1
+    }
+  },
+  "2610df7945907cb829fd5b7e7826a6395233d05af42e51f8436481958b01aaff": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Palma",
+      "days": 2,
+      "adults": 1
+    }
+  },
+  "9081e57452581da65d1531afea3c92afec80ec7b07ddbefc3d579121b14923aa": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Palma",
+      "days": 2,
+      "adults": 1
+    }
+  },
+  "eeab95d92c5f48d04269a92b1a54c2dc46b39c826c666c0589855c0045627b82": {
+    "intent": "EXTEND_TRIP",
+    "entities": {
+      "days_change": 2
+    }
+  },
+  "d98ecae2f47ff56ba79d3b89a487cf281ccb8574c143ac68732c718c4b7797eb": {
+    "intent": "UNKNOWN",
+    "entities": {
+      "adults": 1
+    }
+  },
+  "47d7910ed1736ab5d35d450e75420046a1fb9a93bc8aaab991a439143ddcd5f1": {
+    "intent": "GET_DESTINATION_INFO",
+    "entities": {
+      "city": "Barcelona"
+    }
+  },
+  "0246c02c059808d4876e6b90cc8bd95ab3f41cc60e56acaf63ba802f1c932e9c": {
+    "intent": "UNKNOWN",
+    "entities": {
+      "adults": 1
+    }
+  },
+  "4d6ae6d0a00ceb7728684002434ad3c53dd1904a48a5731a52bdb387c61f0b1f": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "adults": 1
+    }
+  },
+  "c8ab908f2a46aed98f3b3822c9a17970db5af8c973620a76c274d59df9ac2bfe": {
+    "intent": "UNKNOWN",
+    "entities": {
+      "adults": 1
+    }
+  },
+  "421a51295794c174ccd2bfc192f957ffccba251260de0eb579aa82b8c9a05d53": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Michika",
+      "days": 1,
+      "adults": 2
+    }
+  },
+  "1ac53aa54f1e3d6c75e48bf432b1ab578839931d7d00702d79325d23a5402d11": {
+    "intent": "SEARCH_HOTELS",
+    "entities": {
+      "city": "Las Palmas de Gran Canaria",
+      "adults": 1
+    }
+  },
+  "4f2789ed63134723e756601071162a2a82d4c6ff9b31108d6ac39012dd6bd945": {
+    "intent": "SEARCH_HOTELS",
+    "entities": {
+      "city": "Barcelona",
+      "adults": 1
+    }
+  },
+  "4348a2d8413f43102cc4505fa0666824a8c8a405cd0df7e79d6f94d1daa3e2d1": {
+    "intent": "SEARCH_HOTELS",
+    "entities": {
+      "city": "Barcelona",
+      "adults": 1
+    }
+  },
+  "90925a7f0f83010b795509a75c0d2ee4a401f8f527d7c18acd7e249f9ef2236a": {
+    "intent": "UNKNOWN",
+    "entities": {
+      "adults": 1
+    }
+  },
+  "a7af32539f21b02a5488a06a6054861d248797757e3e3f26ebe29d6d6e2e108f": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Madrid",
+      "adults": 1
+    }
+  },
+  "9327dd85c8d0d90bba8148127043d100e288c0ea557f9203b088b5c0936d5d5a": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Madrid",
+      "adults": 1
+    }
+  },
+  "965cf780b0ecb4a61355c54bc2fce93d99c2fe6601247114a3cfccbf5a6947c2": {
+    "intent": "SEARCH_HOTELS",
+    "entities": {
+      "city": "Barcelona",
+      "adults": 1
+    }
+  },
+  "1a1ecf9b0830d50431caa217714cee2f2928a2b4e9e0c024ba396b4ad4679645": {
+    "intent": "SEARCH_FLIGHTS",
+    "entities": {
+      "city": "Barcelona",
+      "adults": 1
+    }
+  },
+  "e2ec5851e3825cb9f6c3196043592689749aab7a021f5c0abc61fad6f7963521": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Tenerife",
+      "days": 7,
+      "adults": 2
+    }
+  },
+  "7291645666039976c894818d1d3b2bcf4e7d12350bb69bba16d4136334f94cbc": {
+    "intent": "UNKNOWN",
+    "entities": {
+      "adults": 1
+    }
+  },
+  "6910afb7927afb2dc3d5b0dc460834e77d8f63a87da57b4b39bfee92d66d6d15": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Fuerteventura",
+      "days": 3,
+      "adults": 2
+    }
+  },
+  "1b37742cf76c1a6237ce15fe6f9f51bf99633c0b2aff273ce77f62029af0944e": {
+    "intent": "PLAN_TRIP",
+    "entities": {
+      "city": "Fuerteventura",
+      "days": 3,
+      "adults": 2
+    }
+  },
+  "7fe55dc7ef74b43e19470b02407bc2134f60ca130dd50c5c53d2047ce1c21187": {
+    "intent": "LIST_TRIPS",
+    "entities": {
+      "city": "Berlín",
+      "days": 3
+    }
   }
 }
