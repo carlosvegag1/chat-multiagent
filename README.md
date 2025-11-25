@@ -19,12 +19,12 @@ Y el sistema:
 
 | Componente | Tecnología | Descripción |
 |------------|------------|-------------|
-| 🧠 Backend | FastAPI + Whisper | Coordina a los agentes, gestiona conversaciones y maneja la entrada de voz. |
-| 💬 Frontend | Next.js | Interfaz conversacional y visualización de itinerarios. |
-| ✈️ Agente de vuelos | MCP (Python + FastAPI) | Simulación de consultas inspiradas en APIs tipo Amadeus. |
-| 🏨 Agente de hoteles | MCP (Python + FastAPI) | Genera sugerencias de alojamiento. |
-| 🌍 Agente de destinos | MCP (Python + FastAPI) | Produce rutas, puntos de interés y plan diario. |
-| 🧮 Agente de cálculo | MCP (Python + FastAPI) | Calcula costes y agrega la información final. |
+| Backend | FastAPI + Whisper | Coordina a los agentes, gestiona conversaciones y maneja la entrada de voz. |
+| Frontend | Next.js | Interfaz conversacional y visualización de itinerarios. |
+| Agente de vuelos | MCP (Python + FastAPI) | Simulación de consultas inspiradas en APIs tipo Amadeus. |
+| Agente de hoteles | MCP (Python + FastAPI) | Genera sugerencias de alojamiento. |
+| Agente de destinos | MCP (Python + FastAPI) | Produce rutas, puntos de interés y plan diario. |
+| Agente de cálculo | MCP (Python + FastAPI) | Calcula costes y agrega la información final. |
 
 Todos los servicios funcionan dentro de Docker sobre una red interna `multiagent_net` para garantizar aislamiento y velocidad.
 
