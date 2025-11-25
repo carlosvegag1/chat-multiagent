@@ -1,8 +1,8 @@
-# 🧭 Chat Multi-Agent Travel
+# 🌐 Chat Multi-Agent Travel
 
 Plataforma inteligente para crear planes de viaje completos usando una arquitectura multi-agente moderna. Funciona sobre FastAPI, Next.js, Whisper de OpenAI y un ecosistema de micro-servicios MCP.
 
-## 🧠 Descripción general
+## Descripción general
 
 Este proyecto muestra cómo un conjunto de agentes coordinados puede transformar un simple mensaje en una planificación de viaje totalmente estructurada.
 
@@ -15,7 +15,7 @@ Y el sistema:
 - Consolida todo en un itinerario coherente de 72 h con presupuestos, recomendaciones y un resumen narrativo.
 - Admite texto y voz, aprovechando Whisper para transcripción automática.
 
-## 🧩 Arquitectura del sistema
+## Arquitectura del sistema
 
 | Componente | Tecnología | Descripción |
 |------------|------------|-------------|
@@ -57,7 +57,7 @@ WEATHER_API_KEY=xxxx
 
 Si no añades claves, el sistema seguirá funcionando en **modo simulado**, generando datos de ejemplo.
 
-## 🚀 3) Arranque rápido (con Docker)
+## 3) Arranque rápido (con Docker)
 
 ```bash
 docker compose up -d --build
@@ -74,7 +74,7 @@ Esto levantará todos los servicios automáticamente.
 | 🏨 Hotels Agent | [http://127.0.0.1:8772/docs](http://127.0.0.1:8772/docs) | Servicio de hoteles |
 | 🌍 Destinations Agent | [http://127.0.0.1:8773/docs](http://127.0.0.1:8773/docs) | Servicio de destinos |
 
-## 🧠 4) Verificar el estado del sistema
+## 4) Verificar el estado del sistema
 
 ```bash
 docker compose ps
@@ -138,13 +138,13 @@ docker compose logs backend | findstr /I "ERROR"
 
 ## 🧰 8) Solución de problemas frecuentes
 
-- **❌ Backend llama a 127.0.0.1 dentro de Docker**  
+- **Backend llama a 127.0.0.1 dentro de Docker**  
   Asegúrate de que los servicios usan los nombres de servicio Docker (por ejemplo `flights:8771`, `destinations:8773`).
 
-- **⚠️ Falta `WEATHER_API_KEY`**  
+- **Falta `WEATHER_API_KEY`**  
   Es opcional; añade la variable al `.env` si quieres quitar la advertencia.
 
-- **🎙️ Whisper no transcribe audio**  
+- **Whisper no transcribe audio**  
   Verifica que `ffmpeg` esté disponible (el Dockerfile lo instala). Si ejecutas fuera de Docker, instala `ffmpeg` manualmente:
   ```bash
   sudo apt install ffmpeg
@@ -200,12 +200,8 @@ chat-multiagent/
 
 Esta plataforma sirve como punto de partida para construir asistentes inteligentes capaces de coordinar múltiples micro-servicios, procesar lenguaje natural, manejar voz y generar resultados estructurados. Es un entorno ideal para experimentar con MCP, diseñar pipelines de agentes y entender cómo se integran sistemas conversacionales en una aplicación web completa.
 
-## 🤝 Créditos y autoría
+## Créditos y autoría
 
 Proyecto académico creado como Trabajo Fin de Máster, centrado en sistemas multiagente, IA generativa y comunicación entre servicios (MCP + A2A).
 
 Hecho con ❤️ para que lo enciendas, explores y sigas ampliándolo.
-
----
-
-*Documento generado para uso técnico — adaptalo libremente a tu README o documentación.*
